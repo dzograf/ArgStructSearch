@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/47673 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47673">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The world is good</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47725"/>
+        <aif:creationDate>2015-02-05 13:48:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47674 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47674">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>God created the world</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47676"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47723"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47724"/>
+        <aif:creationDate>2015-02-05 13:48:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47722 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47722">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>God is good</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47723"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47724"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/139848"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47725"/>
+        <aif:creationDate>2015-02-12 10:57:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47724 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47724">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47722"/>
+        <aif:creationDate>2015-02-12 11:03:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47725 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47725">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47722"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47673"/>
+        <aif:creationDate>2015-02-12 11:03:50</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

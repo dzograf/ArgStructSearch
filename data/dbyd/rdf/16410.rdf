@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/457519 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457519">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Красс: Истин­ный ора­тор сво­им вли­я­ни­ем и муд­ро­стью не толь­ко себе снис­ки­ва­ет почет, но и мно­же­ству граж­дан, да и все­му государ­ству в целом при­но­сит сча­стье и бла­го­по­лу­чие.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457537"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457545"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457520 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457520">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Поэто­му я пола­гаю, что не сле­ду­ет брать на себя такие гро­мад­ные и мно­го­слож­ные обя­за­тель­ства. Если же тебе под силу что-то боль­шее, то это заслу­га не ора­то­ра, а Крас­са, вла­де­ю­ще­го искус­ст­вом, лич­но ему свой­ст­вен­ным, а не общим всем ора­то­рам.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457528"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457541"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457521 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457521">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Мож­но ли согла­сить­ся, что и все осталь­ные полез­ные уста­нов­ле­ния при устрой­стве или сохра­не­нии государств введе­ны не теми, кто мудр и храбр, а теми, кто речист и кра­си­во гово­рит?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457523"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457538"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457522 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457522">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если бы мне при­шла охота вос­поль­зо­вать­ся при­ме­ра­ми, я лег­ко мог бы пока­зать, что люди наи­бо­лее крас­но­ре­чи­вые при­но­си­ли государ­ствам боль­ше вреда, чем поль­зы.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457523"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457538"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457525"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457539"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457523 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457523">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457521"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457522"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457524 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457524">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Отец Тибе­рия и Гая Сем­п­ро­ниев - чело­век бла­го­ра­зум­ный и почтен­ный, нема­ло сде­лал для бла­го­по­лу­чия государ­ства, и сде­лал это не ста­ра­тель­ной мно­го­ре­чи­во­стью, а толь­ко силой воли и твер­дым сло­вом.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457539"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457527"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457540"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457525 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457525">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457522"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457524"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457526 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457526">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>А свя­щен­ные дей­ст­вия, обряды, поста­нов­ле­ния граж­дан­ско­го пра­ва - раз­ве ора­то­ры все это изо­бре­ли?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457527"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457540"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457528"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457541"/>
+        <aif:creationDate>2019-12-03 15:41:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457527 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457527">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457526"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457528 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457528">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457526"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457520"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457529 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457529">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Какая дру­гая сила мог­ла собрать рас­се­ян­ных людей в одно место или пере­ме­нить их дикий и гру­бый образ жиз­ни на этот чело­веч­ный и граж­дан­ст­вен­ный быт, или уста­но­вить в ново­со­здан­ных государ­ствах зако­ны, суды и пра­ва?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457533"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457542"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457530 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457530">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ведь в том-то и заклю­ча­ет­ся наше глав­ное пре­иму­ще­ство перед дики­ми зве­ря­ми, что мы можем гово­рить друг с дру­гом и выра­жать свои ощу­ще­ния сло­вом.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457542"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457534"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457543"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457531 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457531">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Что так при­ят­но дей­ст­ву­ет на ум и на слух, как изящ­но отде­лан­ная речь, бли­стаю­щая муд­ры­ми мыс­ля­ми и пол­ны­ми важ­но­сти сло­ва­ми?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457534"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457543"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457535"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457544"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457532 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457532">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Имен­но это искус­ство у всех сво­бод­ных наро­дов поль­зо­ва­лось во все вре­ме­на осо­бен­ным поче­том и силой.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457535"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457544"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457533 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457533">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457529"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457530"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457534 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457534">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457530"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457531"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457535 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457535">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457531"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457532"/>
+        <aif:creationDate>2019-12-03 15:41:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457536 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457536">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Сцевола: я не согласен с тем, что род человеческий затворил¬ся в горо¬дах и сте¬нах, вкрад¬чи¬вы¬ми сло¬ва¬ми людей речи¬стых</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457537"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457545"/>
+        <aif:creationDate>2019-12-03 15:41:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457537 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457537">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457519"/>
+        <aif:creationDate>2019-12-03 15:41:07</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

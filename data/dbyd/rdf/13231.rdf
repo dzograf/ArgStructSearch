@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/323725 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323725">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ten odcinek jest najbardziej realistyczny z całego sezonu.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323744"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324017"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324022"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324023"/>
+        <aif:creationDate>2018-01-20 16:56:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323726 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323726">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Nie ma tu duchów zamkniętych w maszynach, jest wyłącznie technologia dostępna już dzisiaj, jedynie nie zintegrowana w takiej postaci.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323729"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324022"/>
+        <aif:creationDate>2018-01-20 16:56:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323727 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323727">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Odcinek pokazuje, że zagrożenie jest bliższe niż nam się wydawało.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323729"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323730"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323737"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323742"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323747"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324016"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323731"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323744"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324017"/>
+        <aif:creationDate>2018-01-20 16:56:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323728 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323728">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Nie potrzeba wcale ogromnego Skynetu, Eagle Eye&#039;a czy innego superkomputera, który nabrał świadomości, wykształcił w sobie jakieś żądze i makiawelicznie steruje całym cyfrowym światem.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323733"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324018"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323730"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323743"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324016"/>
+        <aif:creationDate>2018-01-20 16:56:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323732 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323732">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wystarczy odpowiednia doza autonomiczności i mechanizmów adaptacyjnych w stosunkowo prostych robotach by stały się śmiertelnym zagrożeniem.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323735"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323746"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324019"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323745"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324018"/>
+        <aif:creationDate>2018-01-20 16:56:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323734 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323734">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Życie pokazało, że skuteczniejsze są organizacje rozproszone, takie jak Al Kaida, które są raczej luźno powiązanymi autonomicznymi strukturami, a agentami mogą być ludzie nawet bez formalnej przynależności.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323735"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324019"/>
+        <aif:creationDate>2018-01-20 16:56:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323736 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323736">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To nie był typowy, staroświecki &quot;bunt maszyn&quot;, taki jaki znamy z Terminatora czy &quot;Ja, Robot&quot;.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323739"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323748"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324020"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323737"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323747"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324023"/>
+        <aif:creationDate>2018-01-20 16:56:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323738 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323738">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Z buntem mamy do czynienia tylko gdy istnieje świadomość i ta świadomość podejmuje decyzję złamania pewnych zasad.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323749"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324021"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323748"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324020"/>
+        <aif:creationDate>2018-01-20 16:56:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/323740 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/323740">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Tu nic nie wskazuje na istnienie świadomości, raczej na wysoce rozwiniętą sztuczną inteligencję, która w jakiś sposób zdryfowała stając się zagrożeniem.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323741"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323749"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324021"/>
+        <aif:creationDate>2018-01-20 16:56:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324016 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324016">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323728"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323727"/>
+        <aif:creationDate>2018-01-20 22:18:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324017 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324017">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323727"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323725"/>
+        <aif:creationDate>2018-01-20 22:18:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324018 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324018">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323732"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323728"/>
+        <aif:creationDate>2018-01-20 22:18:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324019 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324019">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323734"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323732"/>
+        <aif:creationDate>2018-01-20 22:18:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324020 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324020">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323738"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323736"/>
+        <aif:creationDate>2018-01-20 22:18:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324021 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324021">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323740"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323738"/>
+        <aif:creationDate>2018-01-20 22:18:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324022 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324022">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323726"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323725"/>
+        <aif:creationDate>2018-01-20 22:18:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324023 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324023">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/323736"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/323725"/>
+        <aif:creationDate>2018-01-20 22:18:37</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

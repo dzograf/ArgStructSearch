@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/377201 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377201">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В Афинах говорили: «Выше всего в жизни людской — закон, и неписаный закон — выше писаного».</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377203"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377205"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377207"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377212"/>
+        <aif:creationDate>2019-03-19 12:53:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377202 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377202">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Неписаный закон — вечен, он дан природой, на нем держится всякое человеческое общество</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377203"/>
+        <aif:creationDate>2019-03-19 12:53:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377203 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377203">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377202"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377201"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Писаный закон — в каждом государстве свой, он установлен людьми, он не вечен, его можно издать и отменить.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377205"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377204"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377201"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377206 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377206">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Креонт издал указ: Этеокла похоронить, а Полиника лишить погребения.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377210"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377216"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377207"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377215"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377207 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377207">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377206"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377201"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Но Креонт думал не о людях и не о богах, а о государстве и власти.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377216"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Полиник привёл врагов на родной город</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377210"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377209"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377206"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Антигона должна позаботиться, чтобы душа Полиника нашла загробное успокоение.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377212"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377214"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377212 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377212">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377201"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377211"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Антигона хоронит Полиника</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377214"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377215"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377214 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377214">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377211"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377213"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377215 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377215">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377206"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377213"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/377216 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/377216">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/377208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/377206"/>
+        <aif:creationDate>2019-03-19 12:53:04</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/176813 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/176813">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: The problem is not just the number we&#039;re building, but where we&#039;re building them</aif:claimText>
+        <aif:source>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: The problem is not just the number we&#039;re building, but where we&#039;re building them</aif:source>
+        <aif:creationDate>2016-06-09 18:38:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177139 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177139">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we aren&#039;t building enough houses, let alone enough in places people actually want to live.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177146"/>
+        <aif:creationDate>2016-06-13 13:36:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177140 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177140">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822:  we aren&#039;t building enough houses, let alone enough in places people actually want to live.</aif:claimText>
+        <aif:source>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822:  we aren&#039;t building enough houses, let alone enough in places people actually want to live.</aif:source>
+        <aif:creationDate>2016-06-13 13:36:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177141 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177141">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: The biggest culprit here is the green belt.</aif:claimText>
+        <aif:source>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: The biggest culprit here is the green belt.</aif:source>
+        <aif:creationDate>2016-06-13 13:36:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177142 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177142">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: build on the damn thing.</aif:claimText>
+        <aif:source>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: build on the damn thing.</aif:source>
+        <aif:creationDate>2016-06-13 13:36:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177143 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177143">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>build on the damn thing.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177145"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177146"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177162"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177163"/>
+        <aif:creationDate>2016-06-13 13:36:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177144 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177144">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The biggest culprit here is the green belt.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177191"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177145"/>
+        <aif:creationDate>2016-06-13 13:36:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177145 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177145">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177144"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177143"/>
+        <aif:creationDate>2016-06-13 13:36:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177146 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177146">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177139"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177143"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177147 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177147">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The problem is not just the number we&#039;re building, but where we&#039;re building them</aif:claimText>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177148 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177148">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: We&#039;re not just trying to keep up with rising demand, we&#039;re trying to make up a shortfall.</aif:claimText>
+        <aif:source>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: We&#039;re not just trying to keep up with rising demand, we&#039;re trying to make up a shortfall.</aif:source>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177149 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177149">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We&#039;re not just trying to keep up with rising demand, we&#039;re trying to make up a shortfall.</aif:claimText>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177150 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177150">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>That means that much of the protected land close to cities like London and Birmingham is actually not very nice or good for the environment.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177154"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177151 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177151">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: That means that much of the protected land close to cities like London and Birmingham is actually not very nice or good for the environment.</aif:claimText>
+        <aif:source>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822: That means that much of the protected land close to cities like London and Birmingham is actually not very nice or good for the environment.</aif:source>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177152 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177152">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822:  Some 37% of London&#039;s, 39% of Birmingham&#039;s and 74% of Cambridge&#039;s green belts are intensive farmland, which because they are usually monocultures (endless fields of rape, say) are considered to be environmentally worse than doing nothing at all with the land.</aif:claimText>
+        <aif:source>http://www.ibtimes.co.uk/only-building-britains-green-belt-will-solve-housing-crisis-1520822:  Some 37% of London&#039;s, 39% of Birmingham&#039;s and 74% of Cambridge&#039;s green belts are intensive farmland, which because they are usually monocultures (endless fields of rape, say) are considered to be environmentally worse than doing nothing at all with the land.</aif:source>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177153 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177153">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Some 37% of London&#039;s, 39% of Birmingham&#039;s and 74% of Cambridge&#039;s green belts are intensive farmland, which because they are usually monocultures (endless fields of rape, say) are considered to be environmentally worse than doing nothing at all with the land.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177154"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177154 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177154">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177153"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177150"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177155 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177155">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I&#039;ll protect the green belt from development as Mayor of London.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177157"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177163"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177162"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177156 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177156">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There is enough brownfield land in London to build the genuinely affordable homes we need to fix the housing crisis.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177160"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177161"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177157"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177157 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177157">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177156"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177155"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177158 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177158">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Where is the evidence for this?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177161"/>
+        <aif:creationDate>2016-06-13 13:36:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177159 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177159">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The truth is we need to build on the Green Belt</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177166"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177173"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177160"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177160 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177160">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177159"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177156"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177161 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177161">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177158"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177156"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177162 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177162">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177155"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177143"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177163 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177163">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177143"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177155"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177164 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177164">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There&#039;s more empty properties in London than there are homeless people.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177170"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177172"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177165 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177165">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We do not need to build on  green belt land.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177170"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177166"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177166 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177166">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177165"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177159"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177167 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177167">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We need to totally change the paradigm of greed that is the cancer of the London property market.</aif:claimText>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177168 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177168">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We need legislation that new houses that are built are genuinely affordable houses and are only available to genuine current residents of the UK and not overseas property investors.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177172"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177178"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177184"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177173"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177169 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177169">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In Thailand, for example, if you are not Tahi you can t buy property, period. People that have used loopholes like setting up a company and  buying  as the company are finding their houses are being taken back by the Thai government.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177177"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177170 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177170">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177164"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177165"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177171 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177171">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#PA-node"/>
+        <aif:creationDate>2016-06-13 13:36:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177172 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177172">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177164"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177168"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177173 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177173">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177168"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177159"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177174 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177174">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we have to stop the root of overseas investors somehow</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177179"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177175 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177175">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177176 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177176">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>that might be going  a little too far</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177177"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177177 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177177">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177176"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177169"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177178 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177178">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177168"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177179 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177179">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177174"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177180 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177180">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.63% is not a high percentage</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177182"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177181 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177181">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.63% of dwellings are empty (http://www.emptyhomes.com/wp-content/uploads/2011/05/Empty-homes-in-England-Final.pdf)</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177182"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177182 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177182">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177181"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177180"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177183 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177183">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Brining in legislation that restrict property rights is wrong</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177184"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177184 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177184">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177183"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177168"/>
+        <aif:creationDate>2016-06-13 13:36:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177185 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177185">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Which do you want? Legislation or not?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177186"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177186 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177186">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177185"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177187 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177187">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Taking homes away from foreign buyers, particularly ones that are genuinely living in these homes, is going too far. Legislation to stop future overseas buyers from seeing the London property market as an investment  opportunity is required.</aif:claimText>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177188 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177188">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177189 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177189">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Brown belt or green belt are insignificant side issues who have nothing to do with the current housing crisis in London</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177191"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177194"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177190 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177190">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>building much more affordable housing for rent is a more  realistic approach than building a smaller amount of affordable housing to buy</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177193"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177191 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177191">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177189"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177144"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177192 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177192">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We need to build much more affordable housing for rent</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177193"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177194"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177193 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177193">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177190"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177192"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177194 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177194">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177189"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177192"/>
+        <aif:creationDate>2016-06-13 13:36:19</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

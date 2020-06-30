@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/341720 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341720">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>А.С.Лымарь отказано в удовлетворении ходатайства о рассмотрении ее уголовного дела судом с участием присяжных заседателей</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341729"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341732"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341734"/>
+        <aif:creationDate>2018-05-16 16:37:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341721 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341721">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>А.С.Лымарь, обвиняемая в совершении преступления, предусмотренного п. «в» ч. 2 ст. 105 УК РФ</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341728"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341731"/>
+        <aif:creationDate>2018-05-16 16:37:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341722 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341722">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>А.С.Лымарь не могут быть назначены пожизненное лишение свободы или смертная казнь</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341728"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341731"/>
+        <aif:creationDate>2018-05-16 16:37:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341723 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341723">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>уголовные дела о преступлениях, предусмотренных ст. 105 ч.2 УК РФ к подсудности областных и равных им по уровню судов лишь при наличии возможности назначения обвиняемому наказания в виде пожизненного лишения свободы или смертной казни</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341728"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341731"/>
+        <aif:creationDate>2018-05-16 16:37:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341724 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341724">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>статьей 47 (ч. 1) Конституции РФ право каждого на рассмотрение его дела в том суде и тем судьей, к подсудности которых оно отнесено законом</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341730"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341733"/>
+        <aif:creationDate>2018-05-16 16:37:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341725 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341725">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>закрепленный ст. 19 (ч. 1) Конституции РФ принцип равенства всех перед законом и судом</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341733"/>
+        <aif:creationDate>2018-05-16 16:37:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341726 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341726">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>уголовное дело об убийстве при отягчающих обстоятельствах, совершенном женщиной, как не относящееся к подсудности верховного суда республики, краевого, областного и других равных им по уровню судов, ни при каких условиях не может быть рассмотрено судом в составе судьи такого суда и коллегии из двенадцати присяжных заседателей в отличие от уголовного дела о таком же преступлении, в совершении которого обвиняется мужчина</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341734"/>
+        <aif:creationDate>2018-05-16 16:37:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341727 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341727">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Правоприменительные решения, принятые по уголовному делу гражданки Лымарь Алены Сергеевны, подлежат пересмотру</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341730"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341729"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341732"/>
+        <aif:creationDate>2018-05-16 16:37:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341731 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341731">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341721"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341722"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341723"/>
+        <aif:creationDate>2018-05-16 16:44:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341732 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341732">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341727"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341720"/>
+        <aif:creationDate>2018-05-16 16:44:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341733 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341733">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341724"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341725"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341727"/>
+        <aif:creationDate>2018-05-16 16:44:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341734 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341734">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341726"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341720"/>
+        <aif:creationDate>2018-05-16 16:44:39</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

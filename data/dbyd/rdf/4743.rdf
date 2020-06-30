@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/64927 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/64927">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>MT : Can we agree there should have been court martials?</aif:claimText>
+        <aif:source>MT : Can we agree there should have been court martials?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/64926"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/65003"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/65016"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/65020"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/65026"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/65031"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/65035"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/65041"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/65046"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/65050"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69573"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69577"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69604"/>
+        <aif:creationDate>2015-04-27 13:03:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69572 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69572">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There should have been court martials.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69573"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69578"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69585"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69596"/>
+        <aif:creationDate>2015-06-23 14:24:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69573 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69573">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/64927"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69572"/>
+        <aif:creationDate>2015-06-23 14:24:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69574 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69574">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anon: MT : Can we agree there should have been court martials?</aif:claimText>
+        <aif:source>Anon: MT : Can we agree there should have been court martials?</aif:source>
+        <aif:creationDate>2015-06-23 14:24:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69575 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69575">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mark: LA : Certainly, yes</aif:claimText>
+        <aif:source>Mark: LA : Certainly, yes</aif:source>
+        <aif:creationDate>2015-06-23 14:24:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69576 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69576">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : Certainly, yes</aif:claimText>
+        <aif:source>LA : Certainly, yes</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69577"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/182036"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69602"/>
+        <aif:creationDate>2015-06-23 14:24:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69577 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69577">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/64927"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69576"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69578 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69578">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/69577"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69572"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69579 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69579">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Crime is not a debt</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69580"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69597"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/182038"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/182059"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/409998"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410046"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410051"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410082"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/410097"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/410125"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/410142"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/410166"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69596"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410086"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410116"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410136"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410163"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69580 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69580">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69582"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69579"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: LA : Crime is not a debt</aif:claimText>
+        <aif:source>M: LA : Crime is not a debt</aif:source>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : Crime is not a debt</aif:claimText>
+        <aif:source>LA : Crime is not a debt</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69602"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69580"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69606"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/182038"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/182058"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Punishment has not been inflicted</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69587"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/182040"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/182056"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410006"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410011"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410050"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410054"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410102"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410117"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69585"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/182053"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410018"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410023"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410059"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410081"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410143"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69584 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69584">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>a court martial would have inflicted punishment</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69589"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/182042"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410012"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410017"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410053"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410060"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410110"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/410133"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69585"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/182056"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410018"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410023"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410059"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410081"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/410143"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69585 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69585">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69583"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69584"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69605"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69572"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69586 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69586">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mark: LA : Punishment has not been inflicted</aif:claimText>
+        <aif:source>Mark: LA : Punishment has not been inflicted</aif:source>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69588"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69583"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : Punishment has not been inflicted</aif:claimText>
+        <aif:source>LA : Punishment has not been inflicted</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69604"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69587"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69589 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69589">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69591"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69584"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69590 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69590">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mark: LA : a court martial would have inflicted punishment</aif:claimText>
+        <aif:source>Mark: LA : a court martial would have inflicted punishment</aif:source>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69591 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69591">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : a court martial would have inflicted punishment</aif:claimText>
+        <aif:source>LA : a court martial would have inflicted punishment</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69604"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/182055"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69589"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/182042"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69592 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69592">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>a debt is legal redress by the civil courts which is being sought now</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69593"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69597"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69593 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69593">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69595"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69592"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69594 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69594">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: LA : a debt is legal redress by the civil courts which is being sought now</aif:claimText>
+        <aif:source>M: LA : a debt is legal redress by the civil courts which is being sought now</aif:source>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69595 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69595">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : a debt is legal redress by the civil courts which is being sought now</aif:claimText>
+        <aif:source>LA : a debt is legal redress by the civil courts which is being sought now</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69606"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69593"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69596 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69596">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69579"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69603"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69572"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69597 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69597">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69592"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69598"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69607"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69579"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69598 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69598">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>that&#039;s something quite different. </aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69599"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69597"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69599 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69599">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69601"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69598"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69600 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69600">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mark: LA : that&#039;s something quite different. </aif:claimText>
+        <aif:source>Mark: LA : that&#039;s something quite different. </aif:source>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69601 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69601">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : that&#039;s something quite different. </aif:claimText>
+        <aif:source>LA : that&#039;s something quite different. </aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69606"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69599"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69602 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69602">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69576"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69582"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69603 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69603">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/69602"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69596"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69604 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69604">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/64927"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69588"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69591"/>
+        <aif:creationDate>2015-06-23 14:25:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69605 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69605">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/69604"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69585"/>
+        <aif:creationDate>2015-06-23 14:25:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69606 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69606">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69582"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69595"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69601"/>
+        <aif:creationDate>2015-06-23 14:25:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69607 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69607">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/69606"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69597"/>
+        <aif:creationDate>2015-06-23 14:25:01</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

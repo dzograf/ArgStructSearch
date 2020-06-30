@@ -1,0 +1,1364 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/375254 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375254">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Гомер был слепым</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375258"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375321"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375346"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375398"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375409"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375439"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375468"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375477"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375478"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375508"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375517"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375518"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375548"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375557"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376358"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376388"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376397"/>
+        <aif:creationDate>2019-02-20 05:57:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375255 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375255">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>&lt;&lt;&lt;&lt;&lt;&lt;&lt;  Еще несколько столетий назад человечество не видело синего цвета. &gt;&gt;&gt;&gt;&gt;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375264"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375271"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375281"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375285"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375287"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375291"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375299"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375300"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375301"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375306"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375311"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375313"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375314"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375315"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375318"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375320"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375350"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375352"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375358"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375360"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375365"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375369"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375371"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375375"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375376"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375426"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375428"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375433"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375435"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375437"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375438"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375441"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375446"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375447"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375449"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375451"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375454"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375455"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375456"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375458"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375460"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375462"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375463"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375466"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375467"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375481"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375486"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375487"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375489"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375491"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375494"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375495"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375496"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375498"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375500"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375501"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375502"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375503"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375506"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375521"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375523"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375526"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375527"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375529"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375531"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375534"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375535"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375538"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375540"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375541"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375542"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375543"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375546"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375547"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376361"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376366"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376369"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376371"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376375"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376376"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376378"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376380"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376381"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376382"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376383"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376386"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376387"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376415"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376429"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376435"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376436"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376445"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376448"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376449"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376451"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376453"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376456"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376457"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376462"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376463"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376466"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376467"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375256 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375256">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>давно отвергнута учеными: по страницам «Илиады» разбросаны красочные и детальные описания оружия, лиц, животных, деталей одежды и так далее.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375258"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375321"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375346"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375347"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375398"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375408"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375409"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375257 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375257">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>так было не всегда.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376448"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375260 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375260">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в «Илиаде» Гомера нет ни одного упоминания о синем цвете</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375407"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375475"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375516"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375556"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376396"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376442"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376473"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375262"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375264"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375405"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375411"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375412"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375441"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375473"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375480"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375481"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375514"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375520"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375521"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375554"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376360"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376394"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376409"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376410"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375261 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375261">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>британский литератор Уильям Гладстон заметил</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375262"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375349"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375440"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375480"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376360"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376409"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375263 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375263">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>литература</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375262"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375269"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375274"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375290"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375293"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375317"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375353"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375374"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375411"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375413"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375442"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375450"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375465"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375480"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375482"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375484"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375490"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375492"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375505"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375520"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375522"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375524"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375530"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375532"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375545"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376360"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376362"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376364"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376370"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376372"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376385"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376409"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376411"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376413"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376434"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376446"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376454"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376465"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375265 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375265">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>черный встречается в «Илиаде» около 170 раз, а белый — 100. С большим отрывом «на третьем месте» — красный (13 раз), желтому и зеленому досталось около 10 упоминаний, а фиолетовому — 7.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375314"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375317"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375374"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375435"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375465"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375502"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375505"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375542"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375545"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376382"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376385"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376434"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376465"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375266 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375266">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>многие вещи «окрашены» в непривычные для нас цвета. Так, гомеровский мед — зеленый, а море и овцы — фиолетовые.</aif:claimText>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375267 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375267">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Гладстон не пожалел времени и решил посчитать</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375269"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375317"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375413"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375436"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375442"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375465"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375482"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375505"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375522"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375545"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376362"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376385"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376434"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376444"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376465"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375268 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375268">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>обнаружил, что ни в одном из них нет слова «синий».</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375269"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375271"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375413"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375414"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375442"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375443"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375482"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375522"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375523"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376362"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376411"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376412"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376445"/>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375270 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375270">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>отсутствие таких известных нам цветов, как розовый или оранжевый</aif:claimText>
+        <aif:creationDate>2019-02-20 05:57:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375272 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375272">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Гладстон предположил</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375274"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375353"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375484"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375524"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376364"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376413"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376446"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375273 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375273">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>способность четко различать цвета развилась у человека относительно недавно</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375274"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375415"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375444"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375484"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376413"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376446"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375275 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375275">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>смелую идею</aif:claimText>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375276 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375276">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Не только Гомер, но и его современники</aif:claimText>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375277 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375277">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>немецкий филолог Лазарь Гейгер</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375280"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375286"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375354"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375357"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375417"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375445"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375448"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375485"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375488"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375528"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376365"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376368"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376417"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376447"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376450"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375278 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375278">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Филология</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375280"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375286"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375354"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375357"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375448"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375485"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375488"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375525"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375528"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376414"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376447"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376450"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375279 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375279">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>«Единственное, чего там нет — это голубого цвета неба», — подытожил исследователь.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375280"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375315"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375354"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375372"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375433"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375463"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375485"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375503"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375525"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375543"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376383"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376414"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376447"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376463"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375282 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375282">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В природе же, действительно, синий цвет распространен мало</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375281"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375355"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375446"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375486"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375526"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376448"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375283 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375283">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в тексте Гомера небо — «широкое», «великое», «звездное», «железное» или «медное», но никогда — голубое или синее.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375285"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375356"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375418"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375447"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375487"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375527"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376367"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376449"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375284 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375284">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>во всех рассмотренных им языках первыми цветами были черный и белый, характеризующие все темное или все светлое. На следующем этапе развития человечества по всему миру возникает красный: цвет вина и крови. Затем люди рассмотрели желтый и зеленый, и самым последним в этом ряду оказывается синий.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375286"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375287"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375357"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375358"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375420"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375448"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375449"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375488"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375489"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375528"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375529"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376369"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376418"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376450"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376451"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375288 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375288">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Советский литературовед Ю.М.Лотман</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375290"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375293"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375359"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375361"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375450"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375452"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375490"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375492"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375530"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375532"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376452"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376454"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>синий был синонимом черного или багрово-красного.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375290"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375291"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375360"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375422"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375450"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375451"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375490"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375491"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375530"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375531"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376370"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376420"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376453"/>
+        <aif:creationDate>2019-02-20 05:57:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375292 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375292">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в старинных русских текстах небо никогда не называется синим.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375293"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375318"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375437"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375466"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375492"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375506"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375532"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375546"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376372"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376386"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376435"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376454"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376466"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375294 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375294">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>такую трактовку предложил Исаак Ньютон в XVII веке</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375296"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375362"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375453"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376373"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376455"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Отдельного упоминания заслуживают цвета радуги. Считается, что их семь, и в это число входит синий. {{ Опровержение возможного возражения }}</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375305"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375366"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375429"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375457"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375497"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375537"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376377"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376426"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376458"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375296"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375362"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375364"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375426"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375455"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375493"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375495"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375533"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375535"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376422"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376455"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375297 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375297">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Аристотель называл только три цвета: красный, зеленый, фиолетовый</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375299"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375454"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375494"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375534"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376374"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376456"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375298 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375298">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>некоторые африканские племена до сих пор различают в радуге только два цвета — темный и светлый</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375427"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375456"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375496"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375536"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376376"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376457"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375302 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375302">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>по аналогии с количеством нот в музыкальной гамме</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375305"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375429"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375457"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375497"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375537"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376377"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376426"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376458"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375303 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375303">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>израильский лингвист Гай Дойчер</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375310"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375368"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375499"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375539"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376379"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376428"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376460"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375304 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375304">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>люди видели радугу как переход от красного к фиолетовому, без ненужной им детализации.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375306"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375367"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375428"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375458"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375498"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375538"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376378"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376427"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376459"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375307 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375307">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>собрал большую коллекцию примеров</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375310"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375499"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375539"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376428"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376460"/>
+        <aif:creationDate>2019-02-20 05:57:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375308 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375308">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>обнаружив, что в большинстве случаев отдельного слова для синего у них нет.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375310"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375320"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375376"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375438"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375467"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375499"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375507"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375539"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375547"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376387"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376428"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376460"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376467"/>
+        <aif:creationDate>2019-02-20 05:57:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375309 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375309">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В английском же языке так и не появилось отдельного прилагательного «голубое»; это лишь один из оттенков синего.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375313"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375370"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375461"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375501"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375541"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376381"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376461"/>
+        <aif:creationDate>2019-02-20 05:57:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375312 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375312">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в пример можно привести сербский</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375311"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375369"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375460"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375500"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375540"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376380"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376429"/>
+        <aif:creationDate>2019-02-20 05:57:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375319 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375319">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Лингвистика</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375310"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375499"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375539"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376428"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376460"/>
+        <aif:creationDate>2019-02-20 05:57:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375377 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375377">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>у кочевников не было обычая сквернословить. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375440"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375480"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376360"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376409"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375381"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375402"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375469"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375509"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375549"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376389"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376437"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376468"/>
+        <aif:creationDate>2019-02-22 06:37:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375378 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375378">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>поговаривают, что</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375380"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375401"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375470"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375510"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375550"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376390"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376438"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376469"/>
+        <aif:creationDate>2019-02-22 06:37:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375379 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375379">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>русских научили материться татары и монголы, а до ига, якобы, не знали на Руси ни одного ругательства.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375380"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375381"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375397"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375441"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375469"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375470"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375481"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375509"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375510"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375521"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375549"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375550"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376361"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376389"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376390"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376437"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376438"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376468"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376469"/>
+        <aif:creationDate>2019-02-22 06:37:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375382 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375382">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>русские активно использовали мат</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375384"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375386"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375388"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375392"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375403"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375471"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375472"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375474"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375476"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375512"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375513"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375515"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375551"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375552"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375553"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375555"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376391"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376392"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376393"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376395"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376439"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376440"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376441"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376470"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376471"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376472"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375397"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375412"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375441"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375481"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375521"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376410"/>
+        <aif:creationDate>2019-02-22 06:37:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375383 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375383">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>на образце №?330 (XIII век) написана рифмованная дразнилка,  которая переводится как «гузка е… т другую гузгу, задрав одежду».</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375384"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375403"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375471"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375512"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375552"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376392"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376439"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376470"/>
+        <aif:creationDate>2019-02-22 06:37:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375385 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375385">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>письмо от свахи к Марене, знатной даме.  Сваха Милуша пишет, что пора бы Большой Косе (видимо, дочери Марены)  выходить замуж за некого Сновида и прибавляет:  «Пусть влагалище и клитор пьют». </aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375386"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375404"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375472"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375513"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375553"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376393"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376471"/>
+        <aif:creationDate>2019-02-22 06:37:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375387 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375387">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Аналогичный текст встречается в народных частушках, и в устах свахи это —  пожелание, чтобы свадьба состоялась.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375388"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375476"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375511"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375551"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376391"/>
+        <aif:creationDate>2019-02-22 06:37:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375389 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375389">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>всеобщем славянском характере мата</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375391"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375405"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375473"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375514"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375554"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/376394"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375392"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375474"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375515"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375555"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376395"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376441"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/376472"/>
+        <aif:creationDate>2019-02-22 06:37:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375390 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375390">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>лингвисты, проанализировав аналогичную лексику в современных славянских языках, пришли к мысли</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375391"/>
+        <aif:creationDate>2019-02-22 06:37:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2019-02-26 10:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375260"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375263"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375261"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375377"/>
+        <aif:creationDate>2019-02-26 10:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376410 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376410">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375260"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375382"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375379"/>
+        <aif:creationDate>2019-02-26 10:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376411 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376411">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375263"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375268"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375267"/>
+        <aif:creationDate>2019-02-26 10:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375268"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376413 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376413">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375263"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375272"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375273"/>
+        <aif:creationDate>2019-02-26 10:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376414 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376414">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375278"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375279"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375277"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376415 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376415">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375257"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375282"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376416 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376416">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375283"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376417 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376417">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375278"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375284"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375277"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376418 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376418">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375284"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376419 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376419">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375263"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375289"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375288"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376420 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376420">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375289"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376421 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376421">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375263"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375288"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376422 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376422">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375294"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376423 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376423">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375297"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376424 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376424">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376425 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376425">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375298"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376426 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376426">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375302"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375295"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376427 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376427">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375304"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376428 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376428">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375307"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375308"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375319"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375303"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376429 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376429">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375312"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376430 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376430">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375309"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376431 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376431">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375265"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376432 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376432">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375279"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376433 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376433">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376434 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376434">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375263"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375265"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375267"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376435 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376435">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376436 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376436">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375308"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375255"/>
+        <aif:creationDate>2019-02-26 10:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376437 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376437">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375377"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375379"/>
+        <aif:creationDate>2019-02-26 10:12:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376438 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376438">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375378"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375379"/>
+        <aif:creationDate>2019-02-26 10:12:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376439 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376439">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375383"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375382"/>
+        <aif:creationDate>2019-02-26 10:12:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376440 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376440">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375385"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375382"/>
+        <aif:creationDate>2019-02-26 10:12:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376441 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376441">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375389"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375382"/>
+        <aif:creationDate>2019-02-26 10:12:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/376442 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/376442">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375260"/>
+        <aif:creationDate>2019-02-26 10:12:37</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

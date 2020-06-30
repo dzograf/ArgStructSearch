@@ -1,0 +1,1355 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/272440 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272440">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>abrir la cueva representa un peligro</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272476"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272478"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272483"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272525"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272668"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272775"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272779"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272839"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272843"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272916"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272920"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273023"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273027"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273123"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273127"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273224"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273228"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273345"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273349"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273482"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273486"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273681"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273823"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273827"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/274007"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/274011"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278083"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278088"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278448"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278453"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278840"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278845"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279260"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279265"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279529"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279548"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279560"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279576"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279600"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279645"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281488"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281543"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281618"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281675"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281769"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282553"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282665"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282805"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282949"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283062"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283218"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283328"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292586"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/292743"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292746"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/292903"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/294652"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/294732"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297184"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297193"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297240"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297269"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297283"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297479"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297484"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297510"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297534"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/340663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340668"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340709"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340718"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279554"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279572"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279582"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281512"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281567"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281699"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281793"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282577"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282829"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283086"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292850"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294733"/>
+        <aif:creationDate>2017-04-10 12:50:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272441 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272441">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro;</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro;</aif:source>
+        <aif:creationDate>2017-04-10 12:50:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272442 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272442">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: CSIC : Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro;</aif:claimText>
+        <aif:source>Martin: CSIC : Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro;</aif:source>
+        <aif:creationDate>2017-04-10 12:50:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272443 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272443">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: , y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: , y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-04-10 12:50:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272444 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272444">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Gael : , y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>Martin: Gael : , y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-04-10 12:50:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272448 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272448">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:source>
+        <aif:creationDate>2017-04-10 12:50:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272449 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272449">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Comité del Patrimonio Mundial de la Unesco : El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:claimText>
+        <aif:source>Martin: Comité del Patrimonio Mundial de la Unesco : El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:source>
+        <aif:creationDate>2017-04-10 12:50:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272450 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272450">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales</aif:source>
+        <aif:creationDate>2017-04-10 12:50:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272451 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272451">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Comité del Patrimonio Mundial de la Unesco : Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:source>Martin: Comité del Patrimonio Mundial de la Unesco : Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales</aif:source>
+        <aif:creationDate>2017-04-10 12:50:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272457 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272457">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Martin: Guillermo : abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-04-10 12:50:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272458 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272458">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : El Ministerio de Cultura tiene sobre la mesa dos informes contradictorios: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Guillermo : El Ministerio de Cultura tiene sobre la mesa dos informes contradictorios: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272464"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272475"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272479"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272482"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272521"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272524"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272663"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272666"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272774"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272777"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272838"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272841"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272915"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272918"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273022"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273025"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273122"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273125"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273223"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273226"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273344"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273347"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273481"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273484"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273676"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273679"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273822"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273825"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274006"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/274009"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278085"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278087"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278450"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278452"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278842"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278844"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279262"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279264"/>
+        <aif:creationDate>2017-04-10 12:50:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272459 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272459">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: El Ministerio de Cultura tiene sobre la mesa dos informes contradictorios: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: El Ministerio de Cultura tiene sobre la mesa dos informes contradictorios: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-04-10 12:50:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272460 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272460">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : El Ministerio de Cultura tiene sobre la mesa dos informes contradictorios: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Martin: Guillermo : El Ministerio de Cultura tiene sobre la mesa dos informes contradictorios: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-04-10 12:50:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272462 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272462">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>CSIC : el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>CSIC : el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272461"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272478"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272520"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272664"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272775"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272839"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272916"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273023"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273123"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273224"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273345"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273482"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273677"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273823"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274007"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278083"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278448"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278840"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279260"/>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272463 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272463">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: CSIC : abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Martin: CSIC : abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272465 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272465">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Gael : asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>Gael : asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272466"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272480"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272522"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272665"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272776"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272840"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272917"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273024"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273124"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273225"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273346"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273483"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273678"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273824"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274008"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278084"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278449"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278841"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279261"/>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272467 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272467">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>las visitas no afectan a las pinturas</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272466"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272480"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272517"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272522"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272538"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272683"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272776"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272794"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272840"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272858"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272917"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272935"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273024"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273042"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273124"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273142"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273225"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273243"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273346"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273364"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273501"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273696"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273824"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273842"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/274008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/274026"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278084"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278103"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278449"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278468"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278841"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278860"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279261"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279280"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279536"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279550"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279602"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279647"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281490"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281545"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281620"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281677"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281771"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282555"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282667"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282807"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282951"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283064"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283220"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283330"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292588"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292748"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/294653"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297187"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297482"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/340666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272476"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272525"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272779"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272843"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273027"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273228"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273486"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273827"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/274011"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278088"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278845"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279265"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279554"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281512"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281567"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281699"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281793"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282577"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282829"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283086"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292743"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292850"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292903"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297193"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297484"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/340668"/>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272468 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272468">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272469 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272469">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>Martin: Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272470 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272470">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272471 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272471">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272475"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272482"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272524"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272666"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272777"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272841"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272918"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273025"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273125"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273226"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273347"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273484"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273679"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273825"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/274009"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278087"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278452"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278844"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279264"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272474"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272481"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272493"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272523"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272529"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272667"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272672"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272778"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272783"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272842"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272847"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272919"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272924"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273026"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273031"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273126"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273131"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273227"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273232"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273348"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273353"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273485"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273490"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273680"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273685"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273826"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273831"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274010"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/274015"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278086"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278091"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278451"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278456"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278843"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278848"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279263"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279268"/>
+        <aif:creationDate>2017-04-10 12:50:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272472 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272472">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:creationDate>2017-04-10 12:50:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272473 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272473">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>Martin: Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:creationDate>2017-04-10 12:50:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272478 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272478">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272462"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272440"/>
+        <aif:creationDate>2017-04-10 15:25:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272479 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272479">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272458"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272462"/>
+        <aif:creationDate>2017-04-10 15:25:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272480 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272480">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272465"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272467"/>
+        <aif:creationDate>2017-04-10 15:25:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272481 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272481">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272471"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272465"/>
+        <aif:creationDate>2017-04-10 15:25:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272482 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272482">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272458"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272471"/>
+        <aif:creationDate>2017-04-10 15:25:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272483 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272483">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272467"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272484"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272440"/>
+        <aif:creationDate>2017-04-10 15:25:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272484 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272484">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/272482"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272483"/>
+        <aif:creationDate>2017-04-10 15:25:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272485 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272485">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:claimText>
+        <aif:source>Guillermo : el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272493"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272529"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272672"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272783"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272847"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272924"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273031"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273131"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273232"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273353"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273490"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273685"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273831"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/274015"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278091"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278456"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278848"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279268"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272492"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272504"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272528"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272532"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272671"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272673"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272782"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272784"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272846"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272848"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272923"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272925"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273030"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273032"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273130"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273132"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273231"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273233"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273352"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273354"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273489"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273491"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273684"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273686"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273830"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273832"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274014"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/274016"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278092"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278093"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278457"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278458"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278849"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278850"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279269"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279270"/>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272486 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272486">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>conservación es muy positiva y la integridad del lugar está intacta</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272489"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272527"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272670"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272781"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272845"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272922"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273029"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273129"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273230"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273351"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273488"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273683"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273829"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/274013"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278090"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278455"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278847"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279267"/>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272487 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272487">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272488 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272488">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:claimText>
+        <aif:source>Martin: Guillermo : el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272489 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272489">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272490"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272486"/>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272490 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272490">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Comité del Patrimonio Mundial de la Unesco : la conservación es “muy positiva” y la integridad del lugar está “intacta”</aif:claimText>
+        <aif:source>Comité del Patrimonio Mundial de la Unesco : la conservación es “muy positiva” y la integridad del lugar está “intacta”</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272489"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272527"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272670"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272781"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272845"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272922"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273029"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273129"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273230"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273351"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273488"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273683"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273829"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274013"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278090"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278455"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278847"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279267"/>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272491 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272491">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Comité del Patrimonio Mundial de la Unesco : el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:claimText>
+        <aif:source>Martin: Comité del Patrimonio Mundial de la Unesco : el Comité del Patrimonio Mundial de la Unesco publicó su informe bianual sobre Altamira. El documento asegura que la conservación es “muy positiva” y que la integridad del lugar está “intacta”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272492 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272492">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272485"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272490"/>
+        <aif:creationDate>2017-04-10 15:25:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272493 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272493">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272471"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272485"/>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272494 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272494">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo</aif:claimText>
+        <aif:source>Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272504"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272532"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272673"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272784"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272848"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272925"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273032"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273132"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273233"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273354"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273491"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273686"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273832"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/274016"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278093"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278458"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278850"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279270"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279629"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279661"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281504"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281559"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281634"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281691"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281785"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/282569"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/282681"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/282821"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283079"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283235"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283345"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/292682"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/292842"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/294673"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/297230"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/297504"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/340688"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272502"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272514"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272530"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272535"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272674"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272679"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272785"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272790"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272849"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272854"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272926"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272931"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273033"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273038"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273133"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273138"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273234"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273239"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273355"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273360"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273492"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273497"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273687"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273692"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273833"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273838"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274017"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/274022"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278094"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278098"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278459"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278463"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278851"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278855"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279271"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279275"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279628"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279640"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279660"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279666"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281503"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281509"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281558"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281564"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281633"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281639"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281690"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281696"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281784"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281790"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282568"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282574"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282680"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282686"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282820"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282826"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283076"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283083"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283232"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283239"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283342"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283349"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292683"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/292686"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292843"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/292846"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/294674"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/294677"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/297228"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/297237"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/297503"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/297507"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/340687"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/340691"/>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272495 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272495">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>las visitas representan un factor de riesgo</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272503"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272515"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272531"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272536"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272678"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272786"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272789"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272850"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272853"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272927"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272930"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273034"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273037"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273134"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273137"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273235"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273238"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273359"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273496"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273691"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273834"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273837"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/274018"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/274021"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278095"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278100"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278460"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278465"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278852"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278857"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279272"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279277"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279625"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279659"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281502"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281557"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281632"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281689"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281783"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282567"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282679"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282819"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282964"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283077"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283233"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283343"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292680"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292840"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/294671"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297226"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297238"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297502"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297508"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/340686"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340692"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272538"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272683"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272794"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272858"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272935"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273042"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273142"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273243"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273364"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273501"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273696"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273842"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/274026"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278103"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278468"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278860"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279280"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279630"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279641"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279662"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279667"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281505"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281510"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281560"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281565"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281635"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281640"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281692"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281697"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281786"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281791"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282570"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282575"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282687"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282822"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282827"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283078"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283085"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283234"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283241"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283344"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292688"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292841"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292848"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297240"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297510"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297512"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/340694"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/340696"/>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272496 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272496">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272497 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272497">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:claimText>
+        <aif:source>Martin: Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272498 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272498">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272499 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272499">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Comité del Patrimonio Mundial de la Unesco : Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:claimText>
+        <aif:source>Martin: Comité del Patrimonio Mundial de la Unesco : Guillermo : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272500 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272500">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Comité del Patrimonio Mundial de la Unesco : señala las visitas representan un factor de riesgo</aif:claimText>
+        <aif:source>Comité del Patrimonio Mundial de la Unesco : señala las visitas representan un factor de riesgo</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272503"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272531"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272675"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272786"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272850"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272927"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273034"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273134"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273235"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273356"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273493"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273688"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273834"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274018"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278095"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278460"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278852"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279272"/>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272501 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272501">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Comité del Patrimonio Mundial de la Unesco : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:claimText>
+        <aif:source>Martin: Comité del Patrimonio Mundial de la Unesco : en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272502 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272502">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272494"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272500"/>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272503 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272503">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272500"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272495"/>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272504 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272504">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272485"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272494"/>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272505 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272505">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:claimText>
+        <aif:source>en el punto en el que enumera los factores que pueden afectar al patrimonio, el organismo internacional señala: “Las visitas representan un factor de riesgo porque pueden cambiar los parámetros ambientales”.</aif:source>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272506 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272506">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: pueden cambiar los parámetros ambientales</aif:source>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272507 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272507">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Comité del Patrimonio Mundial de la Unesco : pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:source>Martin: Comité del Patrimonio Mundial de la Unesco : pueden cambiar los parámetros ambientales</aif:source>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272508 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272508">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Comité del Patrimonio Mundial de la Unesco : pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:source>Comité del Patrimonio Mundial de la Unesco : pueden cambiar los parámetros ambientales</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272509"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272533"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272676"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272787"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272851"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272928"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273035"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273135"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273236"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273357"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273494"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273689"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273835"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274019"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278096"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278461"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278853"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279273"/>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272509 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272509">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272508"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272510"/>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272510 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272510">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272509"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272533"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272676"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272787"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272851"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272928"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273035"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273135"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273236"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273357"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273494"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273689"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273835"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/274019"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278096"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278461"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278853"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279273"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279636"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279641"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279667"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/281510"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281562"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/281565"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281637"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/281640"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/281697"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281788"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/281791"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282572"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/282575"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282684"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/282687"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282824"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/282827"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283081"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283085"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283237"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283241"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283351"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292685"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/292688"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292845"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/292848"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/294676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/294679"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297231"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297505"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/340689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272515"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272536"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272678"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272789"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272853"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272930"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273037"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273137"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273238"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273496"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273837"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/274021"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278100"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278465"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278857"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279277"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297238"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297508"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/340692"/>
+        <aif:creationDate>2017-04-10 15:25:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272511 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272511">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:source>Guillermo : pueden cambiar los parámetros ambientales</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272514"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272535"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272679"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272790"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272854"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272931"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273038"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273138"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273239"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273360"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273497"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273692"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/273838"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/274022"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278098"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278463"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/278855"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279275"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272513"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272534"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272550"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272677"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272685"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272788"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272796"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272852"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272860"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272929"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272937"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273036"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273044"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273136"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273144"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273237"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273245"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273358"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273366"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273495"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273503"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273690"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273698"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/273836"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/273844"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/274020"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/274028"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278097"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278105"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278462"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278470"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/278854"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/278862"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279274"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279282"/>
+        <aif:creationDate>2017-04-10 15:25:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272512 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272512">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : pueden cambiar los parámetros ambientales</aif:claimText>
+        <aif:source>Martin: Guillermo : pueden cambiar los parámetros ambientales</aif:source>
+        <aif:creationDate>2017-04-10 15:25:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272513 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272513">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/272511"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272508"/>
+        <aif:creationDate>2017-04-10 15:25:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272514 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272514">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/272494"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/272511"/>
+        <aif:creationDate>2017-04-10 15:25:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272515 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272515">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272510"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272516"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272495"/>
+        <aif:creationDate>2017-04-10 15:25:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272516 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272516">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/272514"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272515"/>
+        <aif:creationDate>2017-04-10 15:25:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272517 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272517">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272495"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272467"/>
+        <aif:creationDate>2017-04-10 15:25:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272518 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272518">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-04-10 15:25:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272519 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272519">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/272504"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272518"/>
+        <aif:creationDate>2017-04-10 15:25:31</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

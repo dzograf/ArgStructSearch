@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/367907 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367907">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>экспертиза не верна</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367921"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367911"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367914"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367918"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367919"/>
+        <aif:creationDate>2018-11-27 12:18:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367908 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367908">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Решение экспертов будет точное и бесспорное. Тогда М-ва с радостью взялась за дело восстановления своей чести. Было ли бы это возможно, если бы к лутугинской записке прикасалась ее собственная рука? Нет! Тогда, конечно, она бы поняла опасность; она бы нашла предлог замедлить возбуждение жалобы. Но если, услыхав этот ответ, она сразу решилась, то дело ясно: на лутугинской записке нет ее почерка. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367919"/>
+        <aif:creationDate>2018-11-27 12:18:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367909 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367909">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>она писала своим натуральным почерком, в убеждении, что ее никто никогда не найдет</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367911"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367912"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367910 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367910">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>и тогда этот почерк до смешного чужд писанию М-вой</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367912"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367911 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367911">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367909"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367912 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367912">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367909"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367910"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367913 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367913">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>продавщица резко изменяла свой почерк</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367914"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367916"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367914 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367914">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367913"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367915 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367915">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>тогда: первое, к чему прибегла бы всякая женщина, изменяющая свою руку,-- изменила бы наклон своих букв: пишущая косо начала бы писать стоймя и наоборот, ибо решительно нет другого более верного приема отделаться от своей руки. Но в таком случае опять-таки выходит, что если бы спорную записку писала М-ва, то она могла допустить всякое иное сходство со своей рукой, кроме одного,-- то есть общего наклона букв,-- и потому не могла бы начертать подобной записки своим обычным наклоном письма.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367916"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367916 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367916">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367913"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367915"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367917 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367917">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если же в настоящем деле эксперты вторили обвинению, то произошло это по очень простой причине, они давали свое заключение, вдоволь начитавшись об уликах. Власть подобного чтения на нашу мысль может быть, безгранична: благодаря ей весьма легко увидишь то, чего никогда не бывало. В таком случае эксперт попадает в рабство к своему собственному предустановленному взгляду, который затем помыкает им точно так же, как принц Гамлет помыкал министром Полонием. Принц говорит: &quot;Видишь это облако? Точно верблюд&quot;. Министр отвечает: &quot;Клянусь, совершенный верблюд. Или хорек! Спина как у хорька... Или как у кита? Совершенный кит!&quot;.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367918"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367918 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367918">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367917"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367919 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367919">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367908"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367920 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367920">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>М-ва не писала записку</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367921"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367921 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367921">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367920"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367907"/>
+        <aif:creationDate>2018-11-27 12:18:39</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

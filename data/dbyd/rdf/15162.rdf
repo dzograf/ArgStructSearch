@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/417739 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417739">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Portanto, é imprescindível que exista uma reavaliação governamental diante dessas linhas sociais, pois um Estado deficitário ocasiona um quadro injusto à população jovem</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417744"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417746"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417747"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417748"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417749"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417750"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417751"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417752"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417753"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417754"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417755"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417756"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417757"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417758"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417759"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417760"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417761"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417762"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417763"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417764"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417765"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417766"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417767"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417768"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417769"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417770"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417771"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417772"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417773"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417774"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417775"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417776"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417777"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417778"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417779"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417780"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417781"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417782"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417783"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417784"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417785"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417786"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417787"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417792"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417793"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417794"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417795"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/427861"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/427865"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/427866"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/427868"/>
+        <aif:creationDate>2019-06-14 15:22:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417740 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417740">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Com base nessas considerações, é perceptível que a solução ao impasse apresentado responde a uma governabilidade ruim, cuja gestão dos Ministérios existentes repercutem ações fracas e ineficientes para combater sistematicamente a criminalidade</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417744"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417748"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417752"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417764"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417768"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417772"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417776"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417780"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417784"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417792"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/427861"/>
+        <aif:creationDate>2019-06-14 15:23:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417741 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417741">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>O Ministério da Educação e seu então ministro Ricardo Vélez Rodriguez, podem desenvolver uma parceria junto a grande média – rádios, televisão e jornais, a fim de criar um projeto social e informativo sobre os perigos da criminalidade entre jovens</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417745"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417749"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417753"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417762"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417766"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417770"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417774"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417778"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417782"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417786"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417793"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/427866"/>
+        <aif:creationDate>2019-06-14 15:23:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417742 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417742">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Também, este mesmo projeto poderia premiar trabalhos que apresentassem temas ao combate à criminalidade com bolsas de estudos na melhores Universidades do País</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417750"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417754"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417761"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417765"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417769"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417773"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417777"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417781"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417785"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417794"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/427865"/>
+        <aif:creationDate>2019-06-14 15:24:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417743 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417743">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Além disso, precisa haver um diagnóstico de situações concretas, buscando reavaliar as principais circunstâncias que adjetivam essas injustiças sociais como, por exemplo, criminalizar de maneira mais enérgica os corruptos que saqueiam cofres públicos e, consequentemente, afetam inúmeras famílias que necessitam de uma educação para seus filhos e saúde de qualidade, bem como um emprego digno aos pais</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417747"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417751"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417755"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417759"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417767"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417771"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417775"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417779"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417783"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417787"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417795"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/427868"/>
+        <aif:creationDate>2019-06-14 15:24:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417760 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417760">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417740"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417739"/>
+        <aif:creationDate>2019-06-14 15:45:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417761 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417761">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417742"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417739"/>
+        <aif:creationDate>2019-06-14 15:45:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417762 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417762">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417739"/>
+        <aif:creationDate>2019-06-14 15:45:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417763 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417763">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417739"/>
+        <aif:creationDate>2019-06-14 15:45:04</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/113193 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113193">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>o nome do atual treinador do Futebol Clube do Porto é Julen Lopetegui Argote.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113201"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113203"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113205"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113207"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113215"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113217"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113219"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113221"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113223"/>
+        <aif:creationDate>2015-11-30 20:53:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113194 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113194">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html:  o nome do atual treinador do Futebol Clube do Porto é Julen Lopetegui Argote.</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html:  o nome do atual treinador do Futebol Clube do Porto é Julen Lopetegui Argote.</aif:source>
+        <aif:creationDate>2015-11-30 20:53:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113195 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113195">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html: . O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui”. À hora desta edição, a página de Lopetegui respeita a grafia com que terá sido</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html: . O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui”. À hora desta edição, a página de Lopetegui respeita a grafia com que terá sido</aif:source>
+        <aif:creationDate>2015-11-30 20:53:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113196 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113196">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui”</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113200"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113202"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113204"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113206"/>
+        <aif:creationDate>2015-11-30 20:53:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113197 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113197">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html:  O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui”</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html:  O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui”</aif:source>
+        <aif:creationDate>2015-11-30 20:53:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113198 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113198">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Lopetegui respeita a grafia com que terá sido registado nos serviços administrativos do País Basco. Mas, tendo em conta que a Wikipédia resulta de contributos dos internautas, não será de estranhar que alguém volte a tentar alterar o nome do treinador portista.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113200"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113202"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113204"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113206"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113201"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113203"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113205"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113207"/>
+        <aif:creationDate>2015-11-30 20:53:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113199 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113199">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html: Lopetegui respeita a grafia com que terá sido registado nos serviços administrativos do País Basco. Mas, tendo em conta que a Wikipédia resulta de contributos dos internautas, não será de estranhar que alguém volte a tentar alterar o nome do treinador portista.</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html: Lopetegui respeita a grafia com que terá sido registado nos serviços administrativos do País Basco. Mas, tendo em conta que a Wikipédia resulta de contributos dos internautas, não será de estranhar que alguém volte a tentar alterar o nome do treinador portista.</aif:source>
+        <aif:creationDate>2015-11-30 20:53:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113198"/>
+        <aif:creationDate>2015-11-30 20:55:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113198"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113193"/>
+        <aif:creationDate>2015-11-30 20:55:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

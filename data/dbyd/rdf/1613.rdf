@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/30625 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30625">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Why Hadoop?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30632"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30633"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30634"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30635"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30636"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30626 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30626">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>More and more companies over the world are changing their software to Software-as-a-service paradigm. Still further, some are thinking of shifting their networking drags to the Infrastructure-as-a-service. And some geeky stuff has reached to platform scaling out. I mean platform-as-a-service. We are talking about Hadoop and Amazon MapReduce.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30632"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30627 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30627">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>a lot of expertise involved in Hadoop migrations.</aif:claimText>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30628 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30628">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Hadoop processes understandably large bulk of input data utilizing CPUs that you may never have to buy on premises yourself.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30634"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30629 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30629">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Theorectically speaking, Hadoop has the power to outperform in costs the power of a 1000-CPU machine.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30636"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30630 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30630">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>without you doing all the subtasks management, Hadoop breaks your mountain of data, maps them, reduces the computation and saves the local results that you can consult within minutes of your assigning.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30633"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30631 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30631">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Without Hadoop, this would have taken months, so thanks to the technology you are now in the loop.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30635"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30626"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30633 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30633">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30630"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30634 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30634">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30628"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30635 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30635">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30631"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/30636 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/30636">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/30625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/30629"/>
+        <aif:creationDate>2014-06-10 15:39:34</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

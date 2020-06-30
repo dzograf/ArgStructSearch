@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/221611 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/221611">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>TRUMP is very proud of it</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/221621"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/221626"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/233944"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/259324"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/259461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/259471"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/259572"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279813"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279855"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279999"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280071"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280101"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280139"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/356652"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/361459"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/382135"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/394681"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/428015"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/428017"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280035"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280087"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280108"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280155"/>
+        <aif:creationDate>2016-11-01 15:06:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/233913 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/233913">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>CLINTON is going to approve one of the biggest tax increases in history</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/233912"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/243248"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/243249"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279772"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279806"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279948"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280037"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280066"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280134"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/356632"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/361439"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/382115"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/394661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/233924"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279901"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280016"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280077"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/356639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/361446"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/382122"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/394668"/>
+        <aif:creationDate>2016-11-09 15:36:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/233940 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/233940">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>TRUMP&#039;s tax cut is the biggest since Ronald Reagan</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/233939"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279804"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279837"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279884"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279892"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279923"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279969"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279994"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280035"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280045"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280070"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280087"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280099"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280108"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280138"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280155"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/356650"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/361457"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/382133"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/394679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/233951"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279855"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280060"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280106"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/356655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/361462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/382138"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/394684"/>
+        <aif:creationDate>2016-11-09 15:37:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279755 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279755">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : You are going to drive business out.</aif:claimText>
+        <aif:source>DONALD : You are going to drive business out.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279834"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279991"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280017"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280078"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280132"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280146"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279756"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279778"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279799"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279812"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279835"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279853"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279880"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279897"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279958"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279986"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279992"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280011"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280067"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280075"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280095"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280114"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280133"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280135"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280143"/>
+        <aif:creationDate>2017-05-25 15:49:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279757 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279757">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>CLINTON is going to drive business out.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279756"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279778"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279797"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279812"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279853"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279880"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279894"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279958"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279963"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279965"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280009"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280067"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280074"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280095"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280114"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280121"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280122"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280135"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280142"/>
+        <aif:creationDate>2017-05-25 15:49:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279759 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279759">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : Your regulations are a disaster</aif:claimText>
+        <aif:source>DONALD : Your regulations are a disaster</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279799"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279805"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279835"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279891"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279897"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279906"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279913"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279949"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279960"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279992"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280011"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280061"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280065"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280075"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280133"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280143"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279760"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279784"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279820"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279821"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279823"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279839"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279862"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279866"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279893"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279938"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279968"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279970"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279993"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280041"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280068"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280097"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280115"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280124"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280136"/>
+        <aif:creationDate>2017-05-25 15:49:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279761 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279761">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>CLINTON&#039;s regulations are a disaster</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279760"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279784"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279802"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279821"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279823"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279893"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279901"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279908"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279967"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279968"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280016"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280041"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280068"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280077"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280097"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280115"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280123"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280136"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279797"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279887"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279894"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279965"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280057"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280074"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280122"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/280142"/>
+        <aif:creationDate>2017-05-25 15:49:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279769 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279769">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : You are going to approve one of the biggest tax increases in history</aif:claimText>
+        <aif:source>DONALD : You are going to approve one of the biggest tax increases in history</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280063"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279772"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279806"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279834"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279838"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279881"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279906"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279915"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279939"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279948"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279960"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280017"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280021"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280037"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280066"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280078"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280080"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280134"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280146"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280148"/>
+        <aif:creationDate>2017-05-25 15:49:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279775 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279775">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : You are going to approve one of the biggest tax increases in history</aif:claimText>
+        <aif:source>K: DONALD : You are going to approve one of the biggest tax increases in history</aif:source>
+        <aif:creationDate>2017-05-25 15:49:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279779 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279779">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : you want to increase the regulations</aif:claimText>
+        <aif:source>DONALD : you want to increase the regulations</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279847"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279937"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279961"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279976"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279989"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280029"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280084"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280110"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280120"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280131"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280152"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279781"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279822"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279851"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279859"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279861"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279911"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279941"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279942"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279985"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279987"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280002"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280033"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280050"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280064"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280072"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280086"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280103"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280118"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280130"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280140"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280154"/>
+        <aif:creationDate>2017-05-25 15:49:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279780 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279780">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : You are going to drive business out.</aif:claimText>
+        <aif:source>K: DONALD : You are going to drive business out.</aif:source>
+        <aif:creationDate>2017-05-25 15:49:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279782 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279782">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>CLINTON wants to increase the regulations</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279781"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279822"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279859"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279861"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279911"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279941"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279942"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280002"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280050"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280072"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280103"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280118"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279959"/>
+        <aif:creationDate>2017-05-25 15:49:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279786 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279786">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : Your regulations are a disaster</aif:claimText>
+        <aif:source>K: DONALD : Your regulations are a disaster</aif:source>
+        <aif:creationDate>2017-05-25 15:49:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279788 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279788">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : you’re going to increase regulations all over the place</aif:claimText>
+        <aif:source>K: DONALD : you’re going to increase regulations all over the place</aif:source>
+        <aif:creationDate>2017-05-25 15:49:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279790 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279790">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : you’re going to increase regulations all over the place</aif:claimText>
+        <aif:source>DONALD : you’re going to increase regulations all over the place</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279839"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279881"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279939"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280021"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280064"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280080"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280105"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280148"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279793"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279830"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279843"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279872"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279879"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279937"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279964"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279976"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279983"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280029"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280043"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280063"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280069"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280084"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280098"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280110"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280137"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280152"/>
+        <aif:creationDate>2017-05-25 15:49:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279794 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279794">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>CLINTON is going to increase regulations all over the place</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279793"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279830"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279879"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279959"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279983"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280043"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280069"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280098"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/280106"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280137"/>
+        <aif:creationDate>2017-05-25 15:49:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279798 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279798">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : my tax cut is the biggest since Ronald Reagan</aif:claimText>
+        <aif:source>K: DONALD : my tax cut is the biggest since Ronald Reagan</aif:source>
+        <aif:creationDate>2017-05-25 15:49:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279800 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279800">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : my tax cut is the biggest since Ronald Reagan</aif:claimText>
+        <aif:source>DONALD : my tax cut is the biggest since Ronald Reagan</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279843"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279964"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279804"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279837"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279845"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279884"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279920"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279966"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279994"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280036"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280045"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280062"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280070"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280088"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280099"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280107"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280138"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/280156"/>
+        <aif:creationDate>2017-05-25 15:49:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279809 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279809">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : I ’m very proud of it</aif:claimText>
+        <aif:source>DONALD : I ’m very proud of it</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279845"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279920"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279966"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280036"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280062"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280088"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280156"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279813"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279847"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279848"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279896"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279999"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280047"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280071"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280139"/>
+        <aif:creationDate>2017-05-25 15:49:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279817 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279817">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : I ’m very proud of it</aif:claimText>
+        <aif:source>K: DONALD : I ’m very proud of it</aif:source>
+        <aif:creationDate>2017-05-25 15:49:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279825 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279825">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : you want to increase the regulations</aif:claimText>
+        <aif:source>K: DONALD : you want to increase the regulations</aif:source>
+        <aif:creationDate>2017-05-25 15:49:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279827 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279827">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>DONALD : make them even worse</aif:claimText>
+        <aif:source>DONALD : make them even worse</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279851"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279985"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280033"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280086"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/280154"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279829"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279868"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279924"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280005"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280073"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280104"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/280141"/>
+        <aif:creationDate>2017-05-25 15:49:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279831 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279831">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>CLINTON wants to make the regulations even worse</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279829"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279924"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280005"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280073"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280104"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280141"/>
+        <aif:creationDate>2017-05-25 15:49:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279832 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279832">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>K: DONALD : make them even worse</aif:claimText>
+        <aif:source>K: DONALD : make them even worse</aif:source>
+        <aif:creationDate>2017-05-25 15:49:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279948 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279948">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279769"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/233913"/>
+        <aif:creationDate>2017-05-25 15:49:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279958 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279958">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279755"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279757"/>
+        <aif:creationDate>2017-05-25 15:49:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279968 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279968">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279759"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279761"/>
+        <aif:creationDate>2017-05-25 15:49:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279983 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279983">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279790"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279794"/>
+        <aif:creationDate>2017-05-25 15:49:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279994 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279994">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279800"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/233940"/>
+        <aif:creationDate>2017-05-25 15:49:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279999 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279999">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279809"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/221611"/>
+        <aif:creationDate>2017-05-25 15:49:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280002 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280002">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279779"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279782"/>
+        <aif:creationDate>2017-05-25 15:49:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280005 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280005">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279827"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279831"/>
+        <aif:creationDate>2017-05-25 15:49:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280009 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280009">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279761"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280013"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279757"/>
+        <aif:creationDate>2017-05-25 15:49:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280011 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280011">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279755"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279759"/>
+        <aif:creationDate>2017-05-25 15:49:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280013 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280013">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/280011"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280009"/>
+        <aif:creationDate>2017-05-25 15:49:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280016 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280016">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/233913"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280019"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279761"/>
+        <aif:creationDate>2017-05-25 15:49:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280017 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280017">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279769"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279755"/>
+        <aif:creationDate>2017-05-25 15:49:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280019 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280019">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/280017"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280016"/>
+        <aif:creationDate>2017-05-25 15:49:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280021 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280021">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279769"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279790"/>
+        <aif:creationDate>2017-05-25 15:49:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280023 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280023">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-05-25 15:49:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280025 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280025">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/280021"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/280023"/>
+        <aif:creationDate>2017-05-25 15:49:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280027 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280027">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-05-25 15:49:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280029 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280029">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279790"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279779"/>
+        <aif:creationDate>2017-05-25 15:49:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280031 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280031">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-05-25 15:49:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280033 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280033">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279779"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279827"/>
+        <aif:creationDate>2017-05-25 15:49:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280035 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280035">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/221611"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/233940"/>
+        <aif:creationDate>2017-05-25 15:49:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/280036 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/280036">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279800"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279809"/>
+        <aif:creationDate>2017-05-25 15:49:49</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

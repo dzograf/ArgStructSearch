@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/461719 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461719">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: Препятствия в пользовании земельным участком в границах береговой линии (20 метров от берега) должны быть устранены, Захаров должен установить межевые знаки принадлежности земельного участка и права пользования неопределённого круга лиц.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461720 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461720">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: Проведена проверка соблюдения законодательства о землепользовании. Установлено, что Захаров А.А. является собственником земельного участка категории земель сельскохозяйственного назначения, который находится в акватории реки Аксай-Курмоярский, в отдельных местах имея наложения с водным бассейном.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461721 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461721">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: Из пояснений граждан и материалов публикации в газете «Искра» следует, что фактически собственником земельного участка чинятся препятствия в пользовании неопределённому кругу лиц.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461722 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461722">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: разрешённое использование земельного участка – для пастбищ, позволяет собственнику производить выпас скота.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461723 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461723">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: Земельный участок фактически используется жителями поселения как место отдыха вблизи водоёма, что подтверждается показаниями свидетелей.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461724 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461724">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: границы земельного участка межевыми знаками собственником не обозначены, что свидетельствует о невозможности отграничения земельного участка Захарова А.А. от земельного участка общего пользования.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461725 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461725">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: Ограничение прав граждан на пользование земельным участком, находящимся в границах береговой полосы (20 метров), в соответствии с ч.6 ст.6 Водного кодекса РФ ограничению правом собственности иного лица не подлежит.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461726 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461726">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: согласно ст.42 Земельного кодекса РФ, собственники земельных участков обязаны сохранять межевые, геодезические и другие специальные знаки, установленные на земельных участках в соответствии с законодательством.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461727 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461727">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Захаров: Являясь собственником указанного в иске земельного участка, не препятствует гражданам в пользовании прибрежной зоной, никого с берега не выгонял, ничего не сносил.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461729"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461736"/>
+        <aif:creationDate>2019-12-19 19:26:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461728 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461728">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Захаров: если он не препятствует пользованию прибрежной зоной, межевые знаки на его земельном участке не установлены и не должны быть установлены. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461729"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461736"/>
+        <aif:creationDate>2019-12-19 19:26:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461730 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461730">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: Свидетель ФИО пояснил, что во время его нахождения со своей семьёй на берегу реки, Захаров А.А. лично запретил им там находиться, и они ушли. </aif:claimText>
+        <aif:creationDate>2019-12-19 19:26:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461736 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461736">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461727"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461728"/>
+        <aif:creationDate>2019-12-19 19:30:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461737 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461737">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Прокурор: В соответствии с положениями ст. 42 Земельного кодекса РФ собственники земельных участков обязаны сохранять межевые, геодезические и другие специальные знаки, установленные на земельных участках в соответствии с законодательством.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:30:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461738 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461738">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Захаров: Земельный кодекс РФ не содержит норм, обязывающих собственника земельного участка устанавливать межевые знаки, а положения ст. 42 ЗК РФ предусматривают обязанность собственника земельного участка лишь сохранять их.</aif:claimText>
+        <aif:creationDate>2019-12-19 19:30:44</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

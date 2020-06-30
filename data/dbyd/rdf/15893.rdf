@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/430580 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430580">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>He is widely considered the pivotal figure in the history of Ancient Greek and Western philosophy, along with his teacher, Socrates, and his most famous student, Aristotle.[a] Plato has also often been cited as one of the founders of Western religion and spirituality.[4] The so-called Neoplatonism of philosophers like Plotinus and Porphyry influenced Saint Augustine and thus Christianity. Alfred North Whitehead once noted: &quot;the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.&quot;[5]</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/430581"/>
+        <aif:creationDate>2019-09-13 19:39:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/430582"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/430580"/>
+        <aif:creationDate>2019-09-13 19:39:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://en.wikipedia.org/wiki/Plato: He is widely considered the pivotal figure in the history of Ancient Greek and Western philosophy, along with his teacher, Socrates, and his most famous student, Aristotle.[a] Plato has also often been cited as one of the founders of Western religion and spirituality.[4] The so-called Neoplatonism of philosophers like Plotinus and Porphyry influenced Saint Augustine and thus Christianity. Alfred North Whitehead once noted: &quot;the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.&quot;[5]</aif:claimText>
+        <aif:source>https://en.wikipedia.org/wiki/Plato: He is widely considered the pivotal figure in the history of Ancient Greek and Western philosophy, along with his teacher, Socrates, and his most famous student, Aristotle.[a] Plato has also often been cited as one of the founders of Western religion and spirituality.[4] The so-called Neoplatonism of philosophers like Plotinus and Porphyry influenced Saint Augustine and thus Christianity. Alfred North Whitehead once noted: &quot;the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.&quot;[5]</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/430581"/>
+        <aif:creationDate>2019-09-13 19:39:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Plato was the innovator of the written dialogue and dialectic forms in philosophy. Plato also appears to have been the founder of Western political philosophy. His most famous contribution is the theory of Forms known by pure reason, in which Plato presents a solution to the problem of universals known as Platonism (also ambiguously called either Platonic realism or Platonic idealism. He is also the namesake of Platonic love and the Platonic solids</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/430584"/>
+        <aif:creationDate>2019-09-13 19:39:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430584 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430584">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/430585"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/430583"/>
+        <aif:creationDate>2019-09-13 19:39:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430585 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430585">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://en.wikipedia.org/wiki/Plato: Plato was the innovator of the written dialogue and dialectic forms in philosophy. Plato also appears to have been the founder of Western political philosophy. His most famous contribution is the theory of Forms known by pure reason, in which Plato presents a solution to the problem of universals known as Platonism (also ambiguously called either Platonic realism or Platonic idealism. He is also the namesake of Platonic love and the Platonic solids</aif:claimText>
+        <aif:source>https://en.wikipedia.org/wiki/Plato: Plato was the innovator of the written dialogue and dialectic forms in philosophy. Plato also appears to have been the founder of Western political philosophy. His most famous contribution is the theory of Forms known by pure reason, in which Plato presents a solution to the problem of universals known as Platonism (also ambiguously called either Platonic realism or Platonic idealism. He is also the namesake of Platonic love and the Platonic solids</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/430584"/>
+        <aif:creationDate>2019-09-13 19:39:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430586 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430586">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>His own most decisive philosophical influences are usually thought to have been along with Socrates, the pre-Socratics Pythagoras, Heraclitus and Parmenides, although few of his predecessors&#039; works remain extant and much of what we know about these figures today derives from Plato himself.[b] Unlike the work of nearly all of his contemporaries, Plato&#039;s entire body of work is believed to have survived intact for over 2,400 years.[7] Although their popularity has fluctuated over the years, the works of Plato have never been without readers since the time they were written.[8</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/430587"/>
+        <aif:creationDate>2019-09-13 19:39:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/430588"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/430586"/>
+        <aif:creationDate>2019-09-13 19:39:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://en.wikipedia.org/wiki/Plato: His own most decisive philosophical influences are usually thought to have been along with Socrates, the pre-Socratics Pythagoras, Heraclitus and Parmenides, although few of his predecessors&#039; works remain extant and much of what we know about these figures today derives from Plato himself.[b] Unlike the work of nearly all of his contemporaries, Plato&#039;s entire body of work is believed to have survived intact for over 2,400 years.[7] Although their popularity has fluctuated over the years, the works of Plato have never been without readers since the time they were written.[8</aif:claimText>
+        <aif:source>https://en.wikipedia.org/wiki/Plato: His own most decisive philosophical influences are usually thought to have been along with Socrates, the pre-Socratics Pythagoras, Heraclitus and Parmenides, although few of his predecessors&#039; works remain extant and much of what we know about these figures today derives from Plato himself.[b] Unlike the work of nearly all of his contemporaries, Plato&#039;s entire body of work is believed to have survived intact for over 2,400 years.[7] Although their popularity has fluctuated over the years, the works of Plato have never been without readers since the time they were written.[8</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/430587"/>
+        <aif:creationDate>2019-09-13 19:39:13</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

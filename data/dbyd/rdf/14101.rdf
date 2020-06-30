@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/367797 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367797">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>እንደ አንድ ፖለቲከኛና እንደ አንድ ጥሩ ዜጋ፣ ጠቅላይ ሚኒስትሩ ጥሩ ሰብዕና እንዳላቸው ነው የተረዳሁት፡፡</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367801"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367802"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367798 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367798">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ሌሎች ማህበረሰቦችን ሲያናግሩበት የነበረው ሰብዕና፣ እኛን ባነጋገሩበት ወቅትም አልተጓደለም፤እንደውም እንደ አንድ ገዥ ፓርቲ መሪ ሳይሆን እንደኛ ሆነው ነበር ስንመካከር የነበረው</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367801"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367803"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367799 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367799">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ኢህአዴግን ለመገዳደር ተጠናከሩ በማለት ነበር ሲመክሩን የነበረው። ተበጣጥሳችሁ የትም አትደርሡም፣ አንድ ሁኑ፣ ተሰባሰቡ እያሉ ከልባቸው ነግረውናል፡፡</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367802"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367804"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367800 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367800">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ተቃዋሚዎች እግር ሲያወጡ እየጠበቅን እንቆርጣለን ከሚል መሪ፣ ወደ ተጠናከሩና ግጠሙን የሚል መሪ መሸጋገር ለኔ አስደንቆኛል፡፡</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367803"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367804"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367801 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367801">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367797"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367798"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367802 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367802">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367797"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367799"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367803 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367803">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367798"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367800"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367804 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367804">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367799"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367800"/>
+        <aif:creationDate>2018-11-25 13:22:35</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

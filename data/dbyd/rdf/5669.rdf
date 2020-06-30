@@ -1,0 +1,1011 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/100874 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100874">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Firstly the one most people associate with vehicles that reduce emissions, electric vehicles. At first glance electric vehicles seem like a great idea.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100876"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100878"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100880"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100886"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100953"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100954"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100955"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100958"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100991"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100992"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100993"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100996"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101029"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101030"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101031"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101034"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101067"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101068"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101069"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101072"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100948"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100986"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101024"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101062"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101100"/>
+        <aif:creationDate>2015-10-05 08:45:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100875 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100875">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>They produce zero emissions</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100876"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100953"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100991"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101029"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101067"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100877 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100877">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The major problem is that they don’t have sufficient range at roughly 50-95 miles depending how you drive.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100878"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100954"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100992"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101030"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101068"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100879 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100879">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You maybe be saying “OK, it goes for about 70 miles before running out of charge. All I need to do is charge it.”</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100882"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100956"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100994"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101032"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101070"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100880"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100955"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100993"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101031"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101069"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100881 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100881">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>That is where the other problem of the charge time arises. On average with a typical charge point it will take roughly 6-8 hours for a full charge.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100884"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100957"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100995"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101033"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101071"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100882"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100956"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100994"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101032"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101070"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100883 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100883">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A work around for the charge time problem is that if you use the car to drive to work it can be left plugged in all day ready for the return trip.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100884"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100957"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100995"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101033"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101071"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100885 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100885">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>When you look into it the majority of it comes from non-renewable sources therefore do electric technically reduce emissions?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100886"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100958"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100996"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101034"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101072"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100887 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100887">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Hybrid car are growing in popularity. They share many of the same characteristics of electric cars</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100889"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100959"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100997"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101035"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101073"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100950"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100988"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101026"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101064"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101102"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100888 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100888">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>however they are also fitted with a petrol engine.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100891"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100893"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100960"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100961"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100998"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100999"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101036"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101037"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101074"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101075"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100889"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100959"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100997"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101035"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101073"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100890 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100890">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This means that if you run out of charge you don’t need to stop for several hours to recharge.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100891"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100960"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100998"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101036"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101074"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100892 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100892">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>However the downside is that they aren’t 100% emission free due to the addition of the petrol engine.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100893"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100961"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101037"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101075"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100894 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100894">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>fuel-cell vehicles</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100896"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100898"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100900"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100902"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100951"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100962"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100963"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100964"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100965"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100989"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101000"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101001"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101002"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101003"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101027"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101038"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101039"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101040"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101041"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101065"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101076"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101077"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101078"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101079"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101103"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100949"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100987"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101025"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101063"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101101"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100895 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100895">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It overcomes all of the problems of the previous two.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100896"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100962"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101038"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101076"/>
+        <aif:creationDate>2015-10-05 08:45:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100897 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100897">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It has zero emissions except for a few drops of water which are more of a help than a hindrance.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100898"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100963"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101039"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101077"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100899 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100899">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>They have a range of 400 miles (650 kilometers) which is substantially more than electric cars and a very respectable amount when compared to petrol cars.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100900"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100964"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101002"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101040"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101078"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100901 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100901">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>They fuel can also be produced with zero emissions produced.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100902"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100965"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101003"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101041"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101079"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100903 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100903">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we currently don’t have the infrastructure to transport hydrogen long distances even when compressed in an economically feasible way.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100951"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100989"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101027"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101065"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101103"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100904 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100904">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wind turbines provide a free clean source of energy which is the main draw in today’s climate.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100906"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100911"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100912"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100916"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100966"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100968"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100969"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100971"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101004"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101006"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101007"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101009"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101042"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101044"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101045"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101047"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101080"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101082"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101083"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101085"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100952"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100990"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101028"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101066"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101104"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100905 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100905">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>They are also useful for place that are struggling for power due to being in remote places.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100908"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100967"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101005"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101043"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101081"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100906"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100966"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101004"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101042"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101080"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100907 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100907">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Since turbines come in a wide variety of sizes they can be used as a source of power for remote towns or on a larger scale as commercial wind farms.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100908"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100967"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101005"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101043"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101081"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100909 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100909">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wind turbines can be quite large however the footprint they actually take up is rather small. The small footprint allows for the excess space at the bottom to be used for other purposes such as agricultural or animal farms.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100911"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100968"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101006"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101044"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101082"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100910 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100910">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If it is too wind such as in a storm, the wind turbine shuts itself down in order to protect itself.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100914"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100970"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101046"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101084"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100912"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100969"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101007"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101083"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100913 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100913">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This raises the issue of where do you put these thousands of wind turbines you plan to erect to replace a single coal power station? The place needs to be windy enough for the majority of the time for the turbine to work but not extremely windy.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100914"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100970"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101008"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101046"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101084"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100915 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100915">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Many people who live near/within sight of turbines complain that they look ugly or are too noisy.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100916"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100971"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101047"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101085"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100917 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100917">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This water is then directed into an array of turbines which produce free, clean energy much like wind turbines</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100919"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100921"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100923"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100925"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100929"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100933"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100972"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100973"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100974"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100975"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100977"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100979"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101010"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101011"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101012"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101013"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101015"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101017"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101048"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101049"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101050"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101051"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101053"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101055"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101086"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101087"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101088"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101089"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101091"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101093"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100952"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100990"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101028"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101066"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101104"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100918 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100918">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>they are usually smaller in terms of power output when compared to a large wind farm.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100972"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101048"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101086"/>
+        <aif:creationDate>2015-10-05 08:45:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100920 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100920">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>One of the biggest benefits of hydro power is that it can be used on demand since the sluice gate can be opened and closed as necessary making it more consistent than other renewable energy sources.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100921"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100973"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101011"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101049"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101087"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100922 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100922">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The large reservoir that is often need to be created helps create new jobs and attract tourism since the large body of water can be used for water sports and leisure activities.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100923"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100974"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101012"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101050"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101088"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100924 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100924">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Once again there are a few drawbacks. One of the most obvious is you need to build a rather large dam. To build a dam that can stand up to the massive amount of water behind it will cost a lot of money.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100927"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100976"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101014"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101052"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101090"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100925"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100975"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101013"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101051"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101089"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100926 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100926">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This means that most hydro plants don’t make any profit for a number of years after its creation.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100927"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100976"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101014"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101052"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101090"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100928 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100928">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You need a reliant source of water to fill your reservoir.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100931"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100978"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101016"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101054"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101092"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100929"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100977"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101015"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101053"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101091"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100930 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100930">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This can limit the effectiveness of the plant itself since having an empty dam is big waste of money.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100931"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100978"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101016"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101054"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101092"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100932 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100932">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Residents who live near the dam will have to move house to a safe distance in case of flooding.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100933"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100979"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101017"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101055"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101093"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100934 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100934">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>solar panels harness the power of the solar systems star the sun. Once again the main benefits are that it provides free clean energy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100936"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100938"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100942"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100944"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100980"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100983"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100984"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101018"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101019"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101021"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101022"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101056"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101057"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101059"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101060"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101094"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101095"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101097"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101098"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100952"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100990"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101028"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101066"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101104"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100935 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100935">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Solar powers best application at the moment is for low power devices such calculators and watches.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100936"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100980"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101018"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101056"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101094"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100937 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100937">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The biggest problem with solar power are the clouds that block the sun’s rays.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100940"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100982"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101020"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101058"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101096"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100938"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100981"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101019"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101057"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101095"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100939 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100939">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>While clouds don’t stop all the rays they significantly reduce the effectiveness of the panels.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100940"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100982"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101020"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101058"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101096"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100941 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100941">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Probably the most obvious issue is that there are no sun rays at night so unlike wind turbines and hydro plants, solar power can only work for roughly half the time.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100942"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100983"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101021"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101059"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101097"/>
+        <aif:creationDate>2015-10-05 08:45:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100943 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100943">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Solar panels are also inefficient due to the fact sunlight is a combination different kinds of light.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100946"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100985"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101023"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101061"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101099"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100944"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100984"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101022"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101060"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101098"/>
+        <aif:creationDate>2015-10-05 08:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100945 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100945">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Currently in development is a means of splitting the light so that appropriate types of light can be directed to the appropriate photovoltaic cell.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100946"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100985"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101023"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101061"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101099"/>
+        <aif:creationDate>2015-10-05 08:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100947 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100947">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Today’s society are becoming increasingly concerned with the large amounts of greenhouses gases being produced. A large quantity of these greenhouses gases are produced by the 1.2 billion petrol and diesel vehicles currently in use around the world. In order to reduce these greenhouse gases a number of solutions have been proposed.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100948"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100949"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100950"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100952"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100986"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100987"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100988"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100990"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101024"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101025"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101026"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101028"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101062"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101063"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101064"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101066"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101100"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101101"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101102"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101104"/>
+        <aif:creationDate>2015-10-05 08:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100953 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100953">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100875"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100874"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100954 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100954">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100877"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100874"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100955 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100955">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100879"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100874"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100956 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100956">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100881"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100879"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100957 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100957">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100883"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100881"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100958 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100958">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100885"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100874"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100959 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100959">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100888"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100887"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100960 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100960">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100890"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100888"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100961 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100961">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100892"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100888"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100962 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100962">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100895"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100894"/>
+        <aif:creationDate>2015-10-05 08:46:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100963 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100963">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100897"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100894"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100964 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100964">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100899"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100894"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100965 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100965">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100901"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100894"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100966 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100966">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100905"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100904"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100967 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100967">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100905"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100968 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100968">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100909"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100904"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100969 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100969">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100910"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100904"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100970 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100970">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100913"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100910"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100971 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100971">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100915"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100904"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100972 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100972">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100918"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100917"/>
+        <aif:creationDate>2015-10-05 08:46:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100973 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100973">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100920"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100917"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100974 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100974">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100922"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100917"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100975 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100975">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100924"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100917"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100976 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100976">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100926"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100924"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100977 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100977">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100928"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100917"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100978 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100978">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100930"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100928"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100979 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100979">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100932"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100917"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100980 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100980">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100935"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100934"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100981 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100981">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100937"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100934"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100982 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100982">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100939"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100937"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100983 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100983">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100941"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100934"/>
+        <aif:creationDate>2015-10-05 08:46:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100984 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100984">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100943"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100934"/>
+        <aif:creationDate>2015-10-05 08:46:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100985 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100985">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100945"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100943"/>
+        <aif:creationDate>2015-10-05 08:46:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100986 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100986">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100874"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100947"/>
+        <aif:creationDate>2015-10-05 08:46:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100894"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100947"/>
+        <aif:creationDate>2015-10-05 08:46:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100988 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100988">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100887"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100947"/>
+        <aif:creationDate>2015-10-05 08:46:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100989 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100989">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100903"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100894"/>
+        <aif:creationDate>2015-10-05 08:46:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/100990 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100990">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100904"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100917"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100934"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100947"/>
+        <aif:creationDate>2015-10-05 08:46:25</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

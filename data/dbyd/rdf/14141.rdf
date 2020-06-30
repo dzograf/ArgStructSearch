@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/367776 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367776">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Государство, состоящее из рабов, выжить не может.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368211"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368212"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368215"/>
+        <aif:creationDate>2018-11-23 18:12:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367780 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367780">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Сила и жизнестойкость не будут возрастать от поколения к поколению. Наоборот, будут снижаться.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367790"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368209"/>
+        <aif:creationDate>2018-11-24 19:07:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367781 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367781">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ваше общество рабов, построенное рабами и для рабов, неизбежно станет слабеть и рассыплется в прах – по мере того как будут слабеть и вырождаться члены этого общества.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367789"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368208"/>
+        <aif:creationDate>2018-11-24 19:07:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367783 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367783">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Рабы стали сами себе хозяева. Никто не правил ими сильной рукой. Но жить безо всяких правителей невозможно, и появились правители новой породы</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367794"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367795"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368213"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367784"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368214"/>
+        <aif:creationDate>2018-11-24 19:07:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367785 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367785">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>они опять вас поработили, но не открыто, по праву сильного с оружием в руках, как сделали бы истинно благородные люди, а исподтишка</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367796"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368216"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367794"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368213"/>
+        <aif:creationDate>2018-11-24 19:07:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367786 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367786">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>У вас, десяти миллионов рабов, нет сносной крыши над головой, и живете вы впроголодь.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367795"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367796"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368216"/>
+        <aif:creationDate>2018-11-24 19:07:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в борьбе за существование для сильного и его потомства естественней выжить, а слабого и его потомство сокрушают, и для них естественней погибнуть.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368210"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368211"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Но вы, рабы, – согласен, быть рабами участь незавидная, – но вы, рабы, мечтаете об обществе, где закон развития будет отменен, где не будут гибнуть слабые и неприспособленные, где каждый неприспособленный получит вволю еды, где все переженятся и у всех будет потомство – у слабых так же, как у сильных.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368209"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368210"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368206 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368206">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText> А как же Соединенные Штаты?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368214"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368215"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368207 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368207">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Так вот. Я показал вам, что общество рабов не может выжить, потому что по самой природе своей это общество опровергает закон развития. Стоит создать общество рабов, и оно начинает вырождаться.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368212"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367781"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368205"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367780"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368205"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368205"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368204"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368204"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367776"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368212 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368212">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368207"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367776"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367785"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367783"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368214 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368214">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367783"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368206"/>
+        <aif:creationDate>2018-12-10 15:50:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368215 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368215">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368206"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367776"/>
+        <aif:creationDate>2018-12-10 15:50:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368216 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368216">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367786"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367785"/>
+        <aif:creationDate>2018-12-10 15:50:25</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/466248 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466248">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Michał Adamczyk : Michał Adamczyk: I SLD.</aif:claimText>
+        <aif:source>Ada: Michał Adamczyk : Michał Adamczyk: I SLD.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Michał Adamczyk : I SLD.</aif:claimText>
+        <aif:source>Michał Adamczyk : I SLD.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466250"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466294"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466312"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466328"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466346"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466357"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466375"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466386"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479206"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479217"/>
+        <aif:creationDate>2020-01-09 13:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466251 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466251">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I SLD odpowiada na pytanie: czy jesteś za jawnością informacji o majątku najważniejszych urzędników państwowych: posłów, senatorów, ministrów, europosłów, prezesów sądów oraz członków ich najbliższej rodziny?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466250"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466312"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466346"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466375"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479206"/>
+        <aif:creationDate>2020-01-09 13:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466252 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466252">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Michał Adamczyk : I SLD.</aif:claimText>
+        <aif:source>Ada: Michał Adamczyk : I SLD.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466253 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466253">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : Oczywiście, że lewica jest za tym żeby polityka była jawna i żeby życie polityczne było jak najbardziej przejrzyste, transparentne,</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : Oczywiście, że lewica jest za tym żeby polityka była jawna i żeby życie polityczne było jak najbardziej przejrzyste, transparentne,</aif:source>
+        <aif:creationDate>2020-01-09 13:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466254 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466254">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : Oczywiście, że lewica jest za tym żeby polityka była jawna i żeby życie polityczne było jak najbardziej przejrzyste, transparentne, a postulaty Prawa i Sprawiedliwości w tym zakresie brzmią komicznie,</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : Oczywiście, że lewica jest za tym żeby polityka była jawna i żeby życie polityczne było jak najbardziej przejrzyste, transparentne, a postulaty Prawa i Sprawiedliwości w tym zakresie brzmią komicznie,</aif:source>
+        <aif:creationDate>2020-01-09 13:09:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466255 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466255">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Oczywiście, że lewica jest za tym żeby polityka była jawna i żeby życie polityczne było jak najbardziej przejrzyste, transparentne,</aif:claimText>
+        <aif:source>Andrzej Rozenek : Oczywiście, że lewica jest za tym żeby polityka była jawna i żeby życie polityczne było jak najbardziej przejrzyste, transparentne,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466294"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466328"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466357"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466386"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479217"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466256"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466295"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466313"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466329"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466347"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466358"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466376"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466387"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479207"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479218"/>
+        <aif:creationDate>2020-01-09 13:09:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466258 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466258">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : a postulaty Prawa i Sprawiedliwości w tym zakresie brzmią komicznie,</aif:claimText>
+        <aif:source>Andrzej Rozenek : a postulaty Prawa i Sprawiedliwości w tym zakresie brzmią komicznie,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466295"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466329"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466358"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466387"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479218"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466259"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466296"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466297"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466315"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466330"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466331"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466348"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466359"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466360"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466377"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466388"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466389"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479208"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479219"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479220"/>
+        <aif:creationDate>2020-01-09 13:09:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466261 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466261">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : a postulaty Prawa i Sprawiedliwości w tym zakresie brzmią komicznie,</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : a postulaty Prawa i Sprawiedliwości w tym zakresie brzmią komicznie,</aif:source>
+        <aif:creationDate>2020-01-09 13:09:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466262 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466262">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : dlatego że, przypomnę, że to Prawo i Sprawiedliwość ma ogromny problem z ujawnieniem listy poparcia dla sędziów, których skierowali do KRSu.</aif:claimText>
+        <aif:source>Andrzej Rozenek : dlatego że, przypomnę, że to Prawo i Sprawiedliwość ma ogromny problem z ujawnieniem listy poparcia dla sędziów, których skierowali do KRSu.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466296"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466330"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466359"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466388"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479219"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479492"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466263"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466317"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466349"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466378"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479209"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479490"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479496"/>
+        <aif:creationDate>2020-01-09 13:09:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466265 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466265">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : dlatego że, przypomnę, że to Prawo i Sprawiedliwość ma ogromny problem z ujawnieniem listy poparcia dla sędziów, których skierowali do KRSu.</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : dlatego że, przypomnę, że to Prawo i Sprawiedliwość ma ogromny problem z ujawnieniem listy poparcia dla sędziów, których skierowali do KRSu.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466266 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466266">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek :  Przypomnę również, że od wielu miesięcy mamy liczne protesty pod sądami.</aif:claimText>
+        <aif:source>Andrzej Rozenek :  Przypomnę również, że od wielu miesięcy mamy liczne protesty pod sądami.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466297"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466331"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466360"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466389"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466267"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466298"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466319"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466332"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466350"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466361"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466379"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466390"/>
+        <aif:creationDate>2020-01-09 13:09:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466269 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466269">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek :  Przypomnę również, że od wielu miesięcy mamy liczne protesty pod sądami.</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek :  Przypomnę również, że od wielu miesięcy mamy liczne protesty pod sądami.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466270 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466270">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Protesty uliczne, gdzie ludzie protestują przeciwko dewastacji Trybunału Konstytucyjnego, Sądu Najwyższego, Krajowej Rady Sądownictwa.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Protesty uliczne, gdzie ludzie protestują przeciwko dewastacji Trybunału Konstytucyjnego, Sądu Najwyższego, Krajowej Rady Sądownictwa.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466298"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466332"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466361"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466390"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479499"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466271"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466299"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466321"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466333"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466351"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466362"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466380"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466391"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479497"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479506"/>
+        <aif:creationDate>2020-01-09 13:09:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466272 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466272">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Protesty uliczne, gdzie ludzie protestują przeciwko dewastacji Trybunału Konstytucyjnego, Sądu Najwyższego, Krajowej Rady Sądownictwa.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466271"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466321"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466351"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466380"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479497"/>
+        <aif:creationDate>2020-01-09 13:09:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466273 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466273">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : Protesty uliczne, gdzie ludzie protestują przeciwko dewastacji Trybunału Konstytucyjnego, Sądu Najwyższego, Krajowej Rady Sądownictwa.</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : Protesty uliczne, gdzie ludzie protestują przeciwko dewastacji Trybunału Konstytucyjnego, Sądu Najwyższego, Krajowej Rady Sądownictwa.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466274 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466274">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Prawo i Sprawiedliwość chce wprowadzić pewien element dotyczący jawności.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Prawo i Sprawiedliwość chce wprowadzić pewien element dotyczący jawności.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466299"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466333"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466362"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466391"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479239"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466275"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466300"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466301"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466302"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466303"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466322"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466334"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466335"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466336"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466337"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466352"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466363"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466364"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466365"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466366"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466381"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466392"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466393"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466394"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466395"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479210"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479221"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479222"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479223"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479224"/>
+        <aif:creationDate>2020-01-09 13:09:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466276 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466276">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Prawo i Sprawiedliwość chce wprowadzić pewien element dotyczący jawności.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466275"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466308"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466310"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466322"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466342"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466344"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466352"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466371"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466373"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466381"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466400"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466402"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479210"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479229"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479240"/>
+        <aif:creationDate>2020-01-09 13:09:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466277 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466277">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : Prawo i Sprawiedliwość chce wprowadzić pewien element dotyczący jawności.</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : Prawo i Sprawiedliwość chce wprowadzić pewien element dotyczący jawności.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466278 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466278">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : To będzie dotyczyło polityków.</aif:claimText>
+        <aif:source>Andrzej Rozenek : To będzie dotyczyło polityków.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466300"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466334"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466363"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466392"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479221"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466279"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466323"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466353"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466382"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479211"/>
+        <aif:creationDate>2020-01-09 13:09:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466280 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466280">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To będzie dotyczyło polityków.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466279"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466323"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466353"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466382"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479211"/>
+        <aif:creationDate>2020-01-09 13:09:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466281 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466281">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : To będzie dotyczyło polityków.</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : To będzie dotyczyło polityków.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466282 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466282">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : A w jaki sposób to wpłynie na zwykłego obywatela?</aif:claimText>
+        <aif:source>Andrzej Rozenek : A w jaki sposób to wpłynie na zwykłego obywatela?</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466301"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466335"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466364"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466393"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479222"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466283"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466324"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466354"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466383"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479213"/>
+        <aif:creationDate>2020-01-09 13:09:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466284 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466284">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A w jaki sposób to wpłynie na zwykłego obywatela?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466283"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466324"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466354"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466383"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466308"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466342"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466400"/>
+        <aif:creationDate>2020-01-09 13:09:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466285 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466285">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : A w jaki sposób to wpłynie na zwykłego obywatela?</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : A w jaki sposób to wpłynie na zwykłego obywatela?</aif:source>
+        <aif:creationDate>2020-01-09 13:09:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466286 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466286">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : W jaki sposób to się przyczyni do tego żeby się skróciły kolejki i oczekiwania na wyrok w sądzie?</aif:claimText>
+        <aif:source>Andrzej Rozenek : W jaki sposób to się przyczyni do tego żeby się skróciły kolejki i oczekiwania na wyrok w sądzie?</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466302"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466336"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466365"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466394"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479223"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466287"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466325"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466355"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466384"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479214"/>
+        <aif:creationDate>2020-01-09 13:09:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466288 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466288">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W jaki sposób to się przyczyni do tego żeby się skróciły kolejki i oczekiwania na wyrok w sądzie?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466287"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466325"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466355"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466384"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466310"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466344"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466402"/>
+        <aif:creationDate>2020-01-09 13:09:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : W jaki sposób to się przyczyni do tego żeby się skróciły kolejki i oczekiwania na wyrok w sądzie?</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : W jaki sposób to się przyczyni do tego żeby się skróciły kolejki i oczekiwania na wyrok w sądzie?</aif:source>
+        <aif:creationDate>2020-01-09 13:09:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466290 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466290">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Jedyne co żeście zrobili do tej pory to zamieniliście sędziów innych na swoich, prokuratorów innych na swoich i to jest cała wasza reforma wymiaru sprawiedliwości.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Jedyne co żeście zrobili do tej pory to zamieniliście sędziów innych na swoich, prokuratorów innych na swoich i to jest cała wasza reforma wymiaru sprawiedliwości.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466303"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466337"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466366"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466395"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479224"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466291"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466326"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466356"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466385"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479216"/>
+        <aif:creationDate>2020-01-09 13:09:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ada: Andrzej Rozenek : Jedyne co żeście zrobili do tej pory to zamieniliście sędziów innych na swoich, prokuratorów innych na swoich i to jest cała wasza reforma wymiaru sprawiedliwości.</aif:claimText>
+        <aif:source>Ada: Andrzej Rozenek : Jedyne co żeście zrobili do tej pory to zamieniliście sędziów innych na swoich, prokuratorów innych na swoich i to jest cała wasza reforma wymiaru sprawiedliwości.</aif:source>
+        <aif:creationDate>2020-01-09 13:09:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466312 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466312">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466249"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466251"/>
+        <aif:creationDate>2020-01-09 13:13:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466313 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466313">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466255"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466314"/>
+        <aif:creationDate>2020-01-09 13:13:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466314 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466314">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Oczywiście, że lewica jest za tym żeby polityka była jawna i żeby życie polityczne było jak najbardziej przejrzyste, transparentne.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466313"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466347"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466376"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466404"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479207"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479233"/>
+        <aif:creationDate>2020-01-09 13:13:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466315 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466315">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466258"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466316"/>
+        <aif:creationDate>2020-01-09 13:13:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466316 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466316">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Postulaty Prawa i Sprawiedliwości w tym zakresie brzmią komicznie,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466315"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466338"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466340"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466348"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466369"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466377"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466396"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466398"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479225"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479227"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479233"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466404"/>
+        <aif:creationDate>2020-01-09 13:13:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466317 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466317">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466262"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466318"/>
+        <aif:creationDate>2020-01-09 13:13:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466318 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466318">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Prawo i Sprawiedliwość ma ogromny problem z ujawnieniem listy poparcia dla sędziów, których skierowali do KRSu.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466317"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466349"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466378"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479209"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466338"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466367"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466396"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479225"/>
+        <aif:creationDate>2020-01-09 13:13:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466319 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466319">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466266"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466320"/>
+        <aif:creationDate>2020-01-09 13:13:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466320 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466320">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Od wielu miesięcy mamy liczne protesty pod sądami.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466319"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466350"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466340"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466369"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466398"/>
+        <aif:creationDate>2020-01-09 13:13:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466321 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466321">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466270"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466272"/>
+        <aif:creationDate>2020-01-09 13:13:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466322 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466322">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466274"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466276"/>
+        <aif:creationDate>2020-01-09 13:13:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466323 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466323">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466278"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466280"/>
+        <aif:creationDate>2020-01-09 13:13:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466324 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466324">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466282"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466284"/>
+        <aif:creationDate>2020-01-09 13:13:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466325 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466325">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466286"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466288"/>
+        <aif:creationDate>2020-01-09 13:13:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466326 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466326">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/466290"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466327"/>
+        <aif:creationDate>2020-01-09 13:13:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466327 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466327">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jedyne co PiS zrobił do tej pory to zamiana sędziów innych na swoich, prokuratorów innych na swoich i to jest cała reforma wymiaru sprawiedliwości w wykonaniu PiS.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466326"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466356"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466385"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479216"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479240"/>
+        <aif:creationDate>2020-01-09 13:13:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466328 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466328">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466249"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466255"/>
+        <aif:creationDate>2020-01-09 13:13:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466329 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466329">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466255"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466258"/>
+        <aif:creationDate>2020-01-09 13:13:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466330 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466330">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466258"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466262"/>
+        <aif:creationDate>2020-01-09 13:13:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466331 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466331">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466258"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466266"/>
+        <aif:creationDate>2020-01-09 13:13:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466332 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466332">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466266"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466270"/>
+        <aif:creationDate>2020-01-09 13:13:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466333 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466333">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466270"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466274"/>
+        <aif:creationDate>2020-01-09 13:13:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466334 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466334">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466274"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466278"/>
+        <aif:creationDate>2020-01-09 13:13:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466335 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466335">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466274"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466282"/>
+        <aif:creationDate>2020-01-09 13:13:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466336 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466336">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466274"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466286"/>
+        <aif:creationDate>2020-01-09 13:13:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466337 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466337">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/466274"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/466290"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466338 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466338">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466318"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466339"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466316"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466339 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466339">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/466330"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466338"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466340 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466340">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466320"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466341"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466316"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466341 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466341">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/466331"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466340"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466342 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466342">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466284"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466343"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466276"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466343 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466343">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/466335"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466342"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466344 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466344">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/466288"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466345"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/466276"/>
+        <aif:creationDate>2020-01-09 13:13:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/466345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/466345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/466336"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/466344"/>
+        <aif:creationDate>2020-01-09 13:13:28</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

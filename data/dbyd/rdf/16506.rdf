@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/459975 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459975">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ч. 1 и 2 ст. 7 УПК, которые устанавливают приоритет УПК перед другими ФЗ и иными НПА, запрещают суду, прокурору, следователю, органу дознания и дознавателю применять ФЗ, противоречащий данному Кодексу, противоречат Конституции.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459977"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459980"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459991"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460000"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460140"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460142"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460148"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460153"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460156"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460158"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460164"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460169"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459978"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460141"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460157"/>
+        <aif:creationDate>2019-12-15 14:46:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459976 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459976">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ч. 1 и 2 ст. 7 УПК, которые устанавливают приоритет УПК перед другими ФЗ и иными НПА, запрещают суду, прокурору, следователю, органу дознания и дознавателю применять ФЗ, противоречащий данному Кодексу, не противоречат Конституции</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459978"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459982"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459984"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459993"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460141"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460143"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460144"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460149"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460157"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460159"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460160"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460165"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459977"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460156"/>
+        <aif:creationDate>2019-12-15 14:46:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459979 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459979">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>не соответствует предписанию ч. 3 ст. 76 Конституции, которая устанавливает недопустимость противоречия федерального закона федеральному конституционному.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459989"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460147"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460163"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459980"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460142"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460158"/>
+        <aif:creationDate>2019-12-15 14:46:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459981 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459981">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>не подразумевают разрешение возможных коллизий между данным Кодексом и какими бы то ни было федеральными конституционными законами</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459986"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459988"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460145"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460146"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460161"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460162"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459982"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459989"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460143"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460147"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460159"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460163"/>
+        <aif:creationDate>2019-12-15 14:46:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459983 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459983">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>распространяются лишь на случаи, когда положения иных федеральных законов, непосредственно регулирующие порядок производства по уголовным делам, противоречат УПК.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459996"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460151"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460167"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459984"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460144"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460160"/>
+        <aif:creationDate>2019-12-15 14:46:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459985 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459985">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>УПК по ст. 1 основан на Конституции, в ряде своих положений различает федеральный конституционный закон и федеральный закон, имея в виду под федеральным законом именно обычный федеральный закон.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459986"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460161"/>
+        <aif:creationDate>2019-12-15 14:46:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Положения ч. 1 и 2 ст. 7 УПК - не затрагивают определенную Конституцией иерархию нормативных актов в правовой системе РФ и не предполагают распространение приоритета УПК на разрешение возможных коллизий между ним и какими бы то ни было ФКЗ.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459988"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460146"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460162"/>
+        <aif:creationDate>2019-12-15 14:46:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459990 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459990">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>устанавливает приоритет одного ФЗ над другим ФЗ</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459994"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460150"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460166"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459991"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460148"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460164"/>
+        <aif:creationDate>2019-12-15 14:46:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459992 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459992">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Появление в регулировании уголовного судопроизводства нормативных положений, противоречащих УПК, может создать неопределенность в правовом положении участников судопроизводства, привести к нарушениям прав и законных интересов граждан и, в конечном счете, - к дестабилизации единого правового пространства в сфере уголовного судопроизводства.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459998"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460152"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460168"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459993"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459994"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460149"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460150"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460165"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460166"/>
+        <aif:creationDate>2019-12-15 14:46:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459995 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459995">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>приоритет УПК перед другими обычными федеральными законами не является безусловным, а ограничен рамками специального предмета регулирования, которым, как это следует из его ст. 1 - 7, является порядок уголовного судопроизводства, т.е. порядок производства по уголовным делам на территории РФ.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460003"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460155"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460171"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459996"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460154"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460167"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460170"/>
+        <aif:creationDate>2019-12-15 14:46:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459997 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459997">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Из принципов правового государства, равенства и справедливости ((статьи 1, 18 и 19 Конституции) вытекает обращенное к законодателю требование определенности, ясности, недвусмысленности правовых норм и их согласованности в системе действующего правового регулирования.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459998"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460152"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460168"/>
+        <aif:creationDate>2019-12-15 14:46:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459999 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459999">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Указанный приоритет является слишком широким для ФЗ</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460001"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460154"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460170"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460153"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460169"/>
+        <aif:creationDate>2019-12-15 14:46:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460002 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460002">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ч. 1 и 2 ст. 7 УПК закрепляют приоритет УПК перед другими обычными федеральными законами лишь постольку, поскольку уголовно-процессуальным законом в РФ является именно данный Кодекс, - и поскольку другими федеральными законами, как относящимися к иным отраслям законодательства, не должно осуществляться регулирование именно уголовно-процессуальных по своей правовой природе отношений.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460003"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460155"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460171"/>
+        <aif:creationDate>2019-12-15 14:46:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460140 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460140">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459976"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459975"/>
+        <aif:creationDate>2019-12-15 15:01:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460141 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460141">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459975"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459976"/>
+        <aif:creationDate>2019-12-15 15:01:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460142 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460142">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459979"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459975"/>
+        <aif:creationDate>2019-12-15 15:01:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460143 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460143">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459976"/>
+        <aif:creationDate>2019-12-15 15:01:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460144 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460144">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459983"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459976"/>
+        <aif:creationDate>2019-12-15 15:01:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460145 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460145">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459985"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459981"/>
+        <aif:creationDate>2019-12-15 15:01:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460146 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460146">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459987"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459981"/>
+        <aif:creationDate>2019-12-15 15:01:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460147 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460147">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459979"/>
+        <aif:creationDate>2019-12-15 15:01:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460148 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460148">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459990"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459975"/>
+        <aif:creationDate>2019-12-15 15:01:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460149 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460149">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459992"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459976"/>
+        <aif:creationDate>2019-12-15 15:01:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460150 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460150">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459992"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459990"/>
+        <aif:creationDate>2019-12-15 15:01:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460151 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460151">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459995"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459983"/>
+        <aif:creationDate>2019-12-15 15:01:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460152 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460152">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459997"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459992"/>
+        <aif:creationDate>2019-12-15 15:01:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460153 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460153">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459999"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459975"/>
+        <aif:creationDate>2019-12-15 15:01:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460154 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460154">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459995"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459999"/>
+        <aif:creationDate>2019-12-15 15:01:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460155 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460155">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460002"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459995"/>
+        <aif:creationDate>2019-12-15 15:01:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

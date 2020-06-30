@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/48330 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/48330">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the stepmother of Hansel and Gretel has them abandoned in a deep forest.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/48335"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/48336"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/48344"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/48345"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/296511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/296512"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/296513"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283928"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/284142"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/296499"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/296501"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/296505"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/296508"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/296517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297920"/>
+        <aif:creationDate>2015-03-06 10:26:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/284153 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/284153">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Many people dismiss out of hand the suggestion that certain children’s stories should be banned</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/284152"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/284157"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/284163"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/284170"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/284215"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/284217"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/284231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/284232"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/298159"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/298188"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/298189"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/298200"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/298209"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/298210"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333725"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333739"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333743"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333782"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333787"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333806"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333850"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333866"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333871"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333890"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333893"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333912"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333931"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/333956"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333959"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/333967"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/334417"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/334430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/334435"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/334454"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/334532"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/334545"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/334550"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/334569"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297917"/>
+        <aif:creationDate>2017-06-07 17:12:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297910 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297910">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Children’s stories that contain violence and stereotyping should be banned</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297917"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297918"/>
+        <aif:creationDate>2017-09-12 08:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297911 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297911">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There is at least one reason to consider censoring children’s stories that contain violence and streotyping</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297918"/>
+        <aif:creationDate>2017-09-12 08:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297912 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297912">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In several common children’s stories  the stepmother is an evil person who mistreats her stepchildren and wishes them ill.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297920"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297922"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297919"/>
+        <aif:creationDate>2017-09-12 08:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297913 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297913">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Snow Whites mother wishes her dead and later tries to poison her.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297920"/>
+        <aif:creationDate>2017-09-12 08:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297914 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297914">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Cinderella’s stepmother treats her as a servant and mocks her in front of her stepsisters.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297920"/>
+        <aif:creationDate>2017-09-12 08:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297915 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297915">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The children&#039;s stories where the stepmother is an evil person may be instrumental in creating for young children a negative image of stepmother.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297921"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297922"/>
+        <aif:creationDate>2017-09-12 08:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297916 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297916">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Children hear these stories at an impressionable age,</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297921"/>
+        <aif:creationDate>2017-09-12 08:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297917 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297917">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/284153"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297910"/>
+        <aif:creationDate>2017-09-12 08:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297918 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297918">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297911"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297910"/>
+        <aif:creationDate>2017-09-12 08:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297919 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297919">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297912"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297911"/>
+        <aif:creationDate>2017-09-12 08:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297920 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297920">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/48330"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297913"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297914"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297912"/>
+        <aif:creationDate>2017-09-12 08:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297921 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297921">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297916"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297915"/>
+        <aif:creationDate>2017-09-12 08:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297922 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297922">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297915"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297912"/>
+        <aif:creationDate>2017-09-12 08:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/297923 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/297923">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Teodora Udrea</aif:claimText>
+        <aif:creationDate>2017-09-12 08:35:34</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

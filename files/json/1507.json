@@ -1,0 +1,27 @@
+{"nodes":
+[
+    {"nodeID":"28501","text":"","type":"I"},
+    {"nodeID":"28502","text":"","type":"I"},
+    {"nodeID":"28504","text":"not banner","type":"I"},   
+    {"nodeID":"28507","text":"banner","type":"I"},
+    
+    
+    {"nodeID":"28503","text":"Default Inference","type":"RA","scheme":"Experts Opinion","schemeID":"72"},
+    {"nodeID":"28511","text":"Default Inference","type":"RA", "schemeID":"72"},
+
+    {"nodeID":"28505","text":"Default conflict","type":"CA"}
+],
+ 
+ "edges":
+ [
+     {"edgeID":"32421","fromID":"28501","toID":"28503","formEdgeID":null},
+     {"edgeID":"32422","fromID":"28503","toID":"28502","formEdgeID":null},
+     {"edgeID":"32426","fromID":"28506","toID":"28504","formEdgeID":null},
+     {"edgeID":"32429","fromID":"28502","toID":"28511","formEdgeID":null}, 
+     {"edgeID":"32430","fromID":"28511","toID":"28507","formEdgeID":null},
+     {"edgeID":"32431","fromID":"28504","toID":"28505","formEdgeID":null}, 
+     {"edgeID":"32432","fromID":"28505","toID":"28507","formEdgeID":null}
+     
+ ],
+ 
+ "locutions":[]}

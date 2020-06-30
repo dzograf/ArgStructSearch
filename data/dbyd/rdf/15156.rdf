@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/416823 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416823">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : Szanowni państwo od wielu tygodni rozmawiałem z mieszkańcami i mieszkańcami Dolnego śląska i Opolszczyzny.</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : Szanowni państwo od wielu tygodni rozmawiałem z mieszkańcami i mieszkańcami Dolnego śląska i Opolszczyzny.</aif:source>
+        <aif:creationDate>2019-06-12 21:33:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416831 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416831">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek : Szanowni państwo od wielu tygodni rozmawiałem z mieszkańcami i mieszkańcami Dolnego śląska i Opolszczyzny. W świdnicy Wałbrzychu w Legnicy w Opolu</aif:claimText>
+        <aif:source>Krzysztof Śmiszek : Szanowni państwo od wielu tygodni rozmawiałem z mieszkańcami i mieszkańcami Dolnego śląska i Opolszczyzny. W świdnicy Wałbrzychu w Legnicy w Opolu</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416835"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416915"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417660"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417663"/>
+        <aif:creationDate>2019-06-12 22:44:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416841 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416841">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Szanowni państwo od wielu tygodni rozmawiałem z mieszkańcami i mieszkańcami Dolnego śląska i Opolszczyzny. W świdnicy Wałbrzychu w Legnicy w Opolu</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416835"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417660"/>
+        <aif:creationDate>2019-06-12 23:18:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416846 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416846">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : Szanowni państwo od wielu tygodni rozmawiałem z mieszkańcami i mieszkańcami Dolnego śląska i Opolszczyzny. W świdnicy Wałbrzychu w Legnicy w Opolu</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : Szanowni państwo od wielu tygodni rozmawiałem z mieszkańcami i mieszkańcami Dolnego śląska i Opolszczyzny. W świdnicy Wałbrzychu w Legnicy w Opolu</aif:source>
+        <aif:creationDate>2019-06-12 23:19:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416853 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416853">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>wszyscy ci ludzie którzy ze mną rozmawiają mówią że Unia Europejska to wspaniały projek</aif:claimText>
+        <aif:source>wszyscy ci ludzie którzy ze mną rozmawiają mówią że Unia Europejska to wspaniały projek</aif:source>
+        <aif:creationDate>2019-06-12 23:19:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416858 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416858">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek :</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek :</aif:source>
+        <aif:creationDate>2019-06-12 23:19:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416863 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416863">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek :  wszyscy ci ludzie którzy ze mną rozmawiają mówią że Unia Europejska to wspaniały projekt</aif:claimText>
+        <aif:source>Krzysztof Śmiszek :  wszyscy ci ludzie którzy ze mną rozmawiają mówią że Unia Europejska to wspaniały projekt</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416915"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417663"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416874"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416920"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417661"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417664"/>
+        <aif:creationDate>2019-06-12 23:21:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416880 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416880">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>wszyscy ci ludzie którzy ze mną rozmawiają mówią że Unia Europejska to wspaniały projekt</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416874"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416949"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417666"/>
+        <aif:creationDate>2019-06-12 23:26:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416885 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416885">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek :  wszyscy ci ludzie którzy ze mną rozmawiają mówią że Unia Europejska to wspaniały projekt</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek :  wszyscy ci ludzie którzy ze mną rozmawiają mówią że Unia Europejska to wspaniały projekt</aif:source>
+        <aif:creationDate>2019-06-12 23:26:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416890 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416890">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek : wiosna też tak uważa</aif:claimText>
+        <aif:source>Krzysztof Śmiszek : wiosna też tak uważa</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416920"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417664"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416897"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416955"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417662"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417667"/>
+        <aif:creationDate>2019-06-12 23:27:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416902 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416902">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>wiosna też tak uważa</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416897"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417662"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416949"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417666"/>
+        <aif:creationDate>2019-06-12 23:36:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416910 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416910">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : wiosna też tak uważa</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : wiosna też tak uważa</aif:source>
+        <aif:creationDate>2019-06-12 23:39:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416925 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416925">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek : Uważamy się za fundamentalistów europejskich tak jak 90 proc. Polaków</aif:claimText>
+        <aif:source>Krzysztof Śmiszek : Uważamy się za fundamentalistów europejskich tak jak 90 proc. Polaków</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416955"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417667"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416931"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417014"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417665"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417670"/>
+        <aif:creationDate>2019-06-12 23:41:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416937 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416937">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Uważamy się za fundamentalistów europejskich tak jak 90 proc. Polaków</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416931"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416949"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417666"/>
+        <aif:creationDate>2019-06-12 23:44:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416943 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416943">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : Uważamy się za fundamentalistów europejskich tak jak 90 proc. Polaków</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : Uważamy się za fundamentalistów europejskich tak jak 90 proc. Polaków</aif:source>
+        <aif:creationDate>2019-06-12 23:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416961 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416961">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek : Polacy chcą dalszej integracji z Unią Europejską</aif:claimText>
+        <aif:source>Krzysztof Śmiszek : Polacy chcą dalszej integracji z Unią Europejską</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417014"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417670"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416967"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417019"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417668"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417671"/>
+        <aif:creationDate>2019-06-12 23:45:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416971 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416971">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Polacy chcą dalszej integracji z Unią Europejską</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416967"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417046"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417673"/>
+        <aif:creationDate>2019-06-12 23:45:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416977 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416977">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : Polacy chcą dalszej integracji z Unią Europejską</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : Polacy chcą dalszej integracji z Unią Europejską</aif:source>
+        <aif:creationDate>2019-06-12 23:46:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416980 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416980">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek : ale chcą także żeby wreszcie Unia Europejska zaczęła rozwiązywać ich konkretne</aif:claimText>
+        <aif:source>Krzysztof Śmiszek : ale chcą także żeby wreszcie Unia Europejska zaczęła rozwiązywać ich konkretne</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417019"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417671"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416986"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417050"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417669"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417674"/>
+        <aif:creationDate>2019-06-12 23:46:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416994 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416994">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ale chcą także żeby wreszcie Unia Europejska zaczęła rozwiązywać ich konkretne</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416986"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417046"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417673"/>
+        <aif:creationDate>2019-06-12 23:46:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417001 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417001">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : ale chcą także żeby wreszcie Unia Europejska zaczęła rozwiązywać ich konkretne</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : ale chcą także żeby wreszcie Unia Europejska zaczęła rozwiązywać ich konkretne</aif:source>
+        <aif:creationDate>2019-06-12 23:46:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417008 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417008">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : wiosna ma taki program w Parlamencie Europejskim</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : wiosna ma taki program w Parlamencie Europejskim</aif:source>
+        <aif:creationDate>2019-06-12 23:46:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417024 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417024">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek :  wiosna ma taki program w Parlamencie Europejskim będziemy walczyli o bardzo konkretne rozwiązania np. Europejski Program Walki z Rakiem</aif:claimText>
+        <aif:source>Krzysztof Śmiszek :  wiosna ma taki program w Parlamencie Europejskim będziemy walczyli o bardzo konkretne rozwiązania np. Europejski Program Walki z Rakiem</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417050"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417674"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417029"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417672"/>
+        <aif:creationDate>2019-06-12 23:47:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417034 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417034">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>wiosna ma taki program w Parlamencie Europejskim będziemy walczyli o bardzo konkretne rozwiązania np. Europejski Program Walki z Rakiem</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417029"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417046"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417673"/>
+        <aif:creationDate>2019-06-12 23:48:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417040 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417040">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek :  wiosna ma taki program w Parlamencie Europejskim będziemy walczyli o bardzo konkretne rozwiązania np. Europejski Program Walki z Rakiem</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek :  wiosna ma taki program w Parlamencie Europejskim będziemy walczyli o bardzo konkretne rozwiązania np. Europejski Program Walki z Rakiem</aif:source>
+        <aif:creationDate>2019-06-12 23:48:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417056 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417056">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek : 45 tysięcy osób rocznie umiera w Polsce na raka</aif:claimText>
+        <aif:source>Krzysztof Śmiszek : 45 tysięcy osób rocznie umiera w Polsce na raka</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417063"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417152"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417675"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417678"/>
+        <aif:creationDate>2019-06-12 23:51:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417070 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417070">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>45 tysięcy osób rocznie umiera w Polsce na raka</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417063"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417675"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417158"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417165"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417680"/>
+        <aif:creationDate>2019-06-12 23:53:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417078 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417078">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : 45 tysięcy osób rocznie umiera w Polsce na raka</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : 45 tysięcy osób rocznie umiera w Polsce na raka</aif:source>
+        <aif:creationDate>2019-06-12 23:53:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417083 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417083">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek : To hańba dla naszego kraju i Unia Europejska powinna się tym zająć</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek : To hańba dla naszego kraju i Unia Europejska powinna się tym zająć</aif:source>
+        <aif:creationDate>2019-06-12 23:53:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417090 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417090">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>To hańba dla naszego kraju i Unia Europejska powinna się tym zająć</aif:claimText>
+        <aif:source>To hańba dla naszego kraju i Unia Europejska powinna się tym zająć</aif:source>
+        <aif:creationDate>2019-06-12 23:54:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417103 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417103">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek :  To hańba dla naszego kraju i Unia Europejska powinna się tym zająć.</aif:claimText>
+        <aif:source>Krzysztof Śmiszek :  To hańba dla naszego kraju i Unia Europejska powinna się tym zająć.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417152"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417678"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417110"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417676"/>
+        <aif:creationDate>2019-06-12 23:54:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417117 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417117">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To hańba dla naszego kraju i Unia Europejska powinna się tym zająć.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417110"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417165"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417680"/>
+        <aif:creationDate>2019-06-12 23:55:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417124 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417124">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek :  To hańba dla naszego kraju i Unia Europejska powinna się tym zająć.</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek :  To hańba dla naszego kraju i Unia Europejska powinna się tym zająć.</aif:source>
+        <aif:creationDate>2019-06-12 23:55:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417130 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417130">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Śmiszek :  Unia Europejska powinna wreszcie zacząć rozwiązywać problemy konkretnych osób np. problemy z transportem i dojazdem do większych miast mieszkańców wsi np. ułatwianie życia młodym osobom</aif:claimText>
+        <aif:source>Krzysztof Śmiszek :  Unia Europejska powinna wreszcie zacząć rozwiązywać problemy konkretnych osób np. problemy z transportem i dojazdem do większych miast mieszkańców wsi np. ułatwianie życia młodym osobom</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417136"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417677"/>
+        <aif:creationDate>2019-06-12 23:58:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417140 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417140">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Unia Europejska powinna wreszcie zacząć rozwiązywać problemy konkretnych osób np. problemy z transportem i dojazdem do większych miast mieszkańców wsi np. ułatwianie życia młodym osobom</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417136"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417158"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417679"/>
+        <aif:creationDate>2019-06-13 00:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417145 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417145">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Śmiszek :  Unia Europejska powinna wreszcie zacząć rozwiązywać problemy konkretnych osób np. problemy z transportem i dojazdem do większych miast mieszkańców wsi np. ułatwianie życia młodym osobom</aif:claimText>
+        <aif:source>Anna: Krzysztof Śmiszek :  Unia Europejska powinna wreszcie zacząć rozwiązywać problemy konkretnych osób np. problemy z transportem i dojazdem do większych miast mieszkańców wsi np. ułatwianie życia młodym osobom</aif:source>
+        <aif:creationDate>2019-06-13 00:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417660 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417660">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416831"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416841"/>
+        <aif:creationDate>2019-06-13 20:50:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417661 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417661">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416863"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416880"/>
+        <aif:creationDate>2019-06-13 20:50:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417662 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417662">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416890"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416902"/>
+        <aif:creationDate>2019-06-13 20:50:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417663 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417663">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416831"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416863"/>
+        <aif:creationDate>2019-06-13 20:50:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417664 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417664">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416863"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416890"/>
+        <aif:creationDate>2019-06-13 20:50:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417665 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417665">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416925"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416937"/>
+        <aif:creationDate>2019-06-13 20:50:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417666 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417666">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416880"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416902"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416937"/>
+        <aif:creationDate>2019-06-13 20:50:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417667 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417667">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416890"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416925"/>
+        <aif:creationDate>2019-06-13 20:50:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417668 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417668">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416961"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416971"/>
+        <aif:creationDate>2019-06-13 20:50:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417669 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417669">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416980"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416994"/>
+        <aif:creationDate>2019-06-13 20:50:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417670 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417670">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416925"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416961"/>
+        <aif:creationDate>2019-06-13 20:50:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417671 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417671">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416961"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416980"/>
+        <aif:creationDate>2019-06-13 20:50:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417024"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417034"/>
+        <aif:creationDate>2019-06-13 20:50:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417673 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417673">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416971"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416994"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417034"/>
+        <aif:creationDate>2019-06-13 20:50:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417674 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417674">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416980"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417024"/>
+        <aif:creationDate>2019-06-13 20:50:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417675 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417675">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417056"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417070"/>
+        <aif:creationDate>2019-06-13 20:50:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417676 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417676">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417103"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417117"/>
+        <aif:creationDate>2019-06-13 20:50:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417130"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417140"/>
+        <aif:creationDate>2019-06-13 20:50:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417678 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417678">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417056"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417103"/>
+        <aif:creationDate>2019-06-13 20:50:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417070"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417140"/>
+        <aif:creationDate>2019-06-13 20:50:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417680 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417680">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417070"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417117"/>
+        <aif:creationDate>2019-06-13 20:50:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2019-06-13 20:50:40</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

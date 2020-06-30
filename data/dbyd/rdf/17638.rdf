@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/497567 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497567">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: George Eustice : Test test test</aif:claimText>
+        <aif:source>Mascha: George Eustice : Test test test</aif:source>
+        <aif:creationDate>2020-05-14 19:28:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497568 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497568">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : One of the major issues that concerned many viewers that will download the mobile app is our reluctance for the government to access our private data</aif:claimText>
+        <aif:source>James Clancy : One of the major issues that concerned many viewers that will download the mobile app is our reluctance for the government to access our private data</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497569"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497576"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497638"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497640"/>
+        <aif:creationDate>2020-05-14 19:28:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497569 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497569">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497568"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497570"/>
+        <aif:creationDate>2020-05-14 19:28:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497570 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497570">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>one of the major issues that concerned many viewers that will download the mobile app is our reluctance for the government to access our private data</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497569"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497638"/>
+        <aif:creationDate>2020-05-14 19:28:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497571 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497571">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : One of the major issues that concerned many viewers that will download the mobile app is our reluctance for the government to access our private data</aif:claimText>
+        <aif:source>Mascha: James Clancy : One of the major issues that concerned many viewers that will download the mobile app is our reluctance for the government to access our private data</aif:source>
+        <aif:creationDate>2020-05-14 19:28:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497572 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497572">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : all the privacy issues of using such data for track, trace</aif:claimText>
+        <aif:source>James Clancy : all the privacy issues of using such data for track, trace</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497576"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497640"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497573"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497581"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497639"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497642"/>
+        <aif:creationDate>2020-05-14 19:28:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497573 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497573">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497572"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497574"/>
+        <aif:creationDate>2020-05-14 19:28:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497574 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497574">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the viewers are concerned with all the privacy issues of using private data for track, trace</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497573"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497639"/>
+        <aif:creationDate>2020-05-14 19:28:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497575 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497575">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : all the privacy issues of using such data for track, trace</aif:claimText>
+        <aif:source>Mascha: James Clancy : all the privacy issues of using such data for track, trace</aif:source>
+        <aif:creationDate>2020-05-14 19:28:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497576 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497576">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497568"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497572"/>
+        <aif:creationDate>2020-05-14 19:28:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497577 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497577">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy :  quarantine to be a S*UBG cess it is essential that the authorities have access to our personal data</aif:claimText>
+        <aif:source>James Clancy :  quarantine to be a S*UBG cess it is essential that the authorities have access to our personal data</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497581"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497642"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497578"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497586"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497641"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497644"/>
+        <aif:creationDate>2020-05-14 19:28:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497578 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497578">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497577"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497579"/>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497579 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497579">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>for quarantine to be a success it is essential that the authorities have access to our personal data</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497578"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497587"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497641"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497645"/>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497580 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497580">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy :  quarantine to be a S*UBG cess it is essential that the authorities have access to our personal data</aif:claimText>
+        <aif:source>Mascha: James Clancy :  quarantine to be a S*UBG cess it is essential that the authorities have access to our personal data</aif:source>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497572"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497577"/>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : they can track if we have caught the virus to pinpoint where we have been and whom we have had contact with</aif:claimText>
+        <aif:source>James Clancy : they can track if we have caught the virus to pinpoint where we have been and whom we have had contact with</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497586"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497644"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497583"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497593"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497643"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497648"/>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497582"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497584"/>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497584 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497584">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>they can track if we have caught the virus to pinpoint where we have been and whom we have had contact with</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497583"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497643"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497587"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497645"/>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497585 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497585">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : they can track if we have caught the virus to pinpoint where we have been and whom we have had contact with</aif:claimText>
+        <aif:source>Mascha: James Clancy : they can track if we have caught the virus to pinpoint where we have been and whom we have had contact with</aif:source>
+        <aif:creationDate>2020-05-14 19:28:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497586 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497586">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497577"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497582"/>
+        <aif:creationDate>2020-05-14 19:28:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497584"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497588"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497579"/>
+        <aif:creationDate>2020-05-14 19:28:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/497586"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497587"/>
+        <aif:creationDate>2020-05-14 19:28:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497589 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497589">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : When measured against what we have already lost, does the panel feel it is a small price to pay to share parts of our personal data to control and question this virus until a vac seen can be found</aif:claimText>
+        <aif:source>James Clancy : When measured against what we have already lost, does the panel feel it is a small price to pay to share parts of our personal data to control and question this virus until a vac seen can be found</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497593"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497648"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497590"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497598"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497647"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497650"/>
+        <aif:creationDate>2020-05-14 19:28:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497590 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497590">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497589"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497591"/>
+        <aif:creationDate>2020-05-14 19:28:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497591 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497591">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>when measured against what we have already lost, the panel does or does not feel it is a small price to pay to share parts of our personal data to control and question this virus until a vaccine can be found</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497590"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497647"/>
+        <aif:creationDate>2020-05-14 19:28:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497592 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497592">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : When measured against what we have already lost, our pre-TKOPL to socialise, our future economic and job prospects, not to mention the potential danger to our health, does the panel feel it is a small price to pay to share parts of our personal data to control and question this virus until a vac seen can be found</aif:claimText>
+        <aif:source>Mascha: James Clancy : When measured against what we have already lost, our pre-TKOPL to socialise, our future economic and job prospects, not to mention the potential danger to our health, does the panel feel it is a small price to pay to share parts of our personal data to control and question this virus until a vac seen can be found</aif:source>
+        <aif:creationDate>2020-05-14 19:28:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497593 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497593">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497582"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497589"/>
+        <aif:creationDate>2020-05-14 19:28:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497594 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497594">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy :  our pre-TKOPL to socialise, our future economic and job prospects, not to mention the potential danger to our health</aif:claimText>
+        <aif:source>James Clancy :  our pre-TKOPL to socialise, our future economic and job prospects, not to mention the potential danger to our health</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497598"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497650"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497595"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497605"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497649"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497654"/>
+        <aif:creationDate>2020-05-14 19:28:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497595 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497595">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497594"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497596"/>
+        <aif:creationDate>2020-05-14 19:28:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497596 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497596">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we have lost already our pre-TKOPL to socialise, our future economic and job prospects, not to mention the potential danger to our health</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497595"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497649"/>
+        <aif:creationDate>2020-05-14 19:28:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497597 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497597">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy :  our pre-TKOPL to socialise, our future economic and job prospects, not to mention the potential danger to our health</aif:claimText>
+        <aif:source>Mascha: James Clancy :  our pre-TKOPL to socialise, our future economic and job prospects, not to mention the potential danger to our health</aif:source>
+        <aif:creationDate>2020-05-14 19:28:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497598 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497598">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497589"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497594"/>
+        <aif:creationDate>2020-05-14 19:28:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497599 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497599">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 19:28:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497600 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497600">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/497598"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497599"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497601 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497601">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce : Do you think it is a price worth paying</aif:claimText>
+        <aif:source>Fiona Bruce : Do you think it is a price worth paying</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497605"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497654"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497602"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497612"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497653"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497658"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497602 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497602">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497601"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497603"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497603 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497603">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>James Clancy thinks or does not think that sharing parts of our personal data to control the virus until a vaccine is found is a price worth paying</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497602"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497653"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497604 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497604">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: Fiona Bruce : Do you think it is a price worth paying</aif:claimText>
+        <aif:source>Mascha: Fiona Bruce : Do you think it is a price worth paying</aif:source>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497605 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497605">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497594"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497601"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497606 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497606">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497607 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497607">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/497605"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497606"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497608 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497608">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : it is a price worth paying</aif:claimText>
+        <aif:source>James Clancy : it is a price worth paying</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497612"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497658"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497609"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497619"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497657"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497662"/>
+        <aif:creationDate>2020-05-14 19:28:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497609 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497609">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497608"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497610"/>
+        <aif:creationDate>2020-05-14 19:28:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497610 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497610">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>sharing parts of our personal data to control the virus is a price worth paying</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497609"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497636"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497657"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497671"/>
+        <aif:creationDate>2020-05-14 19:28:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497611 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497611">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : it is a price worth paying</aif:claimText>
+        <aif:source>Mascha: James Clancy : it is a price worth paying</aif:source>
+        <aif:creationDate>2020-05-14 19:28:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497612 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497612">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497601"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497608"/>
+        <aif:creationDate>2020-05-14 19:28:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497613 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497613">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 19:28:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497614 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497614">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/497612"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497613"/>
+        <aif:creationDate>2020-05-14 19:28:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497615 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497615">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : we should be doing more</aif:claimText>
+        <aif:source>James Clancy : we should be doing more</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497619"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497662"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497616"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497625"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497661"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497664"/>
+        <aif:creationDate>2020-05-14 19:28:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497616 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497616">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497615"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497617"/>
+        <aif:creationDate>2020-05-14 19:28:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497617 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497617">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we should be doing more to control the virus</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497616"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497626"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497661"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497636"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497671"/>
+        <aif:creationDate>2020-05-14 19:28:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497618 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497618">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : we should be doing more</aif:claimText>
+        <aif:source>Mascha: James Clancy : we should be doing more</aif:source>
+        <aif:creationDate>2020-05-14 19:28:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497619 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497619">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497608"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497615"/>
+        <aif:creationDate>2020-05-14 19:28:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497620 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497620">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : We have to help these tracers to get at least 70 to 90% success rate</aif:claimText>
+        <aif:source>Mascha: James Clancy : We have to help these tracers to get at least 70 to 90% success rate</aif:source>
+        <aif:creationDate>2020-05-14 19:28:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497621 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497621">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : We have to help these tracers to get at least 70 to 90% success rate if track and tracing is going to be successful</aif:claimText>
+        <aif:source>James Clancy : We have to help these tracers to get at least 70 to 90% success rate if track and tracing is going to be successful</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497625"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497664"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497622"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497633"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497663"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497668"/>
+        <aif:creationDate>2020-05-14 19:28:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497622 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497622">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497621"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497623"/>
+        <aif:creationDate>2020-05-14 19:28:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497623 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497623">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we have to help these tracers to get at least 70 to 90% success rate if track and tracing is going to be successful</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497622"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497663"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497626"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497665"/>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497624 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497624">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : We have to help these tracers to get at least 70 to 90% success rate if track and tracing is going to be successful</aif:claimText>
+        <aif:source>Mascha: James Clancy : We have to help these tracers to get at least 70 to 90% success rate if track and tracing is going to be successful</aif:source>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497625 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497625">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497615"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497621"/>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497626 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497626">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497623"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497627"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497617"/>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497627 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497627">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/497625"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497626"/>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497628 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497628">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy :  I think it is a price well worth paying</aif:claimText>
+        <aif:source>Mascha: James Clancy :  I think it is a price well worth paying</aif:source>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497629 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497629">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>James Clancy : it is a price well worth paying</aif:claimText>
+        <aif:source>James Clancy : it is a price well worth paying</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497633"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497668"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497630"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497667"/>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497630 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497630">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/497629"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497631"/>
+        <aif:creationDate>2020-05-14 19:28:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497631 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497631">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>sharing parts of our personal data to control the virus is a price well worth paying</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497630"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497667"/>
+        <aif:creationDate>2020-05-14 19:28:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mascha: James Clancy : it is a price well worth paying</aif:claimText>
+        <aif:source>Mascha: James Clancy : it is a price well worth paying</aif:source>
+        <aif:creationDate>2020-05-14 19:28:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497633 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497633">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/497621"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/497629"/>
+        <aif:creationDate>2020-05-14 19:28:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497634 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497634">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 19:28:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497635 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497635">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/497633"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497634"/>
+        <aif:creationDate>2020-05-14 19:28:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497636 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497636">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/497617"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497637"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/497610"/>
+        <aif:creationDate>2020-05-14 19:28:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/497637 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/497637">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/497619"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/497636"/>
+        <aif:creationDate>2020-05-14 19:28:14</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

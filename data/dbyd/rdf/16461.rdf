@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/459027 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459027">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Р.С. Ан за совершение ряда преступлений осужден приговором к наказанию в виде лишения свободы</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459475"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460735"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459038"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459043"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459478"/>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459028 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459028">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: Р.С. Ан за совершение ряда преступлений осужден приговором Петрозаводского городского суда Республики Карелия от 8 апреля 2010 года к наказанию в виде лишения свободы</aif:claimText>
+        <aif:source>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: Р.С. Ан за совершение ряда преступлений осужден приговором Петрозаводского городского суда Республики Карелия от 8 апреля 2010 года к наказанию в виде лишения свободы</aif:source>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459029 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459029">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в основу приговора в том числе были положены показания свидетелей, допрошенных оперативным уполномоченным, который сам на момент проведения допроса являлся свидетелем по данному уголовному делу</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459038"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459043"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459039"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459044"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459475"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460735"/>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459030 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459030">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: В основу приговора помимо иных доказательств были положены показания свидетелей, допрошенных 14 декабря 2007 года оперативным уполномоченным Управления по борьбе с экономическими преступлениями Министерства внутренних дел по Республике Карелия, который сам с 23 апреля 2007 года, т.е. на момент проведения допроса, являлся свидетелем по данному уголовному делу.</aif:claimText>
+        <aif:source>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: В основу приговора помимо иных доказательств были положены показания свидетелей, допрошенных 14 декабря 2007 года оперативным уполномоченным Управления по борьбе с экономическими преступлениями Министерства внутренних дел по Республике Карелия, который сам с 23 апреля 2007 года, т.е. на момент проведения допроса, являлся свидетелем по данному уголовному делу.</aif:source>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459031 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459031">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>будучи допрошенным в качестве свидетеля оперативный уполномоченный должен быть отведен от дальнейшего участия в производстве по уголовному делу и не вправе в рамках предварительного расследования проводить допросы свидетелей</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459040"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459042"/>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459032 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459032">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: будучи допрошенным в качестве свидетеля, он должен быть отведен от дальнейшего участия в производстве по уголовному делу и не вправе в рамках предварительного расследования проводить допросы свидетелей; ходатайства</aif:claimText>
+        <aif:source>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: будучи допрошенным в качестве свидетеля, он должен быть отведен от дальнейшего участия в производстве по уголовному делу и не вправе в рамках предварительного расследования проводить допросы свидетелей; ходатайства</aif:source>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459033 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459033">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ходатайства о признании таких доказательств (в виде показаний свидетеля) недопустимыми удовлетворены не были</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459039"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459040"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459044"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459041"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459475"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460735"/>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459034 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459034">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: ходатайства, однако, удовлетворены не были</aif:claimText>
+        <aif:source>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: ходатайства, однако, удовлетворены не были</aif:source>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459035 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459035">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>пункт 1 части первой статьи 61 и часть первая статьи 62 УПК Российской Федерации не соответствуют статьям 2, 17, 18, 19 (часть 1), 45, 46, 49 (части 2 и 3), 50 (часть 2), 52 и 123 (части 2 и 3) Конституции Российской Федерации</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459041"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459042"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459045"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459047"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459477"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460737"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460743"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459060"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459476"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460736"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460742"/>
+        <aif:creationDate>2019-12-12 16:27:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459036 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459036">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: Заявитель полагает, что пункт 1 части первой статьи 61 и часть первая статьи 62 УПК Российской Федерации не соответствуют статьям 2, 17, 18, 19 (часть 1), 45, 46, 49 (части 2 и 3), 50 (часть 2), 52 и 123 (части 2 и 3) Конституции Российской Федерации</aif:claimText>
+        <aif:source>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: Заявитель полагает, что пункт 1 части первой статьи 61 и часть первая статьи 62 УПК Российской Федерации не соответствуют статьям 2, 17, 18, 19 (часть 1), 45, 46, 49 (части 2 и 3), 50 (часть 2), 52 и 123 (части 2 и 3) Конституции Российской Федерации</aif:source>
+        <aif:creationDate>2019-12-12 16:27:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459037 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459037">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: поскольку по смыслу, придаваемому им правоприменительной практикой, позволяют оперативному уполномоченному сотруднику органа дознания участвовать в производстве по уголовному делу, в том числе выполнять поручения следователя, после того, как этот сотрудник был допрошен по делу в качестве свидетеля</aif:claimText>
+        <aif:source>https://legalacts.ru/doc/opredelenie-konstitutsionnogo-suda-rf-ot-29112012-n/: поскольку по смыслу, придаваемому им правоприменительной практикой, позволяют оперативному уполномоченному сотруднику органа дознания участвовать в производстве по уголовному делу, в том числе выполнять поручения следователя, после того, как этот сотрудник был допрошен по делу в качестве свидетеля</aif:source>
+        <aif:creationDate>2019-12-12 16:27:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459038 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459038">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459027"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459029"/>
+        <aif:creationDate>2019-12-12 16:27:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459039 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459039">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459029"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459033"/>
+        <aif:creationDate>2019-12-12 16:27:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459040 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459040">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459031"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459033"/>
+        <aif:creationDate>2019-12-12 16:27:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459041 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459041">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459033"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459035"/>
+        <aif:creationDate>2019-12-12 16:27:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459042 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459042">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459031"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459035"/>
+        <aif:creationDate>2019-12-12 16:27:40</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

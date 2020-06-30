@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/430724 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430724">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>лгать неправильно</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430738"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437440"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437441"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437478"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437703"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437735"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437744"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437756"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437766"/>
+        <aif:creationDate>2019-09-21 12:26:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430725 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430725">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>лгать – не всегда неправильно</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430742"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437497"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437706"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/439624"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/439622"/>
+        <aif:creationDate>2019-09-21 12:26:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430726 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430726">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>целью этой лжи было бы предотвратить вред, а возможно даже смерть. Поэтому в таких случаях ложь может быть оправдана</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437706"/>
+        <aif:creationDate>2019-09-21 12:26:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430727 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430727">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>лгать – это сообщать ложную информацию (false information), и это сбивает детей с толку</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430736"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437702"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430738"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437703"/>
+        <aif:creationDate>2019-09-21 12:26:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430728 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430728">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Когда детей вводят в заблуждение таким образом, им становится трудно отличить фантазии от реальности</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430740"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437705"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437700"/>
+        <aif:creationDate>2019-09-21 12:26:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430729 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430729">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>они оказываются в состоянии заблуждения и оторванности от реальности.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430732"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437700"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430736"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437702"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/439273"/>
+        <aif:creationDate>2019-09-21 12:26:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430730 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430730">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Для детей нормально фантазировать и верить историям, в которых говорится неправда</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430733"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437701"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430740"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437705"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437706"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/468352"/>
+        <aif:creationDate>2019-09-21 12:26:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430731 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430731">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>такие истории могут оказать благотворное воздействие на детей, потому что могут преподать им всевозможные нравственные уроки</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437701"/>
+        <aif:creationDate>2019-09-21 12:26:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430734 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430734">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ребенок рассуждает так: если его родители лгали про Санта-Клауса, они,вероятно, лгут и насчет остальных вещей</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437707"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437704"/>
+        <aif:creationDate>2019-09-21 12:26:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430735 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430735">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Дети разочаровываются</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463362"/>
+        <aif:creationDate>2019-09-21 12:26:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430737 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430737">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ребенок может сделаться недоверчивым, подозрительным и даже утратить моральные ориентиры. У него может снизиться самооценка и пострадать успеваемость в школе</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430739"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437673"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/437704"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430738"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437662"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437703"/>
+        <aif:creationDate>2019-09-21 12:26:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430741 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430741">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Обман длится недолго, и дети осознают, что он предназначался не для того, чтобы ввести их в заблуждение относительно фактов, а лишь для того, чтобы развлечь в то время жизни, когда им нужны такие истории, чтобы воспрянуть духом</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430743"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437707"/>
+        <aif:creationDate>2019-09-21 12:26:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430744 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430744">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ты можешь превратиться в одного из этих скользких манипуляторов, которые с помощью лжи выкрутятся откуда угодно. Этих людей и так уже достаточно на высших политических должностях</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430738"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/437703"/>
+        <aif:creationDate>2019-09-21 12:26:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437700 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437700">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430728"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430729"/>
+        <aif:creationDate>2019-10-05 04:16:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437701 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437701">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430730"/>
+        <aif:creationDate>2019-10-05 04:16:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437702 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437702">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430729"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430727"/>
+        <aif:creationDate>2019-10-05 04:16:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437703 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437703">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430727"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430737"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430744"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430724"/>
+        <aif:creationDate>2019-10-05 04:16:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437704 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437704">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430734"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430737"/>
+        <aif:creationDate>2019-10-05 04:16:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437705 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437705">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430730"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430728"/>
+        <aif:creationDate>2019-10-05 04:16:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437706 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437706">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430726"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430730"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430725"/>
+        <aif:creationDate>2019-10-05 04:16:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/437707 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/437707">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430734"/>
+        <aif:creationDate>2019-10-05 04:16:32</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

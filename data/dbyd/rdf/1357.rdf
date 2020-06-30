@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/21672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/21672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Fall is the best time to visit America&#039;s great cities, beaches and mountains.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/21677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/21687"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25547"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25577"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25581"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25783"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25784"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25785"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25790"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25794"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25798"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25802"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25806"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25913"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25931"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25932"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25943"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/26287"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/26302"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/26303"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/26304"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/26308"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/26328"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25920"/>
+        <aif:creationDate>2013-02-18 13:23:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25921 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25921">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>During fall the foliage is breathtaking in America.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25925"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25939"/>
+        <aif:creationDate>2014-02-20 13:44:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25922 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25922">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>During fall the weather is cooler in America.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25927"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25941"/>
+        <aif:creationDate>2014-02-20 13:44:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25928 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25928">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You can enjoy yourself better, when the weather is cooler.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25929"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25941"/>
+        <aif:creationDate>2014-02-20 13:44:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25933 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25933">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>When the crowds are gone, you can really relax yourself.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25934"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25940"/>
+        <aif:creationDate>2014-02-20 13:44:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25935 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25935">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Breathtaking foliage helps you to relax and enjoy yourself.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25936"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25939"/>
+        <aif:creationDate>2014-02-20 13:44:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25937 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25937">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>During fall the crowds are gone in great cities beaches and mountains.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25940"/>
+        <aif:creationDate>2014-02-20 14:19:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25938 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25938">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You can really relax and enjoy yourself during fall in America.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25939"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25940"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25941"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25943"/>
+        <aif:creationDate>2014-02-20 14:19:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25939 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25939">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25921"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25935"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25938"/>
+        <aif:creationDate>2014-02-20 14:19:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25940 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25940">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25933"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25937"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25938"/>
+        <aif:creationDate>2014-02-20 14:19:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25941 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25941">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25922"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25928"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/25938"/>
+        <aif:creationDate>2014-02-20 14:19:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25942 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25942">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If you can really relax and enjoy yourself during fall in America, then fall is the best time to visit its great cities, beaches and mountains.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25943"/>
+        <aif:creationDate>2014-02-20 14:19:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/25943 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/25943">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25938"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/25942"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/21672"/>
+        <aif:creationDate>2014-02-20 14:19:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

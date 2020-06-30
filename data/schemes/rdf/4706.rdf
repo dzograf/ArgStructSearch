@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/68603 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68603">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>One does not simply fly into Mordor</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68619"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68640"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68604 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68604">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: One does not simply fly into Mordor</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: One does not simply fly into Mordor</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68605 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68605">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>secrecy of the quest</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68636"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68693"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68606 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68606">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: secrecy of the quest</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: secrecy of the quest</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68607 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68607">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>man would have to accompany the Eagle</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68660"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68668"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68608 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68608">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: man would have to accompany the Eagle</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: man would have to accompany the Eagle</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68609 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68609">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>hampering chances of reaching Mount Doom undetected</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68640"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68610 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68610">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: hampering its safety and chances of reaching Mount Doom undetected</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: hampering its safety and chances of reaching Mount Doom undetected</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68611 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68611">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Eagles are free beings</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68640"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68612 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68612">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Eagles are not slaves but free beings</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Eagles are not slaves but free beings</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68613 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68613">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>deus ex machina</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68683"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68684"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68689"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68614 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68614">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: deus ex machina</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: deus ex machina</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68615 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68615">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>eagles&#039; use should be kept to a minimum</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68684"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68640"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68616 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68616">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: their use should be kept to a minimum</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: their use should be kept to a minimum</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68617 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68617">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Why didn’t they just fly on the Eagles into Mordor and drop the Ring into Mount Doom?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68622"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68619"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68618 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68618">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Why didn’t they just fly on the Eagles into Mordor and drop the Ring into Mount Doom?</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Why didn’t they just fly on the Eagles into Mordor and drop the Ring into Mount Doom?</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68619 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68619">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68617"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68603"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68620 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68620">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>reasons for forming a Fellowship</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68622"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68621 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68621">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: reasons for forming a Fellowship</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: reasons for forming a Fellowship</aif:source>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68622 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68622">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68620"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68623"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68617"/>
+        <aif:creationDate>2015-05-25 07:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68623 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68623">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>mistaken impression of the nature of the Eagles</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68622"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68624 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68624">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: mistaken impression of the nature of the Eagles</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: mistaken impression of the nature of the Eagles</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68625 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68625">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: ow it is true that the Eagle idea conceivably could have worked. However, it would have greatly increased the risks of failure, and as we know, the possibility of failure could not b</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: ow it is true that the Eagle idea conceivably could have worked. However, it would have greatly increased the risks of failure, and as we know, the possibility of failure could not b</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68626 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68626">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: possibility of failure could not be allowed for</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: possibility of failure could not be allowed for</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68627 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68627">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the possibility of failure could not be allowed for</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68636"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68628 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68628">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: the possibility of failure could not be allowed for</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: the possibility of failure could not be allowed for</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68629 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68629">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Council of Elrond had to assume and plan for the worst-case scenario</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68635"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68640"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68693"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68630 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68630">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Council of Elrond had to assume and plan for the worst-case scenario</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Council of Elrond had to assume and plan for the worst-case scenario</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68631 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68631">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Council of Elrond had to assume and plan for the best-case scenario</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68693"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Council of Elrond had to assume and plan for the worst-case scenario, not the best-case scenario</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Council of Elrond had to assume and plan for the worst-case scenario, not the best-case scenario</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68633 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68633">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>strategy of a Fellowship</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68635"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68634 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68634">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: strategy of a Fellowship</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: strategy of a Fellowship</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68635 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68635">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68629"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68633"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68636 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68636">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68627"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68605"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68637 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68637">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>most obvious often is the most successful since it is unexpected</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68639"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68638 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68638">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: most obvious often is the most successful since it is unexpected</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: most obvious often is the most successful since it is unexpected</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68639 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68639">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68637"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68605"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68640 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68640">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68609"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68611"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68615"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68629"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68663"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68603"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68641 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68641">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: es are far more noticeable than travellers o</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: es are far more noticeable than travellers o</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68642 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68642">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Eagles are far more noticeable than travellers on foot</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68651"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68646"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68652"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68671"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68643 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68643">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Eagles are far more noticeable than travellers on foot</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Eagles are far more noticeable than travellers on foot</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68644 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68644">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>especially Hobbits, who are skilled at stealth</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68646"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68645 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68645">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: especially Hobbits, who are skilled at stealth</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: especially Hobbits, who are skilled at stealth</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68646 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68646">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68644"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68647 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68647">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>presence of numerous “watchers” in Mordor</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68651"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68655"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68648 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68648">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: presence of numerous “watchers” in Mordor</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: presence of numerous “watchers” in Mordor</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68649 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68649">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>an Eagle could easily have been taken down by the Nazgûl or archers</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68652"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68656"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68650 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68650">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: an Eagle could easily have been taken down by the Nazgûl or archers</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: an Eagle could easily have been taken down by the Nazgûl or archers</aif:source>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68651 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68651">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68647"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68642"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68652 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68652">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68649"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68653 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68653">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>those at Cirith Ungol, and Orcs; even some birds were spies for Sauron</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68655"/>
+        <aif:creationDate>2015-05-25 07:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68654 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68654">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: those at Cirith Ungol, and Orcs; even some birds were spies for Sauron</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: those at Cirith Ungol, and Orcs; even some birds were spies for Sauron</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68655 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68655">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68647"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68653"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68656 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68656">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68649"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68609"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68657 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68657">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: ond reason why the Eagles would not have been a particularly good choice is that the birds coul</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: ond reason why the Eagles would not have been a particularly good choice is that the birds coul</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68658 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68658">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The Ring couldn’t be dropped just anywhere; it had to be put in the Crack of Doom itself, which was not out in the open but at the end of a tunnel into which an Eagle probably could not have fit.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68660"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68659 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68659">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: The Ring couldn’t be dropped just anywhere; it had to be put in the Crack of Doom itself, which was not out in the open but at the end of a tunnel into which an Eagle probably could not have fit.</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: The Ring couldn’t be dropped just anywhere; it had to be put in the Crack of Doom itself, which was not out in the open but at the end of a tunnel into which an Eagle probably could not have fit.</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68660 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68660">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68658"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68607"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68661 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68661">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>prevents flying high enough to be hidden by clouds</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68668"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68662 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68662">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: prevents flying high enough to be hidden by clouds</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: prevents flying high enough to be hidden by clouds</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68663 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68663">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>to ensure that the rider can breathe</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68640"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68664 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68664">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: to ensure that the rider can breathe</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: to ensure that the rider can breathe</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68665 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68665">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68661"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68663"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68666 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68666">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>would have crippled the Eagle during any possible fights it might have</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68640"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68668"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68667 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68667">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: would have crippled the Eagle during any possible fights it might have</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: would have crippled the Eagle during any possible fights it might have</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68668 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68668">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68607"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68669 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68669">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A few people could sneak up the mountain with much less chance of observation.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68671"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68670 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68670">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: A few people could sneak up the mountain with much less chance of observation.</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: A few people could sneak up the mountain with much less chance of observation.</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68671 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68671">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68669"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Eagles are not slaves to be commanded at will, not a ‘convenience’</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68674"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68673 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68673">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: not slaves to be commanded at will, not a ‘convenience’(</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: not slaves to be commanded at will, not a ‘convenience’(</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68674 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68674">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68611"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68675 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68675">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Eagles were servants of the Valar, the ‘gods’ so to speak</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68680"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68676 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68676">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: they were servants of the Valar, the ‘gods’ so to speak,</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: they were servants of the Valar, the ‘gods’ so to speak,</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the Valar preferred not to interfere with Middle-earth’s problems</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68680"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68678 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68678">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: the Valar preferred not to interfere with Middle-earth’s problems</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: the Valar preferred not to interfere with Middle-earth’s problems</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68611"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68680 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68680">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68677"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>a character or thing that suddenly enters the story…and solves a problem that had previously seemed impossible to solve</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68683"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68682 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68682">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: a character or thing that suddenly enters the story…and solves a problem that had previously seemed impossible to solve</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: a character or thing that suddenly enters the story…and solves a problem that had previously seemed impossible to solve</aif:source>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68683 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68683">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68613"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68684 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68684">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68613"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68615"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68685 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68685">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The intrusion achieves nothing but incredibility, and the staling of the device of the Eagles when at last they are really needed.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68689"/>
+        <aif:creationDate>2015-05-25 07:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68686 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68686">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: The intrusion achieves nothing but incredibility, and the staling of the device of the Eagles when at last they are really needed.</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: The intrusion achieves nothing but incredibility, and the staling of the device of the Eagles when at last they are really needed.</aif:source>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68687 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68687">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Tolkien</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68689"/>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68688 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68688">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Tolkien</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Tolkien</aif:source>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68689 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68689">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68613"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68685"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68687"/>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68690 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68690">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: it would have greatly increased the risks of failure, and as we know, the possibility of failure could not be allowed for. Those at the</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: it would have greatly increased the risks of failure, and as we know, the possibility of failure could not be allowed for. Those at the</aif:source>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68691 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68691">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Council of Elrond had to assume and plan</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68693"/>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68692 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68692">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Council of Elrond had to assume and plan</aif:claimText>
+        <aif:source>http://www.theonering.net/torwp/2015/05/16/98212-one-does-not-simply-fly-into-mordor/: Council of Elrond had to assume and plan</aif:source>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/68693 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/68693">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68605"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68629"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/68631"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/68691"/>
+        <aif:creationDate>2015-05-25 07:45:11</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

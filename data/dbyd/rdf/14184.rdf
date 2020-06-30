@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/367249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в среднем из 100 материалов, направляемых органами ГИБДД в суды, только в восьми случаях из ста принимаются решения о лишении прав управления транспортным средством</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369467"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367258"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367774"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369460"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369468"/>
+        <aif:creationDate>2018-10-29 14:32:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367313 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367313">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Сегодня вседозволенность, откровенное пренебрежение законами дорог становятся нормой поведения многих водителей</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367314"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367767"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367774"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369464"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367315"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367766"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367773"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367775"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369469"/>
+        <aif:creationDate>2018-11-02 13:42:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369454 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369454">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>руководство ГИБДД приветствует принятие Госдумой в первом чтении поправки в КоАП, касающейся ужесточения наказания для нетрезвых водителей.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369465"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369455 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369455">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Пренебрежение правилами ГИБДД приводит к гибели людей.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369460"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369456 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369456">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В тоже время ситуация на российских дорогах остается сложной</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369469"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369465"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369457 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369457">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Согласно статистике, с начала года зафиксировано 18,5 тысяч ДТП, в момент совершения которых водители были пьяны.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369460"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369462"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369458 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369458">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В результате 3,2 тысячи человек погибли и 26 тысяч получили ранения</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369460"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369459 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369459">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Кирьянов также отметил, что по результатам соцопросов около трети водителей признались, что и приходилось управлять транспортом в состоянии алкогольного опьянения</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369464"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369460 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369460">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367249"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369457"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369458"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369455"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369461 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369461">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Пьяные водители не боятся наказания</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369464"/>
+        <aif:creationDate>2018-12-19 20:45:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369462 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369462">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369457"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369461"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369463 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369463">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Слишком низкие показатели статистики (решения о лишении прав)</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369468"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369465"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369464 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369464">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367313"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369465 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369465">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369456"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369463"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369454"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369466 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369466">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Анализ действия кодекса об административных правонарушениях (КоАП) показал</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369467"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369467 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369467">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/369466"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367249"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369468 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369468">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367249"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369463"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/369469 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/369469">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367313"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/369456"/>
+        <aif:creationDate>2018-12-19 20:45:40</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

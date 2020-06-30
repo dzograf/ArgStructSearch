@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/461331 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461331">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Генри, по-моему, это дурная затея.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461340"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461341"/>
+        <aif:creationDate>2019-12-18 09:15:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461332 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461332">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>следы яда можно запросто обнаружить</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461342"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461341"/>
+        <aif:creationDate>2019-12-18 09:15:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461333 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461333">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>если Банни ни с того ни с сего отдаст концы средь бела дня, то все поймут, что что-то не так</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461343"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461340"/>
+        <aif:creationDate>2019-12-18 09:15:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461334 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461334">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Даже крошечная доза может вызвать сильнейшее отравление. Но отнюдь не обязательно со смертельным исходом</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461344"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461345"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461343"/>
+        <aif:creationDate>2019-12-18 09:15:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461335 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461335">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Студенты принесли из леса грибы… в общую массу затесалось несколько ядовитых… один из друзей ужасно занемог, а другой… (Подразумевается, что если отравится и Генри, то ничего лишнего не подумают)</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461342"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461349"/>
+        <aif:creationDate>2019-12-18 09:15:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461336 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461336">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Я не смогу вычислить нужную для тебя дозировку, чтобы обойтись без смертельного исхода</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461344"/>
+        <aif:creationDate>2019-12-18 09:15:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461337 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461337">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Яд начинает действовать спустя десять минут, так что, имея противоядие из беллодонны...</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461346"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461347"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461345"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461338 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461338">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Нельзя использовать один яд против другого</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461346"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461339 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461339">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Я читал персидские трактаты, а персы были виртуозными отравителями</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461347"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461340 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461340">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461333"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461331"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461341 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461341">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461332"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461331"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461342 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461342">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461335"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461332"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461343 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461343">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461334"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461333"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461344 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461344">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461336"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461334"/>
+        <aif:creationDate>2019-12-18 09:15:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461337"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461334"/>
+        <aif:creationDate>2019-12-18 09:15:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461346 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461346">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461338"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461337"/>
+        <aif:creationDate>2019-12-18 09:15:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461347 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461347">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461339"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461337"/>
+        <aif:creationDate>2019-12-18 09:15:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461348 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461348">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Это не дурная затея</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461349"/>
+        <aif:creationDate>2019-12-18 09:15:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461349 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461349">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461335"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461348"/>
+        <aif:creationDate>2019-12-18 09:15:41</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

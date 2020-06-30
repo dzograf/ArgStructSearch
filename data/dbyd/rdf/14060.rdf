@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/366919 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/366919">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>በአጠቃላይ የአስቸኳይ ጊዜ አዋጅ ሲባል መጀመሪያ አስቸኳይ ሁኔታ መኖር አለበት፡፡ ይሄ ሲኖር ነው አስቸኳይ ጊዜ አዋጅ የሚታወጀው። አስቸኳይ ሁኔታ በሌለበት አስቸኳይ አዋጅ አይታወጅም፡፡ በኢትዮጵያ ወቅታዊ እውነታ አስቸኳይ ሁኔታ በሌለበት ቦታ ሁሉ አዋጁ መታወጁ፣ አስቸኳይ አዋጅ አስፈላጊ እንዳልነበረ ያሳያል፡</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/366922"/>
+        <aif:creationDate>2018-10-14 08:03:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/366920 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/366920">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>አዋጁ የፖለቲካ ፍላጎትን ማሳኪያ ነው የሆነው፡፡ በመሠረቱ ግን አዋጁ አስቸኳይ ሁኔታን ለማስወገድ የሚወጣ አስፈላጊነት ያለው አዋጅ ነው። ግልጽ ከሆነ አደጋ ራስን ለመከላከል የሚጣል አዋጅ ነው፡፡ በሃገራችን ግን አስቸኳይ ነገር በሌለበትም ባለበትም ቦታ በእኩል መታወጁ ከህግ ውጪ ነው፡፡ ህገ ወጥ ነው፡፡ አስቸኳይ ጊዜ አዋጅ የህዝብን መብት በግልፅ የሚገድብ እንደመሆኑ ተጥሎ መቆየትም የለበትም፡፡ የአስቸኳይ ጊዜ አዋጅና አስቸኳይ ሁኔታ አይነጣጠሉም፡፡</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/366923"/>
+        <aif:creationDate>2018-10-14 08:03:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/366921 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/366921">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>አሁን አስቸኳይ ሁኔታ አለ ወይ ነው ጥያቄው? በመደበኛው የህግ ስርአት ማስተናገድ የማይቻል ችግር አለን? ይሄ መታየት አለበት፡፡ እነዚህ በሌሉበት ሁኔታ የሚጣል አዋጅ ግን በህግ ሽፋን ራስን እንደ መከላከል ነው፡፡ መሬት ላይ የሚታይ አስቸኳይ ሁኔታ በሌለበት የሚጣል አዋጅ ደግሞ ፀረ-ህገ መንግስት ነው፡፡ ፀረ ህግ ከሆነ ደግሞ ፀረ-ሠላም ነው የሚሆነው፡፡ የህግ የበላይነት ሳይኖር አስተማማኝ ሠላም አይኖርም፡፡</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/366922"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/366923"/>
+        <aif:creationDate>2018-10-14 08:03:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/366922 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/366922">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/366919"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/366921"/>
+        <aif:creationDate>2018-10-14 08:03:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/366923 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/366923">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/366921"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/366920"/>
+        <aif:creationDate>2018-10-14 08:03:30</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/32309 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32309">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>&quot;ग़रीबों की कला ग़रीब का बोझा उठा सकती है&#039;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32325"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32326"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32327"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32334"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32335"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32336"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32343"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32344"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32345"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32352"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32354"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32381"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32382"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32383"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32390"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32391"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32392"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32429"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32448"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32449"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32450"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32310 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32310">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>पंजाबी यूनिवर्सिटी पटिआला से थिएटर एंड टेलीविज़न विभाग से एमए करने के बाद अदाकार बनने की लिए मायानगरी मुंबई गए थे. कुछ भी रास नहीं आया तो चंगाली कलां पहुँच गए.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32327"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32336"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32345"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32354"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32383"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32392"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32450"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32311 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32311">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>सैमुअल ने अपने पुराने दोस्त कंवलजीत ढींडसा के स्कूल में ओपन एयर थिएटर बनाया और अख़बार में इश्तिहार के पर्चे डाल कर या गांव के गुरुद्वारों के स्पीकर्स द्वारा लोगों तक जानकारी पहुंचाई</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32322"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32331"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32340"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32349"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32378"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32387"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32426"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32325"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32334"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32343"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32381"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32390"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32429"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32448"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32312 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32312">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>वो दलित समाज में जाते हैं, नाटक करते हैं और फिर चादर फैला देते हैं. लोग अपनी मर्ज़ी से चादर पर नग़द से लेकर घरेलू सामान तक दे देते हैं, जिसमें आटा, चीनी, चाय पत्ती, नमक और गुड़ जैसी चीज़ें शामिल होती हैं.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32323"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32324"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32332"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32333"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32341"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32342"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32350"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32379"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32380"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32388"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32389"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32428"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32446"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32447"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32326"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32335"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32344"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32353"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32382"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32391"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32449"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32313 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32313">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>सैमुअल इस सामान को अपना सम्मान मानते हैं और सारा सामान चादर में बांध कर घर ले आते हैं</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32324"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32333"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32342"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32380"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32389"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32428"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32447"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32314 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32314">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>सैमुअल कहते हैं कि उनकी कला पैसे के लिए नहीं बल्कि सामाजिक जागृति के लिए है.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32323"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32332"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32341"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32388"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32427"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32446"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32315 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32315">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>जाति आधारित भेदभाव, दलितों का बहिष्कार, शोषण आदि मुद्दे सैमुअल के नाटकों का हिस्सा बने</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32321"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32330"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32339"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32348"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32377"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32386"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32322"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32331"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32340"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32378"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32387"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32426"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32445"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32316 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32316">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>&quot;यह नाटक नहीं है. हमारी ज़िंदगी है. इस नर्कनुमा ज़िंदगी को बदलना है.&quot;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32320"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32329"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32338"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32376"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32385"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32443"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32321"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32330"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32339"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32348"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32377"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32386"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32444"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32317 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32317">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>जब सैमुअल से पूछा जाता है की वह कला के नाम पर सामाजिक तब्दीली की बात करते हैं, लेकिन कला इतना बोझ कैसे उठाएगी?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32319"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32328"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32337"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32346"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32375"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32384"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32442"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32320"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32329"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32338"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32347"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32376"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32385"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32443"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32318 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32318">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>सैमुअल कहते हैं, &quot;ग़रीब जब इतना बोझा उठा रहा है, तो ग़रीब की कला भी ग़रीब का बोझा उठा सकती है.&quot; इतना कहते हुए सैमुअल की आँखों में एक चमक कौंध जाती है.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32319"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32328"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32337"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32346"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32384"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32442"/>
+        <aif:creationDate>2014-06-30 12:12:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32346 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32346">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32318"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32317"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32347 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32347">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32317"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32316"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32348 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32348">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32316"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32315"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32349 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32349">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32315"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32311"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32350 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32350">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32314"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32312"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32351 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32351">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32313"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32312"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32352 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32352">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32311"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32309"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32353 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32353">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32312"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32309"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32354 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32354">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32310"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32309"/>
+        <aif:creationDate>2014-06-30 12:16:25</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

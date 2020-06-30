@@ -1,0 +1,952 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/432686 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432686">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : My sense is that we used to see blind loyalty and self-sacrifice as a, kind of, sine qua non of military service, but it’s more complicated now, isn’t it</aif:claimText>
+        <aif:source>Matthew Taylor : My sense is that we used to see blind loyalty and self-sacrifice as a, kind of, sine qua non of military service, but it’s more complicated now, isn’t it</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432687"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432692"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432782"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432783"/>
+        <aif:creationDate>2019-09-23 17:18:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432687 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432687">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432686"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432688"/>
+        <aif:creationDate>2019-09-23 17:18:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432688 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432688">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Matthew Taylor&#039;s sense is that we used to see blind loyalty and self-sacrifice as a, kind of, sine qua non of military service, but it’s more complicated now</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432687"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432693"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432782"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432784"/>
+        <aif:creationDate>2019-09-23 17:18:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432689 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432689">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Matthew Taylor : My sense is that we used to see blind loyalty and self-sacrifice as a, kind of, sine qua non of military service, but it’s more complicated now, isn’t it</aif:claimText>
+        <aif:source>Nicole: Matthew Taylor : My sense is that we used to see blind loyalty and self-sacrifice as a, kind of, sine qua non of military service, but it’s more complicated now, isn’t it</aif:source>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432690 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432690">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : Yes, I think that’s fair</aif:claimText>
+        <aif:source>Nick Carter : Yes, I think that’s fair</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432692"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432746"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432783"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432805"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432698"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432752"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432786"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432808"/>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432691 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432691">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : Yes, I think that’s fair</aif:claimText>
+        <aif:source>Nicole: Nick Carter : Yes, I think that’s fair</aif:source>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432692 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432692">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432686"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432690"/>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432693 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432693">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/432692"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432688"/>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432694 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432694">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : it’s an affront to the coming generation that people suggest that they’re not as brave as the generation that fought at D-Day</aif:claimText>
+        <aif:source>Nick Carter : it’s an affront to the coming generation that people suggest that they’re not as brave as the generation that fought at D-Day</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432698"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432786"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432695"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432703"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432785"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432788"/>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432695 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432695">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432694"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432696"/>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432696 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432696">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>it’s an affront to the coming generation that people suggest that they’re not as brave as the generation that fought at D-Day</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432695"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432785"/>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432697 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432697">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : it’s an affront to the coming generation that people suggest that they’re not as brave as the generation that fought at D-Day</aif:claimText>
+        <aif:source>Nicole: Nick Carter : it’s an affront to the coming generation that people suggest that they’re not as brave as the generation that fought at D-Day</aif:source>
+        <aif:creationDate>2019-09-23 17:18:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432698 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432698">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432690"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432694"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432699 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432699">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : The reality is, from what I saw in Afghanistan and Iraq, the coming generation are rather braver than my generation</aif:claimText>
+        <aif:source>Nick Carter : The reality is, from what I saw in Afghanistan and Iraq, the coming generation are rather braver than my generation</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432703"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432788"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432700"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432708"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432787"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432790"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432700 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432700">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432699"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432701"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432701 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432701">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The reality is, from what Nick Carter saw in Afghanistan and Iraq, the coming generation are rather braver than his generation</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432700"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432787"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432702 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432702">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : The reality is, from what I saw in Afghanistan and Iraq, the coming generation are rather braver than my generation</aif:claimText>
+        <aif:source>Nicole: Nick Carter : The reality is, from what I saw in Afghanistan and Iraq, the coming generation are rather braver than my generation</aif:source>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432703 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432703">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432694"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432699"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432704 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432704">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : The point though is that they’re less deferential and they’re more challenging and they need to be led in a different way and that’s healthy</aif:claimText>
+        <aif:source>Nick Carter : The point though is that they’re less deferential and they’re more challenging and they need to be led in a different way and that’s healthy</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432708"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432790"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432705"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432713"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432789"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432792"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432705 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432705">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432704"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432706"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432706 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432706">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The point though is that the coming generation are less deferential and they’re more challenging and they need to be led in a different way and that’s healthy</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432705"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432714"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432789"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432793"/>
+        <aif:creationDate>2019-09-23 17:18:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432707 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432707">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : The point though is that they’re less deferential and they’re more challenging and they need to be led in a different way and that’s healthy</aif:claimText>
+        <aif:source>Nicole: Nick Carter : The point though is that they’re less deferential and they’re more challenging and they need to be led in a different way and that’s healthy</aif:source>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432708 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432708">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432699"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432704"/>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432709 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432709">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : there asking good questions about what we’re doing and that makes us more potent as a result</aif:claimText>
+        <aif:source>Nick Carter : there asking good questions about what we’re doing and that makes us more potent as a result</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432713"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432792"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432710"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432720"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432791"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432796"/>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432710 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432710">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432709"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432711"/>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432711 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432711">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the coming generation are asking good questions about what we’re doing and that makes us more potent as a result</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432710"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432791"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432714"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432793"/>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432712 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432712">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : there asking good questions about what we’re doing and that makes us more potent as a result</aif:claimText>
+        <aif:source>Nicole: Nick Carter : there asking good questions about what we’re doing and that makes us more potent as a result</aif:source>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432713 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432713">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432704"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432709"/>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432714 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432714">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432711"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432715"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432706"/>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432715 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432715">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/432713"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432714"/>
+        <aif:creationDate>2019-09-23 17:18:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432716 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432716">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : is part of that that had I been called up in 1942, I wouldn’t have needed to know anything about Germans, just put a gun in my hand and point me in their direction</aif:claimText>
+        <aif:source>Matthew Taylor : is part of that that had I been called up in 1942, I wouldn’t have needed to know anything about Germans, just put a gun in my hand and point me in their direction</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432720"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432796"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432717"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432764"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432795"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432813"/>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432717 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432717">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432716"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432718"/>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432718 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432718">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>part of that is that had Matthew Taylor been called up in 1942, he wouldn’t have needed to know anything about Germans, just put a gun in his hand and point him in their direction</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432717"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432795"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432812"/>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432719 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432719">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Matthew Taylor : is part of that that had I been called up in 1942, I wouldn’t have needed to know anything about Germans, just put a gun in my hand and point me in their direction</aif:claimText>
+        <aif:source>Nicole: Matthew Taylor : is part of that that had I been called up in 1942, I wouldn’t have needed to know anything about Germans, just put a gun in my hand and point me in their direction</aif:source>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432720 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432720">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432709"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432716"/>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432721 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432721">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Matthew Taylor : Whereas for someone to serve in Afghanistan, for them to enter a service without understanding anything about Afghani customs, any, kind of, capacity to distinguish between someone who might be friendly or someone who might be a terrorist, that would be much more problematic</aif:claimText>
+        <aif:source>Nicole: Matthew Taylor : Whereas for someone to serve in Afghanistan, for them to enter a service without understanding anything about Afghani customs, any, kind of, capacity to distinguish between someone who might be friendly or someone who might be a terrorist, that would be much more problematic</aif:source>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432722 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432722">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : You need a different set of skills now, don’t you</aif:claimText>
+        <aif:source>Matthew Taylor : You need a different set of skills now, don’t you</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432765"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432814"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432723"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432730"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432797"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432799"/>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432723 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432723">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432722"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432724"/>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432724 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432724">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You need a different set of skills for military service now</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432723"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432763"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432797"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432812"/>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432725 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432725">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Matthew Taylor : You need a different set of skills now, don’t you</aif:claimText>
+        <aif:source>Nicole: Matthew Taylor : You need a different set of skills now, don’t you</aif:source>
+        <aif:creationDate>2019-09-23 17:18:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432726 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432726">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : You do and, of course, we have the great advantage of having professional army’s, navy’s and air forces</aif:claimText>
+        <aif:source>Nick Carter : You do and, of course, we have the great advantage of having professional army’s, navy’s and air forces</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432730"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432799"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432727"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432735"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432798"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432801"/>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432727 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432727">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432726"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432728"/>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432728 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432728">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You do and, of course, we have the great advantage of having professional army’s, navy’s and air forces</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432727"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432798"/>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432729 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432729">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : You do and, of course, we have the great advantage of having professional army’s, navy’s and air forces</aif:claimText>
+        <aif:source>Nicole: Nick Carter : You do and, of course, we have the great advantage of having professional army’s, navy’s and air forces</aif:source>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432730 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432730">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432722"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432726"/>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432731 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432731">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : that gives us the advantage of being able to spend time educating people on the very complex dynamics in local political terms that they’re going to find on the ground</aif:claimText>
+        <aif:source>Nick Carter : that gives us the advantage of being able to spend time educating people on the very complex dynamics in local political terms that they’re going to find on the ground</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432735"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432801"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432732"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432740"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432800"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432803"/>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432732 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432732">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432731"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432733"/>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432733 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432733">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>having professional army’s, navy’s and air forces gives us the advantage of being able to spend time educating people on the very complex dynamics in local political terms that they’re going to find on the ground</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432732"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432800"/>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432734 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432734">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : that gives us the advantage of being able to spend time educating people on the very complex dynamics in local political terms that they’re going to find on the ground</aif:claimText>
+        <aif:source>Nicole: Nick Carter : that gives us the advantage of being able to spend time educating people on the very complex dynamics in local political terms that they’re going to find on the ground</aif:source>
+        <aif:creationDate>2019-09-23 17:18:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432735 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432735">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432726"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432731"/>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432736 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432736">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : the challenge with Afghanistan is, in political terms, our leadership was very keen to paint it as good guys versus bad guys</aif:claimText>
+        <aif:source>Nick Carter : the challenge with Afghanistan is, in political terms, our leadership was very keen to paint it as good guys versus bad guys</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432740"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432803"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432737"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432773"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432802"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432819"/>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432737 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432737">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432736"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432738"/>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432738 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432738">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the challenge with Afghanistan is, in political terms, our leadership was very keen to paint it as good guys versus bad guys</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432737"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432780"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432802"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432823"/>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432739 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432739">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : the challenge with Afghanistan is, in political terms, our leadership was very keen to paint it as good guys versus bad guys</aif:claimText>
+        <aif:source>Nicole: Nick Carter : the challenge with Afghanistan is, in political terms, our leadership was very keen to paint it as good guys versus bad guys</aif:source>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432740 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432740">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432731"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432736"/>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432741 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432741">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : Of course the reality, when you got on the ground, was it wasn’t like that at all</aif:claimText>
+        <aif:source>Nicole: Nick Carter : Of course the reality, when you got on the ground, was it wasn’t like that at all</aif:source>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432742 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432742">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : do you think, in a sense, it’s inevitable that the connection between civilians and soldiers, it has become less direct, in the sense that, being a soldier now is more technical, it’s more complex, it involves a wider range of skills, than it might have done in a simpler world</aif:claimText>
+        <aif:source>Matthew Taylor : do you think, in a sense, it’s inevitable that the connection between civilians and soldiers, it has become less direct, in the sense that, being a soldier now is more technical, it’s more complex, it involves a wider range of skills, than it might have done in a simpler world</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432779"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432822"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432743"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432746"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432804"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432805"/>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432743 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432743">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432742"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432744"/>
+        <aif:creationDate>2019-09-23 17:18:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432744 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432744">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Nick Carter does think, in a sense, it’s inevitable that the connection between civilians and soldiers, it has become less direct, in the sense that, being a soldier now is more technical, it’s more complex, it involves a wider range of skills, than it might have done in a simpler world</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432743"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432747"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432804"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432806"/>
+        <aif:creationDate>2019-09-23 17:18:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432745 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432745">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Matthew Taylor : do you think, in a sense, it’s inevitable that the connection between civilians and soldiers, it has become less direct, in the sense that, being a soldier now is more technical, it’s more complex, it involves a wider range of skills, than it might have done in a simpler world</aif:claimText>
+        <aif:source>Nicole: Matthew Taylor : do you think, in a sense, it’s inevitable that the connection between civilians and soldiers, it has become less direct, in the sense that, being a soldier now is more technical, it’s more complex, it involves a wider range of skills, than it might have done in a simpler world</aif:source>
+        <aif:creationDate>2019-09-23 17:18:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432746 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432746">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432742"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432690"/>
+        <aif:creationDate>2019-09-23 17:18:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432747 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432747">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/432746"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432744"/>
+        <aif:creationDate>2019-09-23 17:18:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432748 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432748">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : what’s interesting, increasingly now, is that we depend upon civilians to give us the skills we need to succeed in many of the environments that you’ve described</aif:claimText>
+        <aif:source>Nick Carter : what’s interesting, increasingly now, is that we depend upon civilians to give us the skills we need to succeed in many of the environments that you’ve described</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432752"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432808"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432749"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432757"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432807"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432810"/>
+        <aif:creationDate>2019-09-23 17:18:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432749 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432749">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432748"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432750"/>
+        <aif:creationDate>2019-09-23 17:18:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432750 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432750">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>what’s interesting, increasingly now, is that we depend upon civilians to give us the skills we need to succeed in many of the environments that Matthew Taylor has described</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432749"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432807"/>
+        <aif:creationDate>2019-09-23 17:18:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432751 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432751">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : what’s interesting, increasingly now, is that we depend upon civilians to give us the skills we need to succeed in many of the environments that you’ve described</aif:claimText>
+        <aif:source>Nicole: Nick Carter : what’s interesting, increasingly now, is that we depend upon civilians to give us the skills we need to succeed in many of the environments that you’ve described</aif:source>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432752 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432752">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432690"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432748"/>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432753 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432753">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : one of the points I make a lot about D-Day is, one of the reasons we prevailed in D-Day was we mobilised many of the very best brains in the country, to be able to deal with the technical and engineering challenges that the Germans had presented to us on the ground</aif:claimText>
+        <aif:source>Nick Carter : one of the points I make a lot about D-Day is, one of the reasons we prevailed in D-Day was we mobilised many of the very best brains in the country, to be able to deal with the technical and engineering challenges that the Germans had presented to us on the ground</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432757"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432810"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432754"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432809"/>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432754 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432754">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432753"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432755"/>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432755 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432755">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>one of the points Nick Carter makes a lot about D-Day is, one of the reasons we prevailed in D-Day was we mobilised many of the very best brains in the country, to be able to deal with the technical and engineering challenges that the Germans had presented to us on the ground</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432754"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432809"/>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432756 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432756">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : one of the points I make a lot about D-Day is, one of the reasons we prevailed in D-Day was we mobilised many of the very best brains in the country, to be able to deal with the technical and engineering challenges that the Germans had presented to us on the ground</aif:claimText>
+        <aif:source>Nicole: Nick Carter : one of the points I make a lot about D-Day is, one of the reasons we prevailed in D-Day was we mobilised many of the very best brains in the country, to be able to deal with the technical and engineering challenges that the Germans had presented to us on the ground</aif:source>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432757 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432757">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432748"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432753"/>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432758 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432758">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : many afghans wielded weapons for all sorts of different reasons and they often went, because they were the enemy</aif:claimText>
+        <aif:source>Nicole: Nick Carter : many afghans wielded weapons for all sorts of different reasons and they often went, because they were the enemy</aif:source>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432759 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432759">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : for someone to serve in Afghanistan, for them to enter a service without understanding anything about Afghani customs, any, kind of, capacity to distinguish between someone who might be friendly or someone who might be a terrorist, that would be much more problematic</aif:claimText>
+        <aif:source>Matthew Taylor : for someone to serve in Afghanistan, for them to enter a service without understanding anything about Afghani customs, any, kind of, capacity to distinguish between someone who might be friendly or someone who might be a terrorist, that would be much more problematic</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432764"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432813"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432760"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432765"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432811"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432814"/>
+        <aif:creationDate>2019-09-23 17:18:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432760 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432760">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432759"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432761"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432761 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432761">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>for someone to serve in Afghanistan, for them to enter a service without understanding anything about Afghani customs, any, kind of, capacity to distinguish between someone who might be friendly or someone who might be a terrorist, that would be much more problematic</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432760"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432811"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432812"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432762 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432762">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Matthew Taylor : for someone to serve in Afghanistan, for them to enter a service without understanding anything about Afghani customs, any, kind of, capacity to distinguish between someone who might be friendly or someone who might be a terrorist, that would be much more problematic</aif:claimText>
+        <aif:source>Nicole: Matthew Taylor : for someone to serve in Afghanistan, for them to enter a service without understanding anything about Afghani customs, any, kind of, capacity to distinguish between someone who might be friendly or someone who might be a terrorist, that would be much more problematic</aif:source>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432763 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432763">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432718"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432761"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432766"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432724"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432764 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432764">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432716"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432759"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432765 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432765">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432759"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432722"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432766 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432766">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/432765"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432763"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432767 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432767">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432768 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432768">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/432735"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432767"/>
+        <aif:creationDate>2019-09-23 17:18:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432769 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432769">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : Of course the reality, when you got on the ground, was it wasn’t like that at all, many afghans wielded weapons for all sorts of different reasons</aif:claimText>
+        <aif:source>Nick Carter : Of course the reality, when you got on the ground, was it wasn’t like that at all, many afghans wielded weapons for all sorts of different reasons</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432773"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432819"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432770"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432778"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432818"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432821"/>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432770 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432770">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432769"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432771"/>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432771 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432771">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Of course the reality, when you got on the ground, was it wasn’t like that at all, many afghans wielded weapons for all sorts of different reasons</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432770"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432818"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432780"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432823"/>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432772 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432772">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : Of course the reality, when you got on the ground, was it wasn’t like that at all, many afghans wielded weapons for all sorts of different reasons</aif:claimText>
+        <aif:source>Nicole: Nick Carter : Of course the reality, when you got on the ground, was it wasn’t like that at all, many afghans wielded weapons for all sorts of different reasons</aif:source>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432773 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432773">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432736"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432769"/>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432774 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432774">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Carter : they often went, because they were the enemy</aif:claimText>
+        <aif:source>Nick Carter : they often went, because they were the enemy</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432778"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432821"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432775"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432779"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432820"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432822"/>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432775 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432775">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/432774"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432776"/>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432776 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432776">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>leadership often went afghans wielded weapons, because the afghans were the enemy</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432775"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432820"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432780"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432823"/>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432777 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432777">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nicole: Nick Carter : they often went, because they were the enemy</aif:claimText>
+        <aif:source>Nicole: Nick Carter : they often went, because they were the enemy</aif:source>
+        <aif:creationDate>2019-09-23 17:18:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432778 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432778">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432769"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432774"/>
+        <aif:creationDate>2019-09-23 17:18:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432779 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432779">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/432774"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/432742"/>
+        <aif:creationDate>2019-09-23 17:18:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432780 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432780">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432771"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/432776"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432781"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/432738"/>
+        <aif:creationDate>2019-09-23 17:18:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/432781 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/432781">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/432778"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/432780"/>
+        <aif:creationDate>2019-09-23 17:18:31</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/100651 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/100651">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The internet can be used to inspire people.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/100656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262975"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263010"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263011"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263012"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/100655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262976"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262991"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262993"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262997"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263002"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263008"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263016"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263020"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263024"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263028"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263109"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263113"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263117"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263121"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263192"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263204"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263208"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263212"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264549"/>
+        <aif:creationDate>2015-10-02 07:01:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262965 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262965">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Technology doesn&#039;t have to destroy imagination.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262969"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262975"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263011"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263012"/>
+        <aif:creationDate>2017-03-07 14:30:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

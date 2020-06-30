@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/538814 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538814">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>More students should major in history while they are in college.</aif:claimText>
+        <aif:creationDate>2020-06-02 18:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538815 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538815">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>By learning how the structures of society came into being, we can better understand the world we live in.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/538826"/>
+        <aif:creationDate>2020-06-02 18:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538816 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538816">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There is no other way to make sense of the contemporary world than to revisit the men and women who shaped our society.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/538826"/>
+        <aif:creationDate>2020-06-02 18:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538817 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538817">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Second, history is fascinating.</aif:claimText>
+        <aif:creationDate>2020-06-02 18:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538818 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538818">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>No matter what interests you (peace, war, art, sports, technology, popular culture, etc.), history will allow you to learn more about your interests.</aif:claimText>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538819 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538819">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There is no need for a historical course of study to be boring to anyone.</aif:claimText>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538820 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538820">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Third, you will discover that the people of the past are more like you than you might imagine;</aif:claimText>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538821 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538821">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>there are extraordinary people that you discover in history and you will be surprised by how much you can learn from them.</aif:claimText>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538822 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538822">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Finally, history can be very useful to you in your career, even if you do not work in the field of history itself.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/538825"/>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538823 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538823">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>As a banker, lawyer, artisan, chef, or psychologist, your knowledge of history will give you the perspective to be better at your job.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/538825"/>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538824 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538824">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You may not get rich from studying history but you will be poorer without it.</aif:claimText>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538825 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538825">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/538823"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/538822"/>
+        <aif:creationDate>2020-06-02 18:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/538826 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/538826">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/538816"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/538815"/>
+        <aif:creationDate>2020-06-02 18:10:21</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/47663 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47663">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Cats make good pets</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47671"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47693"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47695"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47712"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47713"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47740"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47742"/>
+        <aif:creationDate>2015-02-05 09:01:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47667 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47667">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>They are clean</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47741"/>
+        <aif:creationDate>2015-02-05 10:22:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47668 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47668">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>they are entertaining</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47671"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47742"/>
+        <aif:creationDate>2015-02-05 10:22:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47669 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47669">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>because they are affectionate</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47670"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47694"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47713"/>
+        <aif:creationDate>2015-02-05 13:39:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47670 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47670">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47669"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47663"/>
+        <aif:creationDate>2015-02-05 13:39:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47671 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47671">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47668"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47663"/>
+        <aif:creationDate>2015-02-05 13:39:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47667"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47663"/>
+        <aif:creationDate>2015-02-05 13:39:40</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

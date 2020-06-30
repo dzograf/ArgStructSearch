@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/168570 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168570">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>O ataque ao Serviço Social</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168578"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168581"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168584"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168587"/>
+        <aif:creationDate>2016-04-10 12:43:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168571 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168571">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/42.html:  O ataque ao Serviço Social</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/42.html:  O ataque ao Serviço Social</aif:source>
+        <aif:creationDate>2016-04-10 12:43:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168572 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168572">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Cada vez mais, numa sociedade que se intitula preocupada com a segurança e o bem-estar da criança e do idoso, se observa a incúria e a leviandade de alguns comentadores radio televisivos e apresentadores de alcofinha, pagos a peso de ouro que apregoam chamadas de valor acrescentado em que o ALVO são os que maior dificuldade sentem com as mediadas austeras que se vivem actualment</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168578"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168581"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168584"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168587"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168579"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168582"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168585"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168588"/>
+        <aif:creationDate>2016-04-10 12:43:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168573 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168573">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/42.html: Cada vez mais, numa sociedade que se intitula preocupada com a segurança e o bem-estar da criança e do idoso, se observa a incúria e a leviandade de alguns comentadores radio televisivos e apresentadores de alcofinha, pagos a peso de ouro que apregoam chamadas de valor acrescentado em que o ALVO são os que maior dificuldade sentem com as mediadas austeras que se vivem actualment</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/42.html: Cada vez mais, numa sociedade que se intitula preocupada com a segurança e o bem-estar da criança e do idoso, se observa a incúria e a leviandade de alguns comentadores radio televisivos e apresentadores de alcofinha, pagos a peso de ouro que apregoam chamadas de valor acrescentado em que o ALVO são os que maior dificuldade sentem com as mediadas austeras que se vivem actualment</aif:source>
+        <aif:creationDate>2016-04-10 12:43:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168574 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168574">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Falam da lentidão na constituição das ordens, ou inoperância das associações de profissionais ou sindicatos mas, nem a cara dão para que essas representações ganhem resistência escondendo-se virtualmente atrás das redes sociais evocando o movimento de todos os profissionais, criticando e estrebuchando. Lá vai o tempo onde o ponto de encontro era no café da esquina onde, olhos nos olhos se discutiam estratégias, acções ou movimentos e não na caixinha informática ou nas redes sociais onde grande parte dos intervenientes não se conhecem pessoalmente ou sabem se de facto são pessoas reais.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168579"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168582"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168585"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168588"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168580"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168583"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168586"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168589"/>
+        <aif:creationDate>2016-04-10 12:43:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168575 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168575">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/42.html: Falam da lentidão na constituição das ordens, ou inoperância das associações de profissionais ou sindicatos mas, nem a cara dão para que essas representações ganhem resistência escondendo-se virtualmente atrás das redes sociais evocando o movimento de todos os profissionais, criticando e estrebuchando. Lá vai o tempo onde o ponto de encontro era no café da esquina onde, olhos nos olhos se discutiam estratégias, acções ou movimentos e não na caixinha informática ou nas redes sociais onde grande parte dos intervenientes não se conhecem pessoalmente ou sabem se de facto são pessoas reais.</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/42.html: Falam da lentidão na constituição das ordens, ou inoperância das associações de profissionais ou sindicatos mas, nem a cara dão para que essas representações ganhem resistência escondendo-se virtualmente atrás das redes sociais evocando o movimento de todos os profissionais, criticando e estrebuchando. Lá vai o tempo onde o ponto de encontro era no café da esquina onde, olhos nos olhos se discutiam estratégias, acções ou movimentos e não na caixinha informática ou nas redes sociais onde grande parte dos intervenientes não se conhecem pessoalmente ou sabem se de facto são pessoas reais.</aif:source>
+        <aif:creationDate>2016-04-10 12:43:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168576 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168576">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Lamento que muitas profissões tentem o assalto desenfreado ao serviço social, criticando de forma destruidora e desorganizada, provocando rupturas académicas e profissionais sem qualquer sentido, apenas porque querem também eles ser assistentes sociais, recusando-se simplesmente a integrar uma equipa de acção e acima de tudo de ATITUDE. O Serviço Social, todos o querem mas, nem todos o podem ter! Muitos opinam mas nem todos o fazem com atitude e conhecimento</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168580"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168583"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168586"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168589"/>
+        <aif:creationDate>2016-04-10 12:43:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168577 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168577">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/42.html: Lamento que muitas profissões tentem o assalto desenfreado ao serviço social, criticando de forma destruidora e desorganizada, provocando rupturas académicas e profissionais sem qualquer sentido, apenas porque querem também eles ser assistentes sociais, recusando-se simplesmente a integrar uma equipa de acção e acima de tudo de ATITUDE. O Serviço Social, todos o querem mas, nem todos o podem ter! Muitos opinam mas nem todos o fazem com atitude e conhecimento</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/42.html: Lamento que muitas profissões tentem o assalto desenfreado ao serviço social, criticando de forma destruidora e desorganizada, provocando rupturas académicas e profissionais sem qualquer sentido, apenas porque querem também eles ser assistentes sociais, recusando-se simplesmente a integrar uma equipa de acção e acima de tudo de ATITUDE. O Serviço Social, todos o querem mas, nem todos o podem ter! Muitos opinam mas nem todos o fazem com atitude e conhecimento</aif:source>
+        <aif:creationDate>2016-04-10 12:43:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168570"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168572"/>
+        <aif:creationDate>2016-04-10 12:44:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168572"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168574"/>
+        <aif:creationDate>2016-04-10 12:44:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/168583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/168583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168574"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168576"/>
+        <aif:creationDate>2016-04-10 12:44:52</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/491538 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491538">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna : Niech NFZ nie będzie rozliczany z pieniędzy, tylko niech będzie rozliczany z tego czy zmniejsza się śmiertelność - która panie pośle przez cztery lata niestety drastycznie w Polsce wzrosła -  czy zmniejszają się kolejki, ale kolejki chorych którzy nie mają czasu na czekanie, i czy  Polki chorujące na raka piersi mają takie same szanse na wyleczenie jak Niemki czy Francuzki.</aif:claimText>
+        <aif:source>Izabela Leszczyna : Niech NFZ nie będzie rozliczany z pieniędzy, tylko niech będzie rozliczany z tego czy zmniejsza się śmiertelność - która panie pośle przez cztery lata niestety drastycznie w Polsce wzrosła -  czy zmniejszają się kolejki, ale kolejki chorych którzy nie mają czasu na czekanie, i czy  Polki chorujące na raka piersi mają takie same szanse na wyleczenie jak Niemki czy Francuzki.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491550"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491570"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491591"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493017"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496922"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491539"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491564"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491585"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493011"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496932"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496934"/>
+        <aif:creationDate>2020-05-04 22:05:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491540 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491540">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Niech NFZ nie będzie rozliczany z pieniędzy, tylko niech będzie rozliczany z tego czy zmniejsza się śmiertelność - która panie pośle przez cztery lata niestety drastycznie w Polsce wzrosła -  czy zmniejszają się kolejki, ale kolejki chorych którzy nie mają czasu na czekanie, i czy  Polki chorujące na raka piersi mają takie same szanse na wyleczenie jak Niemki czy Francuzki.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491539"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491564"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491585"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493011"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496932"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491552"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491572"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491593"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493019"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496930"/>
+        <aif:creationDate>2020-05-04 22:05:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496900 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496900">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Wszystkie riposty w tej rundzie już za nami. Teraz odpowiedź na pytanie o ten ponadpartyjny plan ratunkowy dla służby zdrowia - Izabela Leszczyna.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Wszystkie riposty w tej rundzie już za nami. Teraz odpowiedź na pytanie o ten ponadpartyjny plan ratunkowy dla służby zdrowia - Izabela Leszczyna.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496901"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496908"/>
+        <aif:creationDate>2020-05-14 13:29:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496901 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496901">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496900"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496902"/>
+        <aif:creationDate>2020-05-14 13:29:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496902 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496902">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: Wszystkie riposty w tej rundzie już za nami. Teraz odpowiedź na pytanie o ten ponadpartyjny plan ratunkowy dla służby zdrowia - Izabela Leszczyna.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496901"/>
+        <aif:creationDate>2020-05-14 13:29:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496903 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496903">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Wszystkie riposty w tej rundzie już za nami. Teraz odpowiedź na pytanie o ten ponadpartyjny plan ratunkowy dla służby zdrowia - Izabela Leszczyna.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Wszystkie riposty w tej rundzie już za nami. Teraz odpowiedź na pytanie o ten ponadpartyjny plan ratunkowy dla służby zdrowia - Izabela Leszczyna.</aif:source>
+        <aif:creationDate>2020-05-14 13:29:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496904 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496904">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna:  Jesteśmy absolutnie za</aif:claimText>
+        <aif:source>Izabela Leszczyna:  Jesteśmy absolutnie za</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496908"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496905"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496913"/>
+        <aif:creationDate>2020-05-14 13:29:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496905 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496905">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496904"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496906"/>
+        <aif:creationDate>2020-05-14 13:29:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496906 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496906">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jesteśmy absolutnie za</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496905"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496928"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496930"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496935"/>
+        <aif:creationDate>2020-05-14 13:29:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496907 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496907">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : Izabela Leszczyna:  Jesteśmy absolutnie za</aif:claimText>
+        <aif:source>W: Izabela Leszczyna : Izabela Leszczyna:  Jesteśmy absolutnie za</aif:source>
+        <aif:creationDate>2020-05-14 13:29:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496908 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496908">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496900"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496904"/>
+        <aif:creationDate>2020-05-14 13:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496909 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496909">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna : Ja nawet ten pomysł z operacjonalizuję, zwracając się do przedstawiciela PSL-u i Lewicy, bo w gruncie rzeczy mówimy o tym samym, mówimy o zwiększeniu nakładów, mówimy o zmianie organizacyjnej,</aif:claimText>
+        <aif:source>Izabela Leszczyna : Ja nawet ten pomysł z operacjonalizuję, zwracając się do przedstawiciela PSL-u i Lewicy, bo w gruncie rzeczy mówimy o tym samym, mówimy o zwiększeniu nakładów, mówimy o zmianie organizacyjnej,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496913"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496910"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496918"/>
+        <aif:creationDate>2020-05-14 13:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496910 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496910">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496909"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496911"/>
+        <aif:creationDate>2020-05-14 13:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496911 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496911">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ja nawet ten pomysł z operacjonalizuję, zwracając się do przedstawiciela PSL-u i Lewicy, bo w gruncie rzeczy mówimy o tym samym, mówimy o zwiększeniu nakładów, mówimy o zmianie organizacyjnej,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496910"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496919"/>
+        <aif:creationDate>2020-05-14 13:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496912 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496912">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : Ja nawet ten pomysł z operacjonalizuję, zwracając się do przedstawiciela PSL-u i Lewicy, bo w gruncie rzeczy mówimy o tym samym, mówimy o zwiększeniu nakładów, mówimy o zmianie organizacyjnej,</aif:claimText>
+        <aif:source>W: Izabela Leszczyna : Ja nawet ten pomysł z operacjonalizuję, zwracając się do przedstawiciela PSL-u i Lewicy, bo w gruncie rzeczy mówimy o tym samym, mówimy o zwiększeniu nakładów, mówimy o zmianie organizacyjnej,</aif:source>
+        <aif:creationDate>2020-05-14 13:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496913 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496913">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496904"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496909"/>
+        <aif:creationDate>2020-05-14 13:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496914 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496914">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna : więc zróbmy coś naprawdę, wygrajmy te wybory, stwórzmy koalicyjny rząd i w centrum ochrony zdrowia postawmy wreszcie pacjenta.</aif:claimText>
+        <aif:source>Izabela Leszczyna : więc zróbmy coś naprawdę, wygrajmy te wybory, stwórzmy koalicyjny rząd i w centrum ochrony zdrowia postawmy wreszcie pacjenta.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496918"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496915"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496922"/>
+        <aif:creationDate>2020-05-14 13:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496915 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496915">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496914"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496916"/>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496916 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496916">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>więc zróbmy coś naprawdę, wygrajmy te wybory, stwórzmy koalicyjny rząd i w centrum ochrony zdrowia postawmy wreszcie pacjenta.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496915"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496928"/>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496917 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496917">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : więc zróbmy coś naprawdę, wygrajmy te wybory, stwórzmy koalicyjny rząd i w centrum ochrony zdrowia postawmy wreszcie pacjenta.</aif:claimText>
+        <aif:source>W: Izabela Leszczyna : więc zróbmy coś naprawdę, wygrajmy te wybory, stwórzmy koalicyjny rząd i w centrum ochrony zdrowia postawmy wreszcie pacjenta.</aif:source>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496918 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496918">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496909"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496914"/>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496919 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496919">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496911"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496920"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496916"/>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496920 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496920">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496918"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496919"/>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496921 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496921">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna :  Niech NFZ nie będzie rozliczany z pieniędzy, tylko niech będzie rozliczany z tego czy zmniejsza się śmiertelność - która panie pośle przez cztery lata niestety drastycznie w Polsce wzrosła</aif:claimText>
+        <aif:source>W: Izabela Leszczyna :  Niech NFZ nie będzie rozliczany z pieniędzy, tylko niech będzie rozliczany z tego czy zmniejsza się śmiertelność - która panie pośle przez cztery lata niestety drastycznie w Polsce wzrosła</aif:source>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496922 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496922">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496914"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491538"/>
+        <aif:creationDate>2020-05-14 13:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496923 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496923">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : czy zmniejszają się kolejki, ale kolejki chorych którzy nie mają czasu na czekanie, i czy  Polki chorujące na raka piersi mają takie same szanse na wyleczenie jak Niemki czy Francuzki.</aif:claimText>
+        <aif:source>W: Izabela Leszczyna : czy zmniejszają się kolejki, ale kolejki chorych którzy nie mają czasu na czekanie, i czy  Polki chorujące na raka piersi mają takie same szanse na wyleczenie jak Niemki czy Francuzki.</aif:source>
+        <aif:creationDate>2020-05-14 13:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496924 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496924">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna : Bo my mówimy jasno i wyraźnie: wiemy jak to zrobić i mówimy -  21 dni oczekiwania do specjalisty i 60 minut oczekiwania na SORze.To jest nasza propozycja. </aif:claimText>
+        <aif:source>Izabela Leszczyna : Bo my mówimy jasno i wyraźnie: wiemy jak to zrobić i mówimy -  21 dni oczekiwania do specjalisty i 60 minut oczekiwania na SORze.To jest nasza propozycja. </aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496934"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496925"/>
+        <aif:creationDate>2020-05-14 13:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496925 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496925">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496924"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496926"/>
+        <aif:creationDate>2020-05-14 13:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496926 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496926">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Bo my mówimy jasno i wyraźnie: wiemy jak to zrobić i mówimy -  21 dni oczekiwania do specjalisty i 60 minut oczekiwania na SORze.To jest nasza propozycja. </aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496925"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496935"/>
+        <aif:creationDate>2020-05-14 13:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496927 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496927">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : Bo my mówimy jasno i wyraźnie: wiemy jak to zrobić i mówimy -  21 dni oczekiwania do specjalisty i 60 minut oczekiwania na SORze.To jest nasza propozycja. </aif:claimText>
+        <aif:source>W: Izabela Leszczyna : Bo my mówimy jasno i wyraźnie: wiemy jak to zrobić i mówimy -  21 dni oczekiwania do specjalisty i 60 minut oczekiwania na SORze.To jest nasza propozycja. </aif:source>
+        <aif:creationDate>2020-05-14 13:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496928 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496928">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496916"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496929"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496906"/>
+        <aif:creationDate>2020-05-14 13:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496929 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496929">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496918"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496928"/>
+        <aif:creationDate>2020-05-14 13:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496930 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496930">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491540"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496931"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496906"/>
+        <aif:creationDate>2020-05-14 13:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496931 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496931">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496922"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496930"/>
+        <aif:creationDate>2020-05-14 13:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496932 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496932">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491538"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491540"/>
+        <aif:creationDate>2020-05-14 13:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496933 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496933">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : Niech NFZ nie będzie rozliczany z pieniędzy, tylko niech będzie rozliczany z tego czy zmniejsza się śmiertelność - która panie pośle przez cztery lata niestety drastycznie w Polsce wzrosła -  czy zmniejszają się kolejki, ale kolejki chorych którzy nie mają czasu na czekanie, i czy  Polki chorujące na raka piersi mają takie same szanse na wyleczenie jak Niemki czy Francuzki.</aif:claimText>
+        <aif:source>W: Izabela Leszczyna : Niech NFZ nie będzie rozliczany z pieniędzy, tylko niech będzie rozliczany z tego czy zmniejsza się śmiertelność - która panie pośle przez cztery lata niestety drastycznie w Polsce wzrosła -  czy zmniejszają się kolejki, ale kolejki chorych którzy nie mają czasu na czekanie, i czy  Polki chorujące na raka piersi mają takie same szanse na wyleczenie jak Niemki czy Francuzki.</aif:source>
+        <aif:creationDate>2020-05-14 13:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496934 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496934">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491538"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496924"/>
+        <aif:creationDate>2020-05-14 13:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496935 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496935">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496926"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496936"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496906"/>
+        <aif:creationDate>2020-05-14 13:29:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496936 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496936">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496934"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496935"/>
+        <aif:creationDate>2020-05-14 13:29:07</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

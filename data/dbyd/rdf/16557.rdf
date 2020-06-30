@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/461350 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461350">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Табачные лоббисты будут пытаться изменить закон до неузнаваемости</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461358"/>
+        <aif:creationDate>2019-12-18 10:07:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461351 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461351">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Я курю по 20 сигарет в день. С чего вы решили, что после принятия закона я буду курить меньше?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461360"/>
+        <aif:creationDate>2019-12-18 10:07:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461352 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461352">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Мы рассчитываем, что люди,страдающие этой зависимостью после принятия данного закона сократят потребление табака и, соответсвенно будут причинять меньше вреда своему здоровью</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461360"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461359"/>
+        <aif:creationDate>2019-12-18 10:07:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461353 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461353">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Закон неэффективен, потому, что мне он напоминает борьбу ЦК КПСС с пьянством и вырубкой виноградников.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461365"/>
+        <aif:creationDate>2019-12-18 10:07:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461354 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461354">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Такое навязывание здоровья будет встречено со злобой</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461363"/>
+        <aif:creationDate>2019-12-18 10:07:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461355 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461355">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Не все в России работают в офисах и магазинах, от которых можно быстро отойти на необходимое расстояние</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461362"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461361"/>
+        <aif:creationDate>2019-12-18 10:07:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461356 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461356">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Рабочий завода, например, не может в свой обеденный перерыв бежать далеко от места работы, чтобы выкурить сигарет</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461362"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461357 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461357">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Нужно принять антитабачный закон</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461358"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461359"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461361"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461366"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461358 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461358">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461350"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461357"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461359 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461359">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461352"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461357"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461360 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461360">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461352"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461361 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461361">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461357"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461362 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461362">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461355"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461363 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461363">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461354"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461353"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461364 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461364">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Борьба с пьянством не была эффективной</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461366"/>
+        <aif:creationDate>2019-12-18 10:07:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461365 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461365">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461364"/>
+        <aif:creationDate>2019-12-18 10:07:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461366 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461366">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461357"/>
+        <aif:creationDate>2019-12-18 10:07:44</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

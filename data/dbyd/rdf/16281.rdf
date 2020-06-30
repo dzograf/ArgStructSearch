@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/451675 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451675">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Елена не виновна в случившемся</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451677"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451685"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451676 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451676">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>она силой похищена, беззаконно осилена, неправедно обижена</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451677"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451679"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451676"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451678 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451678">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>виновен похитчик и обидчик, а похищенная и обиженная невиновна в своем несчастии</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451702"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451678"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451680 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451680">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Елена совершила содеянное по воле богов</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451683"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451680"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451682 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451682">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Бог сильнее человека и мощью, и мудростью, как и всем остальным</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451699"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462044"/>
+        <aif:creationDate>2019-11-26 15:32:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451683 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451683">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451680"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451682"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451684 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451684">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ушла она, убежденная речью, ушла наподобие той, что не хочет идти, как незаконной если бы силе она подчинилась и была бы похищена силой</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451685"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451687"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451685 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451685">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451684"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451686 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451686">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Убежденью она допустила собой овладеть</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451687"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451689"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451687 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451687">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451684"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451686"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451688 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451688">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>речь, убедившая душу, ее убедив, заставляет подчиниться сказанному, сочувствовать сделанному</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451693"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451689 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451689">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451686"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451688"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451690 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451690">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>убежденье, использовав слово, может на душу такую печать наложить, какую ему будет угодно</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451691"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462068"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462076"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451691 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451691">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451690"/>
+        <aif:creationDate>2019-11-26 15:32:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451692 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451692">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>недобрым своим убеждением душу они очаровывают и заколдовывают</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451696"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451693 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451693">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451692"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451694 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451694">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>если она послушалась речи, она не преступница, а страдалица</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451695"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451696"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462072"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462073"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462074"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462076"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462077"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451695 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451695">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451690"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451694"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451696 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451696">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451694"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451697 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451697">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>если богу или случаю мы вину должны приписать</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451699"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451700"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451698 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451698">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Елену свободной от бесчестья должны признавать</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451700"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451699 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451699">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451682"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451697"/>
+        <aif:creationDate>2019-11-26 15:32:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451700 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451700">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451697"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451698"/>
+        <aif:creationDate>2019-11-26 15:32:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451701 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451701">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Какой варвар так по-варварски поступил, тот за то пусть и наказан будет словом, правом и делом</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451702"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451704"/>
+        <aif:creationDate>2019-11-26 15:32:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451702 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451702">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451701"/>
+        <aif:creationDate>2019-11-26 15:32:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451703 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451703">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>право же, она достойна жалости, а он ненависти</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451704"/>
+        <aif:creationDate>2019-11-26 15:32:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451704 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451704">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451701"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451703"/>
+        <aif:creationDate>2019-11-26 15:32:58</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

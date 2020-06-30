@@ -1,0 +1,1378 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/262928 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262928">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:source>
+        <aif:creationDate>2017-03-07 14:14:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262929 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262929">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/262931"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263216"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263223"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263265"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263313"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263328"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263368"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263691"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264767"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264782"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264819"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264821"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264836"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264863"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264905"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264920"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264947"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265328"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265343"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265366"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265441"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263286"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263327"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263367"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264781"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264835"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265342"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265418"/>
+        <aif:creationDate>2017-03-07 14:14:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262930 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262930">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: François : Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:claimText>
+        <aif:source>Martin: François : Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:source>
+        <aif:creationDate>2017-03-07 14:14:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262932 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262932">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>François : François Hollande suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:claimText>
+        <aif:source>François : François Hollande suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/262931"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263216"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263265"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263313"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263353"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263676"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264767"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264821"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264905"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265328"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265404"/>
+        <aif:creationDate>2017-03-07 14:14:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262933 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262933">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage.</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage.</aif:source>
+        <aif:creationDate>2017-03-07 14:14:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262934 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262934">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Lillia : Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:claimText>
+        <aif:source>Lillia : Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/262936"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263217"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263266"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263314"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263354"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263677"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264768"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264822"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264906"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265329"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265405"/>
+        <aif:creationDate>2017-03-07 14:14:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262935 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262935">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Lillia : Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:claimText>
+        <aif:source>Martin: Lillia : Earlier this month, the French president, François Hollande, suggested that the Louvre Museum in Paris could possibly become a safe haven for at-risk international cultural heritage</aif:source>
+        <aif:creationDate>2017-03-07 14:14:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263218 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263218">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In 2019, the museum will open a new €60m conservation facility in Lievin, France</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263220"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263267"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263315"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263355"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263678"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264769"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264823"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264907"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265330"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263223"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263328"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264782"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264836"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265343"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265419"/>
+        <aif:creationDate>2017-03-07 17:30:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263219 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263219">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: In 2019, the museum will open a new €60m conservation facility in Lievin, France</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: In 2019, the museum will open a new €60m conservation facility in Lievin, France</aif:source>
+        <aif:creationDate>2017-03-07 17:30:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263221 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263221">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Lillia : In 2019, the museum will open a new €60m conservation facility in Lievin, France</aif:claimText>
+        <aif:source>Lillia : In 2019, the museum will open a new €60m conservation facility in Lievin, France</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263220"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263245"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263267"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263273"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263315"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263321"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263355"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263361"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263678"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263684"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264769"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264775"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264823"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264829"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264907"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264913"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265330"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265336"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265406"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265412"/>
+        <aif:creationDate>2017-03-07 17:30:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263222 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263222">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Lillia : In 2019, the museum will open a new €60m conservation facility in Lievin, France</aif:claimText>
+        <aif:source>Martin: Lillia : In 2019, the museum will open a new €60m conservation facility in Lievin, France</aif:source>
+        <aif:creationDate>2017-03-07 17:30:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263224 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263224">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>it could also serve as a repository for endangered objects from the Middle East</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263226"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263268"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263316"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263356"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263679"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264770"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264824"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264908"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265331"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263223"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263328"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264782"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264836"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265343"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265419"/>
+        <aif:creationDate>2017-03-07 17:30:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263225 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263225">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/:  in addition to holding the collections of the museum, could also serve as a repository for endangered objects from the Middle East</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/:  in addition to holding the collections of the museum, could also serve as a repository for endangered objects from the Middle East</aif:source>
+        <aif:creationDate>2017-03-07 17:30:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263227 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263227">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Lillia :  in addition to holding the collections of the museum, could also serve as a repository for endangered objects from the Middle East</aif:claimText>
+        <aif:source>Lillia :  in addition to holding the collections of the museum, could also serve as a repository for endangered objects from the Middle East</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263226"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263245"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263268"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263273"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263316"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263321"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263356"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263361"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263679"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263684"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264770"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264775"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264824"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264829"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264908"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264913"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265331"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265336"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265407"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265412"/>
+        <aif:creationDate>2017-03-07 17:30:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263228 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263228">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Lillia :  in addition to holding the collections of the museum, could also serve as a repository for endangered objects from the Middle East</aif:claimText>
+        <aif:source>Martin: Lillia :  in addition to holding the collections of the museum, could also serve as a repository for endangered objects from the Middle East</aif:source>
+        <aif:creationDate>2017-03-07 17:30:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263229 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263229">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the destruction caused terrorist groups at sites such as Palmyra</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263231"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263269"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263317"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263357"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263680"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264771"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264825"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264909"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265332"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265408"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263223"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263328"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264782"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264836"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265343"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265419"/>
+        <aif:creationDate>2017-03-07 17:30:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263230 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263230">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:source>
+        <aif:creationDate>2017-03-07 17:30:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263232 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263232">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>François : to acknowledging the destruction caused terrorist groups at sites such as Palmyra</aif:claimText>
+        <aif:source>François : to acknowledging the destruction caused terrorist groups at sites such as Palmyra</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263231"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263269"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263317"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263357"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263680"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264771"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264825"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264909"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265332"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265408"/>
+        <aif:creationDate>2017-03-07 17:30:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263233 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263233">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: François : In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:claimText>
+        <aif:source>Martin: François : In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:source>
+        <aif:creationDate>2017-03-07 17:30:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Lillia : In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:claimText>
+        <aif:source>Lillia : In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263236"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263245"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263270"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263273"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263318"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263321"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263358"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263361"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263681"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263684"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264772"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264775"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264826"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264829"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264910"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264913"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265333"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265336"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265409"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265412"/>
+        <aif:creationDate>2017-03-07 17:30:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263235 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263235">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Lillia : In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:claimText>
+        <aif:source>Martin: Lillia : In addition to acknowledging the destruction caused terrorist groups at sites such as Palmyra,</aif:source>
+        <aif:creationDate>2017-03-07 17:30:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263237 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263237">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263239"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263271"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263319"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263359"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263682"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264773"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264827"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264911"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265334"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265410"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263223"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263328"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264782"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264836"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265343"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265419"/>
+        <aif:creationDate>2017-03-07 17:30:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263238 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263238">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: President Hollande also stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: President Hollande also stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:source>
+        <aif:creationDate>2017-03-07 17:30:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263240 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263240">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>François : stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:claimText>
+        <aif:source>François : stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263239"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263271"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263319"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263359"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263682"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264773"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264827"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264911"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265334"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265410"/>
+        <aif:creationDate>2017-03-07 17:30:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: François : President Hollande also stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:claimText>
+        <aif:source>Martin: François : President Hollande also stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:source>
+        <aif:creationDate>2017-03-07 17:30:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263242 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263242">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Lillia : François : President Hollande also stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:claimText>
+        <aif:source>Lillia : François : President Hollande also stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263245"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263273"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263321"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263361"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263684"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264775"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264829"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264913"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265336"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265412"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263244"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263272"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263281"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263320"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263324"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263360"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263364"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263683"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263687"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264774"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264778"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264828"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264832"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264912"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264916"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265335"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265339"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265411"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265415"/>
+        <aif:creationDate>2017-03-07 17:30:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263243 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263243">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Lillia : stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:claimText>
+        <aif:source>Martin: Lillia : stressed the importance of protecting what is still left against trafficking: “We must put the world’s heritage in a secure place.”</aif:source>
+        <aif:creationDate>2017-03-07 17:30:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263248"/>
+        <aif:creationDate>2017-03-07 17:30:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263250 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263250">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The proposal brings up many questions about imperialism, colonialism, and the role of the West in the conflicts in the Middle East.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263251"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263282"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263286"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263325"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263327"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263365"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263367"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263690"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264779"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264781"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264833"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264835"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264917"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264919"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265340"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265342"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265418"/>
+        <aif:creationDate>2017-03-07 17:30:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263252 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263252">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: The proposal brings up many questions about imperialism, colonialism, and the role of the West in the conflicts in the Middle East.</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: The proposal brings up many questions about imperialism, colonialism, and the role of the West in the conflicts in the Middle East.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263251"/>
+        <aif:creationDate>2017-03-07 17:30:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263274 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263274">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263275"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263322"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263362"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263685"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264776"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264830"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264914"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265337"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265413"/>
+        <aif:creationDate>2017-03-07 17:41:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263276 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263276">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>François : to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:claimText>
+        <aif:source>François : to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263275"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263322"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263362"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263685"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264776"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264830"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264914"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265337"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265413"/>
+        <aif:creationDate>2017-03-07 17:41:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263277 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263277">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: François : Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:claimText>
+        <aif:source>Martin: François : Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:source>
+        <aif:creationDate>2017-03-07 17:41:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263279 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263279">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Lillia : François : Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:claimText>
+        <aif:source>Lillia : François : Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263281"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263324"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263364"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263687"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264778"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264832"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264916"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265339"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265415"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263278"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263285"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263323"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263326"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263363"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263366"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263686"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263689"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264777"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264780"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264831"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264834"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264915"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264918"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265338"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265341"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265414"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265417"/>
+        <aif:creationDate>2017-03-07 17:41:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263280 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263280">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Lillia : François : Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:claimText>
+        <aif:source>Martin: Lillia : François : Hollande is going to propose the idea at the Conference on Terrorism and Culture next month in Abu Dhabi</aif:source>
+        <aif:creationDate>2017-03-07 17:41:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263283 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263283">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Lillia : The proposal brings up many questions about imperialism, colonialism, and the role of the West in the conflicts in the Middle East.</aif:claimText>
+        <aif:source>Lillia : The proposal brings up many questions about imperialism, colonialism, and the role of the West in the conflicts in the Middle East.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263285"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263326"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263366"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263689"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264780"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264834"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264918"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265341"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265417"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263282"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263325"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263339"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263365"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263371"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263688"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263694"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264779"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264817"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264818"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264833"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264861"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264862"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264917"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264945"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264946"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265340"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265381"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265416"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265456"/>
+        <aif:creationDate>2017-03-07 17:41:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263284 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263284">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Lillia : The proposal brings up many questions about imperialism, colonialism, and the role of the West in the conflicts in the Middle East.</aif:claimText>
+        <aif:source>Martin: Lillia : The proposal brings up many questions about imperialism, colonialism, and the role of the West in the conflicts in the Middle East.</aif:source>
+        <aif:creationDate>2017-03-07 17:41:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263329 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263329">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>France and other Western States have always, in the last 500 years,  strived for an imperialist hegemony</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263331"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263369"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263379"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263387"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263700"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263704"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264783"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264790"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264794"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264837"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264844"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264848"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264866"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264921"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264928"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264932"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264950"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265344"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265355"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263341"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263397"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263696"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263708"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264786"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264798"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264840"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264852"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264924"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264936"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265347"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265435"/>
+        <aif:creationDate>2017-03-07 17:50:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263330 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263330">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: It is a continuing historic fact that France and other Western States have always, in the last 500 years,  strived for an imperialist hegemony</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: It is a continuing historic fact that France and other Western States have always, in the last 500 years,  strived for an imperialist hegemony</aif:source>
+        <aif:creationDate>2017-03-07 17:50:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263332 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263332">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kwame : It is a continuing historic fact that France and other Western States have always, in the last 500 years,  strived for an imperialist hegemony</aif:claimText>
+        <aif:source>Kwame : It is a continuing historic fact that France and other Western States have always, in the last 500 years,  strived for an imperialist hegemony</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263339"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263371"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263694"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264865"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264949"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265367"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265442"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263331"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263340"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263369"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263372"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263692"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263695"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264783"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264785"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264837"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264839"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264921"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264923"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265344"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265346"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265420"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265422"/>
+        <aif:creationDate>2017-03-07 17:50:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263333 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263333">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Kwame : It is a continuing historic fact that France and other Western States have always, in the last 500 years,  strived for an imperialist hegemony</aif:claimText>
+        <aif:source>Martin: Kwame : It is a continuing historic fact that France and other Western States have always, in the last 500 years,  strived for an imperialist hegemony</aif:source>
+        <aif:creationDate>2017-03-07 17:50:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263334 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263334">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>a remarkable aspect of this imperialism has been the carting away of thousands of the cultural artefacts of others in Africa, Asia, South America and Oceania for museums in London, Paris, Berlin, Brussels, New York and other Western cities</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263336"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263341"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263373"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263693"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263696"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264784"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264786"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264838"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264840"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264922"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264924"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265345"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265347"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265423"/>
+        <aif:creationDate>2017-03-07 17:51:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263335 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263335">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: that a remarkable aspect of this imperialism has been the carting away of thousands of the cultural artefacts of others in Africa, Asia, South America and Oceania for museums in London, Paris, Berlin, Brussels, New York and other Western cities</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: that a remarkable aspect of this imperialism has been the carting away of thousands of the cultural artefacts of others in Africa, Asia, South America and Oceania for museums in London, Paris, Berlin, Brussels, New York and other Western cities</aif:source>
+        <aif:creationDate>2017-03-07 17:51:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263337 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263337">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kwame : that a remarkable aspect of this imperialism has been the carting away of thousands of the cultural artefacts of others in Africa, Asia, South America and Oceania for museums in London, Paris, Berlin, Brussels, New York and other Western cities</aif:claimText>
+        <aif:source>Kwame : that a remarkable aspect of this imperialism has been the carting away of thousands of the cultural artefacts of others in Africa, Asia, South America and Oceania for museums in London, Paris, Berlin, Brussels, New York and other Western cities</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263340"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263372"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263695"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264785"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264839"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264923"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265346"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265422"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263336"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263370"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263380"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263693"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263701"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264784"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264791"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264838"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264845"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264922"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264929"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265345"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265352"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265421"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265428"/>
+        <aif:creationDate>2017-03-07 17:51:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263338 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263338">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Kwame : that a remarkable aspect of this imperialism has been the carting away of thousands of the cultural artefacts of others in Africa, Asia, South America and Oceania for museums in London, Paris, Berlin, Brussels, New York and other Western cities</aif:claimText>
+        <aif:source>Martin: Kwame : that a remarkable aspect of this imperialism has been the carting away of thousands of the cultural artefacts of others in Africa, Asia, South America and Oceania for museums in London, Paris, Berlin, Brussels, New York and other Western cities</aif:source>
+        <aif:creationDate>2017-03-07 17:51:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263343 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263343">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Our contemporary Westerners have not sufficiently distanced themselves from the violations and violence of past lootings</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263344"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263349"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263374"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263697"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264787"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264841"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264925"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265348"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263700"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264790"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264844"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264928"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265427"/>
+        <aif:creationDate>2017-03-07 17:51:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Our contemporary Westerners have not sufficiently distanced themselves from the violations and violence of past lootings</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Our contemporary Westerners have not sufficiently distanced themselves from the violations and violence of past lootings</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263344"/>
+        <aif:creationDate>2017-03-07 17:51:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263346 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263346">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>On the contrary they have sought to justify the violent conduct of their predecessors who  looted and secured the artefacts for the major museums.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263347"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263375"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263698"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264788"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264842"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264926"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265349"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263700"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264790"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264844"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264928"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265427"/>
+        <aif:creationDate>2017-03-07 17:51:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263348 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263348">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: On the contrary they have sought to justify the violent conduct of their predecessors who  looted and secured the artefacts for the major museums.</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: On the contrary they have sought to justify the violent conduct of their predecessors who  looted and secured the artefacts for the major museums.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263347"/>
+        <aif:creationDate>2017-03-07 17:51:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263350 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263350">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kwame : Our contemporary Westerners have not sufficiently distanced themselves from the violations and violence of past lootings</aif:claimText>
+        <aif:source>Kwame : Our contemporary Westerners have not sufficiently distanced themselves from the violations and violence of past lootings</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263380"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263701"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264791"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264845"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264929"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265352"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265428"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263349"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263374"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263697"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264787"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264841"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264925"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265348"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265424"/>
+        <aif:creationDate>2017-03-07 17:51:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263352 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263352">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Kwame : Our contemporary Westerners have not sufficiently distanced themselves from the violations and violence of past lootings</aif:claimText>
+        <aif:source>Martin: Kwame : Our contemporary Westerners have not sufficiently distanced themselves from the violations and violence of past lootings</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263351"/>
+        <aif:creationDate>2017-03-07 17:51:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263353 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263353">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/262932"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/262929"/>
+        <aif:creationDate>2017-03-07 18:02:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263354 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263354">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/262934"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/262932"/>
+        <aif:creationDate>2017-03-07 18:02:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263355 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263355">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263221"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263218"/>
+        <aif:creationDate>2017-03-07 18:02:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263356 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263356">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263227"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263224"/>
+        <aif:creationDate>2017-03-07 18:02:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263357 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263357">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263232"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263229"/>
+        <aif:creationDate>2017-03-07 18:02:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263358 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263358">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263234"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263232"/>
+        <aif:creationDate>2017-03-07 18:02:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263359 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263359">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263240"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263237"/>
+        <aif:creationDate>2017-03-07 18:02:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263360 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263360">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263242"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263240"/>
+        <aif:creationDate>2017-03-07 18:02:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263361 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263361">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263221"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263227"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263234"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263242"/>
+        <aif:creationDate>2017-03-07 18:02:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263362 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263362">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263276"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263274"/>
+        <aif:creationDate>2017-03-07 18:02:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263363 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263363">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263279"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263276"/>
+        <aif:creationDate>2017-03-07 18:02:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263364 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263364">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263242"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263279"/>
+        <aif:creationDate>2017-03-07 18:02:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263365 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263365">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263283"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263250"/>
+        <aif:creationDate>2017-03-07 18:02:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263366 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263366">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263279"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263283"/>
+        <aif:creationDate>2017-03-07 18:02:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263367 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263367">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262929"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263250"/>
+        <aif:creationDate>2017-03-07 18:02:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263368 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263368">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263218"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263224"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263229"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263237"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262929"/>
+        <aif:creationDate>2017-03-07 18:02:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263369 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263369">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263332"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263329"/>
+        <aif:creationDate>2017-03-07 18:02:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263370 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263370">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263337"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263334"/>
+        <aif:creationDate>2017-03-07 18:02:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263371 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263371">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263283"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263332"/>
+        <aif:creationDate>2017-03-07 18:02:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263372 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263372">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263332"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263337"/>
+        <aif:creationDate>2017-03-07 18:02:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263373 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263373">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263329"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263378"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263334"/>
+        <aif:creationDate>2017-03-07 18:02:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263374 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263374">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263350"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263343"/>
+        <aif:creationDate>2017-03-07 18:02:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263375 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263375">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263376"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263346"/>
+        <aif:creationDate>2017-03-07 18:02:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263376 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263376">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kwame : On the contrary they have sought to justify the violent conduct of their predecessors who  looted and secured the artefacts for the major museums.</aif:claimText>
+        <aif:source>Kwame : On the contrary they have sought to justify the violent conduct of their predecessors who  looted and secured the artefacts for the major museums.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263380"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263701"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264791"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264845"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264929"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265352"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265428"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263375"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263388"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263698"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263705"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264788"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264795"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264842"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264849"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264926"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264933"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265349"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265356"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265425"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265432"/>
+        <aif:creationDate>2017-03-07 18:02:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263377 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263377">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Kwame : On the contrary they have sought to justify the violent conduct of their predecessors who  looted and secured the artefacts for the major museums.</aif:claimText>
+        <aif:source>Martin: Kwame : On the contrary they have sought to justify the violent conduct of their predecessors who  looted and secured the artefacts for the major museums.</aif:source>
+        <aif:creationDate>2017-03-07 18:02:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263378 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263378">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/263372"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263373"/>
+        <aif:creationDate>2017-03-07 18:02:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263379 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263379">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263343"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263346"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263381"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263329"/>
+        <aif:creationDate>2017-03-07 18:02:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263380 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263380">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263337"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263350"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263376"/>
+        <aif:creationDate>2017-03-07 18:02:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263381 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263381">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/263380"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263379"/>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263382 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263382">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>discussions on restitution of Benin Bronzes and other looted artefacts demonstrate such behaviour beyond all reasonable doubt</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263384"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263703"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264793"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264847"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264931"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265354"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263387"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263704"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264794"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264848"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/264932"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265355"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265431"/>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263383 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263383">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Recent discussions on restitution of Benin Bronzes and other looted artefacts demonstrate such behaviour beyond all reasonable doubt</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Recent discussions on restitution of Benin Bronzes and other looted artefacts demonstrate such behaviour beyond all reasonable doubt</aif:source>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263384 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263384">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263385"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263382"/>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263385 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263385">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kwame : Recent discussions on restitution of Benin Bronzes and other looted artefacts demonstrate such behaviour beyond all reasonable doubt</aif:claimText>
+        <aif:source>Kwame : Recent discussions on restitution of Benin Bronzes and other looted artefacts demonstrate such behaviour beyond all reasonable doubt</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263388"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263705"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264795"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264849"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264933"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265356"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265432"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263384"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263703"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263709"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264793"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264799"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264847"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264853"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264931"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264937"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265354"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265360"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265430"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265436"/>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263386 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263386">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Kwame : Recent discussions on restitution of Benin Bronzes and other looted artefacts demonstrate such behaviour beyond all reasonable doubt</aif:claimText>
+        <aif:source>Martin: Kwame : Recent discussions on restitution of Benin Bronzes and other looted artefacts demonstrate such behaviour beyond all reasonable doubt</aif:source>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263387 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263387">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263382"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263389"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263329"/>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263388 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263388">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263376"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263385"/>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263389 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263389">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/263388"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263387"/>
+        <aif:creationDate>2017-03-07 18:02:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263390 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263390">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion. Nevertheless, we should welcome the French initiative to save antiquities from destruction.</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion. Nevertheless, we should welcome the French initiative to save antiquities from destruction.</aif:source>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263391 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263391">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Kwame : Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion. Nevertheless, we should welcome the French initiative to save antiquities from destruction.</aif:claimText>
+        <aif:source>Martin: Kwame : Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion. Nevertheless, we should welcome the French initiative to save antiquities from destruction.</aif:source>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263392 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263392">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263394"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263397"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263707"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263708"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263717"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264797"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264798"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264803"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264851"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264852"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264857"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/264935"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264936"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/264941"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265358"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265359"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/265434"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265435"/>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263393 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263393">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion.</aif:claimText>
+        <aif:source>http://savingantiquities.org/think-louvre-repository-endangered-cultural-heritage/: Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion.</aif:source>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263394 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263394">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263395"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/263392"/>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263395 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263395">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kwame : Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion.</aif:claimText>
+        <aif:source>Kwame : Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/263709"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264799"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264853"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/264937"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265360"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/265436"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263394"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/263707"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/263716"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264797"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264802"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264851"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264856"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/264935"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/264940"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265358"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265363"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/265434"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/265439"/>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263396 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263396">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Kwame : Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion.</aif:claimText>
+        <aif:source>Martin: Kwame : Against this background, it is logical that the rest of the world looks at the proposition to bring threatened cultural artefacts to the Louvre with great scepticism and suspicion.</aif:source>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/263397 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/263397">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/263329"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/263392"/>
+        <aif:creationDate>2017-03-07 18:02:22</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

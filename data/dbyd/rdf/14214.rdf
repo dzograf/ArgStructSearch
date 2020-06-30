@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/374126 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374126">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ከአማራጭ ሐሳቦች ይልቅ የርዕዮተ ዓለም ታሪክ ላይ ያተኮረው የመጀመሪያው የፓርቲዎች ክርክር</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374130"/>
+        <aif:creationDate>2019-01-15 12:15:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374127 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374127">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.ethiopianreporter.com/index.php/article/2951: ከአማራጭ ሐሳቦች ይልቅ የርዕዮተ ዓለም ታሪክ ላይ ያተኮረው የመጀመሪያው የፓርቲዎች ክርክር</aif:claimText>
+        <aif:source>https://www.ethiopianreporter.com/index.php/article/2951: ከአማራጭ ሐሳቦች ይልቅ የርዕዮተ ዓለም ታሪክ ላይ ያተኮረው የመጀመሪያው የፓርቲዎች ክርክር</aif:source>
+        <aif:creationDate>2019-01-15 12:15:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374128 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374128">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ፊታችን ግንቦት 16 ቀን 2007 ዓ.ም. የሚካሄደውን አምስተኛውን ዙር ጠቅላላ ምርጫ በተመለከተ፣ ፓርቲዎች የተለያዩ ሥራዎችን በማከናወን ላይ ናቸው፡፡</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374130"/>
+        <aif:creationDate>2019-01-15 12:15:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374129 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374129">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.ethiopianreporter.com/index.php/article/2951: ፊታችን ግንቦት 16 ቀን 2007 ዓ.ም. የሚካሄደውን አምስተኛውን ዙር ጠቅላላ ምርጫ በተመለከተ፣ ፓርቲዎች የተለያዩ ሥራዎችን በማከናወን ላይ ናቸው፡፡</aif:claimText>
+        <aif:source>https://www.ethiopianreporter.com/index.php/article/2951: ፊታችን ግንቦት 16 ቀን 2007 ዓ.ም. የሚካሄደውን አምስተኛውን ዙር ጠቅላላ ምርጫ በተመለከተ፣ ፓርቲዎች የተለያዩ ሥራዎችን በማከናወን ላይ ናቸው፡፡</aif:source>
+        <aif:creationDate>2019-01-15 12:15:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374130 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374130">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374126"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374128"/>
+        <aif:creationDate>2019-01-15 12:15:52</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

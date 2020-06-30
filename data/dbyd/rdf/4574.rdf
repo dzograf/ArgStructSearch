@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/65117 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65117">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A murderer serving a life sentence in a Belgian jail, who asked to be allowed to die by lethal injection, was rightly rejected.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65125"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65128"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65135"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65136"/>
+        <aif:creationDate>2015-04-30 02:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65118 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65118">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Van den Bleeken has a very traumatic past and psychiatric problems so severe that he has been deemed not criminally responsible by a court, making him a good candidate—if anyone is—for euthanasia on the grounds of psychological suffering</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65123"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65127"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65130"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65125"/>
+        <aif:creationDate>2015-04-30 02:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65119 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65119">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Some might argue that prison is not supposed to be enjoyable, and that it is inappropriate to allow prisoners an escape from their deserved suffering via euthanasia.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65123"/>
+        <aif:creationDate>2015-04-30 02:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65120 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65120">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If we view euthanasia as a type of medical treatment—as there is good reason to do, at least in Belgium, where it is implemented by medical professionals in response to medical problems—then Van den Bleeken should be treated like any free citizen.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65122"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65125"/>
+        <aif:creationDate>2015-04-30 02:45:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65121 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65121">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This is because prisoners, in any civilised country, are not denied access to medical treatment as part of their punishment.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65122"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65122 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65122">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65121"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65120"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65123 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65123">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65119"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65118"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65124 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65124">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Questions about whether an individual should be allowed access to medical treatments should not be answered by a justice minister, regardless of whether or not the individual in question is a criminal.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65128"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65125 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65125">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65118"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65120"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65117"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65126 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65126">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In Belgium, euthanasia is available for the terminally ill, and also for those who wish to end psychological suffering.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65127"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65127 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65127">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65126"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65118"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65128 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65128">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65124"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65117"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65129 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65129">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Before his request for euthanasia, Van den Bleeken had asked to be treated in a specialised psychiatric centre in the Netherlands, a request that was initially turned down by the Belgian justice ministry.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65130"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65136"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65130 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65130">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65129"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65118"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65131 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65131">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>he still hoped to get better - and as it turns out, the Belgian authorities now say they are arranging his transfer to the Dutch facility.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65136"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65132 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65132">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>rather than respecting his autonomy, allowing him to die would represent a form of abandonment.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65134"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65137"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65135"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65133 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65133">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>&quot;Abandon away!&quot; many might say, pointing to Van den Bleeken&#039;s rape and murder of a 19-year-old girl, Christiane Remacle, in 1989</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65134"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65134 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65134">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65133"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65132"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65135 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65135">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65132"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65117"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65136 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65136">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65129"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/65131"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65117"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/65137 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/65137">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/65132"/>
+        <aif:creationDate>2015-04-30 02:45:41</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

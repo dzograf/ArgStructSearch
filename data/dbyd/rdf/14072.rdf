@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/367289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Советская армия не является оккупантом</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367297"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367298"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367303"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367304"/>
+        <aif:creationDate>2018-10-31 17:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367290 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367290">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>боевые задачи не превышали 40 процентов от общих задач</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367301"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367307"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367297"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367303"/>
+        <aif:creationDate>2018-10-31 17:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367291 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367291">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Советская армия воевала с террористами, а не с народом</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367300"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367306"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367299"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367305"/>
+        <aif:creationDate>2018-10-31 17:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367292 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367292">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>перекрывали наркотрафик</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367306"/>
+        <aif:creationDate>2018-10-31 17:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText> уничтожали караваны с оружием</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367306"/>
+        <aif:creationDate>2018-10-31 17:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367294 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367294">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>охраняли дороги и нефтепроводы</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367306"/>
+        <aif:creationDate>2018-10-31 17:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Мы много там настроили</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367307"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397706"/>
+        <aif:creationDate>2018-10-31 17:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367296 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367296">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Советская армия воевала с народом Афганистана</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367299"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367305"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367298"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367304"/>
+        <aif:creationDate>2018-10-31 17:12:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367297 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367297">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367290"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367289"/>
+        <aif:creationDate>2018-10-31 17:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367298 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367298">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367296"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367289"/>
+        <aif:creationDate>2018-10-31 17:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367299 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367299">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367291"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367296"/>
+        <aif:creationDate>2018-10-31 17:12:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367300 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367300">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367292"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367293"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367294"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367291"/>
+        <aif:creationDate>2018-10-31 17:12:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367301 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367301">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367290"/>
+        <aif:creationDate>2018-10-31 17:12:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367302 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367302">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>+</aif:claimText>
+        <aif:creationDate>2018-10-31 17:12:36</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

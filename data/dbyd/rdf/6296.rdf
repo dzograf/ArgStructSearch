@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/117889 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117889">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/27.html: ovem que morreu no dia da Defesa Nacional.</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/27.html: ovem que morreu no dia da Defesa Nacional.</aif:source>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117890 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117890">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>jovem que morreu no dia da Defesa Nacional</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117901"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117905"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246239"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246243"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117902"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117906"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246240"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246244"/>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117891 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117891">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/27.html:  jovem que morreu no dia da Defesa Nacional</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/27.html:  jovem que morreu no dia da Defesa Nacional</aif:source>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117892 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117892">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ana Rita Lucas,</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117900"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117904"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246238"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117901"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117905"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246239"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246243"/>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117893 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117893">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/27.html: Ana Rita Lucas,</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/27.html: Ana Rita Lucas,</aif:source>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117894 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117894">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Vila Nova de Gaia</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117900"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117904"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246238"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246242"/>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117895 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117895">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/27.html:  Vila Nova de Gaia</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/27.html:  Vila Nova de Gaia</aif:source>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117896 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117896">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>os pais da jovem não esconderam a angústia e a revolta em relação aos procedimentos do exército e à alegada falta de condições de segurança.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117902"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117906"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246240"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246244"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117903"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117907"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246241"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/246245"/>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117897 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117897">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/27.html: os pais da jovem não esconderam a angústia e a revolta em relação aos procedimentos do exército e à alegada falta de condições de segurança.</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/27.html: os pais da jovem não esconderam a angústia e a revolta em relação aos procedimentos do exército e à alegada falta de condições de segurança.</aif:source>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117898 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117898">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>querem levar o processo ao Tribunal Internacional dos Direitos do Homem.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117903"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246241"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/246245"/>
+        <aif:creationDate>2015-12-06 18:55:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117899 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117899">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/27.html:  querem levar o processo ao Tribunal Internacional dos Direitos do Homem.</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/27.html:  querem levar o processo ao Tribunal Internacional dos Direitos do Homem.</aif:source>
+        <aif:creationDate>2015-12-06 18:55:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117900 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117900">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117894"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117892"/>
+        <aif:creationDate>2015-12-06 18:55:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117901 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117901">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117892"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117890"/>
+        <aif:creationDate>2015-12-06 18:55:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117902 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117902">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117890"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117896"/>
+        <aif:creationDate>2015-12-06 18:55:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/117903 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/117903">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/117896"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/117898"/>
+        <aif:creationDate>2015-12-06 18:55:01</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

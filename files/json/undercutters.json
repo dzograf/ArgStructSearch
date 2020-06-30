@@ -1,0 +1,24 @@
+{"nodes":
+ [
+     {"nodeID":2,"text":"2","type":"I"},
+     {"nodeID":5,"text":"5","type":"I"},
+     {"nodeID":7,"text":"Default Inference","type":"RA"},
+     {"nodeID":10,"text":"10","type":"I"},
+     {"nodeID":12,"text":"Default Conflict","type":"CA"},
+     {"nodeID":13,"text":"13","type":"I"},
+     {"nodeID":16,"text":"16","type":"I"},
+     {"nodeID":19,"text":"Default Inference","type":"RA"},
+     {"nodeID":21,"text":"Default Conflict","type":"CA"}
+ ],
+ "edges":
+ [
+     {"edgeID":"e0","fromID":7,"toID":5},
+     {"edgeID":"e1","fromID":10,"toID":12},
+     {"edgeID":"e2","fromID":12,"toID":7},
+     {"edgeID":"e3","fromID":16,"toID":7},
+     {"edgeID":"e4","fromID":2,"toID":19},
+     {"edgeID":"e5","fromID":19,"toID":16},
+     {"edgeID":"e6","fromID":13,"toID":21},
+     {"edgeID":"e7","fromID":21,"toID":19}
+ ],
+ "locutions":[]}

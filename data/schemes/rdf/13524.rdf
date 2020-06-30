@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/336661 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/336661">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>la resolución precedentemente singularizada efectivamente niega el pago de la indemnización global a la que tiene derecho un trabajador frente a la disminución de su capacidad laboral con ocasión de un accidente laboral en atención a la edad del recurrente</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336668"/>
+        <aif:creationDate>2018-04-10 15:33:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/336662 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/336662">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A la fecha de su incapacidad, el 28 de julio de 2016, ya había cumplido la edad para pensionarse por vejez, esto es, 65 años de edad</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336667"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336670"/>
+        <aif:creationDate>2018-04-10 15:33:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/336663 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/336663">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>En ningún caso hace cuestión del grado de incapacidad auditiva que se determinó por el COMPIN, como erróneamente lo sostuvo el recurrente en estrados</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336667"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336670"/>
+        <aif:creationDate>2018-04-10 15:33:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/336664 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/336664">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>porque</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336669"/>
+        <aif:creationDate>2018-04-10 15:33:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/336665 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/336665">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336661"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336664"/>
+        <aif:creationDate>2018-04-10 15:33:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/336666 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/336666">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336662"/>
+        <aif:creationDate>2018-04-10 15:33:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/336667 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/336667">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/336662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/336663"/>
+        <aif:creationDate>2018-04-10 15:33:42</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,482 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/460972 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460972">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Волохова виновна в убийстве мужа</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460980"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460987"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460996"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461004"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461019"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461024"/>
+        <aif:creationDate>2019-12-16 23:56:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460973 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460973">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Волохова невиновна, убийца - другой человек</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460990"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461012"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461018"/>
+        <aif:creationDate>2019-12-16 23:56:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460974 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460974">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Волохов жил несогласно со своей женой</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460979"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460981"/>
+        <aif:creationDate>2019-12-16 23:56:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460975 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460975">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Народный голос есть воплощенное подозрение, которое нередко вредит крестьянину</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460978"/>
+        <aif:creationDate>2019-12-16 23:56:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460976 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460976">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Труп найден в погребе дома Волохова</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460979"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460981"/>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460977 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460977">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>народный голос, который редко ошибается, является против подсудимой</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460978"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460979"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460980"/>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460978 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460978">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460975"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460977"/>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460979 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460979">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460974"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460976"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460977"/>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460980 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460980">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460977"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460972"/>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460981 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460981">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460974"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460976"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460973"/>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460982 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460982">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в два или три часа Волохова видели на улице пьяным, но никто не сказал, вернулся ли он домой ночевать в ночь убийства</aif:claimText>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460983 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460983">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Из части дома соседей убитого слышен был даже обыкновенный разговор в части дома убитого, а тем более должны были быть слышны шум и крики, без которых невозможно было совершить убийство.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460992"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460985"/>
+        <aif:creationDate>2019-12-16 23:56:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460984 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460984">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Соседи убитого должны были слышать его возвращение</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460985"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460989"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460985 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460985">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460983"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460984"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460986 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460986">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>почти положительно можно утверждать, что он не ночевал дома</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460989"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460987"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460990"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460986"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460972"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460988 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460988">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в два или три часа убитого видели на улице пьяным. Свидетель видел, как он шел по улице с каким-то мужиком пьяный, но он не сказал, что видел его, как он вошел в дом</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460989"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460989 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460989">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460984"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460988"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460986"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460990 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460990">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460986"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460973"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460991 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460991">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>товарищ прокурора делает предположение, что Волохов был убит сонным</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460994"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460992"/>
+        <aif:creationDate>2019-12-16 23:56:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460992 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460992">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460991"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460983"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460993 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460993">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>делать предположения в таких важных делах мы не имеем никакого права</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460994"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460994 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460994">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460993"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460991"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460995 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460995">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Сын убитого говорит, что видел, как мать его ручкой топора без железа била его отца; потом он говорит, что видел отца в погребе.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460998"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460996"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460996 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460996">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460995"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460972"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460997 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460997">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Мать, будь она убийцей, вряд ли отпустила бы ребёнка на улицу, где каждый мог его спросить об отце</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460998"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460998 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460998">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460997"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460995"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460999 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460999">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Мальчик смешивает время и показания</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461000"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461000 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461000">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460999"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460995"/>
+        <aif:creationDate>2019-12-16 23:56:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461001 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461001">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Волохова в ночь убийства ходила ночевать к Прохоровым</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461003"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461002 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461002">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Она боялась ночевать в доме, где она только что совершила убийство</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461003"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461006"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461004"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461003 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461003">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461001"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461002"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461004 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461004">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461002"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460972"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461005 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461005">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Свидетели указали, что Волохова и раньше уходила ночевать к соседям, когда муж возвращался домой пьяным</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461006"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461006 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461006">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461005"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461002"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461007 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461007">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Сторож Никита отрицает свою драку в трактире с убитым в день убийства, как и само пребывание в трактире в этот день</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461011"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461008 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461008">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Трактирщик и другие свидетели указали, что Никита был в трактире</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461010"/>
+        <aif:creationDate>2019-12-16 23:56:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461009 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461009">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В этом деле мы должны более доверять показаниям трактирщика</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461011"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461012"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461010 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461010">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461009"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461011 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461011">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461009"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461007"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461012 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461012">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461009"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460973"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461013 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461013">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В верхней части дома найдены небольшие следы крови</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461023"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461014 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461014">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>У убитого была вскрыта полая вена, из которой должно было быть обильное кровотечение</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461017"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461015 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461015">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Убитый был человек с разжиженной кровью</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461017"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461016 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461016">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В доме должны были бы остаться большие, а не маленькие, сгустки крови</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461017"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461018"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461019"/>
+        <aif:creationDate>2019-12-16 23:56:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461017 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461017">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461014"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461015"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461016"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461018 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461018">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461016"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460973"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461019 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461019">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461016"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460972"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461020 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461020">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Сама Волохова признаёт, что это кровь убитого, но та, которая шла у него из носа ещё ранее</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461022"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461021 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461021">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Эта кровь была пролита при убийстве</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461022"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461023"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461024"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461022 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461022">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461020"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461021"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461023 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461023">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461013"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461021"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461024 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461024">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461021"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460972"/>
+        <aif:creationDate>2019-12-16 23:57:00</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

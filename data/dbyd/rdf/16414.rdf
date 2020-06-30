@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/457565 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457565">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In Kenya, the rapid expansion of new forms of conservancies has come at the expense of pastoralists&#039; communal lands, squeezing local people into ever-smaller and more marginal areas</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457574"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457576"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457571"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457575"/>
+        <aif:creationDate>2019-12-03 22:34:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457566 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457566">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://science.sciencemag.org/content/365/6449/133.1: In Kenya, the rapid expansion of new forms of conservancies has come at the expense of pastoralists&#039; communal lands, squeezing local people into ever-smaller and more marginal areas</aif:claimText>
+        <aif:source>https://science.sciencemag.org/content/365/6449/133.1: In Kenya, the rapid expansion of new forms of conservancies has come at the expense of pastoralists&#039; communal lands, squeezing local people into ever-smaller and more marginal areas</aif:source>
+        <aif:creationDate>2019-12-03 22:34:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457567 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457567">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The increased human activity on the borders of protected areas has resulted from social, economic, and political variables</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457574"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457576"/>
+        <aif:creationDate>2019-12-03 22:34:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457568 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457568">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://science.sciencemag.org/content/365/6449/133.1: The increased human activity on the borders of protected areas has resulted from social, economic, and political variables</aif:claimText>
+        <aif:source>https://science.sciencemag.org/content/365/6449/133.1: The increased human activity on the borders of protected areas has resulted from social, economic, and political variables</aif:source>
+        <aif:creationDate>2019-12-03 22:34:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457569 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457569">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The expansion of these conservancies has precipitated conflicts and led to widespread fencing of remaining open areas around Maasai Mara</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457571"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457575"/>
+        <aif:creationDate>2019-12-03 22:34:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457570 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457570">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://science.sciencemag.org/content/365/6449/133.1: The expansion of these conservancies has precipitated conflicts and led to widespread fencing of remaining open areas around Maasai Mara</aif:claimText>
+        <aif:source>https://science.sciencemag.org/content/365/6449/133.1: The expansion of these conservancies has precipitated conflicts and led to widespread fencing of remaining open areas around Maasai Mara</aif:source>
+        <aif:creationDate>2019-12-03 22:34:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457572 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457572">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Veldhuis et al.&#039;s attribution of problems to population growth is misleading</aif:claimText>
+        <aif:creationDate>2019-12-03 22:34:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457573 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457573">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://science.sciencemag.org/content/365/6449/133.1: Veldhuis et al.&#039;s attribution of problems to population growth is misleading</aif:claimText>
+        <aif:source>https://science.sciencemag.org/content/365/6449/133.1: Veldhuis et al.&#039;s attribution of problems to population growth is misleading</aif:source>
+        <aif:creationDate>2019-12-03 22:34:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457575 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457575">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457565"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457569"/>
+        <aif:creationDate>2019-12-03 22:34:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457576 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457576">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457567"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457565"/>
+        <aif:creationDate>2019-12-03 22:34:58</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

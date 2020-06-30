@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/367846 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367846">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>подсудимый не мог совершить преступления из ревности</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367856"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367858"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367864"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367866"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367878"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367879"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368604"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368605"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368609"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368610"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368614"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368615"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368619"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368620"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367847 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367847">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ревность к генералу Палицину или из-за Палицина как причина преступления</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367853"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367854"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367855"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367856"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367848 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367848">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если бы Висновская интересовалась генералом и предпочитала его Бартеневу, она не запуталась бы в своей истории</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367850"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367853"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367862"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367876"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368602"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368607"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368612"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368617"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367849 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367849">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>рассчитывая на силу и положение его(генерала), она не нуждалась бы заискивать и в Бартеневе</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367850"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367850 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367850">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367849"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367848"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367851 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367851">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если Бартенев ревновал Висновскую к генералу, то смерть могла бы грозить генералу, а не Висновской</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367854"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367852 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367852">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Висновская делом доказывала равнодушие к генералу</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367855"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367863"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367877"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368603"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368608"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368613"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368618"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367853 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367853">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367848"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367847"/>
+        <aif:creationDate>2018-11-25 22:25:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367854 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367854">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367851"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367847"/>
+        <aif:creationDate>2018-11-25 22:25:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367855 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367855">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367852"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367847"/>
+        <aif:creationDate>2018-11-25 22:25:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367856 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367856">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367847"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367846"/>
+        <aif:creationDate>2018-11-25 22:25:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367857 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367857">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>По свидетельствам, яд и орудие убийства приносят, кому они нужны, но их принесла Висновская, а не Бартенев</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367858"/>
+        <aif:creationDate>2018-11-25 22:25:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/367858 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/367858">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/367857"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367846"/>
+        <aif:creationDate>2018-11-25 22:25:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,1840 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/299467 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299467">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Michael Buerk : Melanie Phillips, what does this latest fuss, do you think, tell us about the abortion debate, 45 years on?</aif:claimText>
+        <aif:source>Luana: Michael Buerk : Melanie Phillips, what does this latest fuss, do you think, tell us about the abortion debate, 45 years on?</aif:source>
+        <aif:creationDate>2017-10-02 14:21:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299468 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299468">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : Well, I&#039;m not an absolutist.</aif:claimText>
+        <aif:source>Luana: Melanie Philips : Well, I&#039;m not an absolutist.</aif:source>
+        <aif:creationDate>2017-10-02 14:21:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299469 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299469">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Melanie Philips : I think abortion is a matter of a balance, not of rights</aif:claimText>
+        <aif:source>Melanie Philips : I think abortion is a matter of a balance, not of rights</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301149"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302257"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302317"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302397"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302462"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303269"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299470"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299573"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299590"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299634"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299646"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299690"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301095"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301135"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302218"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302258"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302287"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302318"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302345"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302383"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302410"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302448"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303213"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303257"/>
+        <aif:creationDate>2017-10-02 14:21:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299470 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299470">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299469"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299471"/>
+        <aif:creationDate>2017-10-02 14:21:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299471 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299471">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>abortion is a matter of a balance, not of rights</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299470"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299590"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299646"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301095"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302218"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302287"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302345"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302410"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303213"/>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299472 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299472">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : I think abortion is a matter of a balance, not of rights</aif:claimText>
+        <aif:source>Luana: Melanie Philips : I think abortion is a matter of a balance, not of rights</aif:source>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299473 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299473">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : I don&#039;t think this is an issue of rights</aif:claimText>
+        <aif:source>Luana: Melanie Philips : I don&#039;t think this is an issue of rights</aif:source>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299474 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299474">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : I don&#039;t think this is an issue of rights.  I think it&#039;s a balance of harms</aif:claimText>
+        <aif:source>Luana: Melanie Philips : I don&#039;t think this is an issue of rights.  I think it&#039;s a balance of harms</aif:source>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299475 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299475">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : Personally, I think the issue of the idea of sex selection abortion is absolutely monstrous</aif:claimText>
+        <aif:source>Luana: Melanie Philips : Personally, I think the issue of the idea of sex selection abortion is absolutely monstrous</aif:source>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299476 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299476">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : the fact that it&#039;s happening, and the fact that we have people, this evening, who are going to defend that, I think shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:claimText>
+        <aif:source>Luana: Melanie Philips : the fact that it&#039;s happening, and the fact that we have people, this evening, who are going to defend that, I think shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:source>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299477 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299477">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Melanie Philips : the fact that it&#039;s happening</aif:claimText>
+        <aif:source>Melanie Philips : the fact that it&#039;s happening</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299562"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299628"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299684"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301131"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302261"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302321"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302379"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302444"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303251"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299478"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299534"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299583"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299591"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299609"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299640"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299647"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299665"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299696"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301113"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301141"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301148"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302262"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302263"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302273"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302322"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302323"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302333"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302362"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302389"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302396"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302427"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302454"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302461"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303214"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303232"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303263"/>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299478 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299478">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299477"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299479"/>
+        <aif:creationDate>2017-10-02 14:21:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299479 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299479">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the fact that sex selection is happening</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299478"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299591"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299647"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301148"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302396"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302461"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303214"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299582"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302388"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303262"/>
+        <aif:creationDate>2017-10-02 14:21:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299480 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299480">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : the fact that it&#039;s happening</aif:claimText>
+        <aif:source>Luana: Melanie Philips : the fact that it&#039;s happening</aif:source>
+        <aif:creationDate>2017-10-02 14:21:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299481 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299481">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Melanie Philips : the fact that we have people, this evening, who are going to defend that</aif:claimText>
+        <aif:source>Melanie Philips : the fact that we have people, this evening, who are going to defend that</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299534"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299609"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299665"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301113"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302263"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302323"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302362"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302427"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303232"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299482"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299583"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299592"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299640"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299648"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299696"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301141"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301147"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302225"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302262"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302291"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302322"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302389"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302395"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302454"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302460"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303215"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303263"/>
+        <aif:creationDate>2017-10-02 14:21:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299482 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299482">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299481"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299483"/>
+        <aif:creationDate>2017-10-02 14:21:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299483 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299483">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we have people, this evening, who are going to defend sex selection</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299482"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299592"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299648"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301147"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302225"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302291"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302395"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302460"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303215"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299582"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302228"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302293"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302388"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303262"/>
+        <aif:creationDate>2017-10-02 14:21:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299484 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299484">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : the fact that we have people, this evening, who are going to defend that</aif:claimText>
+        <aif:source>Luana: Melanie Philips : the fact that we have people, this evening, who are going to defend that</aif:source>
+        <aif:creationDate>2017-10-02 14:21:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299485 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299485">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is.  </aif:claimText>
+        <aif:source>Luana: Melanie Philips : shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is.  </aif:source>
+        <aif:creationDate>2017-10-02 14:21:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299486 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299486">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Claire Fox : I don&#039;t want a sting operation by a newspaper, an over-hyped panic about gendercide, to overshadow this programme</aif:claimText>
+        <aif:source>Claire Fox : I don&#039;t want a sting operation by a newspaper, an over-hyped panic about gendercide, to overshadow this programme</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301154"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302265"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302281"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302325"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302341"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302402"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302467"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299487"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299535"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299586"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299593"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299610"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299643"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299649"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299666"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299699"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301096"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301114"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301144"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302230"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302264"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302295"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302324"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302346"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302363"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302392"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302411"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302428"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302457"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303216"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303233"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303266"/>
+        <aif:creationDate>2017-10-02 14:21:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299487 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299487">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299486"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299488"/>
+        <aif:creationDate>2017-10-02 14:21:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299488 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299488">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Claire Fox does not want a sting operation by a newspaper, an over-hyped panic about gendercide, to overshadow this programme</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299487"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299494"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299593"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299595"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299649"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299651"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301096"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/301098"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302346"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302348"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302413"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303216"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/303218"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299585"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299698"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301143"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302391"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302456"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303265"/>
+        <aif:creationDate>2017-10-02 14:21:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299489 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299489">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Claire Fox : I don&#039;t want a sting operation by a newspaper, an over-hyped panic about gendercide, to overshadow this programme</aif:claimText>
+        <aif:source>Luana: Claire Fox : I don&#039;t want a sting operation by a newspaper, an over-hyped panic about gendercide, to overshadow this programme</aif:source>
+        <aif:creationDate>2017-10-02 14:21:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299490 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299490">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Claire Fox : the moral principle is one of people being free to make intimate decisions about what happens to their own bodies</aif:claimText>
+        <aif:source>Claire Fox : the moral principle is one of people being free to make intimate decisions about what happens to their own bodies</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299535"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299610"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299666"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301114"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302264"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302324"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302363"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302428"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303233"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299491"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299536"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299594"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299611"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299650"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299667"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301097"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301115"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302232"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302266"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302296"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302326"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302347"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302364"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302412"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302429"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303217"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303234"/>
+        <aif:creationDate>2017-10-02 14:21:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299491 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299491">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299490"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299492"/>
+        <aif:creationDate>2017-10-02 14:21:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299492 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299492">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the moral principle is one of people being free to make intimate decisions about what happens to their own bodies</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299491"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299594"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299650"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301097"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302232"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302296"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302347"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302412"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303217"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299494"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299499"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299595"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299597"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299651"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299653"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301098"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301100"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302233"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302235"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302297"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302299"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302348"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302413"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303218"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303220"/>
+        <aif:creationDate>2017-10-02 14:21:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299493 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299493">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Claire Fox : I think the moral principle is one of people being free to make intimate decisions about what happens to their own bodies</aif:claimText>
+        <aif:source>Luana: Claire Fox : I think the moral principle is one of people being free to make intimate decisions about what happens to their own bodies</aif:source>
+        <aif:creationDate>2017-10-02 14:21:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299494 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299494">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299492"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299551"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299488"/>
+        <aif:creationDate>2017-10-02 14:21:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299495 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299495">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Claire Fox : the law on abortion is too prescriptive</aif:claimText>
+        <aif:source>Claire Fox : the law on abortion is too prescriptive</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299536"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299611"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299667"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301115"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302266"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302326"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302364"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302429"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303234"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299496"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299537"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299596"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299612"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299652"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299668"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301099"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301116"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302234"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302267"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302298"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302327"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302349"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302365"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302414"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302430"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303219"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303235"/>
+        <aif:creationDate>2017-10-02 14:21:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299496 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299496">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299495"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299497"/>
+        <aif:creationDate>2017-10-02 14:21:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299497 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299497">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the law on abortion is too prescriptive</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299496"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299499"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299552"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299596"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299597"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299624"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299652"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299653"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299680"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301099"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/301100"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/301127"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302234"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302235"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302237"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302298"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302299"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302301"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302349"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302350"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302375"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302415"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302440"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303219"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/303220"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/303247"/>
+        <aif:creationDate>2017-10-02 14:21:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299498 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299498">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Claire Fox : the law on abortion is too prescriptive</aif:claimText>
+        <aif:source>Luana: Claire Fox : the law on abortion is too prescriptive</aif:source>
+        <aif:creationDate>2017-10-02 14:21:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299499 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299499">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299492"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299550"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299497"/>
+        <aif:creationDate>2017-10-02 14:21:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299500 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299500">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Claire Fox : women should be able to take complete control over their bodies, and have abortion when they need it</aif:claimText>
+        <aif:source>Claire Fox : women should be able to take complete control over their bodies, and have abortion when they need it</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299537"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299612"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299668"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301116"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302267"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302327"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302365"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302430"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303235"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299501"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299538"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299598"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299613"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299654"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299669"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301101"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301117"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302236"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302268"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302300"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302328"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302351"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302366"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302416"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302431"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303221"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303236"/>
+        <aif:creationDate>2017-10-02 14:21:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299501 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299501">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299500"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299502"/>
+        <aif:creationDate>2017-10-02 14:21:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299502 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299502">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>women should be able to take complete control over their bodies, and have abortion when they need it</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299501"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299598"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299654"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301101"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302236"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302246"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302300"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302309"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302351"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302416"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303221"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299552"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299624"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299680"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302237"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303247"/>
+        <aif:creationDate>2017-10-02 14:21:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299503 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299503">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Claire Fox : women should be able to take complete control over their bodies, and have abortion when they need it</aif:claimText>
+        <aif:source>Luana: Claire Fox : women should be able to take complete control over their bodies, and have abortion when they need it</aif:source>
+        <aif:creationDate>2017-10-02 14:21:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299504 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299504">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : I&#039;m generally on the side of women&#039;s rights</aif:claimText>
+        <aif:source>Matthew Taylor : I&#039;m generally on the side of women&#039;s rights</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299538"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299613"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299669"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301117"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301157"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302268"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302328"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302366"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302405"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302431"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302470"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303236"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299505"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299539"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299599"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299614"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299655"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299670"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301102"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301118"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302239"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302269"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302303"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302329"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302352"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302367"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302417"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302432"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303222"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303237"/>
+        <aif:creationDate>2017-10-02 14:21:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299505 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299505">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299504"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299506"/>
+        <aif:creationDate>2017-10-02 14:21:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299506 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299506">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Matthew Taylor is generally on the side of women&#039;s rights</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299505"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299599"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299655"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301102"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302239"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302303"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302352"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302417"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303222"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299512"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299601"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301104"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302305"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302354"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303224"/>
+        <aif:creationDate>2017-10-02 14:21:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299507 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299507">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Matthew Taylor : I&#039;m generally on the side of women&#039;s rights</aif:claimText>
+        <aif:source>Luana: Matthew Taylor : I&#039;m generally on the side of women&#039;s rights</aif:source>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299508 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299508">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : I don&#039;t support a change in the law</aif:claimText>
+        <aif:source>Matthew Taylor : I don&#039;t support a change in the law</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299539"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299614"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299670"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301118"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302269"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302329"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302367"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302432"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303237"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299509"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299540"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299600"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299615"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299656"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299671"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301103"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301119"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302240"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302270"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302304"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302330"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302353"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302368"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302418"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302433"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303223"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303238"/>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299509 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299509">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299508"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299510"/>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299510 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299510">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Matthew Taylor doen&#039;t support a change in the law</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299509"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299512"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299600"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299601"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299657"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301103"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/301104"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302354"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302419"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303223"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/303224"/>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299511 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299511">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Matthew Taylor : I don&#039;t support a change in the law</aif:claimText>
+        <aif:source>Luana: Matthew Taylor : I don&#039;t support a change in the law</aif:source>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299512 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299512">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299506"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299549"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299510"/>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299513 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299513">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : whenever social reality departs substantially from public opinion, then alarm bells should ring</aif:claimText>
+        <aif:source>Matthew Taylor : whenever social reality departs substantially from public opinion, then alarm bells should ring</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299540"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299615"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299671"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301119"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302270"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302330"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302368"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302433"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303238"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299514"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299547"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299602"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299619"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299658"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299675"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301105"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301123"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302243"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302271"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302306"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302331"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302355"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302371"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302420"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302436"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303225"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303242"/>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299514 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299514">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299513"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299515"/>
+        <aif:creationDate>2017-10-02 14:21:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299515 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299515">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>whenever social reality departs substantially from public opinion, then alarm bells should ring</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299514"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299602"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299658"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301105"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302243"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302306"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302355"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302420"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303225"/>
+        <aif:creationDate>2017-10-02 14:21:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299516 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299516">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Matthew Taylor : whenever social reality departs substantially from public opinion, then alarm bells should ring</aif:claimText>
+        <aif:source>Luana: Matthew Taylor : whenever social reality departs substantially from public opinion, then alarm bells should ring</aif:source>
+        <aif:creationDate>2017-10-02 14:21:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299517 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299517">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Matthew Taylor : there are aspects of the current practice of abortion, and even more looming dangers, which we have to debate</aif:claimText>
+        <aif:source>Luana: Matthew Taylor : there are aspects of the current practice of abortion, and even more looming dangers, which we have to debate</aif:source>
+        <aif:creationDate>2017-10-02 14:21:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299518 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299518">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kenan Malik : a basic liberal, indeed, moral principle, is that one should have control over one&#039;s body</aif:claimText>
+        <aif:source>Kenan Malik : a basic liberal, indeed, moral principle, is that one should have control over one&#039;s body</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299588"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299645"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299701"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301146"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302394"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302459"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303268"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299519"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299531"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299541"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299603"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299607"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299616"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299659"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299663"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299672"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301106"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301111"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301120"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302356"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302360"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302369"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302421"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302425"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302434"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303226"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303230"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303239"/>
+        <aif:creationDate>2017-10-02 14:21:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299519 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299519">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299518"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299520"/>
+        <aif:creationDate>2017-10-02 14:21:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299520 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299520">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>a basic liberal, indeed, moral principle, is that one should have control over one&#039;s body</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299519"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299603"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299659"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301106"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302356"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302421"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303226"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299530"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299606"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299662"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301110"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303229"/>
+        <aif:creationDate>2017-10-02 14:21:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299521 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299521">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Kenan Malik : a basic liberal, indeed, moral principle, is that one should have control over one&#039;s body.</aif:claimText>
+        <aif:source>Luana: Kenan Malik : a basic liberal, indeed, moral principle, is that one should have control over one&#039;s body.</aif:source>
+        <aif:creationDate>2017-10-02 14:21:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299522 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299522">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kenan Malik : without consent, neither other people, nor the state, should have the right, in normal circumstances, to interfere with my body</aif:claimText>
+        <aif:source>Kenan Malik : without consent, neither other people, nor the state, should have the right, in normal circumstances, to interfere with my body</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299541"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299616"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299672"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301120"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302272"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302332"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302369"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302434"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303239"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299523"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299531"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299604"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299607"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299660"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299663"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301107"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301111"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302250"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302254"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302311"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302314"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302357"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302360"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302422"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302425"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303227"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303230"/>
+        <aif:creationDate>2017-10-02 14:21:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299523 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299523">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299522"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299524"/>
+        <aif:creationDate>2017-10-02 14:21:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299524 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299524">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>without consent, neither other people, nor the state, should have the right, in normal circumstances, to interfere with my body</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299523"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299604"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299660"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302250"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302311"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303227"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299530"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299606"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299662"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302253"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302313"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303229"/>
+        <aif:creationDate>2017-10-02 14:21:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299525 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299525">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Kenan Malik : without consent, neither other people, nor the state, should have the right, in normal circumstances, to interfere with my body</aif:claimText>
+        <aif:source>Luana: Kenan Malik : without consent, neither other people, nor the state, should have the right, in normal circumstances, to interfere with my body</aif:source>
+        <aif:creationDate>2017-10-02 14:21:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299526 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299526">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Kenan Malik :  I support the right to abortion</aif:claimText>
+        <aif:source>Kenan Malik :  I support the right to abortion</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299531"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299607"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299663"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301111"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301160"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302254"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302314"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302360"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302408"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302425"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302473"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303230"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299527"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299605"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299661"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301109"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302251"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302312"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302358"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302423"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303228"/>
+        <aif:creationDate>2017-10-02 14:21:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299527 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299527">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299526"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299528"/>
+        <aif:creationDate>2017-10-02 14:21:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299528 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299528">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kenan Malik supports the right to abortion</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299527"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299530"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299605"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299606"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299661"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299662"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301109"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/301110"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302358"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302359"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302424"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303228"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/303229"/>
+        <aif:creationDate>2017-10-02 14:21:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299529 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299529">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Kenan Malik :  I support the right to abortion</aif:claimText>
+        <aif:source>Luana: Kenan Malik :  I support the right to abortion</aif:source>
+        <aif:creationDate>2017-10-02 14:21:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299530 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299530">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299520"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299524"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299528"/>
+        <aif:creationDate>2017-10-02 14:21:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299531 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299531">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299518"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299522"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299526"/>
+        <aif:creationDate>2017-10-02 14:21:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299532 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299532">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>[00:03:25] I think a basic liberal, indeed, moral principle, is that one should have control over one&#039;s body.  [00:03:31] And without consent, neither other people, nor the state, should have the right, in normal circumstances, to interfere with my body.  And it is in that, on that basis, that I support the right to abortion.</aif:claimText>
+        <aif:source>[00:03:25] I think a basic liberal, indeed, moral principle, is that one should have control over one&#039;s body.  [00:03:31] And without consent, neither other people, nor the state, should have the right, in normal circumstances, to interfere with my body.  And it is in that, on that basis, that I support the right to abortion.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301160"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302408"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302473"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/305921"/>
+        <aif:creationDate>2017-10-02 14:21:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299533 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299533">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299531"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299530"/>
+        <aif:creationDate>2017-10-02 14:21:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299534 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299534">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299477"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299481"/>
+        <aif:creationDate>2017-10-02 14:21:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299535 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299535">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299486"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299490"/>
+        <aif:creationDate>2017-10-02 14:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299536 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299536">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299490"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299495"/>
+        <aif:creationDate>2017-10-02 14:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299537 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299537">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299495"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299500"/>
+        <aif:creationDate>2017-10-02 14:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299538 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299538">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299500"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299504"/>
+        <aif:creationDate>2017-10-02 14:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299539 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299539">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299504"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299508"/>
+        <aif:creationDate>2017-10-02 14:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299540 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299540">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299508"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299513"/>
+        <aif:creationDate>2017-10-02 14:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299541 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299541">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299518"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299522"/>
+        <aif:creationDate>2017-10-02 14:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299542 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299542">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Matthew Taylor : there are aspects of the current practice of abortion, and even more looming dangers, which we have to debate</aif:claimText>
+        <aif:source>Matthew Taylor : there are aspects of the current practice of abortion, and even more looming dangers, which we have to debate</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299547"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299619"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299675"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301123"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302271"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302331"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302371"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302436"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303242"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299543"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299588"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299617"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299645"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299673"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299701"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301121"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301146"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302244"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302256"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302307"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302316"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302370"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302394"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302435"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302459"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303240"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303268"/>
+        <aif:creationDate>2017-10-02 14:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299543 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299543">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299542"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299544"/>
+        <aif:creationDate>2017-10-02 14:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299544 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299544">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>there are aspects of the current practice of abortion, and even more looming dangers, which we have to debate.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299543"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299617"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299673"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303240"/>
+        <aif:creationDate>2017-10-02 14:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299545 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299545">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Matthew Taylor : there are aspects of the current practice of abortion, and even more looming dangers, which we have to debate.</aif:claimText>
+        <aif:source>Luana: Matthew Taylor : there are aspects of the current practice of abortion, and even more looming dangers, which we have to debate.</aif:source>
+        <aif:creationDate>2017-10-02 14:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299546 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299546">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-10-02 14:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299547 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299547">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299513"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299542"/>
+        <aif:creationDate>2017-10-02 14:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299548 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299548">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299547"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299546"/>
+        <aif:creationDate>2017-10-02 14:21:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299549 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299549">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299539"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299512"/>
+        <aif:creationDate>2017-10-02 14:21:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299550 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299550">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299536"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299499"/>
+        <aif:creationDate>2017-10-02 14:21:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299551 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299551">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299535"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299494"/>
+        <aif:creationDate>2017-10-02 14:21:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299552 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299552">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299502"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299553"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299497"/>
+        <aif:creationDate>2017-10-02 14:21:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299553 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299553">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299537"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299552"/>
+        <aif:creationDate>2017-10-02 14:21:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299554 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299554">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Melanie Philips : I&#039;m not an absolutist</aif:claimText>
+        <aif:source>Melanie Philips : I&#039;m not an absolutist</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299566"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299629"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299685"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301132"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302380"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302445"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303252"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299555"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299626"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299682"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301129"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301149"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302377"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302397"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302442"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302462"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303249"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303269"/>
+        <aif:creationDate>2017-10-02 14:21:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299555 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299555">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299554"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299556"/>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299556 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299556">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Melanie Phillips is not an absolutist</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299555"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299626"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299682"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301129"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302377"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302442"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303249"/>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299557 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299557">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : I&#039;m not an absolutist</aif:claimText>
+        <aif:source>Luana: Melanie Philips : I&#039;m not an absolutist</aif:source>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299558 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299558">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Melanie Philips : I think the issue of the idea of sex selection abortion is absolutely monstrous</aif:claimText>
+        <aif:source>Melanie Philips : I think the issue of the idea of sex selection abortion is absolutely monstrous</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299576"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299586"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299637"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299643"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299693"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299699"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301138"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301144"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302386"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302392"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302451"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302457"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303260"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303266"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/305911"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299559"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299562"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299583"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299627"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299628"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299640"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299683"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299684"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299696"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301130"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301131"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301141"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302378"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302379"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302389"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302443"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302444"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302454"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303250"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303251"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303263"/>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299559 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299559">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299558"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299560"/>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299560 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299560">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the issue of the idea of sex selection abortion is absolutely monstrous</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299559"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299585"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299627"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299642"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299698"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301130"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/301143"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302223"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302238"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302290"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302302"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302378"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302391"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302456"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303250"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/303265"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299582"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302228"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302293"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302388"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303262"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/310250"/>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299561 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299561">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : I think the issue of the idea of sex selection abortion is absolutely monstrous</aif:claimText>
+        <aif:source>Luana: Melanie Philips : I think the issue of the idea of sex selection abortion is absolutely monstrous</aif:source>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299562 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299562">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299558"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299477"/>
+        <aif:creationDate>2017-10-02 14:21:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299563 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299563">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Michael Buerk : Melanie Phillips, what does this latest fuss, do you think, tell us about the abortion debate, 45 years on</aif:claimText>
+        <aif:source>Michael Buerk : Melanie Phillips, what does this latest fuss, do you think, tell us about the abortion debate, 45 years on</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/305910"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299566"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299567"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299629"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299630"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299685"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299686"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301132"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301133"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301151"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301154"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301157"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301160"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302380"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302381"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302399"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302402"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302405"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302408"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302445"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302446"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302464"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302467"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302470"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302473"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303252"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303253"/>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299564 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299564">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>XX is what this latest fuss tell us about the abortion debate, 45 years on</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299567"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299630"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299686"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301133"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302381"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302446"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303253"/>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299565 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299565">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Michael Buerk : Melanie Phillips, what does this latest fuss, do you think, tell us about the abortion debate, 45 years on</aif:claimText>
+        <aif:source>Luana: Michael Buerk : Melanie Phillips, what does this latest fuss, do you think, tell us about the abortion debate, 45 years on</aif:source>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299566 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299566">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299563"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299554"/>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299567 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299567">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299563"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299564"/>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299568 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299568">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299569 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299569">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299566"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299568"/>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299570 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299570">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Melanie Philips : I don&#039;t think this is an issue of rights.  I think it&#039;s a balance of harms</aif:claimText>
+        <aif:source>Melanie Philips : I don&#039;t think this is an issue of rights.  I think it&#039;s a balance of harms</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299573"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299634"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299690"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301135"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302258"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302318"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302383"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302448"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303257"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299571"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299576"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299583"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299633"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299637"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299640"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299689"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299693"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299696"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301134"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301138"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/301141"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302219"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302260"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302262"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302288"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302320"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302322"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302382"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302386"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302389"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302447"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302451"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/302454"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303256"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303260"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/303263"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/305940"/>
+        <aif:creationDate>2017-10-02 14:21:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299571 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299571">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299570"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299572"/>
+        <aif:creationDate>2017-10-02 14:21:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299572 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299572">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>abortion is not an issue of rights. it&#039;s a balance of harms</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299571"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299633"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299689"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301134"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302382"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302447"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303256"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/305941"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299582"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/301140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302388"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/302453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/303262"/>
+        <aif:creationDate>2017-10-02 14:21:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299573 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299573">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299469"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299570"/>
+        <aif:creationDate>2017-10-02 14:21:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299574 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299574">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-10-02 14:21:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299575 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299575">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299573"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299574"/>
+        <aif:creationDate>2017-10-02 14:21:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299576 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299576">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299570"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299558"/>
+        <aif:creationDate>2017-10-02 14:21:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299577 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299577">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:claimText>
+        <aif:source>shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:source>
+        <aif:creationDate>2017-10-02 14:21:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299578 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299578">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Melanie Philips : shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:claimText>
+        <aif:source>Melanie Philips : shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299583"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299640"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299696"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301141"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/301151"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302389"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302399"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302454"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/302464"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/303263"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299579"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299638"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299694"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/301139"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302387"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/302452"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/303261"/>
+        <aif:creationDate>2017-10-02 14:21:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299579 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299579">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/299578"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299580"/>
+        <aif:creationDate>2017-10-02 14:21:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299580 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299580">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299579"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299582"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299638"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299639"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299695"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/301139"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/301140"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302227"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302228"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302293"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302387"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302388"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/302452"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/302453"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/303261"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/303262"/>
+        <aif:creationDate>2017-10-02 14:21:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Luana: Melanie Philips : shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:claimText>
+        <aif:source>Luana: Melanie Philips : shows that we have really drifted a very, very long way, not just from the original terms of the Abortion Act, but from any proper understanding of what morality is</aif:source>
+        <aif:creationDate>2017-10-02 14:21:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299479"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299560"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299572"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299584"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299580"/>
+        <aif:creationDate>2017-10-02 14:21:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299477"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299481"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299558"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299570"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299578"/>
+        <aif:creationDate>2017-10-02 14:21:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299584 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299584">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299583"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299582"/>
+        <aif:creationDate>2017-10-02 14:21:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299585 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299585">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/299488"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299587"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/299560"/>
+        <aif:creationDate>2017-10-02 14:21:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299586 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299586">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299486"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299558"/>
+        <aif:creationDate>2017-10-02 14:21:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/299586"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/299585"/>
+        <aif:creationDate>2017-10-02 14:21:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/299542"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/299518"/>
+        <aif:creationDate>2017-10-02 14:21:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/299589 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/299589">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Luana</aif:claimText>
+        <aif:creationDate>2017-10-02 14:21:29</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/283596 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283596">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If you are introducing somebody to games, you need to use entry-level games.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283599"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283602"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/290017"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290019"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/290903"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290905"/>
+        <aif:creationDate>2017-06-04 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283597 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283597">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If somebody ASKS to be introduced to games, you can use whatever game you want.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283601"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283610"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/290018"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290023"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/290904"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290909"/>
+        <aif:creationDate>2017-06-04 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283598 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283598">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If somebody has a passing interest, you will lose them after five minutes of rules explanation.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283605"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290020"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290906"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283599"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/290017"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/290903"/>
+        <aif:creationDate>2017-06-04 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283600 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283600">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If they are actually interested, they&#039;ll sit through the full 25 minutes.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283613"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290024"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290910"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283601"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/290018"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/290904"/>
+        <aif:creationDate>2017-06-04 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283603 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283603">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>TimothyDRiel : If you are introducing somebody to games, you need to use entry-level games.</aif:claimText>
+        <aif:source>TimothyDRiel : If you are introducing somebody to games, you need to use entry-level games.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283602"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283608"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290019"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290021"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290905"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290907"/>
+        <aif:creationDate>2017-06-04 20:59:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283604 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283604">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: TimothyDRiel : If you are introducing somebody to games, you need to use entry-level games.</aif:claimText>
+        <aif:source>M: TimothyDRiel : If you are introducing somebody to games, you need to use entry-level games.</aif:source>
+        <aif:creationDate>2017-06-04 20:59:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283606 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283606">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>TimothyDRiel : If somebody has a passing interest, you will lose them after five minutes of rules explanation.</aif:claimText>
+        <aif:source>TimothyDRiel : If somebody has a passing interest, you will lose them after five minutes of rules explanation.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283608"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290021"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290907"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283605"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290020"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290906"/>
+        <aif:creationDate>2017-06-04 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283607 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283607">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: TimothyDRiel : If somebody has a passing interest, you will lose them after five minutes of rules explanation.</aif:claimText>
+        <aif:source>M: TimothyDRiel : If somebody has a passing interest, you will lose them after five minutes of rules explanation.</aif:source>
+        <aif:creationDate>2017-06-04 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283611 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283611">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>TimothyDRiel : If somebody ASKS to be introduced to games, you can use whatever game you want.</aif:claimText>
+        <aif:source>TimothyDRiel : If somebody ASKS to be introduced to games, you can use whatever game you want.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283610"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283616"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290023"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290025"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290909"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290911"/>
+        <aif:creationDate>2017-06-04 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283612 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283612">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: TimothyDRiel : If somebody ASKS to be introduced to games, you can use whatever game you want.</aif:claimText>
+        <aif:source>M: TimothyDRiel : If somebody ASKS to be introduced to games, you can use whatever game you want.</aif:source>
+        <aif:creationDate>2017-06-04 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283614 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283614">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>TimothyDRiel :  If they are actually interested, they&#039;ll sit through the full 25 minutes.</aif:claimText>
+        <aif:source>TimothyDRiel :  If they are actually interested, they&#039;ll sit through the full 25 minutes.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283616"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290025"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290911"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283613"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283623"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290024"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290029"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290910"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290915"/>
+        <aif:creationDate>2017-06-04 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283615 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283615">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: TimothyDRiel :  If they are actually interested, they&#039;ll sit through the full 25 minutes.</aif:claimText>
+        <aif:source>M: TimothyDRiel :  If they are actually interested, they&#039;ll sit through the full 25 minutes.</aif:source>
+        <aif:creationDate>2017-06-04 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283618 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283618">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I completely agree with your statement that people can enjoy complex games, if they are interested in the gaming.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283621"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290028"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290914"/>
+        <aif:creationDate>2017-06-04 20:59:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283620 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283620">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: Ju1ss1 : I completely agree with your statement that people can enjoy complex games, if they are interested in the gaming.</aif:claimText>
+        <aif:source>M: Ju1ss1 : I completely agree with your statement that people can enjoy complex games, if they are interested in the gaming.</aif:source>
+        <aif:creationDate>2017-06-04 20:59:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283622 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283622">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ju1ss1 : I completely agree with your statement that people can enjoy complex games, if they are interested in the gaming.</aif:claimText>
+        <aif:source>Ju1ss1 : I completely agree with your statement that people can enjoy complex games, if they are interested in the gaming.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283623"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290029"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290915"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283621"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283630"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290028"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290033"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290914"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290919"/>
+        <aif:creationDate>2017-06-04 20:59:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283625 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283625">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This requires that the person is willing and wants to understand the rules, and don&#039;t dismiss the whole thing after first statement that they didn&#039;t quite understand.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283627"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290032"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290918"/>
+        <aif:creationDate>2017-06-04 20:59:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283628 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283628">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ju1ss1 : This requires that the person is willing and wants to understand the rules, and don&#039;t dismiss the whole thing after first statement that they didn&#039;t quite understand.</aif:claimText>
+        <aif:source>Ju1ss1 : This requires that the person is willing and wants to understand the rules, and don&#039;t dismiss the whole thing after first statement that they didn&#039;t quite understand.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283630"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290033"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290919"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283627"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283636"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290032"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290036"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290918"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/290922"/>
+        <aif:creationDate>2017-06-04 20:59:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283629 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283629">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: Ju1ss1 : This requires that the person is willing and wants to understand the rules, and don&#039;t dismiss the whole thing after first statement that they didn&#039;t quite understand.</aif:claimText>
+        <aif:source>M: Ju1ss1 : This requires that the person is willing and wants to understand the rules, and don&#039;t dismiss the whole thing after first statement that they didn&#039;t quite understand.</aif:source>
+        <aif:creationDate>2017-06-04 20:59:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If the person thinks they are overwhelmed by the more complex rules, then it&#039;s better to build up the tolerance by easier gateway games.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283633"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290035"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290921"/>
+        <aif:creationDate>2017-06-04 20:59:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283634 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283634">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Ju1ss1 : If the person thinks they are overwhelmed by the more complex rules, then it&#039;s better to build up the tolerance by easier gateway games.</aif:claimText>
+        <aif:source>Ju1ss1 : If the person thinks they are overwhelmed by the more complex rules, then it&#039;s better to build up the tolerance by easier gateway games.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283636"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290036"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/290922"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283633"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290035"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/290921"/>
+        <aif:creationDate>2017-06-04 20:59:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/283635 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/283635">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: Ju1ss1 : If the person thinks they are overwhelmed by the more complex rules, then it&#039;s better to build up the tolerance by easier gateway games.</aif:claimText>
+        <aif:source>M: Ju1ss1 : If the person thinks they are overwhelmed by the more complex rules, then it&#039;s better to build up the tolerance by easier gateway games.</aif:source>
+        <aif:creationDate>2017-06-04 20:59:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290017 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290017">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283598"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290022"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283596"/>
+        <aif:creationDate>2017-06-11 16:09:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290018 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290018">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283600"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290026"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283597"/>
+        <aif:creationDate>2017-06-11 16:09:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290019 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290019">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283603"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283596"/>
+        <aif:creationDate>2017-06-11 16:09:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290020 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290020">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283606"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283598"/>
+        <aif:creationDate>2017-06-11 16:09:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290021 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290021">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283603"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283606"/>
+        <aif:creationDate>2017-06-11 16:09:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290022 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290022">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/290021"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290017"/>
+        <aif:creationDate>2017-06-11 16:09:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290023 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290023">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283611"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283597"/>
+        <aif:creationDate>2017-06-11 16:09:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290024 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290024">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283614"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283600"/>
+        <aif:creationDate>2017-06-11 16:09:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290025 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290025">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283611"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283614"/>
+        <aif:creationDate>2017-06-11 16:09:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290026 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290026">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/290025"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290018"/>
+        <aif:creationDate>2017-06-11 16:09:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290027 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290027">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-06-11 16:09:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290028 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290028">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283622"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283618"/>
+        <aif:creationDate>2017-06-11 16:09:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290029 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290029">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283614"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283622"/>
+        <aif:creationDate>2017-06-11 16:09:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290030 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290030">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/290029"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290027"/>
+        <aif:creationDate>2017-06-11 16:09:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290031 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290031">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-06-11 16:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290032 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290032">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283628"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283625"/>
+        <aif:creationDate>2017-06-11 16:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290033 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290033">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283622"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283628"/>
+        <aif:creationDate>2017-06-11 16:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290034 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290034">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/290033"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290031"/>
+        <aif:creationDate>2017-06-11 16:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290035 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290035">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283634"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283632"/>
+        <aif:creationDate>2017-06-11 16:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290036 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290036">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283628"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283634"/>
+        <aif:creationDate>2017-06-11 16:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290037 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290037">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2017-06-11 16:09:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/290038 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/290038">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/290036"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/290037"/>
+        <aif:creationDate>2017-06-11 16:09:07</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

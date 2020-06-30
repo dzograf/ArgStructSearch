@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/47677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You&#039;re over 21</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47683"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47685"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47678 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47678">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You can drink in this country!</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47685"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You are drunk.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47684"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47680 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47680">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You can&#039;t drink in this country</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47684"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You look like you&#039;ve had enough already.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47682"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47682 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47682">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47679"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47683 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47683">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47680"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47684 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47684">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47679"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47680"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47685 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47685">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47678"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47686 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47686">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You&#039;re under 21</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47690"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47687 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47687">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>you have to be over 21 to drink in this country</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47690"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47688 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47688">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>you&#039;ve had enough already</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47691"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47689 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47689">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You shouldnt drink more.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47690"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47691"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47690 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47690">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47686"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47687"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47689"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47691 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47691">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47689"/>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47692 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47692">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>OR</aif:claimText>
+        <aif:creationDate>2015-02-05 14:02:59</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/461025 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461025">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Мы были свидетелями чуда.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461037"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461049"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461027"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461042"/>
+        <aif:creationDate>2019-12-17 00:05:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461026 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461026">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Это ты был свидетелем чуда, я был свидетелем странного события.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461027"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461035"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461042"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461048"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461031"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461044"/>
+        <aif:creationDate>2019-12-17 00:05:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461027 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461027">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461025"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461026"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461028 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461028">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Чудо - это когда Бог делает невозможное возможным. Я считаю, что случившееся сегодня утром не подпадает под это определение.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461032"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461038"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461041"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461045"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461050"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461052"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461035"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461048"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461029 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461029">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Случившееся утром - чудо?</aif:claimText>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461030 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461030">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>А ты знаешь, что такое чудо?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461031"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461044"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461032"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461045"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461031 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461031">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461026"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461030"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461032 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461032">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461030"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461028"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461033 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461033">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461034 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461034">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461035 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461035">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461028"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461026"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461036 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461036">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ты судишь о вещах с неверной точки зрения. Не в этом смысл. Бог может остановить пули, он может превратить Кока-Колу в Пепси-Колу или найти ключи от моей машины. Нельзя судить о таких вещах, основываясь только на их значительности. </aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461037"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461038"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461040"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461049"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461050"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461051"/>
+        <aif:creationDate>2019-12-17 00:05:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461037 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461037">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461036"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461025"/>
+        <aif:creationDate>2019-12-17 00:05:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461038 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461038">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461036"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461028"/>
+        <aif:creationDate>2019-12-17 00:05:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461039 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461039">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Совершенно несущественно, является ли происшедшее с нами чудом по определению. Существенно другое: я почувствовал присутствие Бога, и значит, он был там.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461040"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461051"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461041"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461052"/>
+        <aif:creationDate>2019-12-17 00:05:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461040 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461040">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461036"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461039"/>
+        <aif:creationDate>2019-12-17 00:05:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461041 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461041">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461039"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461028"/>
+        <aif:creationDate>2019-12-17 00:05:12</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

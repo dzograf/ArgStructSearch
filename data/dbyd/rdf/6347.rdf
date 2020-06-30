@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/119743 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119743">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>O conselho de administração da Fundação Calouste Gulbenkian</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119754"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119758"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119744 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119744">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  O conselho de administração da Fundação Calouste Gulbenkian</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  O conselho de administração da Fundação Calouste Gulbenkian</aif:source>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119745 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119745">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>António Pinto Ribeiro,</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119755"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119759"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119760"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119746 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119746">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  António Pinto Ribeiro,</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  António Pinto Ribeiro,</aif:source>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119747 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119747">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>coordenador geral da entidade</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119756"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119761"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119748 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119748">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  coordenador geral da entidade</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  coordenador geral da entidade</aif:source>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119749 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119749">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  rescindiu, com efeito imediato</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  rescindiu, com efeito imediato</aif:source>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119750 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119750">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>No comunicado de hoje, a FCG fala em &quot;quebra de confiança institucional&quot;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119757"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119761"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119751 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119751">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/33.html: No comunicado de hoje, a FCG fala em &quot;quebra de confiança institucional&quot;</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/33.html: No comunicado de hoje, a FCG fala em &quot;quebra de confiança institucional&quot;</aif:source>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119752 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119752">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>anunciou hoje que rescindiu, com efeito imediato, a ligação a</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119754"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119755"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119759"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119753 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119753">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  anunciou hoje que rescindiu, com efeito imediato, a ligação a</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/33.html:  anunciou hoje que rescindiu, com efeito imediato, a ligação a</aif:source>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119754 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119754">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119752"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119755 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119755">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119752"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119745"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119756 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119756">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119747"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/119757 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/119757">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/119747"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/119750"/>
+        <aif:creationDate>2015-12-10 21:21:54</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

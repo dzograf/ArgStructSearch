@@ -1,0 +1,29 @@
+{"nodes":
+ [
+     {"nodeID":5,"text":"5 she","type":"I"},
+     {"nodeID":6,"text":"6 because","type":"I"},
+     {"nodeID":8,"text":"Default Inference","type":"RA"},
+     {"nodeID":9,"text":"9 Not","type":"I"},
+     {"nodeID":11,"text":"Default Conflict","type":"CA"},
+     {"nodeID":12,"text":"12","type":"I"},
+     {"nodeID":14,"text":"Default Inference","type":"RA"},
+     {"nodeID":15,"text":"15","type":"I"},
+     {"nodeID":17,"text":"17","type":"I"},
+     {"nodeID":19,"text":"Default Conflict","type":"CA"},
+     {"nodeID":21,"text":"21","type":"I"}
+ ],
+ 
+ "edges":[
+     {"edgeID":"e0","fromID":6,"toID":8},
+     {"edgeID":"e1","fromID":8,"toID":5},
+     {"edgeID":"e2","fromID":9,"toID":11},
+     {"edgeID":"e3","fromID":11,"toID":6},
+     {"edgeID":"e4","fromID":12,"toID":14},
+     {"edgeID":"e5","fromID":14,"toID":9},
+     {"edgeID":"e6","fromID":15,"toID":14},
+     {"edgeID":"e7","fromID":17,"toID":19},
+     {"edgeID":"e8","fromID":19,"toID":15},
+     {"edgeID":"e9","fromID":21,"toID":8}
+ ],
+ 
+ "locutions":[]}

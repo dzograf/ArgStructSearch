@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/378973 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378973">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Оспаривающий конституционность названных законоположений</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378978"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378974 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378974">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>проверяет конституционность законоположений, примененных в его деле, рассмотрение которого завершено в суде</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378986"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378987"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378975 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378975">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>КС РФ</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378986"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378976 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378976">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Филимонов</aif:claimText>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378977 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378977">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>эти положения лишают несовершеннолетних обвиняемых приобретенного ими права на рассмотрение их уголовных дел судом с участием присяжных заседателей</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378978"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378978 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378978">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378973"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378977"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378979 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378979">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>При этом заявитель не оспаривает конституционность указанных законоположений в части установленного ими перечня уголовных дел</aif:claimText>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378980 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378980">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Конституция Российской Федерации предусматривает что обвиняемый в совершении преступления имеет право на рассмотрение его дела судом с участием присяжных заседателей в предусмотренных федеральным законом</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378987"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378988"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378981 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378981">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Конституции Российской Федерации, безусловно распространяется лишь на обвиняемых в совершении тех преступлений, за которые в санкциях статей Уголовного кодекса Российской Федерации предусмотрена смертная казнь,</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378983"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378982 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378982">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>если только это  не лица не достигшие ко времени их совершения восемнадцатилетнего возраста</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378983"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378983 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378983">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378982"/>
+        <aif:creationDate>2019-03-27 08:48:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378984 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378984">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>законодательно установлен прямой запретназначения пожизненного лишения свободы или смертной казни, а также законодательно установлен прямой запрет назначения пожизненного лишения свободы или смертной казни</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378988"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378989"/>
+        <aif:creationDate>2019-03-27 08:48:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378985 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378985">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ходатайство обвиняемого о рассмотрении его дела судом с участием присяжных заседателей, заявленное на предварительном следствии в порядке статьи 217 УПК Российской Федерации в период действия прежнего уголовно-процессуального закона, не подлежит удовлетворению судом по результатам предварительного слушания, если на момент принятия судом соответствующего решения действует закон, которым рассмотрение данного уголовного дела не отнесено более к подсудности суда с участием присяжных заседателей. Иное не только нарушало бы правила о действии закона во времени, но и не соответствовало бы конституционному принципу законного суда. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378989"/>
+        <aif:creationDate>2019-03-27 08:48:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378986 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378986">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378975"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378974"/>
+        <aif:creationDate>2019-03-27 08:48:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378974"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378980"/>
+        <aif:creationDate>2019-03-27 08:48:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378988 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378988">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378980"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378984"/>
+        <aif:creationDate>2019-03-27 08:48:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378989 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378989">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/378984"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/378985"/>
+        <aif:creationDate>2019-03-27 08:48:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/378990 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/378990">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>судья Владимирского облсуда отправил дело Филимонова в районный суд. Получилось, что заодно Филимонова лишили права на суд присяжных — по закону дела с участием заседателей слушаются только в судах субъектов Федерации.</aif:claimText>
+        <aif:creationDate>2019-03-27 08:48:02</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/167394 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167394">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want cost efficiency</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167400"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167461"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167472"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168515"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167395 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167395">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want network efficiency</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167463"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167473"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167474"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168516"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168517"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167396 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167396">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want alignment with EU policies</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167410"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167433"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167464"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167475"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168518"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167397 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167397">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want to contribute to quality of life</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167435"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167466"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167477"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168520"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167398 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167398">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: New projects generate high costs</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167400"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167461"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167472"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168515"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167399 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167399">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want to reduce the number of projects</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167400"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167472"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168515"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167426"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167429"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167439"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167470"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167471"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167481"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167482"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168524"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168525"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167400 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167400">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167394"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167398"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167399"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167401 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167401">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want road safety</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168526"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167402 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167402">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Road quality contributes to network efficiency</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167473"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168516"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167403 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167403">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want road quality</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167462"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167473"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168516"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167420"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167437"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167468"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167479"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168522"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167404 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167404">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Traffic jams negatively influence network efficiency</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167463"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167474"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168517"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167405 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167405">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want to reduce the number of traffic jams</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167407"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167463"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167474"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167412"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167434"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167465"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167476"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168519"/>
+        <aif:creationDate>2016-03-29 14:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167406 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167406">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167395"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167403"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167407 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167407">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167395"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167405"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Countries in EU have 130 km/h as maximum speed </aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167410"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167433"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167464"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167475"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168518"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want to increase the maximum speed to 130 km/h </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167417"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167433"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167434"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167436"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167464"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167465"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167467"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167475"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167476"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167478"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168518"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168519"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168521"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167410 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167410">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167396"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167409"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167411 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167411">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Higher maximum speed reduces traffic jams</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167412"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167434"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167465"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167476"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168519"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167405"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167409"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167413 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167413">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: High noise levels negatively influence the quality of life</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167435"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167466"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167477"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168520"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167414 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167414">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Noise levels can not be exceeded</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167435"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167466"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167477"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168520"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167467"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167478"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168521"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167415 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167415">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Increasing the speed maximum might exceed noise levels</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167467"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167478"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168521"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167416 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167416">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167397"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167413"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167414"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167417 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167417">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167414"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167415"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167409"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167418 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167418">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Widening a road increases its quality</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167420"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167437"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167468"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167479"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168522"/>
+        <aif:creationDate>2016-03-29 14:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167419 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167419">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want to widen the roads</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167437"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167468"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167479"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168522"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167438"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167469"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167480"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168523"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167420 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167420">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167403"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167419"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167421 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167421">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Increasing the number of lanes widens the roads</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167438"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167469"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167480"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168523"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167422 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167422">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want to increase the number of lanes</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167429"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167438"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167440"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167469"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167471"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167480"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167482"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168523"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168525"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167423 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167423">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167422"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167424 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167424">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Aquaplaning causes accidents</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168526"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167425 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167425">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: We want to improve water drainage</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167426"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167439"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167470"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167481"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/168526"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167426 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167426">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167399"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167425"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167427 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167427">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Improving water drainage is a project</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167426"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167439"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167470"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167481"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168524"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167428 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167428">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>MIE: Increasing the number of lanes is a project</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167429"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167471"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167482"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/168525"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/167429 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/167429">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167399"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/167428"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/167422"/>
+        <aif:creationDate>2016-03-29 14:54:16</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

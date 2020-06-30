@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/265227 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265227">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Palean baskets are found only in the immediate vicinity of the prehistoric village of Palea.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265236"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265252"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265263"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265273"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265291"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265229"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265250"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265261"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265271"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265289"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265299"/>
+        <aif:creationDate>2017-03-24 09:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265228 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265228">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Palean baskets were only made by the ancient Palean.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265229"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265250"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265261"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265271"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265289"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265299"/>
+        <aif:creationDate>2017-03-24 09:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265230 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265230">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A Palean basket is found in Lithos, an ancient village across the Brim River from Palea.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265236"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265237"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265252"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265253"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265263"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265264"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265273"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265274"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265291"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265292"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265302"/>
+        <aif:creationDate>2017-03-24 09:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265231 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265231">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The Brim River is very deep and broad.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265233"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265251"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265262"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265272"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265290"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265300"/>
+        <aif:creationDate>2017-03-24 09:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265232 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265232">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The ancient Paleans could have crossed the Brim river only by boat.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265233"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265251"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265262"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265272"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265290"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265255"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265266"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265276"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265294"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265304"/>
+        <aif:creationDate>2017-03-24 09:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>No Palean boats have been found.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265240"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265254"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265275"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265293"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265303"/>
+        <aif:creationDate>2017-03-24 09:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265235 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265235">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Palean baskets were not not only made by the ancient Palean.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265237"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265253"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265264"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265274"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265302"/>
+        <aif:creationDate>2017-03-24 09:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265238 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265238">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The Palean basket that was found in Lithos was not made by the ancient Palean.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265244"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265256"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265267"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265277"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265305"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265237"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265253"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265264"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265274"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265292"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265302"/>
+        <aif:creationDate>2017-03-24 09:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265239 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265239">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The ancient Paleans had no boats.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265240"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265254"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265275"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265293"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265303"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265255"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265266"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265276"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265294"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265304"/>
+        <aif:creationDate>2017-03-24 09:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The Palean basket that was found in Lithos could not have been brought from Paleo to Lithos by the ancient Palea.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265242"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265255"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265266"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265276"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265294"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265304"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265244"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265256"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265267"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265277"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265295"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265305"/>
+        <aif:creationDate>2017-03-24 09:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265243 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265243">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The Palean basket that was found in Lithos could have been brought from Palea to Lithos by someone else than the ancient Palea.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265245"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265257"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265268"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265278"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265296"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265306"/>
+        <aif:creationDate>2017-03-24 09:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265246 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265246">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The Brim river could have been less deep in ancient times.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265247"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265258"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265269"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265279"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265297"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265307"/>
+        <aif:creationDate>2017-03-24 09:38:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265259 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265259">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A Palean boat could be found in the future.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265260"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265270"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265280"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265298"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265308"/>
+        <aif:creationDate>2017-03-24 09:46:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265271 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265271">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265227"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265228"/>
+        <aif:creationDate>2017-03-24 10:06:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265272 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265272">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265232"/>
+        <aif:creationDate>2017-03-24 10:06:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265273 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265273">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265230"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265227"/>
+        <aif:creationDate>2017-03-24 10:06:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265274 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265274">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265230"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265238"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265235"/>
+        <aif:creationDate>2017-03-24 10:06:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265275 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265275">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265234"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265239"/>
+        <aif:creationDate>2017-03-24 10:06:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265276 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265276">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265232"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265239"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265241"/>
+        <aif:creationDate>2017-03-24 10:06:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265277 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265277">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265241"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/265238"/>
+        <aif:creationDate>2017-03-24 10:06:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265278 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265278">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265243"/>
+        <aif:creationDate>2017-03-24 10:06:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265279 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265279">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265246"/>
+        <aif:creationDate>2017-03-24 10:06:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/265280 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/265280">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265259"/>
+        <aif:creationDate>2017-03-24 10:06:45</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

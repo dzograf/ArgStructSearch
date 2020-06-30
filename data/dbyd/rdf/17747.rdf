@@ -1,0 +1,2360 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/491841 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491841">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : Jeżeli będziemy z woli wyborców rządzić drugą kadencję, obiecujemy tak samo skrócić kolejki do kolejnych specjalistów.</aif:claimText>
+        <aif:source>Marcin Horała : Jeżeli będziemy z woli wyborców rządzić drugą kadencję, obiecujemy tak samo skrócić kolejki do kolejnych specjalistów.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504178"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491842"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491868"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491882"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491898"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491909"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491982"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491993"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493583"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493594"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493674"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493685"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493767"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493778"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493859"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493870"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493952"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493963"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/494052"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/494063"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504176"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504183"/>
+        <aif:creationDate>2020-05-05 21:41:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491843 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491843">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jeżeli będziemy z woli wyborców rządzić drugą kadencję, obiecujemy tak samo skrócić kolejki do kolejnych specjalistów.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491842"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491868"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491898"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491982"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493583"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493758"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493767"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493850"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493859"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493941"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493952"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/494034"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494052"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/494134"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504176"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491883"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491910"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491994"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493595"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493686"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493779"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493871"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493964"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494064"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504198"/>
+        <aif:creationDate>2020-05-05 21:41:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491875 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491875">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : To jest standard Prawa i Sprawiedliwości my jesteśmy wiarygodni. I to właśnie zrealizujemy</aif:claimText>
+        <aif:source>Marcin Horała : To jest standard Prawa i Sprawiedliwości my jesteśmy wiarygodni. I to właśnie zrealizujemy</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491879"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491882"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491885"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491906"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491909"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491912"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491990"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491993"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491996"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493591"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493594"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493597"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493682"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493685"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493688"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493775"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493778"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493781"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493867"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493870"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493873"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493960"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493963"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493966"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494060"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494063"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494066"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504196"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491876"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491905"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491922"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491989"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492003"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493590"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493604"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493681"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493695"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493774"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493788"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493866"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493880"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493959"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493973"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/494059"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/494073"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504194"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504211"/>
+        <aif:creationDate>2020-05-05 22:31:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491877 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491877">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To jest standard Prawa i Sprawiedliwości my jesteśmy wiarygodni. I to właśnie zrealizujemy</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491876"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491880"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491883"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491886"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491905"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491910"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491913"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491989"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491991"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491994"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491997"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493590"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493592"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493595"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493598"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493686"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493689"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493774"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493776"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493779"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493782"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493866"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493868"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493871"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493874"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493959"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493961"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493964"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/493967"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494059"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/494061"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/494064"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/494067"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504194"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504197"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504198"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504199"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504200"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504201"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504217"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504253"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504294"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504318"/>
+        <aif:creationDate>2020-05-05 22:31:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491928 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491928">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : Trzeba Panu wyliczyć miejscowości w których zamykaliście porodówki i oddziały neonatologii?</aif:claimText>
+        <aif:source>Adrian Zandberg : Trzeba Panu wyliczyć miejscowości w których zamykaliście porodówki i oddziały neonatologii?</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493659"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493750"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493843"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493935"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494028"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494128"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504228"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491929"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492006"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493607"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493660"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493698"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493751"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493791"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493844"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493883"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493976"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/494076"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504226"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504234"/>
+        <aif:creationDate>2020-05-05 22:49:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491930 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491930">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Trzeba Panu wyliczyć miejscowości w których zamykaliście porodówki i oddziały neonatologii?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491929"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492006"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493607"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493698"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493791"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493883"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493976"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494076"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504226"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493943"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494036"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494136"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504229"/>
+        <aif:creationDate>2020-05-05 22:49:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491934 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491934">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Panie pośle jak pan sobie pojedzie na Lubelszczyznę i pan pojedzie do Kluczborka - niech pan pojedzie i porozmawia z ludźmi w Prudniku.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491933"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492007"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493608"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493699"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493792"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493884"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493977"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494077"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504232"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493943"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494036"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494136"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504235"/>
+        <aif:creationDate>2020-05-05 22:49:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491938 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491938">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Panie pośle po prostu jest niepoważne kiedy pan mówi o zamykaniu oddziałów bo to zamyka się w tym momencie oddziały szpitalne na masową skalę.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491937"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492008"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493609"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493700"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493793"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493885"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493978"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494078"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504238"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504241"/>
+        <aif:creationDate>2020-05-05 22:49:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491948 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491948">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : ponieważ specjaliści z Polski wyjeżdżają i kształcimy ich za mało.</aif:claimText>
+        <aif:source>Krzysztof Bosak : ponieważ specjaliści z Polski wyjeżdżają i kształcimy ich za mało.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491952"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492012"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493613"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493704"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493797"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493889"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493982"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494082"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504264"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491949"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492011"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493612"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493666"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493703"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493757"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493796"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493888"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493981"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/494081"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504262"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504279"/>
+        <aif:creationDate>2020-05-05 22:49:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491950 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491950">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ponieważ specjaliści z Polski wyjeżdżają i kształcimy ich za mało.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491949"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492011"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493612"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493703"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493796"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493888"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493981"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494081"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504262"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491953"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492013"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493614"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493705"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493798"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493890"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493983"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494083"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504265"/>
+        <aif:creationDate>2020-05-05 22:49:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/492041 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/492041">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz :  nie było rządów w historii Polski ani takiej partii która by załatwiła wszystkie problemy służby zdrowia, a wy się mienicie jak zawsze herosami.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz :  nie było rządów w historii Polski ani takiej partii która by załatwiła wszystkie problemy służby zdrowia, a wy się mienicie jak zawsze herosami.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492045"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493631"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493722"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493815"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493907"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494000"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494100"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504322"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492042"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492052"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493630"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493635"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493721"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493726"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493814"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493819"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493906"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493911"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493999"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/494004"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/494099"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/494104"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504320"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504328"/>
+        <aif:creationDate>2020-05-05 23:01:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/492043 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/492043">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>nie było rządów w historii Polski ani takiej partii która by załatwiła wszystkie problemy służby zdrowia, a wy się mienicie jak zawsze herosami.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492042"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493630"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493721"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493814"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493906"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493999"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494099"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504320"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492046"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493632"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493723"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493816"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493908"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494101"/>
+        <aif:creationDate>2020-05-05 23:01:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/492055 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/492055">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Według czasopisma Lancet jest na dwudziestym trzecim miejscu na 28 krajów europejskich.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492054"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493636"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493727"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493820"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493912"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494005"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494105"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504330"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492058"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493638"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493729"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493822"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493914"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494007"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494107"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/494145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504333"/>
+        <aif:creationDate>2020-05-05 23:01:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/492092 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/492092">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : Ale część szpitali to są samorządowe np. w Pomorzu zarządza Platforma - Szpitale Pomorskie. Zarząd zarabia tam milion złotych rocznie  i to jest naprawdę wstyd, żebyście swoim ludziom wpłacali milion złotych z pieniędzy które powinny iść na leczenie Polaków</aif:claimText>
+        <aif:source>Marcin Horała : Ale część szpitali to są samorządowe np. w Pomorzu zarządza Platforma - Szpitale Pomorskie. Zarząd zarabia tam milion złotych rocznie  i to jest naprawdę wstyd, żebyście swoim ludziom wpłacali milion złotych z pieniędzy które powinny iść na leczenie Polaków</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494043"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/494143"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504378"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492093"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493652"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493743"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493836"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493928"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/494021"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/494121"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504376"/>
+        <aif:creationDate>2020-05-05 23:01:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/492094 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/492094">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ale część szpitali to są samorządowe np. w Pomorzu zarządza Platforma - Szpitale Pomorskie. Zarząd zarabia tam milion złotych rocznie  i to jest naprawdę wstyd, żebyście swoim ludziom wpłacali milion złotych z pieniędzy które powinny iść na leczenie Polaków</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492093"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493652"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493743"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493836"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493928"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494021"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/494121"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504376"/>
+        <aif:creationDate>2020-05-05 23:01:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504162 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504162">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz:Tak się złożyło że to nie będzie riposta ale odpowiedź na pytanie pana posła Horały.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz:Tak się złożyło że to nie będzie riposta ale odpowiedź na pytanie pana posła Horały.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504163"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504170"/>
+        <aif:creationDate>2020-05-17 12:35:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504163 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504163">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504162"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504164"/>
+        <aif:creationDate>2020-05-17 12:35:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504164 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504164">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz:Tak się złożyło że to nie będzie riposta ale odpowiedź na pytanie pana posła Horały.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504163"/>
+        <aif:creationDate>2020-05-17 12:35:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504165 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504165">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz:Tak się złożyło że to nie będzie riposta ale odpowiedź na pytanie pana posła Horały.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz:Tak się złożyło że to nie będzie riposta ale odpowiedź na pytanie pana posła Horały.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504166 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504166">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : Marcin Horała: Szczególnie byłbym ostrożny w tego rodzaju zarzutach gdybym był odpowiedzialny za stan służby zdrowia w roku 2015 tak jak PSL również zapomnijmy chociażby 350 zamkniętych oddziałów szpitalnych w tej drugiej kadencji rządu PO-PSL. Polacy, to że muszą czekać w kolejkach na różnego rodzaju operacje i procedury, to jest właśnie ta spuścizna którą odwiedziliśmy po naszych przeciwnikach,  ale po kolei,  krok po kroku to rozwiązujemy.</aif:claimText>
+        <aif:source>W: Marcin Horała : Marcin Horała: Szczególnie byłbym ostrożny w tego rodzaju zarzutach gdybym był odpowiedzialny za stan służby zdrowia w roku 2015 tak jak PSL również zapomnijmy chociażby 350 zamkniętych oddziałów szpitalnych w tej drugiej kadencji rządu PO-PSL. Polacy, to że muszą czekać w kolejkach na różnego rodzaju operacje i procedury, to jest właśnie ta spuścizna którą odwiedziliśmy po naszych przeciwnikach,  ale po kolei,  krok po kroku to rozwiązujemy.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504167 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504167">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : Marcin Horała: Szczególnie byłbym ostrożny w tego rodzaju zarzutach gdybym był odpowiedzialny za stan służby zdrowia w roku 2015 tak jak PSL również zapomnijmy chociażby 350 zamkniętych oddziałów szpitalnych w tej drugiej kadencji rządu PO-PSL. Polacy, to że muszą czekać w kolejkach na różnego rodzaju operacje i procedury, to jest właśnie ta spuścizna którą odwiedziliśmy po naszych przeciwnikach,  ale po kolei,  krok po kroku to rozwiązujemy.</aif:claimText>
+        <aif:source>Marcin Horała : Marcin Horała: Szczególnie byłbym ostrożny w tego rodzaju zarzutach gdybym był odpowiedzialny za stan służby zdrowia w roku 2015 tak jak PSL również zapomnijmy chociażby 350 zamkniętych oddziałów szpitalnych w tej drugiej kadencji rządu PO-PSL. Polacy, to że muszą czekać w kolejkach na różnego rodzaju operacje i procedury, to jest właśnie ta spuścizna którą odwiedziliśmy po naszych przeciwnikach,  ale po kolei,  krok po kroku to rozwiązujemy.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504168"/>
+        <aif:creationDate>2020-05-17 12:35:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504168 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504168">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504167"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504169"/>
+        <aif:creationDate>2020-05-17 12:35:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504169 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504169">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Marcin Horała: Szczególnie byłbym ostrożny w tego rodzaju zarzutach gdybym był odpowiedzialny za stan służby zdrowia w roku 2015 tak jak PSL również zapomnijmy chociażby 350 zamkniętych oddziałów szpitalnych w tej drugiej kadencji rządu PO-PSL. Polacy, to że muszą czekać w kolejkach na różnego rodzaju operacje i procedury, to jest właśnie ta spuścizna którą odwiedziliśmy po naszych przeciwnikach,  ale po kolei,  krok po kroku to rozwiązujemy.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504168"/>
+        <aif:creationDate>2020-05-17 12:35:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504170 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504170">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504162"/>
+        <aif:creationDate>2020-05-17 12:35:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504171 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504171">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała :  Nie tylko zaćmy to również wszczepienie endoprotezy to chociażby tomograf komputerowy.</aif:claimText>
+        <aif:source>Marcin Horała :  Nie tylko zaćmy to również wszczepienie endoprotezy to chociażby tomograf komputerowy.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504175"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504172"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504178"/>
+        <aif:creationDate>2020-05-17 12:35:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504172 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504172">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504171"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504173"/>
+        <aif:creationDate>2020-05-17 12:35:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504173 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504173">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Nie tylko zaćmy to również wszczepienie endoprotezy to chociażby tomograf komputerowy.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504172"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504197"/>
+        <aif:creationDate>2020-05-17 12:35:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504174 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504174">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała :  Nie tylko zaćmy to również wszczepienie endoprotezy to chociażby tomograf komputerowy.</aif:claimText>
+        <aif:source>W: Marcin Horała :  Nie tylko zaćmy to również wszczepienie endoprotezy to chociażby tomograf komputerowy.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504175 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504175">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504171"/>
+        <aif:creationDate>2020-05-17 12:35:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504176 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504176">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491841"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491843"/>
+        <aif:creationDate>2020-05-17 12:35:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504177 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504177">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : Jeżeli będziemy z woli wyborców rządzić drugą kadencję, obiecujemy tak samo skrócić kolejki do kolejnych specjalistów.</aif:claimText>
+        <aif:source>W: Marcin Horała : Jeżeli będziemy z woli wyborców rządzić drugą kadencję, obiecujemy tak samo skrócić kolejki do kolejnych specjalistów.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504178 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504178">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504171"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491841"/>
+        <aif:creationDate>2020-05-17 12:35:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504179 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504179">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała :  Ale to nie wszystko: uruchomimy fundusz modernizacji szpitali, żeby właśnie wspierać samorządy, te które mają problem z zarządzaniem szpitalami, które sobie z tym nie radzą, żeby otrzymały dodatkowe środki, żeby mogły rozwijać podległe sobie szpitale.</aif:claimText>
+        <aif:source>Marcin Horała :  Ale to nie wszystko: uruchomimy fundusz modernizacji szpitali, żeby właśnie wspierać samorządy, te które mają problem z zarządzaniem szpitalami, które sobie z tym nie radzą, żeby otrzymały dodatkowe środki, żeby mogły rozwijać podległe sobie szpitale.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504183"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504180"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504188"/>
+        <aif:creationDate>2020-05-17 12:35:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504180 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504180">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504179"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504181"/>
+        <aif:creationDate>2020-05-17 12:35:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504181 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504181">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ale to nie wszystko: uruchomimy fundusz modernizacji szpitali, żeby właśnie wspierać samorządy, te które mają problem z zarządzaniem szpitalami, które sobie z tym nie radzą, żeby otrzymały dodatkowe środki, żeby mogły rozwijać podległe sobie szpitale.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504180"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504199"/>
+        <aif:creationDate>2020-05-17 12:35:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504182 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504182">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała :  Ale to nie wszystko: uruchomimy fundusz modernizacji szpitali, żeby właśnie wspierać samorządy, te które mają problem z zarządzaniem szpitalami, które sobie z tym nie radzą, żeby otrzymały dodatkowe środki, żeby mogły rozwijać podległe sobie szpitale.</aif:claimText>
+        <aif:source>W: Marcin Horała :  Ale to nie wszystko: uruchomimy fundusz modernizacji szpitali, żeby właśnie wspierać samorządy, te które mają problem z zarządzaniem szpitalami, które sobie z tym nie radzą, żeby otrzymały dodatkowe środki, żeby mogły rozwijać podległe sobie szpitale.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504183 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504183">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491841"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504179"/>
+        <aif:creationDate>2020-05-17 12:35:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504184 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504184">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : Wybudujemy za miliard złotych najnowocześniejsze centrum onkologii, żeby te kluczowe choroby takie jak onkologiczne czy kardiologiczne, żeby opieka nad pacjentami była na najwyższym poziomie.</aif:claimText>
+        <aif:source>Marcin Horała : Wybudujemy za miliard złotych najnowocześniejsze centrum onkologii, żeby te kluczowe choroby takie jak onkologiczne czy kardiologiczne, żeby opieka nad pacjentami była na najwyższym poziomie.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504188"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504185"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504193"/>
+        <aif:creationDate>2020-05-17 12:35:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504185 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504185">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504184"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504186"/>
+        <aif:creationDate>2020-05-17 12:35:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504186 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504186">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wybudujemy za miliard złotych najnowocześniejsze centrum onkologii, żeby te kluczowe choroby takie jak onkologiczne czy kardiologiczne, żeby opieka nad pacjentami była na najwyższym poziomie.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504185"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504200"/>
+        <aif:creationDate>2020-05-17 12:35:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504187 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504187">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : Wybudujemy za miliard złotych najnowocześniejsze centrum onkologii, żeby te kluczowe choroby takie jak onkologiczne czy kardiologiczne, żeby opieka nad pacjentami była na najwyższym poziomie.</aif:claimText>
+        <aif:source>W: Marcin Horała : Wybudujemy za miliard złotych najnowocześniejsze centrum onkologii, żeby te kluczowe choroby takie jak onkologiczne czy kardiologiczne, żeby opieka nad pacjentami była na najwyższym poziomie.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504188 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504188">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504179"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504184"/>
+        <aif:creationDate>2020-05-17 12:35:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504189 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504189">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała :  Wreszcie  - skoordynowana opieka dla seniorów w każdym powiecie.</aif:claimText>
+        <aif:source>Marcin Horała :  Wreszcie  - skoordynowana opieka dla seniorów w każdym powiecie.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504193"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504190"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504196"/>
+        <aif:creationDate>2020-05-17 12:35:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504190 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504190">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504189"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504191"/>
+        <aif:creationDate>2020-05-17 12:35:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504191 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504191">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wreszcie  - skoordynowana opieka dla seniorów w każdym powiecie.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504190"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504201"/>
+        <aif:creationDate>2020-05-17 12:35:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504192 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504192">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała :  Wreszcie  - skoordynowana opieka dla seniorów w każdym powiecie.</aif:claimText>
+        <aif:source>W: Marcin Horała :  Wreszcie  - skoordynowana opieka dla seniorów w każdym powiecie.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504193 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504193">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504184"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504189"/>
+        <aif:creationDate>2020-05-17 12:35:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504194 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504194">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491875"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504195 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504195">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : To jest standard Prawa i Sprawiedliwości my jesteśmy wiarygodni. I to właśnie zrealizujemy</aif:claimText>
+        <aif:source>W: Marcin Horała : To jest standard Prawa i Sprawiedliwości my jesteśmy wiarygodni. I to właśnie zrealizujemy</aif:source>
+        <aif:creationDate>2020-05-17 12:35:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504196 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504196">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504189"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491875"/>
+        <aif:creationDate>2020-05-17 12:35:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504197 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504197">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504173"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504202"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504198 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504198">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491843"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504203"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504199 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504199">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504181"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504204"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504200 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504200">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504186"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504205"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504201 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504201">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504191"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504206"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504202 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504202">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504178"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504197"/>
+        <aif:creationDate>2020-05-17 12:35:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504203 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504203">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504183"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504198"/>
+        <aif:creationDate>2020-05-17 12:35:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504188"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504199"/>
+        <aif:creationDate>2020-05-17 12:35:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504193"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504200"/>
+        <aif:creationDate>2020-05-17 12:35:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504206 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504206">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504196"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504201"/>
+        <aif:creationDate>2020-05-17 12:35:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504207 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504207">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Adrian Zandberg.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Adrian Zandberg.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504211"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504208"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504216"/>
+        <aif:creationDate>2020-05-17 12:35:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504207"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504209"/>
+        <aif:creationDate>2020-05-17 12:35:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: Riposta, Adrian Zandberg.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504208"/>
+        <aif:creationDate>2020-05-17 12:35:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Adrian Zandberg.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Adrian Zandberg.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491875"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504207"/>
+        <aif:creationDate>2020-05-17 12:35:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504212 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504212">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : Adrian Zandberg: Panie pośle nie jesteście wiarygodni</aif:claimText>
+        <aif:source>Adrian Zandberg : Adrian Zandberg: Panie pośle nie jesteście wiarygodni</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504216"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504213"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504223"/>
+        <aif:creationDate>2020-05-17 12:35:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504212"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504214"/>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504214 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504214">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Adrian Zandberg: Panie pośle nie jesteście wiarygodni</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504213"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504224"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504217"/>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504215 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504215">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : Adrian Zandberg: Panie pośle nie jesteście wiarygodni</aif:claimText>
+        <aif:source>W: Adrian Zandberg : Adrian Zandberg: Panie pośle nie jesteście wiarygodni</aif:source>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504216 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504216">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504207"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504212"/>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504217 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504217">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504214"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504218"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504218 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504218">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504216"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504217"/>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504219 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504219">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg :  i kiedy pan mówi o tym że zamykane były oddziały tak jakby pan zapomniał że zamykane oddziały są teraz.</aif:claimText>
+        <aif:source>Adrian Zandberg :  i kiedy pan mówi o tym że zamykane były oddziały tak jakby pan zapomniał że zamykane oddziały są teraz.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504223"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504220"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504228"/>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504220 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504220">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504219"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504221"/>
+        <aif:creationDate>2020-05-17 12:35:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504221 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504221">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>i kiedy pan mówi o tym że zamykane były oddziały tak jakby pan zapomniał że zamykane oddziały są teraz.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504220"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504229"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504235"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504241"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504224"/>
+        <aif:creationDate>2020-05-17 12:35:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504222 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504222">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg :  i kiedy pan mówi o tym że zamykane były oddziały tak jakby pan zapomniał że zamykane oddziały są teraz.</aif:claimText>
+        <aif:source>W: Adrian Zandberg :  i kiedy pan mówi o tym że zamykane były oddziały tak jakby pan zapomniał że zamykane oddziały są teraz.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504223 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504223">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504212"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504219"/>
+        <aif:creationDate>2020-05-17 12:35:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504224 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504224">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504221"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504225"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504214"/>
+        <aif:creationDate>2020-05-17 12:35:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504225 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504225">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504223"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504224"/>
+        <aif:creationDate>2020-05-17 12:35:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504226 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504226">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491928"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491930"/>
+        <aif:creationDate>2020-05-17 12:35:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504227 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504227">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : Trzeba Panu wyliczyć miejscowości w których zamykaliście porodówki i oddziały neonatologii?</aif:claimText>
+        <aif:source>W: Adrian Zandberg : Trzeba Panu wyliczyć miejscowości w których zamykaliście porodówki i oddziały neonatologii?</aif:source>
+        <aif:creationDate>2020-05-17 12:35:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504228 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504228">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504219"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491928"/>
+        <aif:creationDate>2020-05-17 12:35:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504229 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504229">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491930"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504230"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504221"/>
+        <aif:creationDate>2020-05-17 12:35:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504230 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504230">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504228"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504229"/>
+        <aif:creationDate>2020-05-17 12:35:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504231 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504231">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : Panie pośle jak pan sobie pojedzie na Lubelszczyznę i pan pojedzie do Kluczborka - niech pan pojedzie i porozmawia z ludźmi w Prudniku.</aif:claimText>
+        <aif:source>Adrian Zandberg : Panie pośle jak pan sobie pojedzie na Lubelszczyznę i pan pojedzie do Kluczborka - niech pan pojedzie i porozmawia z ludźmi w Prudniku.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504234"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504232"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504240"/>
+        <aif:creationDate>2020-05-17 12:35:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504232 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504232">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504231"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491934"/>
+        <aif:creationDate>2020-05-17 12:35:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504233 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504233">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : Panie pośle jak pan sobie pojedzie na Lubelszczyznę i pan pojedzie do Kluczborka - niech pan pojedzie i porozmawia z ludźmi w Prudniku.</aif:claimText>
+        <aif:source>W: Adrian Zandberg : Panie pośle jak pan sobie pojedzie na Lubelszczyznę i pan pojedzie do Kluczborka - niech pan pojedzie i porozmawia z ludźmi w Prudniku.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491928"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504231"/>
+        <aif:creationDate>2020-05-17 12:35:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504235 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504235">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491934"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504236"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504221"/>
+        <aif:creationDate>2020-05-17 12:35:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504236 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504236">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504234"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504235"/>
+        <aif:creationDate>2020-05-17 12:35:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504237 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504237">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg: Panie pośle po prostu jest niepoważne kiedy pan mówi o zamykaniu oddziałów bo to zamyka się w tym momencie oddziały szpitalne na masową skalę.</aif:claimText>
+        <aif:source>Adrian Zandberg: Panie pośle po prostu jest niepoważne kiedy pan mówi o zamykaniu oddziałów bo to zamyka się w tym momencie oddziały szpitalne na masową skalę.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504240"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504238"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504247"/>
+        <aif:creationDate>2020-05-17 12:35:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504238 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504238">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504237"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491938"/>
+        <aif:creationDate>2020-05-17 12:35:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504239 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504239">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : Panie pośle po prostu jest niepoważne kiedy pan mówi o zamykaniu oddziałów bo to zamyka się w tym momencie oddziały szpitalne na masową skalę.</aif:claimText>
+        <aif:source>W: Adrian Zandberg : Panie pośle po prostu jest niepoważne kiedy pan mówi o zamykaniu oddziałów bo to zamyka się w tym momencie oddziały szpitalne na masową skalę.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504240 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504240">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504231"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504237"/>
+        <aif:creationDate>2020-05-17 12:35:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491938"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504242"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504221"/>
+        <aif:creationDate>2020-05-17 12:35:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504242 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504242">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504240"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504241"/>
+        <aif:creationDate>2020-05-17 12:35:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504243 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504243">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: 30 sekund dla Krzysztofa Bosaka.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: 30 sekund dla Krzysztofa Bosaka.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504247"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504244"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504252"/>
+        <aif:creationDate>2020-05-17 12:35:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504244 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504244">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504243"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504245"/>
+        <aif:creationDate>2020-05-17 12:35:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504245 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504245">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: 30 sekund dla Krzysztofa Bosaka.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504244"/>
+        <aif:creationDate>2020-05-17 12:35:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504246 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504246">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: 30 sekund dla Krzysztofa Bosaka.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: 30 sekund dla Krzysztofa Bosaka.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504247 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504247">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504237"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504243"/>
+        <aif:creationDate>2020-05-17 12:35:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504248 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504248">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Krzysztof Bosak: Niestety nie będzie tak jak zapowiadał pan Marcin Horała,</aif:claimText>
+        <aif:source>Krzysztof Bosak : Krzysztof Bosak: Niestety nie będzie tak jak zapowiadał pan Marcin Horała,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504252"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504250"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504259"/>
+        <aif:creationDate>2020-05-17 12:35:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Krzysztof Bosak: Niestety nie będzie tak jak zapowiadał pan Marcin Horała,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504250"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504260"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504283"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504253"/>
+        <aif:creationDate>2020-05-17 12:35:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504250 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504250">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504248"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504249"/>
+        <aif:creationDate>2020-05-17 12:35:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504251 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504251">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Krzysztof Bosak: Niestety nie będzie tak jak zapowiadał pan Marcin Horała,</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Krzysztof Bosak: Niestety nie będzie tak jak zapowiadał pan Marcin Horała,</aif:source>
+        <aif:creationDate>2020-05-17 12:35:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504252 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504252">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504243"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504248"/>
+        <aif:creationDate>2020-05-17 12:35:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504253 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504253">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504249"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504254"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504254 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504254">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504252"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504253"/>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504255 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504255">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : nie będzie skrócenia kolejek do specjalistów, </aif:claimText>
+        <aif:source>Krzysztof Bosak : nie będzie skrócenia kolejek do specjalistów, </aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504259"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504256"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504264"/>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504256 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504256">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504255"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504257"/>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504257 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504257">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>nie będzie skrócenia kolejek do specjalistów, </aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504256"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504265"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504260"/>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504258 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504258">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : nie będzie skrócenia kolejek do specjalistów, </aif:claimText>
+        <aif:source>W: Krzysztof Bosak : nie będzie skrócenia kolejek do specjalistów, </aif:source>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504259 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504259">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504248"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504255"/>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504260 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504260">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504257"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504261"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504249"/>
+        <aif:creationDate>2020-05-17 12:35:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504261 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504261">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504259"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504260"/>
+        <aif:creationDate>2020-05-17 12:35:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504262 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504262">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491948"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491950"/>
+        <aif:creationDate>2020-05-17 12:35:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504263 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504263">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : ponieważ specjaliści z Polski wyjeżdżają i kształcimy ich za mało.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : ponieważ specjaliści z Polski wyjeżdżają i kształcimy ich za mało.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504264 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504264">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504255"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491948"/>
+        <aif:creationDate>2020-05-17 12:35:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504265 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504265">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491950"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504266"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504257"/>
+        <aif:creationDate>2020-05-17 12:35:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504266 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504266">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504264"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504265"/>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504267 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504267">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa - mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa - mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504268 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504268">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak :  Świadectwem tego, że rząd już w tej chwili przygotowuje się do tego żeby obsługiwać ochronę zdrowotną Polaków przy pomocy lekarzy zwerbowany za granicą,</aif:claimText>
+        <aif:source>W: Krzysztof Bosak :  Świadectwem tego, że rząd już w tej chwili przygotowuje się do tego żeby obsługiwać ochronę zdrowotną Polaków przy pomocy lekarzy zwerbowany za granicą,</aif:source>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504269 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504269">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa -</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa -</aif:source>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504270 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504270">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów</aif:source>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504271 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504271">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : bo nie wierzy w to że zatrzyma absolwentów Akademii Medycznych.</aif:claimText>
+        <aif:source>Krzysztof Bosak : bo nie wierzy w to że zatrzyma absolwentów Akademii Medycznych.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504280"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504272"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504289"/>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504272 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504272">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504271"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504273"/>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504273 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504273">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>bo nie wierzy w to że zatrzyma absolwentów Akademii Medycznych.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504272"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504281"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504283"/>
+        <aif:creationDate>2020-05-17 12:35:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504274 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504274">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : bo nie wierzy w to że zatrzyma absolwentów Akademii Medycznych.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : bo nie wierzy w to że zatrzyma absolwentów Akademii Medycznych.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504275 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504275">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa - mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów. Świadectwem tego, że rząd już w tej chwili przygotowuje się do tego żeby obsługiwać ochronę zdrowotną Polaków przy pomocy lekarzy zwerbowany za granicą,</aif:claimText>
+        <aif:source>Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa - mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów. Świadectwem tego, że rząd już w tej chwili przygotowuje się do tego żeby obsługiwać ochronę zdrowotną Polaków przy pomocy lekarzy zwerbowany za granicą,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504279"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504276"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504280"/>
+        <aif:creationDate>2020-05-17 12:35:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504276 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504276">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504275"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504277"/>
+        <aif:creationDate>2020-05-17 12:35:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504277 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504277">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa - mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów. Świadectwem tego, że rząd już w tej chwili przygotowuje się do tego żeby obsługiwać ochronę zdrowotną Polaków przy pomocy lekarzy zwerbowany za granicą,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504276"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504281"/>
+        <aif:creationDate>2020-05-17 12:35:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504278 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504278">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa - mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów. Świadectwem tego, że rząd już w tej chwili przygotowuje się do tego żeby obsługiwać ochronę zdrowotną Polaków przy pomocy lekarzy zwerbowany za granicą,</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Świadectwem tego, że rząd nie wierzy w swoje własne zapowiedzi jest zmiana prawa - mianowicie rząd już w tej chwili uchwala liberalizację przepisów jeżeli chodzi o zatrudnianie obcokrajowców w polskich szpitalach na funkcjach lekarskich, o nostryfikacji dyplomów. Świadectwem tego, że rząd już w tej chwili przygotowuje się do tego żeby obsługiwać ochronę zdrowotną Polaków przy pomocy lekarzy zwerbowany za granicą,</aif:source>
+        <aif:creationDate>2020-05-17 12:35:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504279 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504279">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491948"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504275"/>
+        <aif:creationDate>2020-05-17 12:35:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504280 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504280">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504275"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504271"/>
+        <aif:creationDate>2020-05-17 12:35:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504281 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504281">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504277"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504282"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504273"/>
+        <aif:creationDate>2020-05-17 12:35:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504282 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504282">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504280"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504281"/>
+        <aif:creationDate>2020-05-17 12:35:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504283 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504283">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504273"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504284"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504249"/>
+        <aif:creationDate>2020-05-17 12:35:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504284 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504284">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504259"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504283"/>
+        <aif:creationDate>2020-05-17 12:35:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504285 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504285">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Mówi Izabela Leszczyna.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Mówi Izabela Leszczyna.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504289"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504286"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504295"/>
+        <aif:creationDate>2020-05-17 12:35:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504286 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504286">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504285"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504287"/>
+        <aif:creationDate>2020-05-17 12:35:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504287 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504287">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: Mówi Izabela Leszczyna.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504286"/>
+        <aif:creationDate>2020-05-17 12:35:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504288 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504288">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Mówi Izabela Leszczyna.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Mówi Izabela Leszczyna.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504271"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504285"/>
+        <aif:creationDate>2020-05-17 12:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504290 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504290">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna : Izabela Leszczyna: Zauważyliście państwo że pan poseł Horała mówiąc o ochronie zdrowia cały czas używał czasu przyszłego, tymczasem PiS od czterech lat rządzi i jedyny sukces jakim Pan się pochwalił to skrócenie kolejek do leczenia zaćmy.</aif:claimText>
+        <aif:source>Izabela Leszczyna : Izabela Leszczyna: Zauważyliście państwo że pan poseł Horała mówiąc o ochronie zdrowia cały czas używał czasu przyszłego, tymczasem PiS od czterech lat rządzi i jedyny sukces jakim Pan się pochwalił to skrócenie kolejek do leczenia zaćmy.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504295"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504291"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504300"/>
+        <aif:creationDate>2020-05-17 12:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504291 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504291">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504290"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504292"/>
+        <aif:creationDate>2020-05-17 12:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504292 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504292">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Izabela Leszczyna: Zauważyliście państwo że pan poseł Horała mówiąc o ochronie zdrowia cały czas używał czasu przyszłego, tymczasem PiS od czterech lat rządzi i jedyny sukces jakim Pan się pochwalił to skrócenie kolejek do leczenia zaćmy.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504291"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504294"/>
+        <aif:creationDate>2020-05-17 12:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : Izabela Leszczyna: Zauważyliście państwo że pan poseł Horała mówiąc o ochronie zdrowia cały czas używał czasu przyszłego, tymczasem PiS od czterech lat rządzi i jedyny sukces jakim Pan się pochwalił to skrócenie kolejek do leczenia zaćmy.</aif:claimText>
+        <aif:source>W: Izabela Leszczyna : Izabela Leszczyna: Zauważyliście państwo że pan poseł Horała mówiąc o ochronie zdrowia cały czas używał czasu przyszłego, tymczasem PiS od czterech lat rządzi i jedyny sukces jakim Pan się pochwalił to skrócenie kolejek do leczenia zaćmy.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504294 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504294">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504285"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504290"/>
+        <aif:creationDate>2020-05-17 12:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504296 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504296">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna : Panie pośle, chodzi o to żeby w kolejkach nie umierali chorzy na raka i na serce - a to się dzisiaj dzieje -</aif:claimText>
+        <aif:source>Izabela Leszczyna : Panie pośle, chodzi o to żeby w kolejkach nie umierali chorzy na raka i na serce - a to się dzisiaj dzieje -</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504300"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504297"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504306"/>
+        <aif:creationDate>2020-05-17 12:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504297 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504297">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504296"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504298"/>
+        <aif:creationDate>2020-05-17 12:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504298 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504298">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Panie pośle, chodzi o to żeby w kolejkach nie umierali chorzy na raka i na serce - a to się dzisiaj dzieje -</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504297"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504305"/>
+        <aif:creationDate>2020-05-17 12:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504299 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504299">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna : Panie pośle, chodzi o to żeby w kolejkach nie umierali chorzy na raka i na serce - a to się dzisiaj dzieje -</aif:claimText>
+        <aif:source>W: Izabela Leszczyna : Panie pośle, chodzi o to żeby w kolejkach nie umierali chorzy na raka i na serce - a to się dzisiaj dzieje -</aif:source>
+        <aif:creationDate>2020-05-17 12:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504300 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504300">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504290"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504296"/>
+        <aif:creationDate>2020-05-17 12:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504301 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504301">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Izabela Leszczyna :  i chodzi także o to żeby pani Maria z Częstochowy nie musiała przychodzić do mnie z takim skierowaniem do endokrynologa. Pani Maria ma guzki na tarczycy a skierowanie Wie pan kiedy jest? 10 czerwca 2021.</aif:claimText>
+        <aif:source>Izabela Leszczyna :  i chodzi także o to żeby pani Maria z Częstochowy nie musiała przychodzić do mnie z takim skierowaniem do endokrynologa. Pani Maria ma guzki na tarczycy a skierowanie Wie pan kiedy jest? 10 czerwca 2021.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504306"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504302"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504312"/>
+        <aif:creationDate>2020-05-17 12:35:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504302 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504302">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504301"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504303"/>
+        <aif:creationDate>2020-05-17 12:35:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504303 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504303">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>i chodzi także o to żeby pani Maria z Częstochowy nie musiała przychodzić do mnie z takim skierowaniem do endokrynologa. Pani Maria ma guzki na tarczycy a skierowanie Wie pan kiedy jest? 10 czerwca 2021.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504302"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504305"/>
+        <aif:creationDate>2020-05-17 12:35:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504304 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504304">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Izabela Leszczyna :  i chodzi także o to żeby pani Maria z Częstochowy nie musiała przychodzić do mnie z takim skierowaniem do endokrynologa. Pani Maria ma guzki na tarczycy a skierowanie Wie pan kiedy jest? 10 czerwca 2021.</aif:claimText>
+        <aif:source>W: Izabela Leszczyna :  i chodzi także o to żeby pani Maria z Częstochowy nie musiała przychodzić do mnie z takim skierowaniem do endokrynologa. Pani Maria ma guzki na tarczycy a skierowanie Wie pan kiedy jest? 10 czerwca 2021.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504305 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504305">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504303"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504307"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504298"/>
+        <aif:creationDate>2020-05-17 12:35:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504306 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504306">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504296"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504301"/>
+        <aif:creationDate>2020-05-17 12:35:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504307 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504307">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504306"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504305"/>
+        <aif:creationDate>2020-05-17 12:35:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504308 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504308">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Czas na ripostę jeszcze dla Władysława Kosiniaka-Kamysza.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Czas na ripostę jeszcze dla Władysława Kosiniaka-Kamysza.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504312"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504309"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504317"/>
+        <aif:creationDate>2020-05-17 12:35:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504309 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504309">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504308"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504310"/>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504310 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504310">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: Czas na ripostę jeszcze dla Władysława Kosiniaka-Kamysza.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504309"/>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504311 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504311">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Czas na ripostę jeszcze dla Władysława Kosiniaka-Kamysza.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Czas na ripostę jeszcze dla Władysława Kosiniaka-Kamysza.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504312 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504312">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504301"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504308"/>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504313 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504313">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Szkoda że pan poseł nie zdobył się na odrobinę szczerości,</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Szkoda że pan poseł nie zdobył się na odrobinę szczerości,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504317"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504315"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504322"/>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504314 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504314">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz: Szkoda że pan poseł nie zdobył się na odrobinę szczerości,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504315"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504318"/>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504315 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504315">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504313"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504314"/>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504316 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504316">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Szkoda że pan poseł nie zdobył się na odrobinę szczerości,</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Szkoda że pan poseł nie zdobył się na odrobinę szczerości,</aif:source>
+        <aif:creationDate>2020-05-17 12:35:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504317 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504317">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504308"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504313"/>
+        <aif:creationDate>2020-05-17 12:35:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504318 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504318">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504314"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504319"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491877"/>
+        <aif:creationDate>2020-05-17 12:35:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504319 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504319">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504317"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504318"/>
+        <aif:creationDate>2020-05-17 12:35:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504320 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504320">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492041"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492043"/>
+        <aif:creationDate>2020-05-17 12:35:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504321 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504321">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz :  nie było rządów w historii Polski ani takiej partii która by załatwiła wszystkie problemy służby zdrowia, a wy się mienicie jak zawsze herosami.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz :  nie było rządów w historii Polski ani takiej partii która by załatwiła wszystkie problemy służby zdrowia, a wy się mienicie jak zawsze herosami.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504322 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504322">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504313"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492041"/>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504323 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504323">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nie, proszę nie słuchać marszałka Terleckiego, który mówi że polska służba zdrowia to jedna z najlepszych w Europie.</aif:claimText>
+        <aif:source>Nie, proszę nie słuchać marszałka Terleckiego, który mówi że polska służba zdrowia to jedna z najlepszych w Europie.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504324 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504324">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Nie, proszę nie słuchać marszałka Terleckiego, który mówi że polska służba zdrowia to jedna z najlepszych w Europie. </aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Nie, proszę nie słuchać marszałka Terleckiego, który mówi że polska służba zdrowia to jedna z najlepszych w Europie. </aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504328"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504326"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504332"/>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504325 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504325">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Nie, proszę nie słuchać marszałka Terleckiego, który mówi że polska służba zdrowia to jedna z najlepszych w Europie. </aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504326"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504333"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504340"/>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504326 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504326">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504324"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504325"/>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504327 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504327">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : Nie, proszę nie słuchać marszałka Terleckiego, który mówi że polska służba zdrowia to jedna z najlepszych w Europie. </aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : Nie, proszę nie słuchać marszałka Terleckiego, który mówi że polska służba zdrowia to jedna z najlepszych w Europie. </aif:source>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504328 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504328">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492041"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504324"/>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504329 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504329">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Według czasopisma Lancet jest na dwudziestym trzecim miejscu na 28 krajów europejskich.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Według czasopisma Lancet jest na dwudziestym trzecim miejscu na 28 krajów europejskich.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504332"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504330"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504339"/>
+        <aif:creationDate>2020-05-17 12:35:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504330 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504330">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504329"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492055"/>
+        <aif:creationDate>2020-05-17 12:35:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504331 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504331">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : Według czasopisma Lancet jest na dwudziestym trzecim miejscu na 28 krajów europejskich.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : Według czasopisma Lancet jest na dwudziestym trzecim miejscu na 28 krajów europejskich.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504332 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504332">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504324"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504329"/>
+        <aif:creationDate>2020-05-17 12:35:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504333 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504333">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492055"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504334"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504325"/>
+        <aif:creationDate>2020-05-17 12:35:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504334 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504334">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504332"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504333"/>
+        <aif:creationDate>2020-05-17 12:35:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504335 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504335">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : To są realne problemy. Oddziały są zamykane i zmniejszyła się za waszych rządów liczba łóżek szpitalnych o dwa i pół tysiąca jest trudniejszy dostęp do służby zdrowia.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : To są realne problemy. Oddziały są zamykane i zmniejszyła się za waszych rządów liczba łóżek szpitalnych o dwa i pół tysiąca jest trudniejszy dostęp do służby zdrowia.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504339"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504337"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504346"/>
+        <aif:creationDate>2020-05-17 12:35:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504336 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504336">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To są realne problemy. Oddziały są zamykane i zmniejszyła się za waszych rządów liczba łóżek szpitalnych o dwa i pół tysiąca jest trudniejszy dostęp do służby zdrowia.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504337"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504340"/>
+        <aif:creationDate>2020-05-17 12:35:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504337 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504337">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504335"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504336"/>
+        <aif:creationDate>2020-05-17 12:35:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504338 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504338">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : To są realne problemy. Oddziały są zamykane i zmniejszyła się za waszych rządów liczba łóżek szpitalnych o dwa i pół tysiąca jest trudniejszy dostęp do służby zdrowia.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : To są realne problemy. Oddziały są zamykane i zmniejszyła się za waszych rządów liczba łóżek szpitalnych o dwa i pół tysiąca jest trudniejszy dostęp do służby zdrowia.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504339 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504339">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504329"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504335"/>
+        <aif:creationDate>2020-05-17 12:35:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504340 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504340">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504336"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504341"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504325"/>
+        <aif:creationDate>2020-05-17 12:35:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504341 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504341">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504339"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504340"/>
+        <aif:creationDate>2020-05-17 12:35:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504342 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504342">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Marcin Horała</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Marcin Horała</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504346"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504343"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504351"/>
+        <aif:creationDate>2020-05-17 12:35:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504343 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504343">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504342"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504344"/>
+        <aif:creationDate>2020-05-17 12:35:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504344 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504344">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: Riposta, Marcin Horała</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504343"/>
+        <aif:creationDate>2020-05-17 12:35:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Marcin Horała</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Riposta, Marcin Horała</aif:source>
+        <aif:creationDate>2020-05-17 12:35:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504346 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504346">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504335"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504342"/>
+        <aif:creationDate>2020-05-17 12:35:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504347 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504347">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : Marcin Horała:  Zostało w służbie zdrowia jeszcze wiele do zrobienia, nie da się szybko naprawić tego, co zepsuliście.</aif:claimText>
+        <aif:source>Marcin Horała : Marcin Horała:  Zostało w służbie zdrowia jeszcze wiele do zrobienia, nie da się szybko naprawić tego, co zepsuliście.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504351"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504348"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504356"/>
+        <aif:creationDate>2020-05-17 12:35:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504348 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504348">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504347"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504349"/>
+        <aif:creationDate>2020-05-17 12:35:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504349 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504349">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Marcin Horała:  Zostało w służbie zdrowia jeszcze wiele do zrobienia, nie da się szybko naprawić tego, co zepsuliście.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504348"/>
+        <aif:creationDate>2020-05-17 12:35:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504350 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504350">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : Marcin Horała:  Zostało w służbie zdrowia jeszcze wiele do zrobienia, nie da się szybko naprawić tego, co zepsuliście.</aif:claimText>
+        <aif:source>W: Marcin Horała : Marcin Horała:  Zostało w służbie zdrowia jeszcze wiele do zrobienia, nie da się szybko naprawić tego, co zepsuliście.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504351 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504351">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504342"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504347"/>
+        <aif:creationDate>2020-05-17 12:35:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504352 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504352">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : Natomiast mówmy o faktach -  jest mowa tu o rzekomo masowo zamykanych oddziałach.</aif:claimText>
+        <aif:source>Marcin Horała : Natomiast mówmy o faktach -  jest mowa tu o rzekomo masowo zamykanych oddziałach.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504356"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504353"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504361"/>
+        <aif:creationDate>2020-05-17 12:35:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504353 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504353">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504352"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504354"/>
+        <aif:creationDate>2020-05-17 12:35:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504354 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504354">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Natomiast mówmy o faktach -  jest mowa tu o rzekomo masowo zamykanych oddziałach.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504353"/>
+        <aif:creationDate>2020-05-17 12:35:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504355 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504355">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : Natomiast mówmy o faktach -  jest mowa tu o rzekomo masowo zamykanych oddziałach.</aif:claimText>
+        <aif:source>W: Marcin Horała : Natomiast mówmy o faktach -  jest mowa tu o rzekomo masowo zamykanych oddziałach.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504356 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504356">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504347"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504352"/>
+        <aif:creationDate>2020-05-17 12:35:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504357 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504357">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : W tym roku 31 oddziałów zamkniętych w Polsce w roku 2012 -  167;  w roku 2013  - 128.</aif:claimText>
+        <aif:source>Marcin Horała : W tym roku 31 oddziałów zamkniętych w Polsce w roku 2012 -  167;  w roku 2013  - 128.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504361"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504358"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504372"/>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504358 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504358">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504357"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504359"/>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504359 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504359">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W tym roku 31 oddziałów zamkniętych w Polsce w roku 2012 -  167;  w roku 2013  - 128.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504358"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504371"/>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504360 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504360">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : W tym roku 31 oddziałów zamkniętych w Polsce w roku 2012 -  167;  w roku 2013  - 128.</aif:claimText>
+        <aif:source>W: Marcin Horała : W tym roku 31 oddziałów zamkniętych w Polsce w roku 2012 -  167;  w roku 2013  - 128.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504361 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504361">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504352"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504357"/>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504362 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504362">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : Widać bardzo wyraźny postęp w tej sprawie</aif:claimText>
+        <aif:source>Marcin Horała : Widać bardzo wyraźny postęp w tej sprawie</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504372"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504363"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504373"/>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504363 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504363">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504362"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504364"/>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504364 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504364">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Widać bardzo wyraźny postęp w tej sprawie</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504371"/>
+        <aif:creationDate>2020-05-17 12:35:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504365 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504365">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : Widać bardzo wyraźny postęp w tej sprawie</aif:claimText>
+        <aif:source>W: Marcin Horała : Widać bardzo wyraźny postęp w tej sprawie</aif:source>
+        <aif:creationDate>2020-05-17 12:35:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504366 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504366">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marcin Horała : realne 30 miliardów więcej na służbę zdrowia.</aif:claimText>
+        <aif:source>Marcin Horała : realne 30 miliardów więcej na służbę zdrowia.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504373"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504367"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504378"/>
+        <aif:creationDate>2020-05-17 12:35:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504367 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504367">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/504366"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504368"/>
+        <aif:creationDate>2020-05-17 12:35:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504368 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504368">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>realne 30 miliardów więcej na służbę zdrowia.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504367"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504370"/>
+        <aif:creationDate>2020-05-17 12:35:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504369 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504369">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : realne 30 miliardów więcej na służbę zdrowia.</aif:claimText>
+        <aif:source>W: Marcin Horała : realne 30 miliardów więcej na służbę zdrowia.</aif:source>
+        <aif:creationDate>2020-05-17 12:35:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504370 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504370">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504368"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504375"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504364"/>
+        <aif:creationDate>2020-05-17 12:35:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504371 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504371">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/504359"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/504364"/>
+        <aif:creationDate>2020-05-17 12:35:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504372 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504372">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504357"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504362"/>
+        <aif:creationDate>2020-05-17 12:35:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504373 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504373">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504362"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/504366"/>
+        <aif:creationDate>2020-05-17 12:35:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504374 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504374">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504372"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504371"/>
+        <aif:creationDate>2020-05-17 12:35:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504375 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504375">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/504373"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/504370"/>
+        <aif:creationDate>2020-05-17 12:35:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504376 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504376">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492092"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492094"/>
+        <aif:creationDate>2020-05-17 12:35:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504377 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504377">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Marcin Horała : Ale część szpitali to są samorządowe np. w Pomorzu zarządza Platforma - Szpitale Pomorskie. Zarząd zarabia tam milion złotych rocznie  i to jest naprawdę wstyd, żebyście swoim ludziom wpłacali milion złotych z pieniędzy które powinny iść na leczenie Polaków</aif:claimText>
+        <aif:source>W: Marcin Horała : Ale część szpitali to są samorządowe np. w Pomorzu zarządza Platforma - Szpitale Pomorskie. Zarząd zarabia tam milion złotych rocznie  i to jest naprawdę wstyd, żebyście swoim ludziom wpłacali milion złotych z pieniędzy które powinny iść na leczenie Polaków</aif:source>
+        <aif:creationDate>2020-05-17 12:35:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/504378 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/504378">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/504366"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492092"/>
+        <aif:creationDate>2020-05-17 12:35:46</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/28819 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/28819">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It was a ghastly aberration</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/28820"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/28826"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/36091"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/36096"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/37122"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/37126"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/37196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/37202"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/37317"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/37320"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/104253"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/104261"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283849"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283852"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283937"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283945"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283959"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/283961"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/284934"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/284935"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/367077"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/367080"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456013"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456026"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456033"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/456040"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456043"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/456050"/>
+        <aif:creationDate>2014-04-25 12:59:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/37123 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/37123">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>it was it in fact typical</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/37124"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/37127"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/104255"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/104262"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456017"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456028"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456034"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/456036"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456044"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/456046"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/37126"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/104261"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/456040"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/456050"/>
+        <aif:creationDate>2014-09-11 13:04:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456009 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456009">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>It was a ghastly aberration</aif:claimText>
+        <aif:source>It was a ghastly aberration</aif:source>
+        <aif:creationDate>2019-11-29 12:38:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456010 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456010">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>L A :</aif:claimText>
+        <aif:source>L A :</aif:source>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456011 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456011">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Joanna: L A :</aif:claimText>
+        <aif:source>Joanna: L A :</aif:source>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456012 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456012">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>L A : It was a ghastly aberration</aif:claimText>
+        <aif:source>L A : It was a ghastly aberration</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456013"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456026"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456033"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/456039"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456043"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/456049"/>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456013 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456013">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456012"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/28819"/>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456014 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456014">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456015"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456012"/>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456015 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456015">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Joanna: L A : It was a ghastly aberration</aif:claimText>
+        <aif:source>Joanna: L A : It was a ghastly aberration</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456014"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456027"/>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456016 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456016">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>C L : Or was it in fact typical?</aif:claimText>
+        <aif:source>C L : Or was it in fact typical?</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/456039"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/456049"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456017"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456028"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456034"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/456037"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456044"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/456047"/>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456017 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456017">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456016"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/37123"/>
+        <aif:creationDate>2019-11-29 12:39:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456018 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456018">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456019"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456016"/>
+        <aif:creationDate>2019-11-29 12:39:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456019 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456019">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Joanna: C L : Or was it in fact typical</aif:claimText>
+        <aif:source>Joanna: C L : Or was it in fact typical</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456018"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456029"/>
+        <aif:creationDate>2019-11-29 12:39:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456020 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456020">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>C L : Was it the product of a policy that was unsustainable that could only be pursued by increasing repression?</aif:claimText>
+        <aif:source>C L : Was it the product of a policy that was unsustainable that could only be pursued by increasing repression?</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/456037"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/456047"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456021"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456030"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456035"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456045"/>
+        <aif:creationDate>2019-11-29 12:39:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456021 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456021">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456020"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456022"/>
+        <aif:creationDate>2019-11-29 12:39:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456022 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456022">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It was the product of a policy that was unsustainable that could only be pursued by increasing repression?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456021"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456030"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456035"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/456036"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/456046"/>
+        <aif:creationDate>2019-11-29 12:39:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456023 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456023">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456024"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456020"/>
+        <aif:creationDate>2019-11-29 12:39:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456024 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456024">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Joanna: C L : Was it the product of a policy that was unsustainable that could only be pursued by increasing repression?</aif:claimText>
+        <aif:source>Joanna: C L : Was it the product of a policy that was unsustainable that could only be pursued by increasing repression?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456023"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456031"/>
+        <aif:creationDate>2019-11-29 12:39:01</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

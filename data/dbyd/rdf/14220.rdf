@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/374155 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374155">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Pros and Cons of Security Cameras in the Workplace</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374163"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374176"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374177"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374178"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374179"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374180"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374181"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374182"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374183"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374184"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374185"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374186"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374187"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374188"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374189"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374190"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374191"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374192"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374193"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374194"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374195"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374197"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374198"/>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374156 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374156">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Pros and Cons of Security Cameras in the Workplace</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Pros and Cons of Security Cameras in the Workplace</aif:source>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374157 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374157">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: by installing smart video surveillance cameras</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: by installing smart video surveillance cameras</aif:source>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374158 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374158">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons:  One way to do that is by installing smart video surveillance cameras</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons:  One way to do that is by installing smart video surveillance cameras</aif:source>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374159 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374159">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Increases security for your business and employees</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Increases security for your business and employees</aif:source>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374160 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374160">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Increases security for your business and employees</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374176"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374184"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374192"/>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374161 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374161">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: People may have privacy concerns</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: People may have privacy concerns</aif:source>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374162 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374162">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>People may have privacy concerns</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374163"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374183"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374191"/>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374164 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374164">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Improves safety and reduces crime rate</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374177"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374185"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374193"/>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374165 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374165">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Improves safety and reduces crime rate</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Improves safety and reduces crime rate</aif:source>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374166 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374166">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>May create more work and jobs to fill</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374180"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374188"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374196"/>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374167 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374167">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: May create more work and jobs to fill</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: May create more work and jobs to fill</aif:source>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374168 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374168">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Can provide real-time data</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374178"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374186"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374194"/>
+        <aif:creationDate>2019-01-17 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374169 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374169">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Can provide real-time data</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Can provide real-time data</aif:source>
+        <aif:creationDate>2019-01-17 17:29:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374170 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374170">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Networks must be able to handle large bandwidth</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374181"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374189"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374197"/>
+        <aif:creationDate>2019-01-17 17:29:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374171 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374171">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Networks must be able to handle large bandwidth</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Networks must be able to handle large bandwidth</aif:source>
+        <aif:creationDate>2019-01-17 17:29:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374172 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374172">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Extreme usability with monitors, emails and mobile apps</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374179"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374187"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374195"/>
+        <aif:creationDate>2019-01-17 17:29:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374173 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374173">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Extreme usability with monitors, emails and mobile apps</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Extreme usability with monitors, emails and mobile apps</aif:source>
+        <aif:creationDate>2019-01-17 17:29:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374174 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374174">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Technology can be vulnerable to hacker threats</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374182"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374190"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374198"/>
+        <aif:creationDate>2019-01-17 17:29:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374175 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374175">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Technology can be vulnerable to hacker threats</aif:claimText>
+        <aif:source>https://www.grainger.com/content/supplylink-video-surveillance-pros-and-cons: Technology can be vulnerable to hacker threats</aif:source>
+        <aif:creationDate>2019-01-17 17:29:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374183 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374183">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374162"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374184 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374184">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374160"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374185 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374185">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374164"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374186 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374186">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374168"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374187 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374187">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374172"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374188 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374188">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374166"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374189 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374189">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374170"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374190 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374190">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374174"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374155"/>
+        <aif:creationDate>2019-01-17 17:30:06</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

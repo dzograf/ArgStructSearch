@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/26141 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/26141">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>MB : If there is an element, if you like, of retrospective moral judgments, are there problems with that?</aif:claimText>
+        <aif:source>MB : If there is an element, if you like, of retrospective moral judgments, are there problems with that?</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/8940"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/65480"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/112346"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/8940"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/26140"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/65479"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/65488"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69557"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69567"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/112345"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/112354"/>
+        <aif:creationDate>2014-02-20 15:47:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69370 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69370">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : I always have a problem of judging the past by our values.</aif:claimText>
+        <aif:source>LA : I always have a problem of judging the past by our values.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69375"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69452"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69567"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69369"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69376"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69450"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69453"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69560"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69568"/>
+        <aif:creationDate>2015-06-22 10:14:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69556 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69556">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If there is an element of retrospective moral judgments there are no problems with that</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69557"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69570"/>
+        <aif:creationDate>2015-06-23 12:27:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69557 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69557">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/26141"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69556"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69558 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69558">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>M: MB : If there is an element, if you like, of retrospective moral judgments, are there problems with that?</aif:claimText>
+        <aif:source>M: MB : If there is an element, if you like, of retrospective moral judgments, are there problems with that?</aif:source>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69559 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69559">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>LA has a problem of judging the past by our values.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69560"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69566"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69570"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69560 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69560">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69370"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69559"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69561 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69561">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mark: LA : LA: I always have a problem of judging the past by our values.</aif:claimText>
+        <aif:source>Mark: LA : LA: I always have a problem of judging the past by our values.</aif:source>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69562 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69562">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It seems to LA to be a mixture of arrogance and absurdity. </aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69563"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69566"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69563 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69563">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69565"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69562"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69564 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69564">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mark: LA : It seems to me a mixture of arrogance and absurdity. </aif:claimText>
+        <aif:source>Mark: LA : It seems to me a mixture of arrogance and absurdity. </aif:source>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69565 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69565">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>LA : It seems to me a mixture of arrogance and absurdity. </aif:claimText>
+        <aif:source>LA : It seems to me a mixture of arrogance and absurdity. </aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69568"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/69563"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69566 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69566">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69562"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69569"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69559"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69567 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69567">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/26141"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69370"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69568 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69568">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/69370"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/69565"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69569 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69569">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/69568"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69566"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69570 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69570">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/69559"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69571"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/69556"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/69571 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/69571">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/69567"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/69570"/>
+        <aif:creationDate>2015-06-23 12:27:12</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

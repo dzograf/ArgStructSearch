@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/458401 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458401">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Тут не простое убийство, а отцеубийство</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458405"/>
+        <aif:creationDate>2019-12-07 09:45:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458402 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458402">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>страшная вещь пролить кровь отца</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458413"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458405"/>
+        <aif:creationDate>2019-12-07 09:45:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458403 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458403">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Родивший не есть еще отец, а отец есть — родивший и заслуживший</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458404"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458404 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458404">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458403"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458401"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458405 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458405">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458401"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458406 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458406">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Покойный Федор Павлович Карамазов, нисколько не подходил под то понятие об отце, которое сейчас сказалось нашему сердцу</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458408"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458412"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458407 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458407">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458403"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458402"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>„изверг“ клиент мой, как она его называла</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458422"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458417"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458410 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458410">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>даже самая ничтожность и бездоказательность обвиняющих фактов становится уже не столь ничтожною и не столь бездоказательною</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458418"/>
+        <aif:creationDate>2019-12-07 09:45:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458411 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458411">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Мой клиент рос покровительством божиим, то есть как дикий зверь. Он зрит отца, отбивающего у него, у сына, на его же сыновние деньги, любовницу.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458413"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458411"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458413 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458413">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458402"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458414 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458414">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Старик всем жалуется на непочтительность и жестокость сына, марает его в обществе, вредит ему, клевещет на него, скупает его долговые расписки, чтобы посадить его в тюрьму</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458418"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458416"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458415 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458415">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458411"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458416 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458416">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458402"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458417 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458417">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458409"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458402"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458418 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458418">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458414"/>
+        <aif:creationDate>2019-12-07 09:45:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458419 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458419">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>не ей укорять бы в измене, потому что она сама изменила</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458422"/>
+        <aif:creationDate>2019-12-07 09:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458420 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458420">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Любовь к отцу, не оправданная отцом, есть нелепость, есть невозможность. Нельзя создать любовь из ничего</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458423"/>
+        <aif:creationDate>2019-12-07 09:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458421 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458421">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458410"/>
+        <aif:creationDate>2019-12-07 09:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458422 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458422">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458409"/>
+        <aif:creationDate>2019-12-07 09:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458423 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458423">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458419"/>
+        <aif:creationDate>2019-12-07 09:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458424 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458424">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>одна девица была заподозрена, что она тайно родила ребенка. На чердаке дома нашли ее сундук, его отперли и вынули из него трупик новорожденного и убитого ею младенца. Господа присяжные, это ли мать детей своих?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458425"/>
+        <aif:creationDate>2019-12-07 09:45:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458425 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458425">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458420"/>
+        <aif:creationDate>2019-12-07 09:45:10</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

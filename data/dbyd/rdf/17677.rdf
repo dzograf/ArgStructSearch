@@ -1,0 +1,1112 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/500502 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500502">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce : Saskia&#039;s question.  Is it appropriate to ease the lockdown different leave in different areas</aif:claimText>
+        <aif:source>Fiona Bruce : Saskia&#039;s question.  Is it appropriate to ease the lockdown different leave in different areas</aif:source>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500520"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500523"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500591"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500621"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500624"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500650"/>
+        <aif:creationDate>2020-05-14 20:58:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500504 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500504">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>is or is it not appropriate to ease the lockdown differently in different areas</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500592"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500651"/>
+        <aif:creationDate>2020-05-14 20:58:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500506 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500506">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: Fiona Bruce : Saskia&#039;s question.  Is it appropriate to ease the lockdown different leave in different areas</aif:claimText>
+        <aif:source>Stefanie: Fiona Bruce : Saskia&#039;s question.  Is it appropriate to ease the lockdown different leave in different areas</aif:source>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500508 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500508">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Saskia ?: Is it appropriate to ease the lockdown differently in dfferent areas</aif:claimText>
+        <aif:source>Saskia ?: Is it appropriate to ease the lockdown differently in dfferent areas</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500592"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500651"/>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500510 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500510">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: Saskia ? :</aif:claimText>
+        <aif:source>Stefanie: Saskia ? :</aif:source>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500512 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500512">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce : what Afua is saying in terms of protecting ethnic minorities in terms of at risk and lockdown.</aif:claimText>
+        <aif:source>Fiona Bruce : what Afua is saying in terms of protecting ethnic minorities in terms of at risk and lockdown.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500523"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500624"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500513"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500524"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500619"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500625"/>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500513 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500513">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500512"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500514"/>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500514 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500514">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>what Afua is saying in terms of protecting ethnic minorities in terms of at risk and lockdown</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500513"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500619"/>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500515 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500515">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: Fiona Bruce : what Afua is saying in terms of protecting ethnic minorities in terms of at risk and lockdown.</aif:claimText>
+        <aif:source>Stefanie: Fiona Bruce : what Afua is saying in terms of protecting ethnic minorities in terms of at risk and lockdown.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500516 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500516">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : it is PREFBL if we can try and have a single approach</aif:claimText>
+        <aif:source>George Eustice : it is PREFBL if we can try and have a single approach</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500520"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500524"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500621"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500625"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500517"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500539"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500542"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500593"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500620"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500631"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500634"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500652"/>
+        <aif:creationDate>2020-05-14 20:58:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500517 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500517">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500516"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500518"/>
+        <aif:creationDate>2020-05-14 20:58:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500518 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500518">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>it is preferable if we can try and have a single approach</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500517"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500537"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500538"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500611"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500620"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500629"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500630"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500670"/>
+        <aif:creationDate>2020-05-14 20:58:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500519 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500519">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : it is PREFBL if we can try and have a single approach</aif:claimText>
+        <aif:source>Stefanie: George Eustice : it is PREFBL if we can try and have a single approach</aif:source>
+        <aif:creationDate>2020-05-14 20:58:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500520 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500520">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500502"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500516"/>
+        <aif:creationDate>2020-05-14 20:58:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500521 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500521">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 20:58:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500522 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500522">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500520"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500521"/>
+        <aif:creationDate>2020-05-14 20:58:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500523 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500523">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500502"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500512"/>
+        <aif:creationDate>2020-05-14 20:58:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500524 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500524">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500512"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500516"/>
+        <aif:creationDate>2020-05-14 20:58:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500525 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500525">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : it does get confusing of the some of the advice from the chief medical officer is TAO*ULly</aif:claimText>
+        <aif:source>George Eustice : it does get confusing of the some of the advice from the chief medical officer is TAO*ULly</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500539"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500631"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500526"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500540"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500614"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500626"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500632"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500673"/>
+        <aif:creationDate>2020-05-14 20:58:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500526 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500526">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500525"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500527"/>
+        <aif:creationDate>2020-05-14 20:58:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500527 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500527">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>it does get confusing of the sum of the advice from the chief medical officer is totally different</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500526"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500626"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500538"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500630"/>
+        <aif:creationDate>2020-05-14 20:58:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500528 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500528">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : it does get confusing of the some of the advice from the chief medical officer is TAO*ULly</aif:claimText>
+        <aif:source>Stefanie: George Eustice : it does get confusing of the some of the advice from the chief medical officer is TAO*ULly</aif:source>
+        <aif:creationDate>2020-05-14 20:58:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500529 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500529">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : Al know the prevalence can be quite different in different RARTS of the county</aif:claimText>
+        <aif:source>George Eustice : Al know the prevalence can be quite different in different RARTS of the county</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500540"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500593"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500632"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500652"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500530"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500541"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500627"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500633"/>
+        <aif:creationDate>2020-05-14 20:58:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500530 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500530">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500529"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500531"/>
+        <aif:creationDate>2020-05-14 20:58:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500531 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500531">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the prevalence can be quite different in different parts of the county</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500530"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500627"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500611"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500670"/>
+        <aif:creationDate>2020-05-14 20:58:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500532 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500532">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : Al know the prevalence can be quite different in different RARTS of the county</aif:claimText>
+        <aif:source>Stefanie: George Eustice : Al know the prevalence can be quite different in different RARTS of the county</aif:source>
+        <aif:creationDate>2020-05-14 20:58:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500533 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500533">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : the so-called R rate, the reproductive rate, is quite similar across the country.</aif:claimText>
+        <aif:source>George Eustice : the so-called R rate, the reproductive rate, is quite similar across the country.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500541"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500542"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500633"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500634"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500534"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500594"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500628"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500653"/>
+        <aif:creationDate>2020-05-14 20:58:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500534 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500534">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500533"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500535"/>
+        <aif:creationDate>2020-05-14 20:58:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500535 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500535">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the so-called R rate the reproductive rate is quite similar across the country</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500534"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500628"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500537"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500629"/>
+        <aif:creationDate>2020-05-14 20:58:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500536 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500536">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : the so-called R rate, the reproductive rate, is quite similar across the country.</aif:claimText>
+        <aif:source>Stefanie: George Eustice : the so-called R rate, the reproductive rate, is quite similar across the country.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500537 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500537">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500535"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500543"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500518"/>
+        <aif:creationDate>2020-05-14 20:58:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500538 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500538">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500527"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500518"/>
+        <aif:creationDate>2020-05-14 20:58:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500539 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500539">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500516"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500525"/>
+        <aif:creationDate>2020-05-14 20:58:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500540 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500540">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500525"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500529"/>
+        <aif:creationDate>2020-05-14 20:58:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500541 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500541">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500529"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500533"/>
+        <aif:creationDate>2020-05-14 20:58:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500542 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500542">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500516"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500533"/>
+        <aif:creationDate>2020-05-14 20:58:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500543 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500543">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500542"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500537"/>
+        <aif:creationDate>2020-05-14 20:58:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500544 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500544">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : The argument for having very different PROEFPS is probably not very strong.</aif:claimText>
+        <aif:source>George Eustice : The argument for having very different PROEFPS is probably not very strong.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500594"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500614"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500653"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500673"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500545"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500595"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500636"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500654"/>
+        <aif:creationDate>2020-05-14 20:58:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500545 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500545">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500544"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500546"/>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500546 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500546">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the argument for having very different approaches is probably not very strong</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500545"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500636"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500613"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500672"/>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500547 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500547">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : The argument for having very different PROEFPS is probably not very strong.</aif:claimText>
+        <aif:source>Stefanie: George Eustice : The argument for having very different PROEFPS is probably not very strong.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500548 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500548">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : There are parts of the country that have a lot of tourism.</aif:claimText>
+        <aif:source>George Eustice : There are parts of the country that have a lot of tourism.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500595"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500654"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500549"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500596"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500606"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500637"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500655"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500665"/>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500549 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500549">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500548"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500550"/>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500550 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500550">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>there are parts of the country that have a lot of tourism</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500549"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500637"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500604"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500663"/>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500551 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500551">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : There are parts of the country that have a lot of tourism.</aif:claimText>
+        <aif:source>Stefanie: George Eustice : There are parts of the country that have a lot of tourism.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500552 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500552">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : There are issues about how we exit lockdown, which sectors of the economy you try to tentatively open and at which stage.</aif:claimText>
+        <aif:source>George Eustice : There are issues about how we exit lockdown, which sectors of the economy you try to tentatively open and at which stage.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500596"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500655"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500553"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500597"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500638"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500656"/>
+        <aif:creationDate>2020-05-14 20:58:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500553 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500553">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500552"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500554"/>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500554 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500554">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>there are issues about how we exit lockdown which sectors of the economy you try to tentatively open and at which stage</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500553"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500638"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500605"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500664"/>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500555 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500555">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : There are issues about how we exit lockdown, which sectors of the economy you try to tentatively open and at which stage.</aif:claimText>
+        <aif:source>Stefanie: George Eustice : There are issues about how we exit lockdown, which sectors of the economy you try to tentatively open and at which stage.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500556 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500556">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : These are factors obviously that will be taken into account in that context.</aif:claimText>
+        <aif:source>George Eustice : These are factors obviously that will be taken into account in that context.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500597"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500606"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500656"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500665"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500557"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500598"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500639"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500657"/>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500557 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500557">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500556"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500558"/>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500558 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500558">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>tourism and economy are factors obviously that will be taken into account in the context of lockdown</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500557"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500604"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500605"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500639"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500664"/>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500559 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500559">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : These are factors obviously that will be taken into account in that context.</aif:claimText>
+        <aif:source>Stefanie: George Eustice : These are factors obviously that will be taken into account in that context.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500560 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500560">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: Fiona Bruce : So might be lockdown be slightly easier or lifted slightly more in places like Cornwall and Devon, say, for example.</aif:claimText>
+        <aif:source>Stefanie: Fiona Bruce : So might be lockdown be slightly easier or lifted slightly more in places like Cornwall and Devon, say, for example.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500561 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500561">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce : So might be lockdown be slightly easier or lifted slightly more in places like Cornwall and Devon, say, for example.</aif:claimText>
+        <aif:source>Fiona Bruce : So might be lockdown be slightly easier or lifted slightly more in places like Cornwall and Devon, say, for example.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500598"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500657"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500562"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500569"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500640"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500643"/>
+        <aif:creationDate>2020-05-14 20:58:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500562 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500562">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500561"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500563"/>
+        <aif:creationDate>2020-05-14 20:58:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500563 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500563">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>might lockdown be or be not slightly easier or lifted slightly more in places like Cornwall and Devon</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500562"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500640"/>
+        <aif:creationDate>2020-05-14 20:58:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500564 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500564">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce : Is that what you are suggesting.</aif:claimText>
+        <aif:source>Fiona Bruce : Is that what you are suggesting.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500569"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500643"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500567"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500599"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500641"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500658"/>
+        <aif:creationDate>2020-05-14 20:58:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500565 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500565">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>is or is not having different exits and lockdowns what you are suggesting</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500567"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500641"/>
+        <aif:creationDate>2020-05-14 20:58:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500566 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500566">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: Fiona Bruce : Is that what you are suggesting.</aif:claimText>
+        <aif:source>Stefanie: Fiona Bruce : Is that what you are suggesting.</aif:source>
+        <aif:creationDate>2020-05-14 20:58:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500567 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500567">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500564"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500565"/>
+        <aif:creationDate>2020-05-14 20:58:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500568 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500568">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 20:58:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500569 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500569">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500561"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500564"/>
+        <aif:creationDate>2020-05-14 20:58:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500570 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500570">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500569"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500568"/>
+        <aif:creationDate>2020-05-14 20:58:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500571 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500571">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : the Prime Minister is going to give his statement on Sunday</aif:claimText>
+        <aif:source>George Eustice : the Prime Minister is going to give his statement on Sunday</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500599"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500658"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500572"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500600"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500645"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500659"/>
+        <aif:creationDate>2020-05-14 20:58:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500572 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500572">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500571"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500573"/>
+        <aif:creationDate>2020-05-14 20:58:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500573 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500573">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the Prime Minister is going to give his statement on Sunday</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500572"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500645"/>
+        <aif:creationDate>2020-05-14 20:58:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500574 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500574">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : the Prime Minister is going to give his statement on Sunday</aif:claimText>
+        <aif:source>Stefanie: George Eustice : the Prime Minister is going to give his statement on Sunday</aif:source>
+        <aif:creationDate>2020-05-14 20:58:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500575 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500575">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce :  is that what you are expecting.</aif:claimText>
+        <aif:source>Fiona Bruce :  is that what you are expecting.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500600"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500659"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500576"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500601"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500617"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500646"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500660"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500676"/>
+        <aif:creationDate>2020-05-14 20:59:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500576 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500576">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500575"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500577"/>
+        <aif:creationDate>2020-05-14 20:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500577 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500577">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>is or is not the Prime Minister&#039;s statement what you are expecting</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500576"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500646"/>
+        <aif:creationDate>2020-05-14 20:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500578 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500578">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: Fiona Bruce :  is that what you are expecting.</aif:claimText>
+        <aif:source>Stefanie: Fiona Bruce :  is that what you are expecting.</aif:source>
+        <aif:creationDate>2020-05-14 20:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500579 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500579">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : Well, now now obviously he have been has to observe the current restrictions</aif:claimText>
+        <aif:source>George Eustice : Well, now now obviously he have been has to observe the current restrictions</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500601"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500660"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500580"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500602"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500647"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500661"/>
+        <aif:creationDate>2020-05-14 20:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500580 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500580">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500579"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500581"/>
+        <aif:creationDate>2020-05-14 20:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>he has to observe the current restrictions</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500580"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500647"/>
+        <aif:creationDate>2020-05-14 20:59:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : Well, now now obviously he have been has to observe the current restrictions</aif:claimText>
+        <aif:source>Stefanie: George Eustice : Well, now now obviously he have been has to observe the current restrictions</aif:source>
+        <aif:creationDate>2020-05-14 20:59:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : I think the Prime Minister has already significant TPHAPLD what he is likely to outline on Sunday is a route map about how we can revolve this policy.</aif:claimText>
+        <aif:source>George Eustice : I think the Prime Minister has already significant TPHAPLD what he is likely to outline on Sunday is a route map about how we can revolve this policy.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500602"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500617"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500661"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500676"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500584"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500603"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500648"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500662"/>
+        <aif:creationDate>2020-05-14 20:59:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500584 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500584">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500583"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500585"/>
+        <aif:creationDate>2020-05-14 20:59:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500585 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500585">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the Prime Minister has already significant trouble what he is likely to outline on Sunday is a route map about how we can revolve this policy</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500584"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500648"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500609"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500668"/>
+        <aif:creationDate>2020-05-14 20:59:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500586 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500586">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : I think the Prime Minister has already significant TPHAPLD what he is likely to outline on Sunday is a route map about how we can revolve this policy.</aif:claimText>
+        <aif:source>Stefanie: George Eustice : I think the Prime Minister has already significant TPHAPLD what he is likely to outline on Sunday is a route map about how we can revolve this policy.</aif:source>
+        <aif:creationDate>2020-05-14 20:59:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>George Eustice : We are going to be very cautious because clearly we are not out of the woods on this by any means.</aif:claimText>
+        <aif:source>George Eustice : We are going to be very cautious because clearly we are not out of the woods on this by any means.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500603"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500662"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500588"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500649"/>
+        <aif:creationDate>2020-05-14 20:59:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500587"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500589"/>
+        <aif:creationDate>2020-05-14 20:59:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500589 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500589">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we are going to be very cautious because clearly we are not out of the woods on this by any means</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500588"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500609"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500649"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500668"/>
+        <aif:creationDate>2020-05-14 20:59:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500590 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500590">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Stefanie: George Eustice : We are going to be very cautious because clearly we are not out of the woods on this by any means.</aif:claimText>
+        <aif:source>Stefanie: George Eustice : We are going to be very cautious because clearly we are not out of the woods on this by any means.</aif:source>
+        <aif:creationDate>2020-05-14 20:59:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500591 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500591">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500502"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500508"/>
+        <aif:creationDate>2020-05-14 20:59:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500592 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500592">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/500508"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500504"/>
+        <aif:creationDate>2020-05-14 20:59:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500593 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500593">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500516"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500529"/>
+        <aif:creationDate>2020-05-14 20:59:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500594 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500594">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500533"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500544"/>
+        <aif:creationDate>2020-05-14 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500595 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500595">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500544"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500548"/>
+        <aif:creationDate>2020-05-14 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500596 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500596">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500548"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500552"/>
+        <aif:creationDate>2020-05-14 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500597 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500597">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500552"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500556"/>
+        <aif:creationDate>2020-05-14 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500598 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500598">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500556"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500561"/>
+        <aif:creationDate>2020-05-14 20:59:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500599 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500599">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500564"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500571"/>
+        <aif:creationDate>2020-05-14 20:59:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500600 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500600">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500571"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500575"/>
+        <aif:creationDate>2020-05-14 20:59:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500601 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500601">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500575"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500579"/>
+        <aif:creationDate>2020-05-14 20:59:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500602 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500602">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500579"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500583"/>
+        <aif:creationDate>2020-05-14 20:59:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500603 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500603">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500583"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500587"/>
+        <aif:creationDate>2020-05-14 20:59:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500604 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500604">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500550"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500607"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500558"/>
+        <aif:creationDate>2020-05-14 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500605 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500605">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500554"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500608"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500558"/>
+        <aif:creationDate>2020-05-14 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500606 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500606">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500548"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500556"/>
+        <aif:creationDate>2020-05-14 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500607 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500607">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500606"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500604"/>
+        <aif:creationDate>2020-05-14 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500608 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500608">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500597"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500605"/>
+        <aif:creationDate>2020-05-14 20:59:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500609 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500609">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500585"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500610"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500589"/>
+        <aif:creationDate>2020-05-14 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500610 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500610">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500603"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500609"/>
+        <aif:creationDate>2020-05-14 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500611 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500611">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500531"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500612"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/500518"/>
+        <aif:creationDate>2020-05-14 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500612 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500612">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500593"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500611"/>
+        <aif:creationDate>2020-05-14 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500613 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500613">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/500546"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500615"/>
+        <aif:creationDate>2020-05-14 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500614 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500614">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500525"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500544"/>
+        <aif:creationDate>2020-05-14 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500615 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500615">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500614"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500613"/>
+        <aif:creationDate>2020-05-14 20:59:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500616 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500616">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 20:59:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500617 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500617">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/500575"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/500583"/>
+        <aif:creationDate>2020-05-14 20:59:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/500618 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/500618">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/500617"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/500616"/>
+        <aif:creationDate>2020-05-14 20:59:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

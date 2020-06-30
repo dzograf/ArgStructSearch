@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/70094 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70094">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>[1] This computer can think.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70098"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70103"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70108"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70126"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70133"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70146"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175999"/>
+        <aif:creationDate>2015-06-29 10:07:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/70102 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70102">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>[4] we should not switch it off.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70105"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70109"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70127"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70134"/>
+        <aif:creationDate>2015-06-29 10:09:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/70106 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70106">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>So [2] it is conscious.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70108"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70126"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70133"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70111"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70128"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70135"/>
+        <aif:creationDate>2015-06-29 10:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/70107 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70107">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Since [3] we should not kill any conscious beings</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70111"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70128"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70135"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70109"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70134"/>
+        <aif:creationDate>2015-06-29 10:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/70110 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70110">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>anything that can think is concious</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70108"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70126"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70133"/>
+        <aif:creationDate>2015-06-29 10:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/70126 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70126">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70094"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70110"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70106"/>
+        <aif:creationDate>2015-06-29 10:09:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/70127 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70127">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70107"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70102"/>
+        <aif:creationDate>2015-06-29 10:09:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/70128 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/70128">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/70106"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/70107"/>
+        <aif:creationDate>2015-06-29 10:09:23</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

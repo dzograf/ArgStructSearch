@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/460871 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460871">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Под­су­ди­мые не мо­гут нести  уго­лов­ную от­вет­ствен­ность за инкреминируемые деяния</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460873"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460877"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460919"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460920"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460935"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460936"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461157"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461159"/>
+        <aif:creationDate>2019-12-16 17:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460872 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460872">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>прин­цип «Nullum crimen sine lege» (нет наказания за деяние не наказуемое по закону в момент его совершения)</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460884"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460923"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460938"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460873"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460935"/>
+        <aif:creationDate>2019-12-16 17:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460874 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460874">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в мо­мент со­вер­ше­ния под­су­ди­мы­ми ин­кри­ми­ни­ру­е­мых им де­я­ний, по­след­ние не бы­ли преду­смот­ре­ны дей­ство­вав­ши­ми за­ко­на­ми</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460891"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460898"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460927"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460932"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460941"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460945"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461163"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461167"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460873"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460935"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461157"/>
+        <aif:creationDate>2019-12-16 17:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460875 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460875">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>пре­ступ­ле­ний про­тив ми­ра, как из­ло­же­но в ста­тье 6 Уста­ва, не су­ще­ству­ет</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460897"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460931"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460944"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461166"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460877"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460936"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461159"/>
+        <aif:creationDate>2019-12-16 17:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460876 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460876">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Нельзя нести отвественности за преступления, которые не существуют</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460877"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460936"/>
+        <aif:creationDate>2019-12-16 17:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460878 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460878">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Подсудимые должны нести уголовную ответственность за инкриминируемые им деяния</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460882"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460890"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460896"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460922"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460926"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460930"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460937"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460940"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460943"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461162"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461165"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461170"/>
+        <aif:creationDate>2019-12-16 17:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460879 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460879">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Устав Меж­ду­на­род­но­го Во­ен­но­го Три­бу­на­ла, уста­нав­ли­ва­ет, что этот Три­бу­нал «име­ет пра­во су­дить и на­ка­зы­вать лиц, ко­то­рые со­вер­ши­ли лю­бое из пре­ступ­ле­ний, пе­ре­чис­лен­ных в ста­тье 6 Уста­ва</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460883"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460882"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460922"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460937"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461168"/>
+        <aif:creationDate>2019-12-16 17:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460881 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460881">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>юри­ди­че­ски для вы­не­се­ния при­го­во­ра и при­ме­не­ния на­ка­за­ния не тре­бу­ет­ся, что­бы со­вер­шен­ные под­су­ди­мы­ми пре­ступ­ле­ния бы­ли преду­смот­ре­ны уго­лов­ны­ми за­ко­на­ми в мо­мент их со­вер­ше­ния</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461168"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460882"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460884"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460922"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460923"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460937"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460938"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461160"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461170"/>
+        <aif:creationDate>2019-12-16 17:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460885 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460885">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>дей­ствия под­су­ди­мых яв­ля­лись пре­ступ­ны­ми с точ­ки зре­ния за­ко­нов, дей­ство­вав­ших в мо­мент, ко­гда эти пре­ступ­ле­ния име­ли ме­сто</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460888"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460925"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460939"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461161"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460890"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460898"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460926"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460932"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460940"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460945"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461162"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461167"/>
+        <aif:creationDate>2019-12-16 17:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460886 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460886">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>За­ко­но­да­тель­ство всех ци­ви­ли­зо­ван­ных на­ро­дов преду­смат­ри­ва­ет уго­лов­ную от­вет­ствен­ность за убий­ства, ис­тя­за­ния, на­си­лия, гра­бе­жи и т. д</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460888"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460891"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460925"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460927"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460939"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460941"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461161"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461163"/>
+        <aif:creationDate>2019-12-16 17:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460889 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460889">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Каждый должен нести ответственность за совершенное преступное деяние</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460890"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460926"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460940"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461162"/>
+        <aif:creationDate>2019-12-16 17:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460892 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460892">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>меж­ду­на­род­ными договорами агрес­сив­ная вой­на (преступления против мира - ст. 6 Устава) бы­ла при­зна­на меж­ду­на­род­ным пре­ступ­ле­ни­ем</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460895"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460897"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460929"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460931"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460942"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460944"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461164"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461166"/>
+        <aif:creationDate>2019-12-16 17:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460894 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460894">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Под­су­ди­мые об­ви­ня­ют­ся в дей­стви­ях, ко­то­рые ци­ви­ли­зо­ван­ное че­ло­ве­че­ство и ра­нее при­зна­ва­ло пре­ступ­ле­ни­я­ми.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460895"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460929"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460942"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461164"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460896"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460930"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460943"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461165"/>
+        <aif:creationDate>2019-12-16 17:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460919 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460919">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460872"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460874"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460871"/>
+        <aif:creationDate>2019-12-16 22:16:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460920 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460920">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460875"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460876"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460871"/>
+        <aif:creationDate>2019-12-16 22:16:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460921 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460921">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Устав Меж­ду­на­род­но­го Во­ен­но­го Три­бу­на­ла яв­ля­ет­ся непре­лож­ным за­ко­ном</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461172"/>
+        <aif:creationDate>2019-12-16 22:16:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460922 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460922">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460879"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460881"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460878"/>
+        <aif:creationDate>2019-12-16 22:17:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460923 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460923">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460881"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460872"/>
+        <aif:creationDate>2019-12-16 22:17:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460924 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460924">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>эти пре­ступ­ле­ния (убийства, истязания, насилия, грабежи т.д.) бы­ли ор­га­ни­зо­ва­ны под­су­ди­мы­ми</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460925"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460939"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461161"/>
+        <aif:creationDate>2019-12-16 22:17:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460925 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460925">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460886"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460924"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460885"/>
+        <aif:creationDate>2019-12-16 22:17:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460926 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460926">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460885"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460889"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460878"/>
+        <aif:creationDate>2019-12-16 22:17:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460927 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460927">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460886"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460874"/>
+        <aif:creationDate>2019-12-16 22:17:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460928 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460928">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Подсудимые обвиняются в совершении актов агрессивной войны, т. е. преступлений против мира</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460929"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460942"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461164"/>
+        <aif:creationDate>2019-12-16 22:17:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460929 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460929">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460892"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460928"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460894"/>
+        <aif:creationDate>2019-12-16 22:17:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460930 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460930">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460894"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460878"/>
+        <aif:creationDate>2019-12-16 22:17:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460931 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460931">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460892"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460875"/>
+        <aif:creationDate>2019-12-16 22:17:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460932 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460932">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460885"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460874"/>
+        <aif:creationDate>2019-12-16 22:17:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460933 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460933">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Любой закон по своей сути обязателен к исполнению</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461172"/>
+        <aif:creationDate>2019-12-16 22:17:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460934 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460934">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Устав Международного Военного Трибунала обязателен к исполнению</aif:claimText>
+        <aif:creationDate>2019-12-16 22:17:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/272440 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272440">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>abrir la cueva representa un peligro</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272476"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272478"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272483"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272525"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272668"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272775"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272779"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272839"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272843"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272916"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272920"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273023"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273027"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273123"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273127"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273224"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273228"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273345"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273349"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273482"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273486"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273681"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273823"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273827"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/274007"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/274011"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278083"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278088"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278448"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278453"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278840"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278845"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279260"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279265"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279529"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279548"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279560"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279576"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279600"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279645"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281488"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281543"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281618"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281675"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281769"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282553"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282665"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282805"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282949"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283062"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283218"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283328"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292586"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/292743"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292746"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/292903"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/294652"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/294732"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297184"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297193"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297240"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297269"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297283"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297479"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297484"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297510"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/297534"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/340663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340668"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340709"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/340718"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279554"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279572"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279582"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281512"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281567"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281699"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281793"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282577"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282829"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283086"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292850"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294733"/>
+        <aif:creationDate>2017-04-10 12:50:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/272467 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/272467">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>las visitas no afectan a las pinturas</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272466"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272480"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272517"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272522"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272538"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272683"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272776"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272794"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272840"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272858"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272917"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/272935"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273024"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273042"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273124"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273142"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273225"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273243"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273346"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273364"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273501"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273696"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/273824"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/273842"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/274008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/274026"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278084"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278103"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278449"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278468"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/278841"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/278860"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279261"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279280"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279536"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279550"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279602"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279647"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281490"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281545"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281620"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281677"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/281771"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282555"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282667"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282807"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/282951"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283064"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283220"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/283330"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292588"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/292748"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/294653"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297187"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/297482"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/340666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272476"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272525"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272779"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272843"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272920"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273027"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273228"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273486"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/273827"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/274011"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278088"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/278845"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279265"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279554"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281512"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281567"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281699"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281793"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282577"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282829"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283086"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292743"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292850"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/292903"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/294733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297193"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/297484"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/340668"/>
+        <aif:creationDate>2017-04-10 12:50:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279494 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279494">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279496"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279517"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279525"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279528"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279547"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279554"/>
+        <aif:creationDate>2017-05-17 14:51:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279495 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279495">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:source>
+        <aif:creationDate>2017-05-17 14:51:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279497 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279497">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:source>Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279496"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279504"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279511"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279513"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279520"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279522"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279528"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279542"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279543"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279547"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279552"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279553"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279558"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279570"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279571"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279575"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279580"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279581"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279599"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279606"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279644"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279649"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281487"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281492"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281542"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281547"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281617"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281622"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281674"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281679"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281768"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281773"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282552"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282557"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282664"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282669"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282804"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282809"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282948"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282952"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283061"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283065"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283217"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283221"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283327"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283331"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292667"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/292670"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292827"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/292830"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/294658"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/294661"/>
+        <aif:creationDate>2017-05-17 14:51:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279498 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279498">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:source>Martin: Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:source>
+        <aif:creationDate>2017-05-17 14:51:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279500 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279500">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-05-17 14:51:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279503 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279503">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Martin: Guillermo : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-05-17 14:51:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279506 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279506">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:creationDate>2017-05-17 14:51:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279509 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279509">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>Martin: Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:creationDate>2017-05-17 14:51:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279528 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279528">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279497"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279494"/>
+        <aif:creationDate>2017-05-17 16:04:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279529 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279529">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279530"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272440"/>
+        <aif:creationDate>2017-05-17 16:04:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279530 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279530">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>CSIC : abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>CSIC : abrir la cueva representa un peligro</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279529"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279548"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279560"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279576"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279600"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279645"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281488"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281543"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281618"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281675"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281769"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282553"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282665"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282805"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282949"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283062"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283218"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283328"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292586"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292746"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/294652"/>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279531 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279531">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: CSIC : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Martin: CSIC : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279532 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279532">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279533"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279530"/>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279533 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279533">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : CSIC : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Guillermo : CSIC : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279542"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279552"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279532"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279549"/>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279534 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279534">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : CSIC : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Martin: Guillermo : CSIC : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279535 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279535">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279536 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279536">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279537"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/272467"/>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279537 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279537">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Gael :  las visitas no afectan a las pinturas</aif:claimText>
+        <aif:source>Gael :  las visitas no afectan a las pinturas</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279536"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279550"/>
+        <aif:creationDate>2017-05-17 16:04:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279538 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279538">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>Martin: Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-05-17 16:04:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279539 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279539">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279540"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279537"/>
+        <aif:creationDate>2017-05-17 16:04:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279540 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279540">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>Guillermo : Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279543"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279553"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279571"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279581"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279539"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279551"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279569"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279579"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279590"/>
+        <aif:creationDate>2017-05-17 16:04:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279541 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279541">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:claimText>
+        <aif:source>Martin: Guillermo : Gael : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas.</aif:source>
+        <aif:creationDate>2017-05-17 16:04:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279542 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279542">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279497"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279533"/>
+        <aif:creationDate>2017-05-17 16:04:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279543 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279543">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279497"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279540"/>
+        <aif:creationDate>2017-05-17 16:04:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279544 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279544">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/272467"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279545"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279546"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279494"/>
+        <aif:creationDate>2017-05-17 16:04:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279545 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279545">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/279542"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:creationDate>2017-05-17 16:04:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279546 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279546">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/279543"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:creationDate>2017-05-17 16:04:11</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/459580 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459580">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Отчего же? Убить злую собаку даже очень хорошо.</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Нет, убить человека нехорошо, несправедливо...</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462739"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462756"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462773"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462744"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462748"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462765"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462767"/>
+        <aif:creationDate>2019-12-15 11:19:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Отчего же несправедливо? То, что справедливо и несправедливо — не дано судить людям. Люди вечно заблуждались и будут заблуждаться, и ни в чем больше, как в том, что они считают справедливым и несправедливым</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Несправедливо то, что есть зло для другого человека..</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459584 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459584">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>кто тебе сказал, что такое зло для другого человека? Да, мы знаем, но то зло, которое я знаю для себя, я не могу сделать другому человеку. Несчастье это болезни и угрызения совести. Жить для себя, избегая только этих двух зол, вот вся моя мудрость теперь.</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459585 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459585">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>А любовь к ближнему, а самопожертвование? Нет, я с вами не могу согласиться! Жить только так, чтобы не делать зла, чтоб не раскаиваться, этого мало. Я жил так, я жил для себя и погубил свою жизнь. И только теперь, когда я живу, по крайней мере стараюсь жить для других, только теперь я понял все счастие жизни</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459586 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459586">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Может быть, ты прав для себя, но каждый живет по-своему: ты жил для себя и говоришь, что этим чуть не погубил свою жизнь, а узнал счастие только, когда стал жить для других. А я испытал противуположное. Я жил для славы. (Ведь что же слава? та же любовь к другим, желание сделать для них что-нибудь, желание их похвалы.) Так я жил для других и не почти, а совсем погубил свою жизнь. И с тех пор стал спокоен, как живу для одного себя.</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Да как же жить для одного себя? А сын, сестра, отец?К.А.: — Да это все тот же я, это не другие, а другие, ближние, это те твои киевские мужики, которым ты хочешь делать добро, это главный источник заблуждений и зла.</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Какое же может быть заблуждение и зло в том, что я желал (очень мало и дурно исполнил, но желал) сделать добро, да и сделал хотя кое-что? Какое же может быть зло, что несчастные люди, наши мужики, люди так же, как мы, вырастающие и умирающие без другого понятия о боге и правде, как образ и бессмысленная молитва, будут поучаться в утешительных верованиях будущей жизни, возмездия, награды, утешения? Какое же зло и заблуждение в том, что люди умирают от болезни без помощи, когда так легко материально помочь им, и я им дам лекаря, и больницу, и приют старику? И разве не ощутительное, не несомненное благо то, что мужик, баба с ребенком не имеют дни и ночи покоя, а я дам им отдых и досуг?.. И вы не только меня не разуверите в том, что то, что я сделал, хорошо, но и не разуверите, чтобы вы сами этого не думали. А главное, я вот что знаю, и знаю верно, что наслаждение делать это добро есть единственное верное счастие жизни</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459589 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459589">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>То есть ты хочешь вывести его(мужика) из его животного состояния и дать ему нравственные потребности. А мне кажется, что единственно возможное счастье — есть счастье животное, а ты его-то хочешь лишить его. Я завидую ему, а ты хочешь его сделать мною, но не дав ему ни моего ума, ни моих чувств, ни моих средств.— ты говоришь: облегчить его работу. А по-моему, труд физический для него есть такая же необходимость, такое же условие его существования, как для тебя и для меня труд умственный. Ты не можешь не думать, как он не может не пахать, не косить; иначе он пойдет в кабак илисделается болен. Как я не перенесу его страшного физического труда, а умру через неделю, так он не перенесет моей физической праздности, он растолстеет и умрет.— ты говоришь Больницы, лекарства. У него удар, он умирает, а ты пустишь ему кровь, вылечишь, он калекой будет ходить десять лет, всем в тягость. Гораздо покойнее и проще ему умереть. Другие родятся, и так их много. Ежели бы ты жалел, что у тебя лишний работник пропал, — как я смотрю на него, а то ты из любви к нему его хочешь лечить. А ему этого не нужно.</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459590 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459590">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Я не понимаю только, как можно жить с такими мыслями.</aif:claimText>
+        <aif:creationDate>2019-12-15 11:19:18</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

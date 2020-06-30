@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/451637 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451637">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Но мои глаза говорят мне, что скорее Солнце вращается вокруг Земли. Впрочем, может быть, он и прав, ваш... Как его? Коперник. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457555"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460472"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451660"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460474"/>
+        <aif:creationDate>2019-11-26 12:26:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451639 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451639">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ну, когда я был школьником, я это знал, а потом основательно забыл. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457557"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460474"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460476"/>
+        <aif:creationDate>2019-11-26 12:26:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451641 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451641">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Вы что, хвастаетесь своим невежеством?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451644"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457547"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460475"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457556"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460478"/>
+        <aif:creationDate>2019-11-26 12:26:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451643 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451643">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>А вы, Ватсон, вы можете отличить грязь на Риджент-стрит от грязи на Пикадилли? Или пепел гаванской сигары от пепла манильской? Или можете мне сказать, что написано в третьем параграфе Уложения о наказаниях Британской империи? Можете? </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451667"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457558"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451644"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457547"/>
+        <aif:creationDate>2019-11-26 12:26:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451646 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451646">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Но ведь я говорю об элементарных вещах, которые знает каждый. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451667"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457558"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457559"/>
+        <aif:creationDate>2019-11-26 12:26:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451649 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451649">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Учение Коперника, по-вашему, хлам? </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457561"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451670"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457549"/>
+        <aif:creationDate>2019-11-26 12:26:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451652 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451652">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Как ужасно было бы жить в мире, где не с кем было бы поговорить о поэзии, о живописи, о политике. Где каждый знает только то, что ему нужно для дела.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451674"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457552"/>
+        <aif:creationDate>2019-11-26 12:26:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451654 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451654">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Так ведь это он открыл, что Земля вращается вокруг Солнца. Или этот факт вам тоже неизвестен? </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457548"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451658"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457554"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457555"/>
+        <aif:creationDate>2019-11-26 12:26:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451662 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451662">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Простите меня, Холмс. Вы человек острого ума, это сразу видно. Вы превосходно знаете химию. Как же вы не знаете вещей, которые известны каждому школьнику? </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451663"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451664"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457548"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457557"/>
+        <aif:creationDate>2019-11-26 12:26:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451668 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451668">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Но я-то не каждый, Ватсон, поймите! Человеческий мозг – это пустой чердак, куда можно набить всё, что угодно, дурак так и делает: тащит туда нужное и ненужное. И, наконец, наступает момент, когда самую необходимую вещь туда уже не запихнёшь, или она запрятана так далеко, что её не достанешь. Я делаю по-другому. В моем чердаке только необходимые мне инструменты. Их много, но они в идеальном порядке и всегда под рукой. А лишнего хлама мне не нужно.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451671"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457549"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457559"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457553"/>
+        <aif:creationDate>2019-11-26 12:26:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/451672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/451672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Земля вращается вокруг Солнца. Но мне в моём деле это не пригодится. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451673"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451674"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457562"/>
+        <aif:creationDate>2019-11-26 12:26:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457546 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457546">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Школьная программа</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457563"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457564"/>
+        <aif:creationDate>2019-12-03 19:39:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457547 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457547">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451643"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451641"/>
+        <aif:creationDate>2019-12-03 19:39:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457548 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457548">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451654"/>
+        <aif:creationDate>2019-12-03 19:39:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457549 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457549">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451649"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451668"/>
+        <aif:creationDate>2019-12-03 19:39:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457550 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457550">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ватсон считает, что школьные знания нужно помнить</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457552"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457554"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457556"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457564"/>
+        <aif:creationDate>2019-12-03 19:39:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457551 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457551">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Шерлок считает, что в этих поверхностных знаниях нет смысла</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457553"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457562"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457563"/>
+        <aif:creationDate>2019-12-03 19:39:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457552 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457552">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451652"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457550"/>
+        <aif:creationDate>2019-12-03 19:39:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457553 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457553">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451668"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457551"/>
+        <aif:creationDate>2019-12-03 19:39:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457554 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457554">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451654"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457550"/>
+        <aif:creationDate>2019-12-03 19:39:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457555 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457555">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451654"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451637"/>
+        <aif:creationDate>2019-12-03 19:39:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457556 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457556">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451641"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457550"/>
+        <aif:creationDate>2019-12-03 19:39:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457557 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457557">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451639"/>
+        <aif:creationDate>2019-12-03 19:39:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457558 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457558">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451643"/>
+        <aif:creationDate>2019-12-03 19:39:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457559 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457559">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451668"/>
+        <aif:creationDate>2019-12-03 19:39:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457560 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457560">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Хорошо. Допустим, Земля вращается вокруг Солнца.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457561"/>
+        <aif:creationDate>2019-12-03 19:39:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457561 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457561">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457560"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/451649"/>
+        <aif:creationDate>2019-12-03 19:39:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457562 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457562">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/451672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457551"/>
+        <aif:creationDate>2019-12-03 19:39:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457563 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457563">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457551"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457546"/>
+        <aif:creationDate>2019-12-03 19:39:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457564 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457564">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457550"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457546"/>
+        <aif:creationDate>2019-12-03 19:39:40</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,1454 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/501158 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501158">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Saskia Jennings : Do you think it is appropriate to ease the lockdown</aif:claimText>
+        <aif:source>Karina: Saskia Jennings : Do you think it is appropriate to ease the lockdown</aif:source>
+        <aif:creationDate>2020-05-14 21:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501159 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501159">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Saskia Jennings : all areas of the county at the same time and in the same</aif:claimText>
+        <aif:source>Karina: Saskia Jennings : all areas of the county at the same time and in the same</aif:source>
+        <aif:creationDate>2020-05-14 21:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501160 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501160">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Saskia Jennings :  Do you think it is appropriate to ease the lockdown all areas of the county at the same time and in the same way</aif:claimText>
+        <aif:source>Saskia Jennings :  Do you think it is appropriate to ease the lockdown all areas of the county at the same time and in the same way</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501161"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501168"/>
+        <aif:creationDate>2020-05-14 21:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501161 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501161">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501160"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501162"/>
+        <aif:creationDate>2020-05-14 21:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501162 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501162">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>do you or don&#039;t you think it is appropriate to ease the lockdown in all areas of the county at the same time and in the same way</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501161"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501169"/>
+        <aif:creationDate>2020-05-14 21:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501163 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501163">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Saskia Jennings :  Do you think it is appropriate to ease the lockdown all areas of the county at the same time and in the same way</aif:claimText>
+        <aif:source>Karina: Saskia Jennings :  Do you think it is appropriate to ease the lockdown all areas of the county at the same time and in the same way</aif:source>
+        <aif:creationDate>2020-05-14 21:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501164 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501164">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Saskia Jennings : even though the effects of the virus have not been evenly TK*S attributed</aif:claimText>
+        <aif:source>Karina: Saskia Jennings : even though the effects of the virus have not been evenly TK*S attributed</aif:source>
+        <aif:creationDate>2020-05-14 21:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501165 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501165">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Saskia Jennings : even though the effects of the virus have not been evenly TK*S attributed</aif:claimText>
+        <aif:source>Saskia Jennings : even though the effects of the virus have not been evenly TK*S attributed</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501168"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501166"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501175"/>
+        <aif:creationDate>2020-05-14 21:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501166 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501166">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501165"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501167"/>
+        <aif:creationDate>2020-05-14 21:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501167 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501167">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>do you or don&#039;t you think it is appropriate to ease the lockdown even though the effects of the virus have not been evenly TK*S attributed</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501166"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501169"/>
+        <aif:creationDate>2020-05-14 21:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501168 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501168">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501160"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501165"/>
+        <aif:creationDate>2020-05-14 21:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501169 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501169">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501167"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501170"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501162"/>
+        <aif:creationDate>2020-05-14 21:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501170 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501170">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501168"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501169"/>
+        <aif:creationDate>2020-05-14 21:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501171 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501171">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Saskia Jennings :  in the north WAO*ES receive seen high death rates in towns</aif:claimText>
+        <aif:source>Saskia Jennings :  in the north WAO*ES receive seen high death rates in towns</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501175"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501172"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501180"/>
+        <aif:creationDate>2020-05-14 21:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501172 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501172">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501171"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501173"/>
+        <aif:creationDate>2020-05-14 21:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501173 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501173">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>in the north we receive seen high death rates in towns</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501172"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501315"/>
+        <aif:creationDate>2020-05-14 21:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501174 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501174">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Saskia Jennings :  in the north WAO*ES receive seen high death rates in towns</aif:claimText>
+        <aif:source>Karina: Saskia Jennings :  in the north WAO*ES receive seen high death rates in towns</aif:source>
+        <aif:creationDate>2020-05-14 21:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501175 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501175">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501165"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501171"/>
+        <aif:creationDate>2020-05-14 21:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501176 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501176">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Saskia Jennings : lines Sunderland and mills brother</aif:claimText>
+        <aif:source>Saskia Jennings : lines Sunderland and mills brother</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501180"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501177"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501185"/>
+        <aif:creationDate>2020-05-14 21:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501177 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501177">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501176"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501178"/>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501178 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501178">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>high death rates line Sunderland and mills brother</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501177"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501315"/>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501179 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501179">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Saskia Jennings : lines Sunderland and mills brother</aif:claimText>
+        <aif:source>Karina: Saskia Jennings : lines Sunderland and mills brother</aif:source>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501180 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501180">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501171"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501176"/>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501181 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501181">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Saskia Jennings :  I don&#039;t know if these should be managed in the same way as other air KWRAFS of the country like the Northway</aif:claimText>
+        <aif:source>Saskia Jennings :  I don&#039;t know if these should be managed in the same way as other air KWRAFS of the country like the Northway</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501185"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501182"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501190"/>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501182 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501182">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501181"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501183"/>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501183 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501183">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText> Saskia Jennings doesn&#039;t know if these should be managed in the same way as other air krafts of the country like the Northway</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501182"/>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501184 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501184">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Saskia Jennings :  I don&#039;t know if these should be managed in the same way as other air KWRAFS of the country like the Northway</aif:claimText>
+        <aif:source>Karina: Saskia Jennings :  I don&#039;t know if these should be managed in the same way as other air KWRAFS of the country like the Northway</aif:source>
+        <aif:creationDate>2020-05-14 21:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501185 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501185">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501176"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501181"/>
+        <aif:creationDate>2020-05-14 21:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501186 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501186">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce : Neighbouring HRA STURPBL on says she is not seeing easing of lockdown soon in Scotland</aif:claimText>
+        <aif:source>Fiona Bruce : Neighbouring HRA STURPBL on</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501190"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501187"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501195"/>
+        <aif:creationDate>2020-05-14 21:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501187 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501187">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501186"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501188"/>
+        <aif:creationDate>2020-05-14 21:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501188 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501188">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>she is not seeing easing of lockdown soon in Scotland</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501187"/>
+        <aif:creationDate>2020-05-14 21:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501189 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501189">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Fiona Bruce : Neighbouring HRA STURPBL on says she is not seeing easing of lockdown soon in Scotland</aif:claimText>
+        <aif:source>Karina: Fiona Bruce : Neighbouring HRA STURPBL on</aif:source>
+        <aif:creationDate>2020-05-14 21:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501190 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501190">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501181"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501186"/>
+        <aif:creationDate>2020-05-14 21:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501191 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501191">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Fiona Bruce : Nick, what&#039;s your view about that, about what the rate of infection, it the number of cases and so on</aif:claimText>
+        <aif:source>Fiona Bruce : Nick, what&#039;s your view about that, about what the rate of infection, it the number of cases and so on</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501195"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501192"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501200"/>
+        <aif:creationDate>2020-05-14 21:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501192 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501192">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501191"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501193"/>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501193 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501193">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>what is or what isn&#039;t Nick Thomas-Symonds view about  the rate of infection, the number of cases and so on</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501192"/>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501194 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501194">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Fiona Bruce : Nick, what&#039;s your view about that, about what the rate of infection, it the number of cases and so on</aif:claimText>
+        <aif:source>Karina: Fiona Bruce : Nick, what&#039;s your view about that, about what the rate of infection, it the number of cases and so on</aif:source>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501195 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501195">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501186"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501191"/>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501196 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501196">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : I sit here in WAEFPLS</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : I sit here in WAEFPLS</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501200"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501197"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501206"/>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501197 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501197">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501196"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501198"/>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501198 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501198">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Nick Thomas-Symonds sits here in Wales</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501197"/>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501199 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501199">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : I sit here in WAEFPLS</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : I sit here in WAEFPLS</aif:source>
+        <aif:creationDate>2020-05-14 21:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501200 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501200">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501191"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501196"/>
+        <aif:creationDate>2020-05-14 21:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501201 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501201">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>There have been moments in the crisis where Wales have taken slightly different decisions</aif:claimText>
+        <aif:source>There have been moments in the crisis where Wales have taken slightly different decisions</aif:source>
+        <aif:creationDate>2020-05-14 21:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501202 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501202">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds :  There have been moments in the crisis where Wales have taken slightly different decisions.</aif:claimText>
+        <aif:source>Nick Thomas-Symonds :  There have been moments in the crisis where Wales have taken slightly different decisions.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501206"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501203"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501211"/>
+        <aif:creationDate>2020-05-14 21:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501203 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501203">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501202"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501204"/>
+        <aif:creationDate>2020-05-14 21:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText> there have been moments in the crisis where Wales have taken slightly different decisions</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501203"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501212"/>
+        <aif:creationDate>2020-05-14 21:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds :  There have been moments in the crisis where Wales have taken slightly different decisions.</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds :  There have been moments in the crisis where Wales have taken slightly different decisions.</aif:source>
+        <aif:creationDate>2020-05-14 21:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501206 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501206">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501196"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501202"/>
+        <aif:creationDate>2020-05-14 21:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501207 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501207">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : The guidelines, for example, are slightly different</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : The guidelines, for example, are slightly different</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501211"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501208"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501218"/>
+        <aif:creationDate>2020-05-14 21:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501207"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501209"/>
+        <aif:creationDate>2020-05-14 21:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the guidelines are slightly different</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501212"/>
+        <aif:creationDate>2020-05-14 21:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : The guidelines, for example, are slightly different</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : The guidelines, for example, are slightly different</aif:source>
+        <aif:creationDate>2020-05-14 21:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501202"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501207"/>
+        <aif:creationDate>2020-05-14 21:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501212 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501212">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501204"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501213"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501209"/>
+        <aif:creationDate>2020-05-14 21:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501211"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501212"/>
+        <aif:creationDate>2020-05-14 21:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501214 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501214">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds :  but on the whole the Welsh government has tried to take a four nations approach</aif:claimText>
+        <aif:source>Nick Thomas-Symonds :  but on the whole the Welsh government has tried to take a four nations approach</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501218"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501215"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501223"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501283"/>
+        <aif:creationDate>2020-05-14 21:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501215 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501215">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501214"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501216"/>
+        <aif:creationDate>2020-05-14 21:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501216 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501216">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the Welsh government has tried to take a four nations approach</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501215"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501229"/>
+        <aif:creationDate>2020-05-14 21:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501217 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501217">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds :  but on the whole the Welsh government has tried to take a four nations approach</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds :  but on the whole the Welsh government has tried to take a four nations approach</aif:source>
+        <aif:creationDate>2020-05-14 21:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501218 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501218">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501207"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501214"/>
+        <aif:creationDate>2020-05-14 21:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501219 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501219">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds :  that has been the sensible way to proceed</aif:claimText>
+        <aif:source>Nick Thomas-Symonds :  that has been the sensible way to proceed</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501223"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501220"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501228"/>
+        <aif:creationDate>2020-05-14 21:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501220 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501220">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501219"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501221"/>
+        <aif:creationDate>2020-05-14 21:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501221 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501221">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>trying to take a four nations approach has been the sensible way to proceed</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501220"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501229"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501317"/>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501222 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501222">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds :  that has been the sensible way to proceed</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds :  that has been the sensible way to proceed</aif:source>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501223 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501223">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501214"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501219"/>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501224 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501224">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : because we do all share these islands</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : because we do all share these islands</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501228"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501225"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501242"/>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501225 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501225">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501224"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501226"/>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501226 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501226">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>trying to take a four nations approach has been the sensible way to proceed because we do all share these islands</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501225"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501229"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501243"/>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501227 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501227">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : because we do all share these islands</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : because we do all share these islands</aif:source>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501228 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501228">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501219"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501224"/>
+        <aif:creationDate>2020-05-14 21:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501229 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501229">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501221"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501226"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501230"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501216"/>
+        <aif:creationDate>2020-05-14 21:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501230 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501230">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501228"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501229"/>
+        <aif:creationDate>2020-05-14 21:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501231 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501231">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : in my own constituency tier of for TPAEPB I would have in ordinary circumstances have people who commuted to work</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : in my own constituency tier of for TPAEPB I would have in ordinary circumstances have people who commuted to work</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501242"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501232"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501239"/>
+        <aif:creationDate>2020-05-14 21:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501232 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501232">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501231"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501233"/>
+        <aif:creationDate>2020-05-14 21:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501233 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501233">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>in Nick Thomas-Symonds own constituency he would have in ordinary circumstances have people who commuted to work</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501232"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501243"/>
+        <aif:creationDate>2020-05-14 21:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : in my own constituency tier of for TPAEPB I would have in ordinary circumstances have people who commuted to work</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : in my own constituency tier of for TPAEPB I would have in ordinary circumstances have people who commuted to work</aif:source>
+        <aif:creationDate>2020-05-14 21:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501235 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501235">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : Different at the moment but in ordinary circumstances they commute over the border into PWR*EUS OPL</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : Different at the moment but in ordinary circumstances they commute over the border into PWR*EUS OPL</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501239"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501236"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501249"/>
+        <aif:creationDate>2020-05-14 21:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501236 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501236">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501235"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501237"/>
+        <aif:creationDate>2020-05-14 21:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501237 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501237">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>different at the moment but in ordinary circumstances people of Nicks Thomas-Symonds own constituency commute over the border</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501236"/>
+        <aif:creationDate>2020-05-14 21:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501238 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501238">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : Different at the moment but in ordinary circumstances they commute over the border into PWR*EUS OPL</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : Different at the moment but in ordinary circumstances they commute over the border into PWR*EUS OPL</aif:source>
+        <aif:creationDate>2020-05-14 21:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501239 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501239">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501231"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501235"/>
+        <aif:creationDate>2020-05-14 21:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501240 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501240">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 21:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501239"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501240"/>
+        <aif:creationDate>2020-05-14 21:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501242 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501242">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501224"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501231"/>
+        <aif:creationDate>2020-05-14 21:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501243 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501243">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501226"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501244"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501233"/>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501244 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501244">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501242"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501243"/>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501245 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501245">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : It gets very difficult if you have things that are very, very different in different parts of the country</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : It gets very difficult if you have things that are very, very different in different parts of the country</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501249"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501246"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501254"/>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501246 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501246">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501245"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501247"/>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501247 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501247">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>having very different things that are very different in different parts of the country gets very difficult</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501246"/>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501248 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501248">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : It gets very difficult if you have things that are very, very different in different parts of the country</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : It gets very difficult if you have things that are very, very different in different parts of the country</aif:source>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501235"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501245"/>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501250 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501250">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : we just talked about the contact tracing app</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : we just talked about the contact tracing app</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501254"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501251"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501263"/>
+        <aif:creationDate>2020-05-14 21:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501251 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501251">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501250"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501252"/>
+        <aif:creationDate>2020-05-14 21:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501252 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501252">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we just talked about the contact tracing app</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501251"/>
+        <aif:creationDate>2020-05-14 21:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501253 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501253">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : e just talked about the contact tracing app</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : e just talked about the contact tracing app</aif:source>
+        <aif:creationDate>2020-05-14 21:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501254 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501254">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501245"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501250"/>
+        <aif:creationDate>2020-05-14 21:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501255 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501255">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds :  you might have to look at that specific area</aif:claimText>
+        <aif:source>Nick Thomas-Symonds :  you might have to look at that specific area</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501265"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501256"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501271"/>
+        <aif:creationDate>2020-05-14 21:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501256 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501256">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501255"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501257"/>
+        <aif:creationDate>2020-05-14 21:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501257 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501257">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>you might have to look at that specific area, where the tracing app showed that there was a very specific problem</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501256"/>
+        <aif:creationDate>2020-05-14 21:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501258 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501258">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds :  you might have to look at that specific area</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds :  you might have to look at that specific area</aif:source>
+        <aif:creationDate>2020-05-14 21:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501259 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501259">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : if there were to be after these lockdown restrictions start to ease a particular area where the tracing app showed that there was a very specific problem</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : if there were to be after these lockdown restrictions start to ease a particular area where the tracing app showed that there was a very specific problem</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501263"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501260"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501265"/>
+        <aif:creationDate>2020-05-14 21:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501260 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501260">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501259"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501261"/>
+        <aif:creationDate>2020-05-14 21:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501261 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501261">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>after these lockdown restrictions starting to ease a particular area where the tracing app showed that there was a very specific problem, means that you might have to look at that specific area</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501260"/>
+        <aif:creationDate>2020-05-14 21:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501262 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501262">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : if there were to be after these lockdown restrictions start to ease a particular area where the tracing app showed that there was a very specific problem</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : if there were to be after these lockdown restrictions start to ease a particular area where the tracing app showed that there was a very specific problem</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501263"/>
+        <aif:creationDate>2020-05-14 21:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501263 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501263">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501250"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501259"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501262"/>
+        <aif:creationDate>2020-05-14 21:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501264 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501264">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 21:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501265 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501265">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501259"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501255"/>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501266 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501266">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501265"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501264"/>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501267 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501267">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : there will be variations</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : there will be variations</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501271"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501268"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501276"/>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501268 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501268">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501267"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501269"/>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501269 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501269">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>there will be variations in the decicions</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501268"/>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501270 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501270">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : there will be variations</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : there will be variations</aif:source>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501271 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501271">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501255"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501267"/>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501272 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501272">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : there have already been variations across the UK</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : there have already been variations across the UK</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501276"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501273"/>
+        <aif:creationDate>2020-05-14 21:08:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501273 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501273">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501272"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501274"/>
+        <aif:creationDate>2020-05-14 21:08:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501274 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501274">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>there have already been variations across the UK</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501273"/>
+        <aif:creationDate>2020-05-14 21:08:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501275 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501275">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : there have already been variations across the UK</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : there have already been variations across the UK</aif:source>
+        <aif:creationDate>2020-05-14 21:08:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501276 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501276">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501267"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501272"/>
+        <aif:creationDate>2020-05-14 21:08:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501277 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501277">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2020-05-14 21:08:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501278 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501278">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501276"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501277"/>
+        <aif:creationDate>2020-05-14 21:08:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501279 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501279">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : we should try to go for the four nations approach</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : we should try to go for the four nations approach</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501283"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501280"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501288"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501319"/>
+        <aif:creationDate>2020-05-14 21:08:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501280 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501280">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501279"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501281"/>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501281 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501281">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we should try to go for the four nations approach</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501280"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501289"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501317"/>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501282 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501282">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : we should try to go for the four nations approach</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : we should try to go for the four nations approach</aif:source>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501283 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501283">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501214"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501279"/>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501284 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501284">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : that the Welsh government has been doing as much as we possibly can</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : that the Welsh government has been doing as much as we possibly can</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501288"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501285"/>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501285 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501285">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501284"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501286"/>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501286 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501286">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the Welsh government has been doing as much as we possibly can</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501285"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501289"/>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501287 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501287">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : that the Welsh government has been doing as much as we possibly can</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : that the Welsh government has been doing as much as we possibly can</aif:source>
+        <aif:creationDate>2020-05-14 21:08:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501288 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501288">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501279"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501284"/>
+        <aif:creationDate>2020-05-14 21:08:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501286"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501290"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501281"/>
+        <aif:creationDate>2020-05-14 21:08:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501290 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501290">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501288"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501289"/>
+        <aif:creationDate>2020-05-14 21:08:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501291 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501291">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : we should also ensure that as the Prime Minister moves forward he is said to be setting out a roadmap</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : we should also ensure that as the Prime Minister moves forward he is said to be setting out a roadmap</aif:source>
+        <aif:creationDate>2020-05-14 21:08:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501292 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501292">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : we should also ensure that as the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday -- that he does work with the devolved institutions</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : we should also ensure that as the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday -- that he does work with the devolved institutions</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501319"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501293"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501300"/>
+        <aif:creationDate>2020-05-14 21:08:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501292"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501294"/>
+        <aif:creationDate>2020-05-14 21:08:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501294 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501294">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>we should also ensure that as the Prime Minister moves forward he does work with the devolved institutions</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501293"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501305"/>
+        <aif:creationDate>2020-05-14 21:08:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : we should also ensure that as the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday -- that he does work with the devolved institutions</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : we should also ensure that as the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday -- that he does work with the devolved institutions</aif:source>
+        <aif:creationDate>2020-05-14 21:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501296 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501296">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501300"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501297"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501306"/>
+        <aif:creationDate>2020-05-14 21:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501297 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501297">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501296"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501298"/>
+        <aif:creationDate>2020-05-14 21:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501298 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501298">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>as the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501297"/>
+        <aif:creationDate>2020-05-14 21:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501299 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501299">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : the Prime Minister moves forward he is said to be setting out a roadmap and some milestones Sunday</aif:source>
+        <aif:creationDate>2020-05-14 21:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501300 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501300">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501292"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501296"/>
+        <aif:creationDate>2020-05-14 21:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501301 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501301">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : in order to get that consensus across the country</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : in order to get that consensus across the country</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501306"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501302"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501312"/>
+        <aif:creationDate>2020-05-14 21:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501302 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501302">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501301"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501303"/>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501303 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501303">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>the Prime Minister should work with the devolved institutions in order to get that consensus across the country</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501302"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501313"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501305"/>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501304 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501304">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : in order to get that consensus across the country</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : in order to get that consensus across the country</aif:source>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501305 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501305">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501303"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501307"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501294"/>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501306 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501306">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501296"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501301"/>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501307 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501307">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501306"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501305"/>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501308 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501308">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Nick Thomas-Symonds : because I think that&#039;s have, so important</aif:claimText>
+        <aif:source>Nick Thomas-Symonds : because I think that&#039;s have, so important</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501312"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501309"/>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501309 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501309">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/501308"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501310"/>
+        <aif:creationDate>2020-05-14 21:08:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501310 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501310">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>having the consensus across the country is important</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501309"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501313"/>
+        <aif:creationDate>2020-05-14 21:08:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501311 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501311">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Karina: Nick Thomas-Symonds : because I think that&#039;s have, so important</aif:claimText>
+        <aif:source>Karina: Nick Thomas-Symonds : because I think that&#039;s have, so important</aif:source>
+        <aif:creationDate>2020-05-14 21:08:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501312 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501312">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501301"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501308"/>
+        <aif:creationDate>2020-05-14 21:08:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501313 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501313">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501310"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501314"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501303"/>
+        <aif:creationDate>2020-05-14 21:08:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501314 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501314">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501312"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501313"/>
+        <aif:creationDate>2020-05-14 21:08:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501315 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501315">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501173"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501316"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501178"/>
+        <aif:creationDate>2020-05-14 21:08:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501316 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501316">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501180"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501315"/>
+        <aif:creationDate>2020-05-14 21:08:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501317 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501317">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/501221"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501318"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/501281"/>
+        <aif:creationDate>2020-05-14 21:08:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501318 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501318">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/501283"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/501317"/>
+        <aif:creationDate>2020-05-14 21:08:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/501319 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/501319">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/501279"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/501292"/>
+        <aif:creationDate>2020-05-14 21:08:51</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

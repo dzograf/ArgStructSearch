@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/130749 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130749">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I guess this would be a snake.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130760"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130765"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130826"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130828"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130829"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130848"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130850"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130851"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130750 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130750">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>How? It appears to be a rope.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130757"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130762"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130827"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130830"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130849"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130852"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130751 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130751">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It is long and glossy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130756"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130761"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130765"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130826"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130848"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130752 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130752">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Even a rope can be long and glossy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130758"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130762"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130827"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130849"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130753 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130753">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Snakes generally lie in a curling and circular pattern</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130759"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130761"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130764"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130828"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130850"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130754 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130754">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Need not be! Somebody might have put a rope like that! (jumps over it) See it is not moving.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130830"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130852"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130755 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130755">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Yes, not moving....I have seen a snake in my childhood;snakes normally stay like this when they have eaten rats. This also looks like that...Therefore it should be a snake.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130759"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130764"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130829"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130851"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130756 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130756">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130753"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130751"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130757 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130757">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130752"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130750"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130758 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130758">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130754"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130752"/>
+        <aif:creationDate>2016-03-01 09:14:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130759 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130759">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130753"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130755"/>
+        <aif:creationDate>2016-03-01 09:14:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/130760 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/130760">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/130751"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/130749"/>
+        <aif:creationDate>2016-03-01 09:14:56</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

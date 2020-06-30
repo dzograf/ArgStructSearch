@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/461103 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461103">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Проблема с чаевыми состоит в том, что иногда трудно понять, сколько следует оставлять на чай водителям такси, коридорным в отелях или официанткам в ресторанах</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461112"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461176"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462832"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462851"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462864"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461111"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461192"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462835"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462852"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462865"/>
+        <aif:creationDate>2019-12-17 13:12:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461104 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461104">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Это не так уж трудно. Если обслуживание было отличным, дай на чай. В противном случае, не оставляй чаевые вообще</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461115"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461179"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461275"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462831"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462850"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462863"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461112"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461114"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461176"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461178"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461274"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462826"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462848"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462861"/>
+        <aif:creationDate>2019-12-17 13:12:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461265 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461265">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Но сколько нужно оставить? И как ты судишь о том, было ли обслуживание отличным?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461276"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462830"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462849"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462862"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461275"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461277"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462832"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462851"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462864"/>
+        <aif:creationDate>2019-12-17 18:05:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462821 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462821">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Это может вытеснить с рынка много  ресторанов, кафе, отелей и обернется потерей работы для студентов и других людей</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462836"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462853"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462866"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462873"/>
+        <aif:creationDate>2019-12-23 16:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462822 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462822">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Многие студенты зависят от чаевых, поскольку с их помощью оплачивают свое обучение.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462839"/>
+        <aif:creationDate>2019-12-23 16:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462823 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462823">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если ты хочешь что-то сделать хорошо, например отблагодарить за превосходное обслуживание, придется руководствоваться здравым смыслом – это относится к большинству вещей в жизни.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462826"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462848"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462861"/>
+        <aif:creationDate>2019-12-23 16:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462824 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462824">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Это не ответ! Здравый смысл часто бывает неправ, не так ли? Разве это критерий для верного суждения?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462831"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462832"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462850"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462851"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462863"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462864"/>
+        <aif:creationDate>2019-12-23 16:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462825 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462825">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Просто положись на здравый смысл</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462826"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462830"/>
+        <aif:creationDate>2019-12-23 16:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462826 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462826">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461104"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462823"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462825"/>
+        <aif:creationDate>2019-12-23 16:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462827 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462827">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>С чаевыми здравый смысл оставляет слишком много неопределенности, из-за чего люди могут оказаться задетыми.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462835"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462852"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462865"/>
+        <aif:creationDate>2019-12-23 16:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462828 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462828">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Это не проблема.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462840"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462855"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462868"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462829 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462829">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Нужно лишь поднять минимальную заработную плату</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462836"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462853"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462866"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462840"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462855"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462868"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462830 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462830">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462825"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461265"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462831 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462831">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462824"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461104"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462832 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462832">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461265"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462824"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461103"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462833 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462833">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Когда на чай оставили слишком мало, получивший чувствует себя неловко, а когда дающий оставил слишком много, то он сам может почувствовать себя неловко.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462835"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462852"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462865"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462834 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462834">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Поэтому практика давать чаевые ведет к неловкости и неудобству</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462835"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462852"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462865"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462845"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462858"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462871"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462835 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462835">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461103"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462827"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462833"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462834"/>
+        <aif:creationDate>2019-12-23 16:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462836 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462836">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462821"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462829"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462837 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462837">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Университетское образование - это хорошая вещь</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462839"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462854"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462867"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462838 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462838">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Упразднение чаевых означало бы, что меньше студентов смогут себе позволить университетское образование</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462839"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462840"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462854"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462855"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462867"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462868"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462843"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462856"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462869"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462839 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462839">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462822"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462837"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462838"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462840 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462840">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462828"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462829"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462838"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462841 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462841">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Практика давать на чай - хорошая. Её нужно продолжать</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462843"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462844"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462856"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462857"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462869"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462870"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462877"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462842 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462842">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Практика давать на чай - плохая. Её нужно отменить</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462845"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462858"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462871"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462844"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462857"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462870"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462843 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462843">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462838"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462841"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462844 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462844">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462842"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462841"/>
+        <aif:creationDate>2019-12-23 16:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462845 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462845">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462834"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462842"/>
+        <aif:creationDate>2019-12-23 16:29:15</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

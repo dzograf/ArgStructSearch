@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/262104 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262104">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There has been an overall decrease in violence among humans worldwide throughout recorded history.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262108"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/265581"/>
+        <aif:creationDate>2017-02-24 14:52:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262105 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262105">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Some biologist claim that this is because the genetic characteristics for non-violence has been selected over time by the species.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262108"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262109"/>
+        <aif:creationDate>2017-02-24 14:52:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262106 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262106">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Sociologists disagree by saying it is because the evolution of social institutions.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262109"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262110"/>
+        <aif:creationDate>2017-02-24 14:52:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262107 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262107">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We can infer that despite the dissonance in the causes there is an agreement on the decrease itself</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262110"/>
+        <aif:creationDate>2017-02-24 14:52:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262108 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262108">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262104"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262105"/>
+        <aif:creationDate>2017-02-24 14:52:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262109 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262109">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262105"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262106"/>
+        <aif:creationDate>2017-02-24 14:52:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/262110 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/262110">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/262106"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/262107"/>
+        <aif:creationDate>2017-02-24 14:52:33</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

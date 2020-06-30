@@ -1,0 +1,732 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/416822 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416822">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak :  Szanowni Państwo, przyszłość Unii Europejskiej nie jest jasna</aif:claimText>
+        <aif:source>Krzysztof Bosak :  Szanowni Państwo, przyszłość Unii Europejskiej nie jest jasna</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416828"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416829"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416830"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416864"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416865"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416866"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417606"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417608"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417633"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417635"/>
+        <aif:creationDate>2019-06-12 20:50:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416833 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416833">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Szanowni Państwo, przyszłość Unii Europejskiej nie jest jasna</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416828"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416829"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416830"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417606"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417633"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417153"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417155"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417161"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417630"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417657"/>
+        <aif:creationDate>2019-06-12 23:18:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416836 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416836">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak :  Szanowni Państwo, przyszłość Unii Europejskiej nie jest jasna</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak :  Szanowni Państwo, przyszłość Unii Europejskiej nie jest jasna</aif:source>
+        <aif:creationDate>2019-06-12 23:18:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416843 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416843">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : większość Polaków ma wątpliwości czy ten projekt przetrwa</aif:claimText>
+        <aif:source>Krzysztof Bosak : większość Polaków ma wątpliwości czy ten projekt przetrwa</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416864"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416865"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416866"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417608"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417635"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416849"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416851"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416852"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416893"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416894"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416896"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417607"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417610"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417634"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417637"/>
+        <aif:creationDate>2019-06-12 23:18:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416854 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416854">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>większość Polaków ma wątpliwości czy ten projekt przetrwa</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416849"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417607"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417634"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417167"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417631"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417658"/>
+        <aif:creationDate>2019-06-12 23:19:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416860 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416860">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak : większość Polaków ma wątpliwości czy ten projekt przetrwa</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak : większość Polaków ma wątpliwości czy ten projekt przetrwa</aif:source>
+        <aif:creationDate>2019-06-12 23:19:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416869 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416869">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Opowieści o tym że on się będzie przekształcać będzie pogłębiona integracja w sytuacji gdy Unia Europejska trzeszczy w szwach nie są do końca poważne</aif:claimText>
+        <aif:source>Krzysztof Bosak : Opowieści o tym że on się będzie przekształcać będzie pogłębiona integracja w sytuacji gdy Unia Europejska trzeszczy w szwach nie są do końca poważne</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416893"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417610"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417637"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416876"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416922"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417609"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417612"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417636"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417639"/>
+        <aif:creationDate>2019-06-12 23:25:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416883 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416883">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Opowieści o tym że on się będzie przekształcać będzie pogłębiona integracja w sytuacji gdy Unia Europejska trzeszczy w szwach nie są do końca poważne</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416876"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416877"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416879"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417153"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417155"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417159"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417161"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417162"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417167"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417609"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417630"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417631"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417636"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417657"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417658"/>
+        <aif:creationDate>2019-06-12 23:26:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416887 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416887">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak : Opowieści o tym że on się będzie przekształcać będzie pogłębiona integracja w sytuacji gdy Unia Europejska trzeszczy w szwach nie są do końca poważne</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak : Opowieści o tym że on się będzie przekształcać będzie pogłębiona integracja w sytuacji gdy Unia Europejska trzeszczy w szwach nie są do końca poważne</aif:source>
+        <aif:creationDate>2019-06-12 23:26:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416899 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416899">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Naszym zdaniem zdaniem Konfederacji trzeba te wątpliwości Polaków traktować bardzo poważnie</aif:claimText>
+        <aif:source>Krzysztof Bosak : Naszym zdaniem zdaniem Konfederacji trzeba te wątpliwości Polaków traktować bardzo poważnie</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416922"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416926"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417612"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417639"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416906"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416909"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416958"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416962"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417611"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417615"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417638"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417642"/>
+        <aif:creationDate>2019-06-12 23:36:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416912 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416912">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Naszym zdaniem zdaniem Konfederacji trzeba te wątpliwości Polaków traktować bardzo poważnie</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416906"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416909"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417611"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417638"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416952"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416956"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417614"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417641"/>
+        <aif:creationDate>2019-06-12 23:39:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416918 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416918">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak : Naszym zdaniem zdaniem Konfederacji trzeba te wątpliwości Polaków traktować bardzo poważnie</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak : Naszym zdaniem zdaniem Konfederacji trzeba te wątpliwości Polaków traktować bardzo poważnie</aif:source>
+        <aif:creationDate>2019-06-12 23:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416929 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416929">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak :  Trzeba starannie przyglądać się co robią państwa które są najsilniejsze w Unii Europejskiej takie jak Francja takie jak Niemcy</aif:claimText>
+        <aif:source>Krzysztof Bosak :  Trzeba starannie przyglądać się co robią państwa które są najsilniejsze w Unii Europejskiej takie jak Francja takie jak Niemcy</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416958"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416959"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416962"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417615"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417642"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416934"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416935"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416938"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417062"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417064"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417066"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417613"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417622"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417640"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417649"/>
+        <aif:creationDate>2019-06-12 23:41:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416941 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416941">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Trzeba starannie przyglądać się co robią państwa które są najsilniejsze w Unii Europejskiej takie jak Francja takie jak Niemcy</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416934"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416935"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416938"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416952"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416953"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416956"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417613"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417614"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417640"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417641"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417002"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417617"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417644"/>
+        <aif:creationDate>2019-06-12 23:44:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416946 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416946">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak :  Trzeba starannie przyglądać się co robią państwa które są najsilniejsze w Unii Europejskiej takie jak Francja takie jak Niemcy</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak :  Trzeba starannie przyglądać się co robią państwa które są najsilniejsze w Unii Europejskiej takie jak Francja takie jak Niemcy</aif:source>
+        <aif:creationDate>2019-06-12 23:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416965 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416965">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>I dlatego potrzebujemy w Parlamencie Europejskim reprezentacji złożonej z sił które krytycznie patrzą na Brukselę które patrzą z podejrzliwości na to co szykuje się w Unii Europejskiej</aif:claimText>
+        <aif:source>I dlatego potrzebujemy w Parlamencie Europejskim reprezentacji złożonej z sił które krytycznie patrzą na Brukselę które patrzą z podejrzliwości na to co szykuje się w Unii Europejskiej</aif:source>
+        <aif:creationDate>2019-06-12 23:45:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416969 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416969">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak :</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak :</aif:source>
+        <aif:creationDate>2019-06-12 23:45:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416975 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416975">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak :  I dlatego potrzebujemy w Parlamencie Europejskim reprezentacji złożonej z sił które krytycznie patrzą na Brukselę które patrzą z podejrzliwości na to co szykuje się w Unii Europejskiej.</aif:claimText>
+        <aif:source>Krzysztof Bosak :  I dlatego potrzebujemy w Parlamencie Europejskim reprezentacji złożonej z sił które krytycznie patrzą na Brukselę które patrzą z podejrzliwości na to co szykuje się w Unii Europejskiej.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417062"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417064"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417066"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417622"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417649"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416981"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416982"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416983"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417049"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417051"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417053"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417616"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417620"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417643"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417647"/>
+        <aif:creationDate>2019-06-12 23:46:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText> I dlatego potrzebujemy w Parlamencie Europejskim reprezentacji złożonej z sił które krytycznie patrzą na Brukselę które patrzą z podejrzliwości na to co szykuje się w Unii Europejskiej.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416981"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416982"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416983"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416999"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417000"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417002"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417616"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417617"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417643"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417644"/>
+        <aif:creationDate>2019-06-12 23:46:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/416992 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/416992">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak :  I dlatego potrzebujemy w Parlamencie Europejskim reprezentacji złożonej z sił które krytycznie patrzą na Brukselę które patrzą z podejrzliwości na to co szykuje się w Unii Europejskiej.</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak :  I dlatego potrzebujemy w Parlamencie Europejskim reprezentacji złożonej z sił które krytycznie patrzą na Brukselę które patrzą z podejrzliwości na to co szykuje się w Unii Europejskiej.</aif:source>
+        <aif:creationDate>2019-06-12 23:46:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417007 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417007">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Ja przypomnę tylko że w Komisji Europejskiej w tej chwili pracuje 32 tysiące urzędników w Parlamencie Europejskim 9 tysięcy mamy 37 agencji unijnych które zatrudniają 7 tysięcy osób.</aif:claimText>
+        <aif:source>Krzysztof Bosak : Ja przypomnę tylko że w Komisji Europejskiej w tej chwili pracuje 32 tysiące urzędników w Parlamencie Europejskim 9 tysięcy mamy 37 agencji unijnych które zatrudniają 7 tysięcy osób.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417049"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417051"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417053"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417620"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417647"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417012"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417013"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417016"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417055"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417057"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417059"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417618"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417621"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417645"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417648"/>
+        <aif:creationDate>2019-06-12 23:46:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417018 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417018">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ja przypomnę tylko że w Komisji Europejskiej w tej chwili pracuje 32 tysiące urzędników w Parlamencie Europejskim 9 tysięcy mamy 37 agencji unijnych które zatrudniają 7 tysięcy osób.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417012"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417013"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417016"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417618"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417645"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417071"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417074"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417623"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417650"/>
+        <aif:creationDate>2019-06-12 23:47:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417023 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417023">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak : Ja przypomnę tylko że w Komisji Europejskiej w tej chwili pracuje 32 tysiące urzędników w Parlamencie Europejskim 9 tysięcy mamy 37 agencji unijnych które zatrudniają 7 tysięcy osób.</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak : Ja przypomnę tylko że w Komisji Europejskiej w tej chwili pracuje 32 tysiące urzędników w Parlamencie Europejskim 9 tysięcy mamy 37 agencji unijnych które zatrudniają 7 tysięcy osób.</aif:source>
+        <aif:creationDate>2019-06-12 23:47:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417028 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417028">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Założenia że jesteśmy w stanie ten projekt poprawiać sterować jest czysta fantastyka.</aif:claimText>
+        <aif:source>Krzysztof Bosak : Założenia że jesteśmy w stanie ten projekt poprawiać sterować jest czysta fantastyka.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417055"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417057"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417059"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417621"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417648"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417033"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417035"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417037"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417106"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417109"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417111"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417619"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417626"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417646"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417653"/>
+        <aif:creationDate>2019-06-12 23:47:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417039 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417039">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Założenia że jesteśmy w stanie ten projekt poprawiać sterować jest czysta fantastyka.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417033"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417035"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417037"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417069"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417071"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417074"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417619"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417623"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417650"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417114"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417118"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417119"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417627"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417654"/>
+        <aif:creationDate>2019-06-12 23:48:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417045 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417045">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak : Założenia że jesteśmy w stanie ten projekt poprawiać sterować jest czysta fantastyka.</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak : Założenia że jesteśmy w stanie ten projekt poprawiać sterować jest czysta fantastyka.</aif:source>
+        <aif:creationDate>2019-06-12 23:51:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417077 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417077">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Musimy zabezpieczać nasze interesy narodowe</aif:claimText>
+        <aif:source>Musimy zabezpieczać nasze interesy narodowe</aif:source>
+        <aif:creationDate>2019-06-12 23:53:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417082 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417082">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak :  Musimy zabezpieczać nasze interesy narodowe</aif:claimText>
+        <aif:source>Krzysztof Bosak :  Musimy zabezpieczać nasze interesy narodowe</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417106"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417109"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417111"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417626"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417653"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417088"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417089"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417093"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417146"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417148"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417154"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417624"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417629"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417651"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417656"/>
+        <aif:creationDate>2019-06-12 23:53:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417100 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417100">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak :  Musimy zabezpieczać nasze interesy narodowe</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak :  Musimy zabezpieczać nasze interesy narodowe</aif:source>
+        <aif:creationDate>2019-06-12 23:54:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417121 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417121">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : w tym celu Konfederacja chce wysłać najbardziej widokowych najbardziej odważnych polityków w Polsce do Parlamentu Europejskiego</aif:claimText>
+        <aif:source>Krzysztof Bosak : w tym celu Konfederacja chce wysłać najbardziej widokowych najbardziej odważnych polityków w Polsce do Parlamentu Europejskiego</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417146"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417148"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417154"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417629"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417656"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417128"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417131"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417133"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417628"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417655"/>
+        <aif:creationDate>2019-06-12 23:55:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417134 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417134">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>w tym celu Konfederacja chce wysłać najbardziej widokowych najbardziej odważnych polityków w Polsce do Parlamentu Europejskiego</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417128"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417131"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417133"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417166"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417168"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417174"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417628"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417632"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417655"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417659"/>
+        <aif:creationDate>2019-06-13 00:08:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417138 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417138">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anna: Krzysztof Bosak : w tym celu Konfederacja chce wysłać najbardziej widokowych najbardziej odważnych polityków w Polsce do Parlamentu Europejskiego</aif:claimText>
+        <aif:source>Anna: Krzysztof Bosak : w tym celu Konfederacja chce wysłać najbardziej widokowych najbardziej odważnych polityków w Polsce do Parlamentu Europejskiego</aif:source>
+        <aif:creationDate>2019-06-13 00:08:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417606 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417606">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416822"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416833"/>
+        <aif:creationDate>2019-06-13 20:46:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417607 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417607">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416843"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416854"/>
+        <aif:creationDate>2019-06-13 20:46:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417608 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417608">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416822"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416843"/>
+        <aif:creationDate>2019-06-13 20:46:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417609 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417609">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416869"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416883"/>
+        <aif:creationDate>2019-06-13 20:46:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417610 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417610">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416843"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416869"/>
+        <aif:creationDate>2019-06-13 20:46:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417611 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417611">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416899"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416912"/>
+        <aif:creationDate>2019-06-13 20:46:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417612 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417612">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416869"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416899"/>
+        <aif:creationDate>2019-06-13 20:46:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417613 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417613">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416929"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416941"/>
+        <aif:creationDate>2019-06-13 20:46:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417614 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417614">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416912"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416941"/>
+        <aif:creationDate>2019-06-13 20:46:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417615 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417615">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416899"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416929"/>
+        <aif:creationDate>2019-06-13 20:46:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417616 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417616">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/416975"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/416987"/>
+        <aif:creationDate>2019-06-13 20:46:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417617 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417617">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416941"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416987"/>
+        <aif:creationDate>2019-06-13 20:46:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417618 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417618">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417007"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417018"/>
+        <aif:creationDate>2019-06-13 20:46:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417619 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417619">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417028"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417039"/>
+        <aif:creationDate>2019-06-13 20:46:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417620 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417620">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416975"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417007"/>
+        <aif:creationDate>2019-06-13 20:46:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417621 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417621">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417007"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417028"/>
+        <aif:creationDate>2019-06-13 20:46:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417622 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417622">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/416929"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/416975"/>
+        <aif:creationDate>2019-06-13 20:46:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417623 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417623">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417018"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417039"/>
+        <aif:creationDate>2019-06-13 20:46:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417624 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417624">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417082"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417625"/>
+        <aif:creationDate>2019-06-13 20:46:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417625 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417625">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Musimy zabezpieczać nasze interesy narodowe</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417624"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417627"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417632"/>
+        <aif:creationDate>2019-06-13 20:46:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417626 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417626">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417028"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417082"/>
+        <aif:creationDate>2019-06-13 20:46:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417627 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417627">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417039"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417625"/>
+        <aif:creationDate>2019-06-13 20:46:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417628 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417628">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417121"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417134"/>
+        <aif:creationDate>2019-06-13 20:46:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417629 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417629">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417082"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417121"/>
+        <aif:creationDate>2019-06-13 20:46:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417630 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417630">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416833"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416883"/>
+        <aif:creationDate>2019-06-13 20:46:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417631 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417631">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/416854"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/416883"/>
+        <aif:creationDate>2019-06-13 20:46:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417134"/>
+        <aif:creationDate>2019-06-13 20:47:00</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

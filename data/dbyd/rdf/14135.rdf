@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/368145 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368145">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>является ли эмбрион или плод человеком</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368167"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368170"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368180"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368182"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368150"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368152"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368156"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368157"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368171"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368173"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368174"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368175"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368146 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368146">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>дети не являются полноценными гражданами до достижения совершеннолетия</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368152"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368173"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368147 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368147">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>с XIX века дети рассматриваются как личности в рамках законодательства о преступлениях против личности.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368150"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368171"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368172"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368148 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368148">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>если плод является личностью, то это личность в крайне специфических условиях — она существует внутри тела другой личности и, как правило, не может быть объектом никакого прямого действия со стороны другого лица.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368151"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368172"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368149 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368149">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Аборт нужно запретить</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368159"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368161"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368177"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368178"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368153 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368153">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>наличие у эмбриона отдельного уникального генома и различные физические черты, которые в процессе внутриутробного развития делают эмбрион всё более физически похожим на человека</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368156"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368174"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368154 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368154">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Признавая эмбрион человеком, противники абортов приравнивают аборт к убийству.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368157"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368175"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368158"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368176"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368155 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368155">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>во время аборта он испытывает боль.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368158"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368176"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368159"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368177"/>
+        <aif:creationDate>2018-12-10 10:00:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368160 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368160">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>высокий уровень абортов главной причиной демографического положения в России, которое они оценивают как кризисное.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368161"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368178"/>
+        <aif:creationDate>2018-12-10 10:00:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368162 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368162">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Аборт нужен</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368164"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368168"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368179"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368181"/>
+        <aif:creationDate>2018-12-10 10:00:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368163 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368163">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>никто, кроме самой женщины, не должен распоряжаться её телом, её судьбой и жизнью.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368164"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368179"/>
+        <aif:creationDate>2018-12-10 10:00:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368165 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368165">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>женщины делают аборты вне зависимости от господствующих в обществе или собственных индивидуальных взглядов, поэтому задачей общества и государства является предоставить им доступ к безопасным абортам.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368168"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368181"/>
+        <aif:creationDate>2018-12-10 10:00:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368166 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368166">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Вопрос о том, является ли эмбрион человеком, не является ключевым для сторонников права на аборт.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368167"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368180"/>
+        <aif:creationDate>2018-12-10 10:00:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368169 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368169">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>вопрос о статусе эмбриона — это вопрос субъективного мнения. В частности, они указывают, что некоторые женщины с момента зачатия воспринимают эмбрион как своего ребёнка, а женщины, для которых беременность нежеланна, испытывают к нему ужас и отвращение.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368170"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368182"/>
+        <aif:creationDate>2018-12-10 10:00:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368171 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368171">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368145"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368147"/>
+        <aif:creationDate>2018-12-10 10:01:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368172 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368172">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368147"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368148"/>
+        <aif:creationDate>2018-12-10 10:01:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368173 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368173">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368145"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368146"/>
+        <aif:creationDate>2018-12-10 10:01:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368174 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368174">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368145"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368153"/>
+        <aif:creationDate>2018-12-10 10:01:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368175 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368175">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368145"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368154"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368176 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368176">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368154"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368155"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368177 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368177">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368155"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368149"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368178 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368178">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368160"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368149"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368179 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368179">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368163"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368162"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368180 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368180">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368166"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368145"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368181 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368181">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368165"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368162"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/368182 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/368182">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/368169"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/368145"/>
+        <aif:creationDate>2018-12-10 10:01:02</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/102507 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102507">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>When I see People using technology, what do I see them doing? What technology use is probable to attract the most attention?  </aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102515"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102518"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102519"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102520"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102522"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102524"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102525"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102526"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102527"/>
+        <aif:creationDate>2015-10-06 09:07:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102508 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102508">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I see this age group being the main drivers in the adoption of the technology and the desire to push for new innovations to see gaps in the market to help develop ways to allow our society to grow past the problems we have e.g. disease and famine</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102515"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102522"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102516"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102523"/>
+        <aif:creationDate>2015-10-06 09:07:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102509 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102509">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>This could even allow them to get to the stage where they are confident with talking to people in person and help improve simple life skills</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102516"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102523"/>
+        <aif:creationDate>2015-10-06 09:07:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102510 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102510">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The danger of over dependence on technology resulting in the loss of ability to physically talk to people normally because you have become too engrossed in your latest piece of technology</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102519"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102526"/>
+        <aif:creationDate>2015-10-06 09:07:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102511 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102511">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>New technology has developed over their working life most have adopted the changes as they have occurred but aren’t necessarily as comfortable as the younger generation at using the newer technology</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102518"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102525"/>
+        <aif:creationDate>2015-10-06 09:07:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102512 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102512">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Although the developments are physically benefiting more middle aged adults some of them feel saddened by the loss of the personal touch that was one of the more important factors</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102527"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102521"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102528"/>
+        <aif:creationDate>2015-10-06 09:07:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102513 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102513">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>For many the main driver for embracing the technology is to keep in touch with family and friends. The ability to communicate and feel part of the family</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102517"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102524"/>
+        <aif:creationDate>2015-10-06 09:07:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102514 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102514">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If they aren’t given the right technology for them and shown the most useful way to use it, they could be lost from the rest of the family </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102521"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102528"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102515 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102515">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102508"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102516 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102516">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102508"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102509"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102517 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102517">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102513"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102518 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102518">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102511"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102519 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102519">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102510"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102520 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102520">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102512"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/102521 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/102521">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/102512"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/102514"/>
+        <aif:creationDate>2015-10-06 09:07:39</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/113193 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113193">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>o nome do atual treinador do Futebol Clube do Porto é Julen Lopetegui Argote.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113201"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113203"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113205"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113207"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113215"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113217"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113219"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113221"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113223"/>
+        <aif:creationDate>2015-11-30 20:53:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html: o nome do atual treinador do Futebol Clube do Porto é Julen Lopetegui Argote.</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html: o nome do atual treinador do Futebol Clube do Porto é Julen Lopetegui Argote.</aif:source>
+        <aif:creationDate>2015-11-30 21:00:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>. O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113214"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113216"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113218"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113220"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113222"/>
+        <aif:creationDate>2015-11-30 21:00:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html: . O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html: . O Diário de Notícias dá a conhecer algumas das variantes que já foram inseridas na página de Lopetegui na versão em português da Wikipédia: a mais conhecida será “Lotopegui&quot; (foi desta forma que Jorge Jesus se referiu numa conferência de imprensa que tanto irritou o treinador espanhol), mas também há quem tenha tentado deixar para a posteridade “Julen Lopes Até Aqui”, “Lopatego”, ou “Julen Lopatego Argote Lotopegui</aif:source>
+        <aif:creationDate>2015-11-30 21:00:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html: e Lopetegui respeita a grafi</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html: e Lopetegui respeita a grafi</aif:source>
+        <aif:creationDate>2015-11-30 21:00:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113212 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113212">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Lopetegui respeita a grafia com que terá sido registado nos serviços administrativos do País Basco</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113214"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113216"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113218"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113220"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113222"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113215"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113217"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113219"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113221"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113223"/>
+        <aif:creationDate>2015-11-30 21:00:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://web.fe.up.pt/~ei11124/argmine_news/15.html: Lopetegui respeita a grafia com que terá sido registado nos serviços administrativos do País Basco</aif:claimText>
+        <aif:source>http://web.fe.up.pt/~ei11124/argmine_news/15.html: Lopetegui respeita a grafia com que terá sido registado nos serviços administrativos do País Basco</aif:source>
+        <aif:creationDate>2015-11-30 21:00:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113220 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113220">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113209"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113212"/>
+        <aif:creationDate>2015-11-30 21:06:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/113221 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/113221">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/113212"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/113193"/>
+        <aif:creationDate>2015-11-30 21:06:39</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

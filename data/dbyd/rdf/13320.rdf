@@ -1,0 +1,1284 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/321482 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321482">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ludzie często wierzą, że w obecnej epoce postępu technologii najważniejszymi kompetencjami są programowanie oraz inne zdolności związane z naukami ścisłymi, matematyką, technologią i inżynierią.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321484"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321513"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321514"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321956"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322235"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322241"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324779"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324780"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324807"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324946"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324947"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324974"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325102"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325103"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325130"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328384"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328427"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328889"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329139"/>
+        <aif:creationDate>2018-01-15 22:18:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321483 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321483">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Analiza 80000 Hours i Tee Ponsukcharoena (powstała Dzięki danym z US Bureau of Labor Statistics) wykazała, że bardziej wartościowe (z perspektywy rynku pracy) są (i prawdopodobnie będą) kompetencje społeczne, analityczne i zarządcze.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321492"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321506"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322052"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322173"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324796"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324800"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324963"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324967"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325119"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325123"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327682"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327686"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328381"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328384"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328394"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328435"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328886"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328889"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328897"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329136"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329139"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329148"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321484"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321494"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321496"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321498"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321500"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321502"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321516"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321524"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321532"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321956"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322085"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322093"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322110"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322128"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322261"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324801"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324802"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324803"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324804"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324805"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324806"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324807"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324808"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324809"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324820"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324821"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324968"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324969"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324970"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324971"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324972"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324973"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324974"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324975"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324976"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324987"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324988"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325124"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325125"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325126"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325128"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325129"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325130"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325131"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325132"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325143"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325144"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327687"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327688"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327692"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327694"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327706"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327707"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328382"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328383"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328386"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328387"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328388"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328389"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328391"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328396"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328426"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328428"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328429"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328433"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328437"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328887"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328888"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328890"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328891"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328892"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328893"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328895"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328899"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328950"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328951"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328952"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328954"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328955"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328956"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328996"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328997"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328998"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329137"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329138"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329141"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329142"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329143"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329150"/>
+        <aif:creationDate>2018-01-15 22:18:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321490 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321490">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>te czynniki decydowały o miejscu kompetencji w rankingu zdolności związanych z zatrudnieniem.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321491"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322047"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324797"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324964"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325120"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328380"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328885"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329135"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321492"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322052"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324796"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324963"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325119"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328381"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328886"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329136"/>
+        <aif:creationDate>2018-01-15 22:18:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321493 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321493">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kompetencje społeczne to m. in. aktywne słuchanie, komunikacja ustna i spostrzegawczość społeczna.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321494"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322069"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324804"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324971"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325127"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327690"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328382"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328887"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329137"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/330112"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/330143"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/330248"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/330279"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/330117"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/330253"/>
+        <aif:creationDate>2018-01-15 22:18:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321497 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321497">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kompetencje zarządcze to m. in. zarządzanie czasem, monitorowanie osiągnięć i koordynowanie działań innych ludzi.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321498"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322093"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324808"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324975"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325131"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328387"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328429"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328891"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328951"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328997"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329141"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328959"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329004"/>
+        <aif:creationDate>2018-01-15 22:18:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321499 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321499">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Najmniej dają na rynku pracy zdolności związane z pracą manualną, jak konserwacja sprzętu, naprawy oraz eksploatacja i kontrola urządzeń.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321500"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322110"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324806"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324973"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325129"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327744"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328383"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328426"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328888"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328952"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328998"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329138"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324777"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324944"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325100"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327663"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328390"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328894"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328960"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329005"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329144"/>
+        <aif:creationDate>2018-01-15 22:18:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321501 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321501">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zachodzi następująca korelacja: zdolności przydatne w dobrze płatnych zawodach to również te, których uzyskanie kosztuje dużo czasu, które są ważne w pracach satysfakcjonujących, mało zagrożonych automatyzacją.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321502"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322128"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324803"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324970"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325126"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327689"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328389"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328893"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328955"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329000"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329143"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321533"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322450"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324775"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324863"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324942"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325019"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325098"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325175"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327738"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328961"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329006"/>
+        <aif:creationDate>2018-01-15 22:18:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321517 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321517">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Bardzo specjalistyczne oraz bardziej innowacyjne kompetencje IT dają wysokie dochody i mogą być bardziej użyteczne na rynku pracy niż ogólna kategoria, do której należą, np. maszynowe uczenie się bardziej niż po prostu programowanie.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321518"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321521"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322281"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322315"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324764"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324765"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324828"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324933"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324934"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324995"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325089"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325090"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328393"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328395"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328434"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328896"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328898"/>
+        <aif:creationDate>2018-01-15 22:18:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321523 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321523">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Być może nawet sama inteligencja, uznawana w literaturze akademickiej za kluczowy predyktor sukcesu zawodowego, ustępuje pod tym względem kompetencjom społecznym, analitycznym i zarządczym.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321526"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321528"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321530"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322389"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324768"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324773"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324774"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324802"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324936"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324940"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324941"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324969"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325092"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325096"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325097"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325125"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327655"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327659"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327660"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328396"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328397"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328437"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328438"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328899"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328900"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328956"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329001"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329150"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328398"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328439"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328901"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328962"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329007"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329152"/>
+        <aif:creationDate>2018-01-15 22:18:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321529 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321529">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wysoki poziom kompetencji społecznych, analitycznych i zarządczych, wiąże się z pozycjami wyższymi w hierarchii, a one w oczywisty sposób są bardziej pożądane.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321530"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321540"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322408"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322494"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324774"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324941"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325097"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327660"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328397"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328438"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328900"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329151"/>
+        <aif:creationDate>2018-01-15 22:18:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321531 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321531">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>zdolności związane z naukami ścisłymi, matematyką, technologią i inżynierią nie są najbardziej użyteczne z perspektywy rynku pracy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321532"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321534"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321535"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321537"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321539"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321540"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321541"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322450"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322458"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322469"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322475"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322485"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322492"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322494"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322497"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324776"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324777"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324778"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324805"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324943"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324944"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324945"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324972"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325099"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325100"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325101"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325128"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327691"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328388"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328398"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328439"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328892"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328901"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328957"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328958"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328959"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328960"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328961"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328962"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328993"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329002"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329003"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329004"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329005"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329006"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329007"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329031"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329142"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329152"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321574"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322568"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324759"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324822"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324929"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324930"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324989"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325085"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325086"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327647"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327648"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327708"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328400"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328902"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328963"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329008"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329153"/>
+        <aif:creationDate>2018-01-15 22:18:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321577 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321577">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Można przypuszczać, że w świecie nowych technologii pożądani będą pracownicy i pracownice mediujący między technologią a ogółem społeczeństwa.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321578"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322570"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324759"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324929"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325085"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327647"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328445"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328907"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328964"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329009"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329159"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321585"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322575"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324927"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325083"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327645"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328404"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328443"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328905"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328967"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329012"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329157"/>
+        <aif:creationDate>2018-01-15 22:18:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321579 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321579">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Można przypuszczać, że zdolności związane z naukami ścisłymi, matematyką, technologią i inżynierią są warte uczenia się szczególnie wtedy, gdy towarzyszą im kompetencje społeczne, analityczne i zarządcze.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321580"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322571"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324761"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324931"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325087"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327649"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328405"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328444"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328906"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328965"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329010"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329158"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321584"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322574"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324926"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325082"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327644"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328403"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328442"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328904"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328968"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329013"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329156"/>
+        <aif:creationDate>2018-01-15 22:18:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Warto uczyć się nauk ścisłych i technologii, ale warto również spróbować poprawiać swoje zdolności społeczne, np. działając w organizacjach studenckich.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321582"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321583"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321584"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321585"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322572"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322573"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322574"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322575"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324756"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324757"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324758"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324824"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324826"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324827"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324926"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324927"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324928"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324991"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324993"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324994"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325082"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325083"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325084"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325147"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325149"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325150"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327644"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327645"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327710"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327712"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327713"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328403"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328441"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328442"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328903"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328904"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328905"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328966"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328967"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328968"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328979"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329011"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329012"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329013"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329019"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324825"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324867"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324992"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325023"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325148"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325179"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327711"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328980"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329020"/>
+        <aif:creationDate>2018-01-15 22:18:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/324762 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/324762">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Uprawdopodabnia się teza, ze postęp technologiczny poprawia sytuację najbardziej utalentowanych i wyedukowanych, ale zmniejsza medianę dochodu w branżach, których dotyczy zmiana.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324763"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324765"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324769"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324932"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324934"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324937"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325088"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325090"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325093"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327650"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327653"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328393"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328434"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328896"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329147"/>
+        <aif:creationDate>2018-01-21 21:46:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/325231 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/325231">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Globalizacja wywołała drastyczną zmianę na rynkach zatrudnienia, wywołaną, m.in, przeniesieniem części produkcji z gruntu lokalnego za granicę.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325232"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325237"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325247"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325251"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325304"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325310"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325312"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328410"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328414"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328868"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328870"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328872"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328876"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328877"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329122"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329125"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329126"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/330941"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/330942"/>
+        <aif:creationDate>2018-01-21 22:14:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/325233 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/325233">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Spadła skuteczność nauczania, którego zasady i programy nie zostały wcześniej dostosowane, w żaden sposób, do potrzeb rynku globalnego.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325237"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325304"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328876"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329125"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325234"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325235"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325236"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325239"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325240"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325302"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325303"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325305"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325306"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325307"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328362"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328370"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328413"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328418"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328875"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328879"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328880"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329124"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329128"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329129"/>
+        <aif:creationDate>2018-01-21 22:14:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/325241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/325241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>pracodawcy narzekają nie tylko na brak podstawowych umiejętności technicznych (STEM), lecz także na brak zdolności do pracy w zespole, komunikacji, czy najzwyklejszej punktualności.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325242"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325307"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328362"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328413"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328875"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328878"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329124"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329127"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329184"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325244"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325246"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325308"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325309"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328360"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328411"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328412"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328873"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328874"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329123"/>
+        <aif:creationDate>2018-01-21 22:14:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/325243 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/325243">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zatrudnieni nie zawsze potrafią ocenić swój potencjał, a ponad 37% z zapytanych stwierdziło, że pracują znacznie poniżej swoich kwalifikacji.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325244"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325308"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328361"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328874"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329184"/>
+        <aif:creationDate>2018-01-21 22:14:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/325248 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/325248">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>w okresie 2000-2014 emigracja zapewniała blisko 40% siły roboczej, która zapewniła zysk bliski 9.4% światowego produktu brutto, pracując jednakże za 20 do 30% mniej, niż pracownicy urodzeni w danym kraju.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325249"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325311"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328374"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328420"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328882"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329132"/>
+        <aif:creationDate>2018-01-21 22:14:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328358 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328358">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Emigracja zarobkowa w znacznym stopniu poprawia tę sytuację zasilając rynki pracy i wzmagając produktywność w 2015 około 245 mln ludzi żyło w kraju, który nie był miejscem ich narodzin.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328359"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328360"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328872"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328873"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328882"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329122"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329123"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329132"/>
+        <aif:creationDate>2018-01-26 12:06:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328359 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328359">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328358"/>
+        <aif:creationDate>2018-01-26 12:06:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328360 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328360">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325241"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328358"/>
+        <aif:creationDate>2018-01-26 12:06:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328361 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328361">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325241"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325243"/>
+        <aif:creationDate>2018-01-26 12:06:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328362 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328362">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325233"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325241"/>
+        <aif:creationDate>2018-01-26 12:06:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328363 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328363">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325233"/>
+        <aif:creationDate>2018-01-26 12:06:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328364 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328364">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Od 20 do 30% pracującej populacji USA i UE jest zaangażowane w tzw “freelancing”. Blisko 50% z tej liczby suplementuje w ten sposób swoje stałe dochody lub dorabia do studiów. Przy czym 70% wybiera ten typ zajecia, gdyż nie może znaleźć odpowiedniej dla siebie pracy w okolicy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328365"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328415"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328877"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329126"/>
+        <aif:creationDate>2018-01-26 12:06:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328365 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328365">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328364"/>
+        <aif:creationDate>2018-01-26 12:06:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328366 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328366">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Istnieje niedobór kwalifikowanej kadry - w 9 krajach UE 40% pracodawców oświadczyło, że nie są w stanie dobrać kadry o odpowiednich umiejętnościach. Zaś 60% stwierdziło, że nowi absolwenci są nieadekwatnie przygotowani.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328367"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328878"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329127"/>
+        <aif:creationDate>2018-01-26 12:06:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328367 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328367">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328366"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325241"/>
+        <aif:creationDate>2018-01-26 12:06:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328368 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328368">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Możemy wyróżnić grupę zawodów o wysokim prawdopodobieństwie mechanizacji w przeciągu najbliższych 20 lat. Przykładami są - kasjerzy, kierowcy transportu publicznego, robotnicy fizyczni i pracownicy administracyjni.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328390"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328417"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328879"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328894"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328909"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328926"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329128"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329144"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329161"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329169"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329186"/>
+        <aif:creationDate>2018-01-26 12:06:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328369 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328369">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Możemy wyróżnić grupę zawodów o względnie niskim prawdopodobieństwie machanizacji w przeciągu najbliższych 20 lat. Przykładami są - stanowiska kierownicze, wysoko wykwalifikowani specjaliści, pracownicy wykorzystujący umiejętności społeczne.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328371"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328373"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328391"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328433"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328880"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328881"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328895"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329129"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329131"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329145"/>
+        <aif:creationDate>2018-01-26 12:06:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328370 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328370">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325233"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328368"/>
+        <aif:creationDate>2018-01-26 12:06:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328371 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328371">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325233"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328369"/>
+        <aif:creationDate>2018-01-26 12:06:46</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328372 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328372">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wysoki poziom wykształcenia zmniejsza szansę mechanizacji</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328881"/>
+        <aif:creationDate>2018-01-26 12:06:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328373 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328373">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328369"/>
+        <aif:creationDate>2018-01-26 12:06:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328374 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328374">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325248"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328358"/>
+        <aif:creationDate>2018-01-26 12:06:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328375 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328375">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zazwyczaj analizy dotyczące użyteczności kompetencji na rynku pracy dotyczą tylko tego, które zawody zwiększają prawdopodobieństwo bycia zatrudnionym i które wiążą się z wyższymi dochodami.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328378"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328883"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329133"/>
+        <aif:creationDate>2018-01-26 12:06:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328376 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328376">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Powinno się również zwracać uwagę na stosowalność konkretnych zdolności w branżach, satysfakcję z pracy w zawodach, gdzie przydatna jest dana zdolność oraz zagrożenie automatyzacją zdolności.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328422"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328884"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329134"/>
+        <aif:creationDate>2018-01-26 12:06:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328377 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328377">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Analiza przeprowadzona przez 80000 Hours i Tee Ponsukcharoena jest adekwatna, bo bierze pod uwagę prawdopodobieństwo bycia zatrudnionym, wyższe dochody, ale również stosowalność zdolności w wielu lub niewielu branżach, satysfakcję z pracy w zawodach, gdzie przydatna jest dana zdolność oraz zagrożenie automatyzacją zdolności.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328378"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328379"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328883"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328884"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329133"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329134"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328380"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328885"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329135"/>
+        <aif:creationDate>2018-01-26 12:06:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328378 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328378">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328375"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328377"/>
+        <aif:creationDate>2018-01-26 12:06:47</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328379 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328379">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328376"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328377"/>
+        <aif:creationDate>2018-01-26 12:06:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328380 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328380">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328377"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321490"/>
+        <aif:creationDate>2018-01-26 12:06:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328381 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328381">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321490"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:creationDate>2018-01-26 12:06:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328382 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328382">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321493"/>
+        <aif:creationDate>2018-01-26 12:06:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328383 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328383">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321499"/>
+        <aif:creationDate>2018-01-26 12:06:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328384 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328384">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321482"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:creationDate>2018-01-26 12:06:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328385 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328385">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kompetencje analityczne to m. in. ocenianie, krytyczne myślenie, rozwiązywanie złożonych problemów oraz aktywne uczenie się.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328386"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328428"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328890"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328950"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328996"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328958"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329003"/>
+        <aif:creationDate>2018-01-26 12:06:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328386 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328386">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328385"/>
+        <aif:creationDate>2018-01-26 12:06:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328387 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328387">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321497"/>
+        <aif:creationDate>2018-01-26 12:06:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328388 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328388">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321531"/>
+        <aif:creationDate>2018-01-26 12:06:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328389 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328389">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321501"/>
+        <aif:creationDate>2018-01-26 12:06:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328390 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328390">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321499"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328368"/>
+        <aif:creationDate>2018-01-26 12:06:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328391 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328391">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328369"/>
+        <aif:creationDate>2018-01-26 12:06:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328392 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328392">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wyjątkami wobec tego trendu, tzn. branżami z zakresu nauk ścisłych i technologii, które zaliczyły znaczący wzrost zatrudnienia, są profesje związane z informatyką, programowaniem i wsparciem technicznym oraz badaniami operacyjnymi.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328395"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328436"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328898"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329149"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328394"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328435"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328897"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329148"/>
+        <aif:creationDate>2018-01-26 12:06:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328393 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328393">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321517"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324762"/>
+        <aif:creationDate>2018-01-26 12:06:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328394 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328394">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328392"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:creationDate>2018-01-26 12:06:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328395 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328395">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321517"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328392"/>
+        <aif:creationDate>2018-01-26 12:06:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328396 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328396">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321523"/>
+        <aif:creationDate>2018-01-26 12:06:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328397 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328397">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321529"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321523"/>
+        <aif:creationDate>2018-01-26 12:06:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328398 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328398">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321523"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321531"/>
+        <aif:creationDate>2018-01-26 12:06:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328399 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328399">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Obiegowa opinia, iż większość ludzi współcześnie powinna skupić się na naukach ścisłych i technologii, przestała być oczywista. Potrzeba dalszych badań, aby dawać w miarę pewne indywidualne porady.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328400"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328440"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328902"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329153"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328401"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328441"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328903"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329155"/>
+        <aif:creationDate>2018-01-26 12:06:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328400 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328400">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321531"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328399"/>
+        <aif:creationDate>2018-01-26 12:06:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328401 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328401">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328399"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321581"/>
+        <aif:creationDate>2018-01-26 12:06:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328402 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328402">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>David Deming wykazał, że największy wzrost zatrudnienia nastąpił w zawodach, dla których potrzebne są zarówno zdolności matematyczne, jak i społeczne, np. w księgowości, medycynie czy zarządzaniu finansami.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328405"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328906"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328907"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329158"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329159"/>
+        <aif:creationDate>2018-01-26 12:06:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328403 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328403">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321579"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321581"/>
+        <aif:creationDate>2018-01-26 12:06:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328404 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328404">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321577"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321581"/>
+        <aif:creationDate>2018-01-26 12:06:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328405 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328405">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321579"/>
+        <aif:creationDate>2018-01-26 12:06:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328406 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328406">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321577"/>
+        <aif:creationDate>2018-01-26 12:06:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328407 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328407">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>80 000 hours, These skills make you most employable. Coding isn’t one – can that be right?  https://80000hours.org/articles/skills-most-employable/</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328409"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328446"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328908"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329160"/>
+        <aif:creationDate>2018-01-26 12:06:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>D. J. Deming, The Growing Importance of Social Skills in the Labor Market, Harvard University and NBER.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328409"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328446"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328908"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/329160"/>
+        <aif:creationDate>2018-01-26 12:06:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/328409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/328409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/328408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328407"/>
+        <aif:creationDate>2018-01-26 12:06:54</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

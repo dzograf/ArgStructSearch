@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/374131 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374131">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There&#039;s a split playing camp and he can&#039;t fix it</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374137"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374149"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374153"/>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374132 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374132">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: There&#039;s a split playing camp and he can&#039;t fix it</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: There&#039;s a split playing camp and he can&#039;t fix it</aif:source>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374133 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374133">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: The manager currently appears to have no real control over his squad thanks to his latest fall-out with Paul Pogba</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: The manager currently appears to have no real control over his squad thanks to his latest fall-out with Paul Pogba</aif:source>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374134 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374134">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: Should Man Utd sack Jose Mourinho?</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: Should Man Utd sack Jose Mourinho?</aif:source>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374135 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374135">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>sack Jose Mourinho</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374137"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374144"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374149"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374150"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374151"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374152"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374153"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374154"/>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374136 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374136">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: sack Jose Mourinho</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: sack Jose Mourinho</aif:source>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374138 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374138">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Player power must not win</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374144"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374150"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374152"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374154"/>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374139 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374139">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: Player power must not win</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: Player power must not win</aif:source>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374140 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374140">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Mourinho is not the start and end of United&#039;s problems</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374144"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374150"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374152"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374154"/>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374141 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374141">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: Mourinho is not the start and end of United&#039;s problems</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: Mourinho is not the start and end of United&#039;s problems</aif:source>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374142 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374142">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: The costly pay-off</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: The costly pay-off</aif:source>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374143 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374143">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The costly pay-off</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374144"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374150"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374152"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374154"/>
+        <aif:creationDate>2019-01-17 17:22:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374145 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374145">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>He is far too divisive</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374137"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374149"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374153"/>
+        <aif:creationDate>2019-01-17 17:22:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374146 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374146">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: He is far too divisive</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: He is far too divisive</aif:source>
+        <aif:creationDate>2019-01-17 17:22:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374147 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374147">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>His tactics are outdated</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374137"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374149"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374153"/>
+        <aif:creationDate>2019-01-17 17:22:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374148 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374148">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: His tactics are outdated</aif:claimText>
+        <aif:source>https://www.goal.com/en-gb/lists/should-man-utd-sack-jose-mourinho-the-pros-and-cons-of/fj2qcph6dbxc17qav0ngb3gbx?fbclid=IwAR3j3pC0VKlqwB_lxn1dCcDXaoYtCQh9rzndWq5LH4X6eq3Tnmc2aTJjqTQ: His tactics are outdated</aif:source>
+        <aif:creationDate>2019-01-17 17:22:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374149 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374149">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374131"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374147"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374135"/>
+        <aif:creationDate>2019-01-17 17:22:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/374150 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/374150">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374138"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374140"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/374143"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/374135"/>
+        <aif:creationDate>2019-01-17 17:22:58</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

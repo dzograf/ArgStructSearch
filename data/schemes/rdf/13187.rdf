@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/321695 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321695">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1 Dzisiejsze społeczeństwo stawia wysokie wymagania jednostkom], które stykają się z coraz większym skomplikowaniem w wielu dziedzinach życia.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321697"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321701"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321729"/>
+        <aif:creationDate>2018-01-16 17:54:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321696 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321696">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>wskazuje na [kluczowe kompetencje, do których zdobycia ludzie powinni dążyć].</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321697"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321699"/>
+        <aif:creationDate>2018-01-16 17:54:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321697 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321697">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321695"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321696"/>
+        <aif:creationDate>2018-01-16 17:54:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321698 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321698">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zdefiniowanie może pomóc młodym ludziom i dorosłym dobrze przygotować się na czekające ich wyzwania, a także zidentyfikować bardziej ogólne cele dla systemu edukacji oraz nauki na każdym etapie życia.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321699"/>
+        <aif:creationDate>2018-01-16 17:54:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321699 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321699">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321698"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321696"/>
+        <aif:creationDate>2018-01-16 17:54:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321700 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321700">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>4. [1*] implikuje, że kompetencja to coś więcej niż tylko wiedza i umiejętności. Obejmuje ona również zdolność do radzenia sobie z kompleksowymi problemami poprzez wykorzystywanie określonych zasobów psychologicznych (obejmujących umiejętności i odpowiednie nastawienie) w szczególnych kontekstach.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321701"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321706"/>
+        <aif:creationDate>2018-01-16 17:54:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321701 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321701">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321695"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321700"/>
+        <aif:creationDate>2018-01-16 17:54:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321702 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321702">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>5. [4] implikuje, że każda kluczowa kompetencja musi [6], [7] i [8].</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321706"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321707"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321708"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321709"/>
+        <aif:creationDate>2018-01-16 17:54:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321703 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321703">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Realizować wartości cenione przez społeczeństwo i poszczególne jednostki.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321707"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321736"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321711"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321704 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321704">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>7. Pomagać jednostkom sprostać ważnym wymaganiom w szerokim spektrum sytuacji.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321708"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321740"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321712"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321705 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321705">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Być istotna nie tylko dla ekspertów, ale dla ogółu jednostek.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321709"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321713"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321706 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321706">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321700"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321702"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321707 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321707">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321702"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321703"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321708 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321708">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321702"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321704"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321709 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321709">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321702"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321705"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321710 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321710">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>pozwalają na opracowanie odpowiedniej [siatki pojęciowej dotyczącej kluczowych kompetencji].</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321711"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321712"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321713"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321715"/>
+        <aif:creationDate>2018-01-16 17:54:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321711 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321711">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321703"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321710"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321712 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321712">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321704"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321710"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321713 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321713">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321705"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321710"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321714 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321714">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>dzieli kluczowe kompetencje na trzy kategorie</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321715"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321719"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321720"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321721"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321715 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321715">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321710"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321714"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321716 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321716">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jednostki muszą umieć wykorzystywać szeroką gamę narzędzi do efektywnej interakcji z otoczeniem: zarówno fizycznych, jak technologia informacyjna, jak i socjo-kulturowych, takich jak używanie języka. Muszą używać tych narzędzi wystarczająco świadomie (interaktywnie), aby adaptować ich użycie do swoich potrzeb.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321719"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321725"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321717 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321717">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jednostki muszę umieć dogadywać się z ludźmi z innych środowisk i odmiennymi doświadczeniami życiowymi.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321720"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321724"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321718 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321718">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jednostki muszą być w stanie brać odpowiedzialność za swoje własne życie oraz odpowiednio usytuować swoje życie w szerszym kontekście społecznym i działać autonomicznie.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321721"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321723"/>
+        <aif:creationDate>2018-01-16 17:54:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321719 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321719">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321714"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321716"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321720 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321720">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321714"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321717"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321721 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321721">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321714"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321718"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321722 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321722">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>są wzajemnie powiązane i wspólnie tworzą podstawę do zidentyfikowania oraz odwzorowania kluczowych kompetencji.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321723"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321724"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321725"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321727"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321744"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321723 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321723">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321718"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321722"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321724 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321724">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321717"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321722"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321725 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321725">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321716"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321722"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321726 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321726">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>kluczowe kompetencje nie mogą być ustalane na podstawie arbitralnych decyzji o tym, jakie cechy charakteru i zdolności poznawcze są pożądane, ale na podstawie uważnych rozważań dotyczących warunków wstępnych dla spełnionego życia i dobrze funkcjonującego społeczeństwa.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321727"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321729"/>
+        <aif:creationDate>2018-01-16 17:54:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321727 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321727">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321722"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321726"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321728 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321728">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>jednostki powinny skupiać się na zyskiwaniu kluczowych kompetencji niezbędnych do adaptacji w [świecie, który charakteryzuje ciągła zmiana, złożoność i współzależność].</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321729"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321732"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321729 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321729">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321726"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321728"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321730 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321730">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Technologia zmienia się szybko i stale, a nadążanie za tymi zmianami wymaga nie tylko dobrego opanowania poszczególnych procesów, ale także zdolności do przystosowywania się.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321785"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324836"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324999"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325155"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327718"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324866"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325022"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325178"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327741"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321731 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321731">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>uszczegóławiane przez</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321785"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321786"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321787"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321732 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321732">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321728"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321733 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321733">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Społeczeństwa są coraz bardziej zróżnicowane i skategoryzowane, przez co relacje interpersonalne wymagają więcej kontaktów z tymi, którzy są od nas inni.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321786"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324837"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324867"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325000"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325023"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325156"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325179"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327719"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327742"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321734 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321734">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Globalizacja tworzy nowe formy współzależności, tak że poszczególne działania są podatne na wpływy (takie jak konkurencja ekonomiczna) oraz konsekwencje (jak zanieczyszczenie środowiska), które rozciągają się daleko poza lokalną czy narodową społeczność danej jednostki.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321787"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324838"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325001"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325157"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327720"/>
+        <aif:creationDate>2018-01-16 17:54:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321735 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321735">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>dotyczy korzyści zarówno ekonomicznych, jak i społecznych.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321738"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321736"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321744"/>
+        <aif:creationDate>2018-01-16 17:54:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321736 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321736">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321735"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321703"/>
+        <aif:creationDate>2018-01-16 17:54:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321737 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321737">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Badania wykazały, że kapitał ludzki nie tylko odgrywa kluczową rolę w dziedzinie ekonomii, ale przynosi również osobiste i społeczne korzyści, takie jak zdrowie, lepsze samopoczucie, lepsze wychowywanie dzieci oraz większe zaangażowanie społeczne i polityczne (doprecyzowuje [21]).</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321738"/>
+        <aif:creationDate>2018-01-16 17:54:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321738 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321738">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321737"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321735"/>
+        <aif:creationDate>2018-01-16 17:54:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321739 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321739">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>wskazuje, że odpowiednie kompetencje są wymagane nie tylko na rynku pracy, ale również w relacjach osobistych, politycznych itd. oraz że właśnie ta wieloaspektowość kompetencji pełni rolę kluczową w wyborze kluczowych kompetencji.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321740"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321744"/>
+        <aif:creationDate>2018-01-16 17:54:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321740 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321740">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321739"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321704"/>
+        <aif:creationDate>2018-01-16 17:54:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321741 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321741">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>wyklucza spośród kompetencji kluczowych te, które znajdują użytek jedynie w określonym zawodzie, dziedzinie handlu czy ścieżce życiowej. Nacisk położony powinien zostać na kompetencje, do których rozwinięcia powinien aspirować każdy.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321744"/>
+        <aif:creationDate>2018-01-16 17:54:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321742 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321742">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321705"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321743 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321743">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>w sercu kluczowych kompetencji leży refleksyjność – zdolność do radzenia sobie z różnicami i sprzecznościami, pozwalająca wykorzystać określone umiejętności w praktyce, obejmująca umiejętności metakognitywne (myślenie o myśleniu), kreatywność i przyjmowanie postawy krytycznej.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321744"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324850"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325164"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327727"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324854"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324858"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324859"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325014"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325015"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325166"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325170"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325171"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327729"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327734"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321744 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321744">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321722"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321735"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321743"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321745 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321745">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>kluczowe kompetencje możemy zatem podzielić na</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321750"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321751"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321752"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321746 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321746">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321745"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321747 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321747">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Interaktywne wykorzystywanie narzędzi – konieczność bycia na bieżąco z technologią, adaptowania rozmaitych narzędzi do własnych potrzeb, prowadzenia aktywnego dialogu ze światem.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321750"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324855"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325011"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325167"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327730"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321758"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321748 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321748">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Interakcje w heterogenicznych grupach – pozwalające na radzenie sobie z różnorodnością w społeczeństwach pluralistycznych. Kompetencja ta kładzie nacisk na znaczenie empatii oraz kapitału społecznego.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321751"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324856"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324862"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325012"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325018"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325168"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325174"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327737"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321762"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321764"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321749 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321749">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zdolność do działania autonomicznego – potrzeba realizowania własnej osobowości i celów, czynienia użytku ze swoich praw, brania na siebie odpowiedzialności, zrozumienia swojego środowiska i zasad jego funkcjonowania.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321752"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/324857"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325013"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/325169"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/327732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321768"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321769"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321770"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324860"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/324861"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325016"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325017"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325172"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/325173"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327735"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/327736"/>
+        <aif:creationDate>2018-01-16 17:54:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321750 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321750">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321747"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321751 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321751">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321748"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321752 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321752">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321749"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321753 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321753">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Interaktywne wykorzystywanie języka, symboli i tekstów.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321754 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321754">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Interaktywne wykorzystywanie wiedzy oraz informacji.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321755 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321755">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Interaktywne wykorzystywanie technologii.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321756 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321756">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321747"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321755"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321757 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321757">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321747"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321754"/>
+        <aif:creationDate>2018-01-16 17:54:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321758 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321758">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321747"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321753"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321759 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321759">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Dobre dogadywanie się z innymi.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321762"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321760 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321760">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kooperacja, praca w zespole.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321761 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321761">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zarządzanie i rozwiązywanie konfliktów.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321764"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321762 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321762">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321748"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321759"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321763 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321763">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321748"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321760"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321764 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321764">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321748"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321761"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321765 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321765">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Spojrzenie na własne działanie z szerszej perspektywy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321768"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321766 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321766">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Tworzenie i realizacja planów życiowych i osobistych projektów.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321769"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321767 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321767">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Obrona własnych praw i interesów, świadomość własnych ograniczeń i potrzeb.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321770"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:creationDate>2018-01-16 17:54:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321768 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321768">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321749"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321765"/>
+        <aif:creationDate>2018-01-16 17:54:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321769 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321769">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321749"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321766"/>
+        <aif:creationDate>2018-01-16 17:54:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321770 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321770">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321749"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321767"/>
+        <aif:creationDate>2018-01-16 17:54:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321771 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321771">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>uczymy się przez całe życie.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321772"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321774"/>
+        <aif:creationDate>2018-01-16 17:54:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321772 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321772">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321753"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321754"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321755"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321759"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321761"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321765"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321766"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321767"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321771"/>
+        <aif:creationDate>2018-01-16 17:54:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321773 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321773">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>nie wszystkich kompetencji przydatnych w życiu możemy nauczyć się w toku edukacji.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321774"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321778"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321779"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321780"/>
+        <aif:creationDate>2018-01-16 17:54:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321774 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321774">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321771"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321773"/>
+        <aif:creationDate>2018-01-16 17:54:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321775 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321775">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kluczowe kompetencje rozwijają i zmieniają się w ciągu życia, z możliwością ich zyskania lub utraty w miarę upływu czasu.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321778"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321784"/>
+        <aif:creationDate>2018-01-16 17:54:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321776 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321776">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wymagania stawiane jednostką mogą się zmieniać w ciągu ich dorosłego życia w związku ze zmianami technologicznymi, społecznymi i ekonomicznymi.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321779"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321784"/>
+        <aif:creationDate>2018-01-16 17:54:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321777 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321777">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Psychologia rozwojowa pokazuje, że rozwój kompetencji nie kończy się w okresie dojrzewania, ale jest cały czas obecny w dorosłym życiu.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321782"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321780"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321784"/>
+        <aif:creationDate>2018-01-16 17:54:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321778 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321778">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321775"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321773"/>
+        <aif:creationDate>2018-01-16 17:54:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321779 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321779">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321776"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321773"/>
+        <aif:creationDate>2018-01-16 17:54:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321780 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321780">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321777"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321773"/>
+        <aif:creationDate>2018-01-16 17:54:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321781 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321781">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W szczególności zdolność myślenia i refleksyjnego działania z upływem czasu wzrasta.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321782"/>
+        <aif:creationDate>2018-01-16 17:54:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321782 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321782">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321781"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321777"/>
+        <aif:creationDate>2018-01-16 17:54:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321783 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321783">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ewolucyjny model ludzkiego rozwoju dostarcza podstaw dla stworzenia systemu edukacji dla dorosłych oraz pozwala na zaprojektowanie jednolitej strategii rozwoju kompetencji zarówno dla młodszych, jak i starszych ludzi.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321784"/>
+        <aif:creationDate>2018-01-16 17:54:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321784 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321784">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321775"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321776"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321777"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321783"/>
+        <aif:creationDate>2018-01-16 17:54:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321785 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321785">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321730"/>
+        <aif:creationDate>2018-01-16 17:54:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321786 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321786">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321733"/>
+        <aif:creationDate>2018-01-16 17:54:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321787 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321787">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321734"/>
+        <aif:creationDate>2018-01-16 17:54:45</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

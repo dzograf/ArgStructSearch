@@ -1,0 +1,801 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/397993 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/397993">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Russia claims US ignoring outreach on nuclear disarmament</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/397998"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398068"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429755"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429980"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430005"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430045"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430065"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430634"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430653"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430668"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430687"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398004"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398070"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429753"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429978"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430003"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430042"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430063"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430632"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430651"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430685"/>
+        <aif:creationDate>2019-05-20 08:31:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/397994 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/397994">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>(PSP) Russia is reaching out to the US on nuclear disarmament</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398000"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398004"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398009"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398010"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398069"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398070"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429739"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429753"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429758"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429978"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429982"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430003"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430007"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430042"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430048"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430059"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430063"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430067"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430077"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430632"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430636"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430649"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430651"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430655"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430682"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430685"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430689"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430701"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397996"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398007"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398067"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429757"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429981"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430006"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430047"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430066"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430635"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430654"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430688"/>
+        <aif:creationDate>2019-05-20 08:31:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/397997 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/397997">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>6. Russia says there has been no response from the US.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397998"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398008"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398068"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429741"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429754"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429979"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430004"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430043"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430064"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430633"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430652"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430667"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430686"/>
+        <aif:creationDate>2019-05-20 08:31:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/397999 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/397999">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1. Russia wants ‘open and specific’ talks on alleged violations of the INF treaty.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429982"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430007"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430048"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430059"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430067"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430077"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430636"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430649"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430670"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430701"/>
+        <aif:creationDate>2019-05-20 08:31:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398001 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398001">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>5. Russian Defense Minister sent his US counterpart a proposal for launching a dialogue.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429982"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430007"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430048"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430067"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430636"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430670"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430689"/>
+        <aif:creationDate>2019-05-20 08:31:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398002 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398002">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>8. Russia submitted a draft resolution to the UN calling upon the international community to support the INF treaty against US withdrawal.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429983"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430008"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430050"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430068"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430637"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430671"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430690"/>
+        <aif:creationDate>2019-05-20 08:31:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398003 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398003">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>9. Russia warned that a collapse of the treaty could undermine nuclear arms control worldwide.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429983"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430008"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430050"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430068"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430637"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430671"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430690"/>
+        <aif:creationDate>2019-05-20 08:31:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398072 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398072">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>13. US claims new Russian missile SSC-8 operates in a range forbidden by the INF treaty.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398075"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430017"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430058"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430076"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430648"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430700"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398073"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429995"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430012"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430054"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430072"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430644"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430660"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430675"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430694"/>
+        <aif:creationDate>2019-05-20 18:27:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398074 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398074">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>14. Russia denies the claim and throws back counter-accusations at Washington.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398078"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430015"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430057"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430075"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430647"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430680"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430698"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398075"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430017"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430058"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430076"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430648"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430664"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430700"/>
+        <aif:creationDate>2019-05-20 18:27:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398077 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398077">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>16. The INF treaty bans ground-based intermediate-range missiles and their launchers.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398078"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430013"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430055"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430073"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430645"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430677"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430695"/>
+        <aif:creationDate>2019-05-20 18:27:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429740 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429740">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>7. This shows the US is unwilling to maintain dialogue on security issues.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429754"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429979"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430004"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430043"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430064"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430633"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430652"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430667"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430686"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429743"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429755"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429980"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430005"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430065"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430634"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430653"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430687"/>
+        <aif:creationDate>2019-08-31 19:30:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429756 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429756">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>(PI1) Russia is committed to the INF treaty</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429757"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429760"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429983"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430006"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430047"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430050"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430066"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430068"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430635"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430637"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430654"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430669"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430671"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429985"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430051"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430638"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430691"/>
+        <aif:creationDate>2019-09-03 16:37:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429761 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429761">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The acts are a sign of Russia&#039;s commitment to the INF</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429983"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430008"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430050"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430068"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430637"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430671"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430690"/>
+        <aif:creationDate>2019-09-03 16:37:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429984 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429984">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2. US claims Russia is in breach of the INF treaty.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429985"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429990"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429995"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430009"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430010"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430012"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430051"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430052"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430054"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430069"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430070"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430072"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430638"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430639"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430644"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430657"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430658"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430660"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430673"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430691"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430694"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429992"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430011"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430053"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430071"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430641"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430659"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430674"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430693"/>
+        <aif:creationDate>2019-09-05 08:09:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429986 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429986">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Russia&#039;s actions in reality support the negation of its claim</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429985"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430009"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430051"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430069"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430638"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430691"/>
+        <aif:creationDate>2019-09-05 08:09:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>10. Washington has been raising objections to potential Russian violation of the INF treaty under President Obama.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429990"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430052"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430070"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430658"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430673"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430692"/>
+        <aif:creationDate>2019-09-05 08:09:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429988 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429988">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>11. President Trump specified the allegations and threatened withdrawal.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429990"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430052"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430070"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430658"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430673"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430692"/>
+        <aif:creationDate>2019-09-05 08:09:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429989 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429989">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>3. US has issued an ultimatum to Moscow to come into compliance of the treaty within 60 days or the US will withdraw.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429992"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430011"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430053"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430071"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430641"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430659"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430693"/>
+        <aif:creationDate>2019-09-05 08:09:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429997 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429997">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>15. Russia is concerned about US deployment of anti-missile systems in Romania and Poland, especially the MK-41 vertical launching system</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430013"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430055"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430073"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430645"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430677"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430695"/>
+        <aif:creationDate>2019-09-05 08:09:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/429998 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/429998">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>(PI2) The US must not violate INF stipulations</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429999"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430013"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430055"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430073"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430645"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430014"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430056"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430074"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430646"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430662"/>
+        <aif:creationDate>2019-09-05 08:09:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430000 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430000">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>17. Moscow uses this point to claim the US is responsible for destabilizing the INF treaty.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430001"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430014"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430056"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430074"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430696"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430015"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430057"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430075"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430647"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430663"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430680"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430698"/>
+        <aif:creationDate>2019-09-05 08:09:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430002 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430002">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Warrant- If one party violates an agreement, it stands annulled and is no longer binding upon the other party. The US violated the INF and whether Russia followed suit is immaterial</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430014"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430056"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430074"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430646"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430662"/>
+        <aif:creationDate>2019-09-05 08:09:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430016 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430016">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Two wrongs Ad Hominen: The US has committed a (more) blameworthy act so its argument against Russia should not be accepted.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430015"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430057"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430075"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430647"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430663"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430680"/>
+        <aif:creationDate>2019-09-05 09:03:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430044 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430044">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W3: Lack of response is a sign of unwillingness to maintan dialogue</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430043"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430064"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430633"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430652"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430667"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430686"/>
+        <aif:creationDate>2019-09-06 11:03:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430046 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430046">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W4: Russia is in a position to know/judge US stance</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430065"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430634"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430653"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430687"/>
+        <aif:creationDate>2019-09-06 11:03:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430049 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430049">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W1: The overtures are a sign that Russia is reaching out to the US</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430048"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430067"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430636"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430670"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430689"/>
+        <aif:creationDate>2019-09-06 11:03:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430060 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430060">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W2: Offering to hold talks on the INF means reaching out on nuclear disarmament</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430059"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430077"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430649"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430701"/>
+        <aif:creationDate>2019-09-06 11:03:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430061 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430061">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>BACKING2: Talks on the INF treaty are equivalent to negotiation for nuclear disarmament</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430059"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430077"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430649"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430701"/>
+        <aif:creationDate>2019-09-06 11:03:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430062 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430062">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W5: From Russia&#039;s pursuance of dialogue, it can be inferred that Russia is committed to the INF treaty</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430047"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430066"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430635"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430654"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430688"/>
+        <aif:creationDate>2019-09-06 11:03:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430078 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430078">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>12. The INF banned an entire class of weapons with ranges between 500 and 5,000 kilometers.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430072"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430644"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430660"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430675"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430694"/>
+        <aif:creationDate>2019-09-06 11:15:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430640 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430640">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W9: The assessment about Russia has persisted over time; W10: has persisted under different administrations; W11: and is based on specific/precise objections</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430639"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430658"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430673"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430692"/>
+        <aif:creationDate>2019-09-16 18:08:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430642 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430642">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W8: Russia must comply, or the US must withdraw</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430641"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430659"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430674"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430693"/>
+        <aif:creationDate>2019-09-16 18:08:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430643 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430643">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>B8: Either compliance or withdrawal is necessary to maintain the balance of power</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430641"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430659"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430674"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430693"/>
+        <aif:creationDate>2019-09-16 18:08:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430650 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430650">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W13: If SSC-8 operates in the 500-5000 km range, it is in violation of the INF treaty</aif:claimText>
+        <aif:creationDate>2019-09-16 18:09:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430651 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430651">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397993"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/397994"/>
+        <aif:creationDate>2019-09-16 18:09:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430652 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430652">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397997"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430044"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429740"/>
+        <aif:creationDate>2019-09-16 18:09:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430653 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430653">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429740"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430046"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/397993"/>
+        <aif:creationDate>2019-09-16 18:09:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430654 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430654">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397994"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430062"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429756"/>
+        <aif:creationDate>2019-09-16 18:09:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430655 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430655">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430049"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/397994"/>
+        <aif:creationDate>2019-09-16 18:09:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430656 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430656">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398002"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398003"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429761"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429756"/>
+        <aif:creationDate>2019-09-16 18:09:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430657 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430657">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429986"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429984"/>
+        <aif:creationDate>2019-09-16 18:09:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430658 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430658">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429987"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429988"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430640"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429984"/>
+        <aif:creationDate>2019-09-16 18:09:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430659 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430659">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429984"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430643"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429989"/>
+        <aif:creationDate>2019-09-16 18:09:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430660 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430660">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398072"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430078"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429984"/>
+        <aif:creationDate>2019-09-16 18:09:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430661 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430661">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398077"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429997"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/429998"/>
+        <aif:creationDate>2019-09-16 18:09:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430662 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430662">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/429998"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430002"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/430000"/>
+        <aif:creationDate>2019-09-16 18:09:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430663 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430663">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430000"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430016"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398074"/>
+        <aif:creationDate>2019-09-16 18:09:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430664 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430664">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398074"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398072"/>
+        <aif:creationDate>2019-09-16 18:09:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/430665 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/430665">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/397999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430060"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/430061"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/397994"/>
+        <aif:creationDate>2019-09-16 18:09:39</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

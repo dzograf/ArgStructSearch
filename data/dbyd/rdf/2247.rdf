@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/47839 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47839">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Should the UK implement internet censorship?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47841"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47843"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47840 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47840">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Violates freedom of speech, thus violates basic human rights.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47841"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47841"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47841 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47841">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47839"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47840"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47846"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47847"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47849"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47840"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47842 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47842">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Internet censorship is vital to national security.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47843"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47843"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47843 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47843">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47839"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47842"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47850"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47851"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47853"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/47842"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47844 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47844">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Security of the person is also a basic human right which is violated without internet censorship.</aif:claimText>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47845 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47845">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Freedom of speech may be a basic human right but exceptions must be made when hate speech or threats for example are made.</aif:claimText>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47846 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47846">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Attempting to implement censorship of the whole internet is not economically viable.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47841"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47847 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47847">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Censorship does not tackle the source of the problem, it merely removes it from the public eye.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47841"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47848 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47848">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>By removing vulgar content from the internet, the idea is likely to spread if it is not easily accessible, thus eventually reducing the number of producers of such content.</aif:claimText>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47849 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47849">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The rapid growth of the internet means it would require a substantial amount of resources to censor such a vast network.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47841"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47850 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47850">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Tv, radio, billboards etc are all subject to a degree of censorship, why should the internet be any different?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47843"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47851 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47851">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Censorship of the internet could help deter the piracy of media which could protect the rights of those who own the material.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47843"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47852 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47852">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ISP have already attempted to censor certain torrent sites and have failed to have an impact on access to these sites.</aif:claimText>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47853 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47853">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Internet censorship could see the demise of the criminal underworld of the internet which may have an effect on overall crime rates.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/47843"/>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/47854 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/47854">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The number of instances where the internet has caused a breach of national security are few in number, whereas internet censorship would remove a human right which affected the entire population.</aif:claimText>
+        <aif:creationDate>2015-03-02 10:03:24</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

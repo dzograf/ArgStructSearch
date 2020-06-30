@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/177284 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177284">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: Renewing TPA will enable President Obama to finish negotiations on the Trans-Pacific Partnership (TPP) agreement with 12 Pacific Rim countries in Asia and the Americas.</aif:claimText>
+        <aif:source>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: Renewing TPA will enable President Obama to finish negotiations on the Trans-Pacific Partnership (TPP) agreement with 12 Pacific Rim countries in Asia and the Americas.</aif:source>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177285 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177285">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Renewing TPA will enable President Obama to finish negotiations on the Trans-Pacific Partnership (TPP) agreement with 12 Pacific Rim countries in Asia and the Americas.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177295"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177296"/>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177286 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177286">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: it&#039;s also the economic linchpin of Obama&#039;s plan to &quot;rebalance&quot; U.S. foreign policy toward the Pacific.</aif:claimText>
+        <aif:source>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: it&#039;s also the economic linchpin of Obama&#039;s plan to &quot;rebalance&quot; U.S. foreign policy toward the Pacific.</aif:source>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177287 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177287">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>it&#039;s also the economic linchpin of Obama&#039;s plan to &quot;rebalance&quot; U.S. foreign policy toward the Pacific.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177296"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177297"/>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177288 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177288">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: TPP the most ambitious trade pact Washington has yet undertaken,</aif:claimText>
+        <aif:source>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: TPP the most ambitious trade pact Washington has yet undertaken,</aif:source>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>TPP the most ambitious trade pact Washington has yet undertaken,</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177298"/>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177290 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177290">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>More generally, the new TPA updates those objectives to reflect changes in the global economy since trade authority lapsed back in 2007. It includes measures to deal with currency manipulation, to lower barriers to innovation, and to extend trade-promoting principles and rules to fast-growing digital trade -- a sector in which the United States enjoys immense comparative advantages. And it instructs U.S. negotiators to ensure that new agreements include the progressive labor and environmental standards that Democrats incorporated in recent trade agreements, and requires that these standards be embedded in the main body of the agreements and be fully enforceable under their rules.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177297"/>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177291 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177291">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: More generally, the new TPA updates those objectives to reflect changes in the global economy since trade authority lapsed back in 2007. It includes measures to deal with currency manipulation, to lower barriers to innovation, and to extend trade-promoting principles and rules to fast-growing digital trade -- a sector in which the United States enjoys immense comparative advantages. And it instructs U.S. negotiators to ensure that new agreements include the progressive labor and environmental standards that Democrats incorporated in recent trade agreements, and requires that these standards be embedded in the main body of the agreements and be fully enforceable under their rules.</aif:claimText>
+        <aif:source>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: More generally, the new TPA updates those objectives to reflect changes in the global economy since trade authority lapsed back in 2007. It includes measures to deal with currency manipulation, to lower barriers to innovation, and to extend trade-promoting principles and rules to fast-growing digital trade -- a sector in which the United States enjoys immense comparative advantages. And it instructs U.S. negotiators to ensure that new agreements include the progressive labor and environmental standards that Democrats incorporated in recent trade agreements, and requires that these standards be embedded in the main body of the agreements and be fully enforceable under their rules.</aif:source>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177292 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177292">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Finishing negotiations with Pacific Rim countries constitutes rebalancing US foreign policy toward the Pacific.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177296"/>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: They blame trade for exporting U.S. manufacturing jobs and depressing U.S. wages.</aif:claimText>
+        <aif:source>http://edition.cnn.com/2015/04/17/opinions/marshall-trade-national-interest/: They blame trade for exporting U.S. manufacturing jobs and depressing U.S. wages.</aif:source>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177294 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177294">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>They blame trade for exporting U.S. manufacturing jobs and depressing U.S. wages.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177298"/>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177285"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177289"/>
+        <aif:creationDate>2016-06-19 10:48:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177296 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177296">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177285"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177287"/>
+        <aif:creationDate>2016-06-19 10:48:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177297 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177297">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177290"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177287"/>
+        <aif:creationDate>2016-06-19 10:48:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/177298 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/177298">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/177294"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/177289"/>
+        <aif:creationDate>2016-06-19 10:48:08</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/398012 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398012">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : Podatki w Polsce nie są ani specjalnie niskie, ani specjalnie wysokie.</aif:claimText>
+        <aif:source>Barbara Nowacka : Podatki w Polsce nie są ani specjalnie niskie, ani specjalnie wysokie.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398013"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398020"/>
+        <aif:creationDate>2019-05-20 10:39:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398013 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398013">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398012"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398014"/>
+        <aif:creationDate>2019-05-20 10:39:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398014 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398014">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Podatki w Polsce nie są ani specjalnie niskie, ani specjalnie wysokie.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398013"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398021"/>
+        <aif:creationDate>2019-05-20 10:39:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398015 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398015">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : Podatki w Polsce nie są ani specjalnie niskie, ani specjalnie wysokie.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : Podatki w Polsce nie są ani specjalnie niskie, ani specjalnie wysokie.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398016 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398016">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : Są po prostu niesprawiedliwie rozłożone.</aif:claimText>
+        <aif:source>Barbara Nowacka : Są po prostu niesprawiedliwie rozłożone.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398020"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398017"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398026"/>
+        <aif:creationDate>2019-05-20 10:39:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398017 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398017">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398016"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398018"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398018 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398018">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Podatki w Polsce są niesprawiedliwie rozłożone.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398017"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398021"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398033"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398019 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398019">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : Są po prostu niesprawiedliwie rozłożone.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : Są po prostu niesprawiedliwie rozłożone.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398020 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398020">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398012"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398016"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398021 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398021">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398014"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398018"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398022 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398022">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : I nie może być tak, że osoby najbiedniejsze odprowadzają proporcjonalnie do swoich dochodów dużo więcej niż osoby najbogatsze i najlepiej zarabiające.</aif:claimText>
+        <aif:source>Barbara Nowacka : I nie może być tak, że osoby najbiedniejsze odprowadzają proporcjonalnie do swoich dochodów dużo więcej niż osoby najbogatsze i najlepiej zarabiające.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398026"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398023"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398030"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398023 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398023">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398022"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398024"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398024 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398024">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Osoby najbiedniejsze odprowadzają proporcjonalnie do swoich dochodów dużo więcej niż osoby najbogatsze i najlepiej zarabiające.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398023"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398032"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398033"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398025 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398025">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : I nie może być tak, że osoby najbiedniejsze odprowadzają proporcjonalnie do swoich dochodów dużo więcej niż osoby najbogatsze i najlepiej zarabiające.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : I nie może być tak, że osoby najbiedniejsze odprowadzają proporcjonalnie do swoich dochodów dużo więcej niż osoby najbogatsze i najlepiej zarabiające.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398026 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398026">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398016"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398022"/>
+        <aif:creationDate>2019-05-20 10:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398027 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398027">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : Dlatego też Zjednoczona Lewica będzie wnosiła o kwotę wolną od podatku.</aif:claimText>
+        <aif:source>Barbara Nowacka : Dlatego też Zjednoczona Lewica będzie wnosiła o kwotę wolną od podatku.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398030"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398031"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398043"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398028 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398028">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zjednoczona Lewica będzie wnosiła o kwotę wolną od podatku.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398031"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398032"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398066"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398029 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398029">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : Dlatego też Zjednoczona Lewica będzie wnosiła o kwotę wolną od podatku.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : Dlatego też Zjednoczona Lewica będzie wnosiła o kwotę wolną od podatku.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398030 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398030">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398022"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398027"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398031 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398031">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398027"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398028"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398032 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398032">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398024"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398028"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398033 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398033">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398024"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398034"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398018"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398034 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398034">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/398026"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398033"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398035 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398035">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : I składaliśmy projekty w Sejmie i niestety nie znaleźliśmy wsparcia w koalicji rządzącej.</aif:claimText>
+        <aif:source>Barbara Nowacka : I składaliśmy projekty w Sejmie i niestety nie znaleźliśmy wsparcia w koalicji rządzącej.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398036"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398036 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398036">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398035"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398037"/>
+        <aif:creationDate>2019-05-20 10:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398037 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398037">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Składaliśmy projekty w Sejmie i niestety nie znaleźliśmy wsparcia w koalicji rządzącej.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398036"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398038 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398038">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : I składaliśmy projekty w Sejmie i niestety nie znaleźliśmy wsparcia w koalicji rządzącej.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : I składaliśmy projekty w Sejmie i niestety nie znaleźliśmy wsparcia w koalicji rządzącej.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398039 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398039">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : Będziemy też mówić o podatku dla tych najlepiej zarabiających, powyżej pięćdziesięciu tysięcy miesięcznie</aif:claimText>
+        <aif:source>Barbara Nowacka : Będziemy też mówić o podatku dla tych najlepiej zarabiających, powyżej pięćdziesięciu tysięcy miesięcznie</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398043"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398040"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398049"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398040 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398040">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398039"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398041"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398041 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398041">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Będziemy też mówić o podatku dla tych najlepiej zarabiających, powyżej pięćdziesięciu tysięcy miesięcznie</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398040"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398048"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398066"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398042 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398042">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : Będziemy też mówić o podatku dla tych najlepiej zarabiających, powyżej pięćdziesięciu tysięcy miesięcznie</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : Będziemy też mówić o podatku dla tych najlepiej zarabiających, powyżej pięćdziesięciu tysięcy miesięcznie</aif:source>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398043 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398043">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398027"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398039"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398044 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398044">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : bo powinni się więcej dokładać do budżetu.</aif:claimText>
+        <aif:source>Barbara Nowacka : bo powinni się więcej dokładać do budżetu.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398045"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398054"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398045 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398045">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398044"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398046"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398046 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398046">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zarabiający powyżej pięćdziesięciu tysięcy miesięcznie powinni się dokładać więcej do budżetu</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398048"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398055"/>
+        <aif:creationDate>2019-05-20 10:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398047 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398047">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : bo powinni się więcej dokładać do budżetu.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : bo powinni się więcej dokładać do budżetu.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398048 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398048">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398046"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398041"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398049 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398049">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398039"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398044"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398050 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398050">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : Ale też ten budżet będzie sprawny i będzie przekładał się na ich dobro.</aif:claimText>
+        <aif:source>Barbara Nowacka : Ale też ten budżet będzie sprawny i będzie przekładał się na ich dobro.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398054"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398051"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398051 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398051">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398050"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398052"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398052 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398052">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ale też ten budżet będzie sprawny i będzie przekładał się na ich dobro.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398051"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398055"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398053 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398053">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : Ale też ten budżet będzie sprawny i będzie przekładał się na ich dobro.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : Ale też ten budżet będzie sprawny i będzie przekładał się na ich dobro.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398054 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398054">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398044"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398050"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398055 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398055">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398046"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398052"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398056 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398056">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : Ale podatki, to też małe, średnie przedsiębiorstwa, które nie mogą dobrze konkurować na rynku ze sklepami wielkopowierzchniowymi, z koncernami, czy z bankami, które nie płacą takich podatków</aif:claimText>
+        <aif:source>Barbara Nowacka : Ale podatki, to też małe, średnie przedsiębiorstwa, które nie mogą dobrze konkurować na rynku ze sklepami wielkopowierzchniowymi, z koncernami, czy z bankami, które nie płacą takich podatków</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398057"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398065"/>
+        <aif:creationDate>2019-05-20 10:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398057 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398057">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398056"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398058"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398058 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398058">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Małe i średnie przedsiębiorstwa nie mogą dobrze konkurować na rynku ze sklepami wielkopowierzchniowymi, z koncernami, czy z bankami, które nie płacą takich podatków.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398057"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398064"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398059 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398059">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : Ale podatki, to też małe, średnie przedsiębiorstwa, które nie mogą dobrze konkurować na rynku ze sklepami wielkopowierzchniowymi, z koncernami, czy z bankami, które nie płacą takich podatków</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : Ale podatki, to też małe, średnie przedsiębiorstwa, które nie mogą dobrze konkurować na rynku ze sklepami wielkopowierzchniowymi, z koncernami, czy z bankami, które nie płacą takich podatków</aif:source>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398060 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398060">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara Nowacka : wobec czego te wielkopowierzchniowe sklepy, te banki i koncerny należy tak samo opodatkować i opodatkować w Polsce.</aif:claimText>
+        <aif:source>Barbara Nowacka : wobec czego te wielkopowierzchniowe sklepy, te banki i koncerny należy tak samo opodatkować i opodatkować w Polsce.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398065"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398061"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398061 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398061">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/398060"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398062"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398062 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398062">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wielkopowierzchniowe sklepy, te banki i koncerny należy tak samo opodatkować i opodatkować w Polsce.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/398061"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398064"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398063 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398063">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Julia: Barbara Nowacka : wobec czego te wielkopowierzchniowe sklepy, te banki i koncerny należy tak samo opodatkować i opodatkować w Polsce.</aif:claimText>
+        <aif:source>Julia: Barbara Nowacka : wobec czego te wielkopowierzchniowe sklepy, te banki i koncerny należy tak samo opodatkować i opodatkować w Polsce.</aif:source>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398064 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398064">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398058"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398062"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398065 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398065">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/398056"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/398060"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/398066 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/398066">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/398028"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/398041"/>
+        <aif:creationDate>2019-05-20 10:39:53</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/260100 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260100">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Su contraargumento es que aquí no están en juego los derechos de las minorías homosexuales sino aquellos de los menores pues nadie tiene derecho a adoptar ya que esta institución existe a favor del niño y no del eventual padre</aif:claimText>
+        <aif:creationDate>2017-02-01 00:10:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/260101 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260101">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.elespectador.com/opinion/propuestas-inmorales: Su contraargumento es que aquí no están en juego los derechos de las minorías homosexuales sino aquellos de los menores pues nadie tiene derecho a adoptar ya que esta institución existe a favor del niño y no del eventual padre</aif:claimText>
+        <aif:source>http://www.elespectador.com/opinion/propuestas-inmorales: Su contraargumento es que aquí no están en juego los derechos de las minorías homosexuales sino aquellos de los menores pues nadie tiene derecho a adoptar ya que esta institución existe a favor del niño y no del eventual padre</aif:source>
+        <aif:creationDate>2017-02-01 00:10:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/260102 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260102">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Y es cierto que no existe un derecho a adoptar pero la senadora olvida que es discriminatorio privar, sin una razón contundente, a minorías estigmatizadas de la posibilidad de obtener algo que les es otorgado a las mayorías</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/260103"/>
+        <aif:creationDate>2017-02-01 00:10:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/260103 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260103">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/260104"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/260102"/>
+        <aif:creationDate>2017-02-01 00:10:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/260104 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260104">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.elespectador.com/opinion/propuestas-inmorales: Y es cierto que no existe un derecho a adoptar pero la senadora olvida que es discriminatorio privar, sin una razón contundente, a minorías estigmatizadas de la posibilidad de obtener algo que les es otorgado a las mayorías</aif:claimText>
+        <aif:source>http://www.elespectador.com/opinion/propuestas-inmorales: Y es cierto que no existe un derecho a adoptar pero la senadora olvida que es discriminatorio privar, sin una razón contundente, a minorías estigmatizadas de la posibilidad de obtener algo que les es otorgado a las mayorías</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/260103"/>
+        <aif:creationDate>2017-02-01 00:10:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/260105 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260105">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Por ejemplo, nadie tiene derecho a obtener una exención tributaria pero si el Estado concede alguna a los católicos, que son mayoría, sería una discriminación religiosa que se privara de ella a las minorías protestantes</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/260106"/>
+        <aif:creationDate>2017-02-01 00:10:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/260106 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260106">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/260107"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/260105"/>
+        <aif:creationDate>2017-02-01 00:10:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/260107 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/260107">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://www.elespectador.com/opinion/propuestas-inmorales: Por ejemplo, nadie tiene derecho a obtener una exención tributaria pero si el Estado concede alguna a los católicos, que son mayoría, sería una discriminación religiosa que se privara de ella a las minorías protestantes</aif:claimText>
+        <aif:source>http://www.elespectador.com/opinion/propuestas-inmorales: Por ejemplo, nadie tiene derecho a obtener una exención tributaria pero si el Estado concede alguna a los católicos, que son mayoría, sería una discriminación religiosa que se privara de ella a las minorías protestantes</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/260106"/>
+        <aif:creationDate>2017-02-01 00:10:49</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

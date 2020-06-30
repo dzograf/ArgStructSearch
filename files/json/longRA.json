@@ -1,0 +1,27 @@
+{"nodes":
+[
+    {"nodeID":23,"text":"23","type":"I"},
+    {"nodeID":24,"text":"24","type":"I"},
+    {"nodeID":26,"text":"Default Inference","type":"RA"},
+    {"nodeID":28,"text":"Default Inference","type":"RA"},
+    {"nodeID":29,"text":"29","type":"I"},
+    {"nodeID":31,"text":"Default Conflict","type":"CA"},
+    {"nodeID":33,"text":"Default Conflict","type":"CA"},
+    {"nodeID":35,"text":"Default Inference","type":"RA"}
+],
+ 
+"edges":
+ [
+     {"edgeID":"e0","fromID":24,"toID":26},
+     {"edgeID":"e1","fromID":26,"toID":23},
+     {"edgeID":"e2","fromID":23,"toID":28},
+     {"edgeID":"e3","fromID":28,"toID":24},
+     {"edgeID":"e4","fromID":29,"toID":31},
+     {"edgeID":"e5","fromID":31,"toID":24},
+     {"edgeID":"e6","fromID":23,"toID":33},
+     {"edgeID":"e7","fromID":33,"toID":29},
+     {"edgeID":"e8","fromID":29,"toID":35},
+     {"edgeID":"e9","fromID":35,"toID":24}
+ ],
+ 
+ "locutions":[]}

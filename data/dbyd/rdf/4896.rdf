@@ -1,0 +1,2701 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/73190 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73190">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>What happens to children flying alone?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73191"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73193"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73863"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74068"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74131"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74194"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73192 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73192">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Feedback Commenter (10): What happens to children flying alone?</aif:claimText>
+        <aif:source>Feedback Commenter (10): What happens to children flying alone?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73191"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73863"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74016"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74068"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74131"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74194"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73194 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73194">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: What happens to children flying alone?</aif:claimText>
+        <aif:source>Annot: What happens to children flying alone?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73193"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73195 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73195">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The airlines require that a companion (an employee of the airline) be assigned (for a fee) to children under a certain age for the duration of their travels.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73196"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73198"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73866"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74069"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74132"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74195"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74017"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74122"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74185"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74248"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73197 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73197">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Feedback Commenter (10): The airlines require that a companion (an employee of the airline) be assigned (for a fee) to children under a certain age for the duration of their travels.</aif:claimText>
+        <aif:source>Feedback Commenter (10): The airlines require that a companion (an employee of the airline) be assigned (for a fee) to children under a certain age for the duration of their travels.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74016"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73196"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73866"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74014"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74069"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74132"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74195"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73199 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73199">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: The airlines require that a companion (an employee of the airline) be assigned (for a fee) to children under a certain age for the duration of their travels.</aif:claimText>
+        <aif:source>Annot: The airlines require that a companion (an employee of the airline) be assigned (for a fee) to children under a certain age for the duration of their travels.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73198"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73200 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73200">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>How do the children just over the cutoff fend for themselves?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73201"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73203"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74070"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74133"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74196"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74122"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74185"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74248"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73202 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73202">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Feedback Commenter (10): How do the children just over the cutoff fend for themselves?</aif:claimText>
+        <aif:source>Feedback Commenter (10): How do the children just over the cutoff fend for themselves?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73201"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73870"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74015"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74070"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74133"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74196"/>
+        <aif:creationDate>2015-07-26 06:08:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: How do the children just over the cutoff fend for themselves?</aif:claimText>
+        <aif:source>Annot: How do the children just over the cutoff fend for themselves?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73203"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ALL minors should have additional protections</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73206"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73210"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73873"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73876"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74017"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74018"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74023"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74071"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74072"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74122"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74123"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74129"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74134"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74135"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74185"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74186"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74192"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74197"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74198"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74248"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74249"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74255"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73207 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73207">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Feedback Commenter (10): ALL minors should have additional protections</aif:claimText>
+        <aif:source>Feedback Commenter (10): ALL minors should have additional protections</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74014"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74015"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73206"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73873"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74012"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74024"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74071"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74134"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74197"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: ALL minors should have additional protections</aif:claimText>
+        <aif:source>Annot: ALL minors should have additional protections</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73208"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>as they will not be able to stand up and be heard as an adult might.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73212"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73214"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73877"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74073"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74136"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74199"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73210"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73876"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74072"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74135"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74198"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Feedback Commenter (10): as they will not be able to stand up and be heard as an adult might.</aif:claimText>
+        <aif:source>Feedback Commenter (10): as they will not be able to stand up and be heard as an adult might.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74012"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73212"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73877"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74073"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74136"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74199"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73215 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73215">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: as they will not be able to stand up and be heard as an adult might.</aif:claimText>
+        <aif:source>Annot: as they will not be able to stand up and be heard as an adult might.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73214"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73216 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73216">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I have not heard anything about the treatment of minors.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73217"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73219"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73880"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74074"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74137"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74200"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73218 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73218">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Feedback Commenter (10): I have not heard anything about the treatment of minors.</aif:claimText>
+        <aif:source>Feedback Commenter (10): I have not heard anything about the treatment of minors.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73217"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73880"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74074"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74137"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74200"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73220 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73220">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: I have not heard anything about the treatment of minors.</aif:claimText>
+        <aif:source>Annot: I have not heard anything about the treatment of minors.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73219"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73221 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73221">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In general, I think that blanket policies on this topic would be a bad idea,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73222"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73224"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73226"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74075"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74076"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74124"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74125"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74127"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74128"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74138"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74139"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74187"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74188"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74190"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74191"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74201"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74202"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74250"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74251"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74253"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74254"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74123"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74186"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74249"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73223 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73223">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): In general, I think that blanket policies on this topic would be a bad idea,</aif:claimText>
+        <aif:source>SofieM(947): In general, I think that blanket policies on this topic would be a bad idea,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74024"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73222"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73884"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74021"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74049"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74075"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74138"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74201"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73225 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73225">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: In general, I think that blanket policies on this topic would be a bad idea,</aif:claimText>
+        <aif:source>Annot: In general, I think that blanket policies on this topic would be a bad idea,</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73224"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73227 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73227">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>because people have varying capacities to handle travel.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73228"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73230"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74077"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74140"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74203"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73226"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74076"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74139"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74202"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73229 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73229">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): because people have varying capacities to handle travel.</aif:claimText>
+        <aif:source>SofieM(947): because people have varying capacities to handle travel.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74021"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73228"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73889"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74027"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74077"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74140"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74203"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73231 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73231">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: because people have varying capacities to handle travel.</aif:claimText>
+        <aif:source>Annot: because people have varying capacities to handle travel.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73230"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73232 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73232">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>For example, the first time I ever flew without a parent (13 years ago), I was 7 years old, and I went with my older brother who was 10.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73233"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73235"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73892"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74078"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74141"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74204"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74026"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74124"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74187"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74250"/>
+        <aif:creationDate>2015-07-26 06:08:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): For example, the first time I ever flew without a parent (13 years ago), I was 7 years old, and I went with my older brother who was 10.</aif:claimText>
+        <aif:source>SofieM(947): For example, the first time I ever flew without a parent (13 years ago), I was 7 years old, and I went with my older brother who was 10.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74027"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73233"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73892"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74030"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74078"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74141"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74204"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73236 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73236">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: For example, the first time I ever flew without a parent (13 years ago), I was 7 years old, and I went with my older brother who was 10.</aif:claimText>
+        <aif:source>Annot: For example, the first time I ever flew without a parent (13 years ago), I was 7 years old, and I went with my older brother who was 10.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73235"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73237 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73237">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We flew from Chicago to Colorado with no incident.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73238"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73240"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73895"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74079"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74142"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74205"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74124"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74187"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74250"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73239 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73239">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): We flew from Chicago to Colorado with no incident.</aif:claimText>
+        <aif:source>SofieM(947): We flew from Chicago to Colorado with no incident.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74030"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73238"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73895"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74031"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74079"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74142"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74205"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: We flew from Chicago to Colorado with no incident.</aif:claimText>
+        <aif:source>Annot: We flew from Chicago to Colorado with no incident.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73240"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73242 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73242">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>However, that doesn&#039;t mean that every 7 or 10 year old can handle itmany can&#039;t, and shouldn&#039;t try.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73243"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73245"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74080"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74143"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74206"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74124"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74187"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74250"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73244 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73244">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): However, that doesn&#039;t mean that every 7 or 10 year old can handle itmany can&#039;t, and shouldn&#039;t try.</aif:claimText>
+        <aif:source>SofieM(947): However, that doesn&#039;t mean that every 7 or 10 year old can handle itmany can&#039;t, and shouldn&#039;t try.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73243"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74080"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74143"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74206"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73246 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73246">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: However, that doesn&#039;t mean that every 7 or 10 year old can handle itmany can&#039;t, and shouldn&#039;t try.</aif:claimText>
+        <aif:source>Annot: However, that doesn&#039;t mean that every 7 or 10 year old can handle itmany can&#039;t, and shouldn&#039;t try.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73245"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73247 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73247">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It&#039;s something that the parents themselves should decide,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73248"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73250"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73252"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73903"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73906"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74081"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74082"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74144"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74145"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74207"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74208"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74125"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74188"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74251"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): It&#039;s something that the parents themselves should decide,</aif:claimText>
+        <aif:source>SofieM(947): It&#039;s something that the parents themselves should decide,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74032"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73248"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73903"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74028"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74081"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74144"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74207"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73251 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73251">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: It&#039;s something that the parents themselves should decide,</aif:claimText>
+        <aif:source>Annot: It&#039;s something that the parents themselves should decide,</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73250"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73253 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73253">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>because they know their children better than the airlines do.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73254"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73256"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73907"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74083"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74146"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74209"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73252"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73906"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74082"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74208"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73255 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73255">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): because they know their children better than the airlines do.</aif:claimText>
+        <aif:source>SofieM(947): because they know their children better than the airlines do.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74028"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73254"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73907"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74047"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74083"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74146"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74209"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73257 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73257">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: because they know their children better than the airlines do.</aif:claimText>
+        <aif:source>Annot: because they know their children better than the airlines do.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73256"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73258 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73258">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Also, be careful when talking about &quot;minors&quot; flying alone on airplanes.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73259"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73261"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74084"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74126"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74147"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74189"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74210"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74252"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74127"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74190"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74253"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73260 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73260">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): Also, be careful when talking about &quot;minors&quot; flying alone on airplanes.</aif:claimText>
+        <aif:source>SofieM(947): Also, be careful when talking about &quot;minors&quot; flying alone on airplanes.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74047"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73259"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73911"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74039"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74040"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74084"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74147"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74210"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73262 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73262">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Also, be careful when talking about &quot;minors&quot; flying alone on airplanes.</aif:claimText>
+        <aif:source>Annot: Also, be careful when talking about &quot;minors&quot; flying alone on airplanes.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73261"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73263 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73263">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I didn&#039;t turn 18 until I was already a sophomore in college</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73264"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73266"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73914"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74085"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74148"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74211"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74038"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74126"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74189"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74252"/>
+        <aif:creationDate>2015-07-26 06:08:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73265 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73265">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): I didn&#039;t turn 18 until I was already a sophomore in college</aif:claimText>
+        <aif:source>SofieM(947): I didn&#039;t turn 18 until I was already a sophomore in college</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74039"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73264"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73914"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74085"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74148"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74211"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73267 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73267">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: I didn&#039;t turn 18 until I was already a sophomore in college</aif:claimText>
+        <aif:source>Annot: I didn&#039;t turn 18 until I was already a sophomore in college</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73266"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73268 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73268">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Different airlines will treat this issue differently.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73269"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73271"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73917"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74086"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74149"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74212"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73270 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73270">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): Different airlines will treat this issue differently.</aif:claimText>
+        <aif:source>SofieM(947): Different airlines will treat this issue differently.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74045"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73269"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73917"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74046"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74086"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74149"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74212"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73272 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73272">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Different airlines will treat this issue differently.</aif:claimText>
+        <aif:source>Annot: Different airlines will treat this issue differently.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73271"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73273 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73273">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Applying a blanket policy will take away the options that come in an open marketplace of ideas.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73274"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73276"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73278"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73920"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73923"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74087"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74088"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74150"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74151"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74213"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74214"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74048"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74128"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74191"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74254"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73275 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73275">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): Applying a blanket policy will take away the options that come in an open marketplace of ideas.</aif:claimText>
+        <aif:source>SofieM(947): Applying a blanket policy will take away the options that come in an open marketplace of ideas.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74046"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74049"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73274"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73920"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74043"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74087"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74150"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74213"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73277 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73277">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Applying a blanket policy will take away the options that come in an open marketplace of ideas.</aif:claimText>
+        <aif:source>Annot: Applying a blanket policy will take away the options that come in an open marketplace of ideas.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73276"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73279 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73279">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>If I only had one option, because every airline was required to treat &quot;minors&quot; in the same manner, my travel choices would have been limited, not expanded.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73280"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73282"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73924"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74089"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74152"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74215"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73278"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73923"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74088"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74151"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74214"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73281 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73281">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>SofieM(947): If I only had one option, because every airline was required to treat &quot;minors&quot; in the same manner, my travel choices would have been limited, not expanded.</aif:claimText>
+        <aif:source>SofieM(947): If I only had one option, because every airline was required to treat &quot;minors&quot; in the same manner, my travel choices would have been limited, not expanded.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74043"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73280"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73924"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74062"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74089"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74152"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74215"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73283 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73283">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: If I only had one option, because every airline was required to treat &quot;minors&quot; in the same manner, my travel choices would have been limited, not expanded.</aif:claimText>
+        <aif:source>Annot: If I only had one option, because every airline was required to treat &quot;minors&quot; in the same manner, my travel choices would have been limited, not expanded.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73282"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73284 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73284">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There in lies the problem.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73285"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73287"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73927"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74090"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74153"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74216"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73286 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73286">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): There in lies the problem.</aif:claimText>
+        <aif:source>Mr. America(773): There in lies the problem.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74062"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73285"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73927"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74063"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74090"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74153"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74216"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73288 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73288">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: There in lies the problem.</aif:claimText>
+        <aif:source>Annot: There in lies the problem.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73287"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Minors and elderly that can not take care of themselves should not fly alone.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73290"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73294"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73930"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73933"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74067"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74091"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74092"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74130"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74154"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74155"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74193"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74217"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74218"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74256"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74129"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74192"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74255"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73291 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73291">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): Minors and elderly that can not take care of themselves should not fly alone.</aif:claimText>
+        <aif:source>Mr. America(773): Minors and elderly that can not take care of themselves should not fly alone.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74063"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73290"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73930"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74053"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74091"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74154"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74217"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Minors and elderly that can not take care of themselves should not fly alone.</aif:claimText>
+        <aif:source>Annot: Minors and elderly that can not take care of themselves should not fly alone.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73292"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Airlines are not babysitters.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73296"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73298"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73934"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74093"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74156"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74219"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73294"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73933"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74092"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74155"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74218"/>
+        <aif:creationDate>2015-07-26 06:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73297 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73297">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): Airlines are not babysitters.</aif:claimText>
+        <aif:source>Mr. America(773): Airlines are not babysitters.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74053"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73296"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73934"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74061"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74093"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74156"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74219"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73299 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73299">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Airlines are not babysitters.</aif:claimText>
+        <aif:source>Annot: Airlines are not babysitters.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73298"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73300 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73300">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I have always considered that to be negligence on the parents.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73301"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73303"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73937"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74094"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74157"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74220"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73302 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73302">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): I have always considered that to be negligence on the parents.</aif:claimText>
+        <aif:source>Mr. America(773): I have always considered that to be negligence on the parents.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74061"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73301"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73937"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74064"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74094"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74157"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74220"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73304 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73304">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: I have always considered that to be negligence on the parents.</aif:claimText>
+        <aif:source>Annot: I have always considered that to be negligence on the parents.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73303"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73305 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73305">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Sending your minor child on a plane (or bus) across the country, or across the world alone,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73306"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73308"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73940"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74095"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74158"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74221"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74067"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74130"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74193"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74256"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73307 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73307">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): Sending your minor child on a plane (or bus) across the country, or across the world alone,</aif:claimText>
+        <aif:source>Mr. America(773): Sending your minor child on a plane (or bus) across the country, or across the world alone,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74064"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73306"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73940"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74065"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74095"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74158"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74221"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73309 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73309">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Sending your minor child on a plane (or bus) across the country, or across the world alone,</aif:claimText>
+        <aif:source>Annot: Sending your minor child on a plane (or bus) across the country, or across the world alone,</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73308"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73310 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73310">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>who knows what could happen.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73311"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73313"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73943"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74096"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74159"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74222"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74067"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74130"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74193"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74256"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73312 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73312">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): who knows what could happen.</aif:claimText>
+        <aif:source>Mr. America(773): who knows what could happen.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74065"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73311"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73943"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74066"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74096"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74159"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74222"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73314 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73314">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: who knows what could happen.</aif:claimText>
+        <aif:source>Annot: who knows what could happen.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73313"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73315 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73315">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>These are the same &quot;parents&quot; that drive up and drop their child off at a mall for the day, then wonder why they get a call from the police that their child was found dead in a ditch.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73316"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73318"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73946"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74097"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74160"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74223"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73317 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73317">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): These are the same &quot;parents&quot; that drive up and drop their child off at a mall for the day, then wonder why they get a call from the police that their child was found dead in a ditch.</aif:claimText>
+        <aif:source>Mr. America(773): These are the same &quot;parents&quot; that drive up and drop their child off at a mall for the day, then wonder why they get a call from the police that their child was found dead in a ditch.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74066"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73316"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73946"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74097"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74160"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74223"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73319 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73319">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: These are the same &quot;parents&quot; that drive up and drop their child off at a mall for the day, then wonder why they get a call from the police that their child was found dead in a ditch.</aif:claimText>
+        <aif:source>Annot: These are the same &quot;parents&quot; that drive up and drop their child off at a mall for the day, then wonder why they get a call from the police that their child was found dead in a ditch.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73318"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73320 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73320">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>they always say &quot;How did this happen?&quot;</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73321"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73323"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74098"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74161"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74224"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73322 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73322">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): they always say &quot;How did this happen?&quot;</aif:claimText>
+        <aif:source>Mr. America(773): they always say &quot;How did this happen?&quot;</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73321"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74098"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74161"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74224"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73324 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73324">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: they always say &quot;How did this happen?&quot;</aif:claimText>
+        <aif:source>Annot: they always say &quot;How did this happen?&quot;</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73323"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73325 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73325">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You left your minor child unattended.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73326"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73328"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73954"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74099"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74162"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74225"/>
+        <aif:creationDate>2015-07-26 06:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73327 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73327">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): You left your minor child unattended.</aif:claimText>
+        <aif:source>Mr. America(773): You left your minor child unattended.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74058"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73326"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73954"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74059"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74099"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74162"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74225"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73329 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73329">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: You left your minor child unattended.</aif:claimText>
+        <aif:source>Annot: You left your minor child unattended.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73328"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73330 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73330">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>take responsibility for yourself and your children.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73331"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73333"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74051"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74100"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74163"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74226"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73332 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73332">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): take responsibility for yourself and your children.</aif:claimText>
+        <aif:source>Mr. America(773): take responsibility for yourself and your children.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74059"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73331"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74051"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/74060"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74100"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74163"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74226"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73334 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73334">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: take responsibility for yourself and your children.</aif:claimText>
+        <aif:source>Annot: take responsibility for yourself and your children.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73333"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73335 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73335">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>be a REAL parent.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73336"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73338"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73959"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74101"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74164"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74227"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73337 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73337">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): be a REAL parent.</aif:claimText>
+        <aif:source>Mr. America(773): be a REAL parent.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/74060"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73336"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73959"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74101"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74164"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74227"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73339 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73339">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: be a REAL parent.</aif:claimText>
+        <aif:source>Annot: be a REAL parent.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73338"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73340 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73340">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>So does that mean I can claim disability for my allergy to onions?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73341"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73343"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74102"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74165"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74228"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73342 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73342">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): So does that mean I can claim disability for my allergy to onions?</aif:claimText>
+        <aif:source>Mr. America(773): So does that mean I can claim disability for my allergy to onions?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73341"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74102"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74165"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74228"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73344 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73344">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: So does that mean I can claim disability for my allergy to onions?</aif:claimText>
+        <aif:source>Annot: So does that mean I can claim disability for my allergy to onions?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73343"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>How about people that are allergic to strawberries, pollen, dairy, ect.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73346"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73348"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74103"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74166"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74229"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73347 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73347">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): How about people that are allergic to strawberries, pollen, dairy, ect.</aif:claimText>
+        <aif:source>Mr. America(773): How about people that are allergic to strawberries, pollen, dairy, ect.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73346"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74103"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74166"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74229"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73349 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73349">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: How about people that are allergic to strawberries, pollen, dairy, ect.</aif:claimText>
+        <aif:source>Annot: How about people that are allergic to strawberries, pollen, dairy, ect.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73348"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73350 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73350">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We have GOT to put a stop to this.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73351"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73355"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74104"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74105"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74167"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74168"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74230"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74231"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73352 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73352">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): We have GOT to put a stop to this.</aif:claimText>
+        <aif:source>Mr. America(773): We have GOT to put a stop to this.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73351"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74104"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74167"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74230"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73354 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73354">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: We have GOT to put a stop to this.</aif:claimText>
+        <aif:source>Annot: We have GOT to put a stop to this.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73353"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73356 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73356">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The government is taking TOO MUCH CONTROL.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73357"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73359"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74106"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74169"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74232"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73355"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74105"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74168"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74231"/>
+        <aif:creationDate>2015-07-26 06:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73358 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73358">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): The government is taking TOO MUCH CONTROL.</aif:claimText>
+        <aif:source>Mr. America(773): The government is taking TOO MUCH CONTROL.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73357"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74106"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74169"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74232"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73360 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73360">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: The government is taking TOO MUCH CONTROL.</aif:claimText>
+        <aif:source>Annot: The government is taking TOO MUCH CONTROL.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73359"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73361 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73361">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>These whiny people that can&#039;t take care of themselves, expecting the government to pass laws</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73362"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73366"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74107"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74108"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74170"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74171"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74233"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74234"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73363 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73363">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): These whiny people that can&#039;t take care of themselves, expecting the government to pass laws</aif:claimText>
+        <aif:source>Mr. America(773): These whiny people that can&#039;t take care of themselves, expecting the government to pass laws</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73362"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74107"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74170"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74233"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73365 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73365">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: These whiny people that can&#039;t take care of themselves, expecting the government to pass laws</aif:claimText>
+        <aif:source>Annot: These whiny people that can&#039;t take care of themselves, expecting the government to pass laws</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73364"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73367 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73367">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>so that they don&#039;t have to do anything.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73368"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73370"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74109"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74172"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74235"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74108"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74171"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74234"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73369 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73369">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): so that they don&#039;t have to do anything.</aif:claimText>
+        <aif:source>Mr. America(773): so that they don&#039;t have to do anything.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73368"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74109"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74172"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74235"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73371 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73371">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: so that they don&#039;t have to do anything.</aif:claimText>
+        <aif:source>Annot: so that they don&#039;t have to do anything.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73370"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73372 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73372">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Why should I have to do without something just becasue you can&#039;t have it?</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73373"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73375"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74110"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74173"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74236"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73374 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73374">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): Why should I have to do without something just becasue you can&#039;t have it?</aif:claimText>
+        <aif:source>Mr. America(773): Why should I have to do without something just becasue you can&#039;t have it?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73373"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74110"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74173"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74236"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73376 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73376">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Why should I have to do without something just becasue you can&#039;t have it?</aif:claimText>
+        <aif:source>Annot: Why should I have to do without something just becasue you can&#039;t have it?</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73375"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73377 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73377">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>GROW UP, be an adult.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73378"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73380"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74111"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74174"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74237"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73379 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73379">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): GROW UP, be an adult.</aif:claimText>
+        <aif:source>Mr. America(773): GROW UP, be an adult.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73378"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74111"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74174"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74237"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73381 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73381">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: GROW UP, be an adult.</aif:claimText>
+        <aif:source>Annot: GROW UP, be an adult.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73380"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73382 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73382">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>No one is FORCING you to eat, breath or even be around peanuts.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73383"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73385"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74112"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74175"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74238"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73384 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73384">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): No one is FORCING you to eat, breath or even be around peanuts.</aif:claimText>
+        <aif:source>Mr. America(773): No one is FORCING you to eat, breath or even be around peanuts.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73383"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74112"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74175"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74238"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73386 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73386">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: No one is FORCING you to eat, breath or even be around peanuts.</aif:claimText>
+        <aif:source>Annot: No one is FORCING you to eat, breath or even be around peanuts.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73385"/>
+        <aif:creationDate>2015-07-26 06:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73387 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73387">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Want a peanut free zone? get a plastic bubble.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73388"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73390"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74113"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74176"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74239"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73389 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73389">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): Want a peanut free zone? get a plastic bubble.</aif:claimText>
+        <aif:source>Mr. America(773): Want a peanut free zone? get a plastic bubble.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73388"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74113"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74176"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74239"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73391 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73391">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Want a peanut free zone? get a plastic bubble.</aif:claimText>
+        <aif:source>Annot: Want a peanut free zone? get a plastic bubble.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73390"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73392 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73392">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Banning peanuts from planes would be as dumb as making separate flights for people that are allergic.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73393"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73395"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73982"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73984"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74114"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74177"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74240"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73394 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73394">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): Banning peanuts from planes would be as dumb as making separate flights for people that are allergic.</aif:claimText>
+        <aif:source>Mr. America(773): Banning peanuts from planes would be as dumb as making separate flights for people that are allergic.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73393"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73982"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74114"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74177"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74240"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73396 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73396">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: Banning peanuts from planes would be as dumb as making separate flights for people that are allergic.</aif:claimText>
+        <aif:source>Annot: Banning peanuts from planes would be as dumb as making separate flights for people that are allergic.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73395"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73984"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73397 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73397">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I am so tired of hearing people complain becasue the world does not rotate the way they want it to.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73398"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73400"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73986"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73988"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74115"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74178"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74241"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73399 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73399">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): I am so tired of hearing people complain becasue the world does not rotate the way they want it to.</aif:claimText>
+        <aif:source>Mr. America(773): I am so tired of hearing people complain becasue the world does not rotate the way they want it to.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73398"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73986"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74115"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74178"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74241"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73401 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73401">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: I am so tired of hearing people complain becasue the world does not rotate the way they want it to.</aif:claimText>
+        <aif:source>Annot: I am so tired of hearing people complain becasue the world does not rotate the way they want it to.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73400"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73988"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73402 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73402">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>GET OVER IT.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73403"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73405"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73990"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73992"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74116"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74179"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74242"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73404 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73404">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): GET OVER IT.</aif:claimText>
+        <aif:source>Mr. America(773): GET OVER IT.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73403"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73990"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74116"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74179"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74242"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73406 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73406">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: GET OVER IT.</aif:claimText>
+        <aif:source>Annot: GET OVER IT.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73405"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73992"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73407 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73407">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You are not the only person in this planet.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73408"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73410"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73994"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73996"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74117"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74180"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74243"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): You are not the only person in this planet.</aif:claimText>
+        <aif:source>Mr. America(773): You are not the only person in this planet.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73408"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73994"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74117"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74180"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74243"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73411 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73411">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: You are not the only person in this planet.</aif:claimText>
+        <aif:source>Annot: You are not the only person in this planet.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73410"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73996"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We do not all bow down to your every command.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73413"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73415"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73998"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74000"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74118"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74181"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74244"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73414 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73414">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): We do not all bow down to your every command.</aif:claimText>
+        <aif:source>Mr. America(773): We do not all bow down to your every command.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73413"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73998"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74118"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74181"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74244"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73416 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73416">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: We do not all bow down to your every command.</aif:claimText>
+        <aif:source>Annot: We do not all bow down to your every command.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73415"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74000"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73417 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73417">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>YOU are the MINORITY.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73418"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73420"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74002"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74004"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74119"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74182"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74245"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73427"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74010"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74121"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74184"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/74247"/>
+        <aif:creationDate>2015-07-26 06:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73419 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73419">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): YOU are the MINORITY.</aif:claimText>
+        <aif:source>Mr. America(773): YOU are the MINORITY.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73418"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74002"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74119"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74182"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74245"/>
+        <aif:creationDate>2015-07-26 06:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73421 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73421">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: YOU are the MINORITY.</aif:claimText>
+        <aif:source>Annot: YOU are the MINORITY.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73420"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74004"/>
+        <aif:creationDate>2015-07-26 06:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73422 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73422">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>You adapt to our world or you stay home.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73423"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73427"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74006"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74008"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74010"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74120"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74121"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74183"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74184"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/74246"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/74247"/>
+        <aif:creationDate>2015-07-26 06:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73424 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73424">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Mr. America(773): You adapt to our world or you stay home.</aif:claimText>
+        <aif:source>Mr. America(773): You adapt to our world or you stay home.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73423"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74006"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74120"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74183"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74246"/>
+        <aif:creationDate>2015-07-26 06:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73426 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73426">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annot: You adapt to our world or you stay home.</aif:claimText>
+        <aif:source>Annot: You adapt to our world or you stay home.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73425"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/74008"/>
+        <aif:creationDate>2015-07-26 06:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73864 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73864">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Feedback Commenter (10): What happens to children flying alone?</aif:claimText>
+        <aif:source>Barbara: Feedback Commenter (10): What happens to children flying alone?</aif:source>
+        <aif:creationDate>2015-07-28 15:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73867 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73867">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Feedback Commenter (10): The airlines require that a companion (an employee of the airline) be assigned (for a fee) to children under a certain age for the duration of their travels.</aif:claimText>
+        <aif:source>Barbara: Feedback Commenter (10): The airlines require that a companion (an employee of the airline) be assigned (for a fee) to children under a certain age for the duration of their travels.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73871 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73871">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Feedback Commenter (10): How do the children just over the cutoff fend for themselves?</aif:claimText>
+        <aif:source>Barbara: Feedback Commenter (10): How do the children just over the cutoff fend for themselves?</aif:source>
+        <aif:creationDate>2015-07-28 15:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73874 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73874">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Feedback Commenter (10): ALL minors should have additional protections</aif:claimText>
+        <aif:source>Barbara: Feedback Commenter (10): ALL minors should have additional protections</aif:source>
+        <aif:creationDate>2015-07-28 15:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73878 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73878">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Feedback Commenter (10): as they will not be able to stand up and be heard as an adult might.</aif:claimText>
+        <aif:source>Barbara: Feedback Commenter (10): as they will not be able to stand up and be heard as an adult might.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73881 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73881">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Feedback Commenter (10): I have not heard anything about the treatment of minors.</aif:claimText>
+        <aif:source>Barbara: Feedback Commenter (10): I have not heard anything about the treatment of minors.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73885 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73885">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): In general, I think that blanket policies on this topic would be a bad idea,</aif:claimText>
+        <aif:source>Barbara: SofieM(947): In general, I think that blanket policies on this topic would be a bad idea,</aif:source>
+        <aif:creationDate>2015-07-28 15:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73890 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73890">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): because people have varying capacities to handle travel.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): because people have varying capacities to handle travel.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73893 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73893">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): For example, the first time I ever flew without a parent (13 years ago), I was 7 years old, and I went with my older brother who was 10.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): For example, the first time I ever flew without a parent (13 years ago), I was 7 years old, and I went with my older brother who was 10.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73896 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73896">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): We flew from Chicago to Colorado with no incident.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): We flew from Chicago to Colorado with no incident.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73901 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73901">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): However, that doesn&#039;t mean that every 7 or 10 year old can handle itmany can&#039;t, and shouldn&#039;t try.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): However, that doesn&#039;t mean that every 7 or 10 year old can handle itmany can&#039;t, and shouldn&#039;t try.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73904 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73904">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): It&#039;s something that the parents themselves should decide,</aif:claimText>
+        <aif:source>Barbara: SofieM(947): It&#039;s something that the parents themselves should decide,</aif:source>
+        <aif:creationDate>2015-07-28 15:09:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73908 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73908">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): because they know their children better than the airlines do.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): because they know their children better than the airlines do.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73912 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73912">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): Also, be careful when talking about &quot;minors&quot; flying alone on airplanes.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): Also, be careful when talking about &quot;minors&quot; flying alone on airplanes.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73915 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73915">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): I didn&#039;t turn 18 until I was already a sophomore in college</aif:claimText>
+        <aif:source>Barbara: SofieM(947): I didn&#039;t turn 18 until I was already a sophomore in college</aif:source>
+        <aif:creationDate>2015-07-28 15:09:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73918 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73918">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): Different airlines will treat this issue differently.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): Different airlines will treat this issue differently.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73921 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73921">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): Applying a blanket policy will take away the options that come in an open marketplace of ideas.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): Applying a blanket policy will take away the options that come in an open marketplace of ideas.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73925 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73925">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: SofieM(947): If I only had one option, because every airline was required to treat &quot;minors&quot; in the same manner, my travel choices would have been limited, not expanded.</aif:claimText>
+        <aif:source>Barbara: SofieM(947): If I only had one option, because every airline was required to treat &quot;minors&quot; in the same manner, my travel choices would have been limited, not expanded.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73928 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73928">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): There in lies the problem.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): There in lies the problem.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73931 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73931">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): Minors and elderly that can not take care of themselves should not fly alone.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): Minors and elderly that can not take care of themselves should not fly alone.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73935 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73935">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): Airlines are not babysitters.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): Airlines are not babysitters.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73938 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73938">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): I have always considered that to be negligence on the parents.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): I have always considered that to be negligence on the parents.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73941 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73941">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): Sending your minor child on a plane (or bus) across the country, or across the world alone,</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): Sending your minor child on a plane (or bus) across the country, or across the world alone,</aif:source>
+        <aif:creationDate>2015-07-28 15:09:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73944 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73944">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): who knows what could happen.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): who knows what could happen.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73947 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73947">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): These are the same &quot;parents&quot; that drive up and drop their child off at a mall for the day, then wonder why they get a call from the police that their child was found dead in a ditch.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): These are the same &quot;parents&quot; that drive up and drop their child off at a mall for the day, then wonder why they get a call from the police that their child was found dead in a ditch.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73952 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73952">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): they always say &quot;How did this happen?&quot;</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): they always say &quot;How did this happen?&quot;</aif:source>
+        <aif:creationDate>2015-07-28 15:09:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73955 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73955">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): You left your minor child unattended.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): You left your minor child unattended.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73957 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73957">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): take responsibility for yourself and your children.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): take responsibility for yourself and your children.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73960 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73960">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): be a REAL parent.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): be a REAL parent.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73962 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73962">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): So does that mean I can claim disability for my allergy to onions?</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): So does that mean I can claim disability for my allergy to onions?</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73964 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73964">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): How about people that are allergic to strawberries, pollen, dairy, ect.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): How about people that are allergic to strawberries, pollen, dairy, ect.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73966 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73966">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): We have GOT to put a stop to this.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): We have GOT to put a stop to this.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73968 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73968">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): The government is taking TOO MUCH CONTROL.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): The government is taking TOO MUCH CONTROL.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73970 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73970">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): These whiny people that can&#039;t take care of themselves, expecting the government to pass laws</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): These whiny people that can&#039;t take care of themselves, expecting the government to pass laws</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73972 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73972">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): so that they don&#039;t have to do anything.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): so that they don&#039;t have to do anything.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73974 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73974">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): Why should I have to do without something just becasue you can&#039;t have it?</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): Why should I have to do without something just becasue you can&#039;t have it?</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73976 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73976">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): GROW UP, be an adult.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): GROW UP, be an adult.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73978 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73978">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): No one is FORCING you to eat, breath or even be around peanuts.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): No one is FORCING you to eat, breath or even be around peanuts.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73980 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73980">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): Want a peanut free zone? get a plastic bubble.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): Want a peanut free zone? get a plastic bubble.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73983 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73983">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): Banning peanuts from planes would be as dumb as making separate flights for people that are allergic.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): Banning peanuts from planes would be as dumb as making separate flights for people that are allergic.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): I am so tired of hearing people complain becasue the world does not rotate the way they want it to.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): I am so tired of hearing people complain becasue the world does not rotate the way they want it to.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73991 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73991">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): GET OVER IT.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): GET OVER IT.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73995 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73995">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): You are not the only person in this planet.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): You are not the only person in this planet.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/73999 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/73999">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): We do not all bow down to your every command.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): We do not all bow down to your every command.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74003 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74003">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): YOU are the MINORITY.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): YOU are the MINORITY.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74007 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74007">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Barbara: Mr. America(773): You adapt to our world or you stay home.</aif:claimText>
+        <aif:source>Barbara: Mr. America(773): You adapt to our world or you stay home.</aif:source>
+        <aif:creationDate>2015-07-28 15:09:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74068 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74068">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73192"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73190"/>
+        <aif:creationDate>2015-07-28 15:29:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74069 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74069">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73197"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73195"/>
+        <aif:creationDate>2015-07-28 15:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74070 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74070">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73202"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73200"/>
+        <aif:creationDate>2015-07-28 15:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74071 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74071">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73207"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73205"/>
+        <aif:creationDate>2015-07-28 15:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74072 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74072">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73211"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73205"/>
+        <aif:creationDate>2015-07-28 15:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74073 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74073">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73213"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73211"/>
+        <aif:creationDate>2015-07-28 15:29:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74074 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74074">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73218"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73216"/>
+        <aif:creationDate>2015-07-28 15:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74075 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74075">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73223"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73221"/>
+        <aif:creationDate>2015-07-28 15:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74076 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74076">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73227"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73221"/>
+        <aif:creationDate>2015-07-28 15:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74077 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74077">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73229"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73227"/>
+        <aif:creationDate>2015-07-28 15:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74078 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74078">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73234"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73232"/>
+        <aif:creationDate>2015-07-28 15:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74079 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74079">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73239"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73237"/>
+        <aif:creationDate>2015-07-28 15:29:05</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74080 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74080">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73244"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73242"/>
+        <aif:creationDate>2015-07-28 15:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74081 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74081">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73249"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73247"/>
+        <aif:creationDate>2015-07-28 15:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74082 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74082">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73253"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73247"/>
+        <aif:creationDate>2015-07-28 15:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74083 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74083">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73255"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73253"/>
+        <aif:creationDate>2015-07-28 15:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74084 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74084">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73260"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73258"/>
+        <aif:creationDate>2015-07-28 15:29:06</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74085 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74085">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73265"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73263"/>
+        <aif:creationDate>2015-07-28 15:29:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74086 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74086">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73270"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73268"/>
+        <aif:creationDate>2015-07-28 15:29:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74087 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74087">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73275"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73273"/>
+        <aif:creationDate>2015-07-28 15:29:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74088 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74088">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73279"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73273"/>
+        <aif:creationDate>2015-07-28 15:29:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74089 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74089">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73281"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73279"/>
+        <aif:creationDate>2015-07-28 15:29:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74090 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74090">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73286"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73284"/>
+        <aif:creationDate>2015-07-28 15:29:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74091 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74091">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73291"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73289"/>
+        <aif:creationDate>2015-07-28 15:29:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74092 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74092">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73289"/>
+        <aif:creationDate>2015-07-28 15:29:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74093 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74093">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73297"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73295"/>
+        <aif:creationDate>2015-07-28 15:29:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74094 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74094">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73302"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73300"/>
+        <aif:creationDate>2015-07-28 15:29:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74095 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74095">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73307"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73305"/>
+        <aif:creationDate>2015-07-28 15:29:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74096 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74096">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73312"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73310"/>
+        <aif:creationDate>2015-07-28 15:29:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74097 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74097">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73317"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73315"/>
+        <aif:creationDate>2015-07-28 15:29:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74098 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74098">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73322"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73320"/>
+        <aif:creationDate>2015-07-28 15:29:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74099 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74099">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73327"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73325"/>
+        <aif:creationDate>2015-07-28 15:29:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74100 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74100">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73332"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73330"/>
+        <aif:creationDate>2015-07-28 15:29:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74101 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74101">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73337"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73335"/>
+        <aif:creationDate>2015-07-28 15:29:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74102 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74102">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73342"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73340"/>
+        <aif:creationDate>2015-07-28 15:29:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74103 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74103">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73347"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73345"/>
+        <aif:creationDate>2015-07-28 15:29:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74104 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74104">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73352"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73350"/>
+        <aif:creationDate>2015-07-28 15:29:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74105 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74105">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73350"/>
+        <aif:creationDate>2015-07-28 15:29:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74106 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74106">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73358"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73356"/>
+        <aif:creationDate>2015-07-28 15:29:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74107 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74107">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73363"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73361"/>
+        <aif:creationDate>2015-07-28 15:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74108 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74108">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73361"/>
+        <aif:creationDate>2015-07-28 15:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74109 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74109">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73369"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73367"/>
+        <aif:creationDate>2015-07-28 15:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74110 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74110">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73374"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73372"/>
+        <aif:creationDate>2015-07-28 15:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74111 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74111">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73379"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73377"/>
+        <aif:creationDate>2015-07-28 15:29:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74112 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74112">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73384"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73382"/>
+        <aif:creationDate>2015-07-28 15:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74113 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74113">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73389"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73387"/>
+        <aif:creationDate>2015-07-28 15:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74114 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74114">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73394"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73392"/>
+        <aif:creationDate>2015-07-28 15:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74115 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74115">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73399"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73397"/>
+        <aif:creationDate>2015-07-28 15:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74116 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74116">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73404"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73402"/>
+        <aif:creationDate>2015-07-28 15:29:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74117 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74117">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73409"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73407"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74118 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74118">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73414"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73412"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74119 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74119">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73419"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73417"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74120 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74120">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/73424"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/73422"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74121 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74121">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73417"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73422"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74122 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74122">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73195"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73200"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73205"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74123 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74123">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73221"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73205"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74124 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74124">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73232"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73237"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73242"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73221"/>
+        <aif:creationDate>2015-07-28 15:29:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74125 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74125">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73247"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73221"/>
+        <aif:creationDate>2015-07-28 15:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74126 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74126">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73263"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73258"/>
+        <aif:creationDate>2015-07-28 15:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74127 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74127">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73258"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73221"/>
+        <aif:creationDate>2015-07-28 15:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74128 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74128">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73273"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73221"/>
+        <aif:creationDate>2015-07-28 15:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74129 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74129">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73289"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73205"/>
+        <aif:creationDate>2015-07-28 15:29:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/74130 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/74130">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73305"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/73310"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/73289"/>
+        <aif:creationDate>2015-07-28 15:29:14</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

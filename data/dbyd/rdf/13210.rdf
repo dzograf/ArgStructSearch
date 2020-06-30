@@ -1,0 +1,991 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/321942 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321942">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Na podstawie artykułu Anny Dąbrowskiej, Edukacja a rynek pracy:</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321953"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322670"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322720"/>
+        <aif:creationDate>2018-01-17 16:53:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321946 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321946">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Pod naciskiem realiów ekonomicznych , rynek pracy, a w konsekwencji zaopatrujące rynek w pracowników, szkolnictwo, stały się bardzo podatne na zmiany, zachodzące w światowej gospodarce. Posiadanie odpowiedniego wykształcenia jest coraz istotniejszym czynnikiem, determinującym, czy w ogóle i jaką pracę będzie w stanie uzyskać, na płynnym rynku pracy, młody aplikant.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321953"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321990"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322671"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322720"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322721"/>
+        <aif:creationDate>2018-01-17 17:19:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321968 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321968">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Istnieje współzależność, pomiędzy gospodarką, polityką edukacyjną i rynkiem pracy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322202"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322436"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322567"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322695"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322719"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322769"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321990"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322020"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322060"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322671"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322674"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322721"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322722"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322724"/>
+        <aif:creationDate>2018-01-17 17:19:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/321996 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/321996">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Zgodnie z definicją UNESCO, edukację należy postrzegać jako dobro inwestycyjne.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322020"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322722"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322045"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322068"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322673"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322675"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322723"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322725"/>
+        <aif:creationDate>2018-01-17 17:19:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322011 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322011">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>W państwach obecnej UE takie rozumienie edukacji zostało uznane za fakt i przyjęte wraz ze wszystkimi konsekwencjami społeczno- ekonomicznymi o 10-15 lat wcześniej niż w Polsce.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322045"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322673"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322723"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322078"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322676"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322726"/>
+        <aif:creationDate>2018-01-17 17:19:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322051 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322051">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Edukację należy rozpatrywać w dwóch aspektach - jako sferę działalności: gospodarczej i indywidualnej.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322060"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322068"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322078"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322724"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322725"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322726"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322103"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322677"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322727"/>
+        <aif:creationDate>2018-01-17 17:19:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322089 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322089">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Oba aspekty mają, różny co do stopnia, ale zauważalny i istotny wkład w przyrost PKB. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322103"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322682"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322727"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322136"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322327"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322470"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322678"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322697"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322728"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322747"/>
+        <aif:creationDate>2018-01-17 17:20:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322119 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322119">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Inwestowanie w edukację jest inwestycją w rozwój gospodarki krajowej w najwyższym stopniu.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322136"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322168"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322679"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322728"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322729"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322183"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322680"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322730"/>
+        <aif:creationDate>2018-01-17 17:21:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322156 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322156">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jak wskazuje praktyka UE:</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322168"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322729"/>
+        <aif:creationDate>2018-01-17 17:21:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322172 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322172">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wykształcone społeczeństwo jest bardziej otwarte na procesy przemian gospodarczych, a jednocześnie łatwiej się w nich odnajduje. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322183"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322680"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322730"/>
+        <aif:creationDate>2018-01-17 17:21:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322196 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322196">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Czterokrotne zwiększenie popytu na naukę wyższą w latach 1991-2001 z 403 000 do 1 584 800 studentów pośrednio dowodzi, że</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322385"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322202"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322208"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322227"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322311"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322683"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322688"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322731"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322738"/>
+        <aif:creationDate>2018-01-17 17:21:48</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322218 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322218">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wciąż potrzeba rozwiązań, które zapewnią możliwość aktualizowania i rozszerzania umiejętności  absolwentów, pod postacią studiów podyplomowych, kursów specjalizacyjnych itp, mających za cel ułatwienie niezbędnego, czasem przekwalifikowania, lub ogólnej adaptacji do płynnie zmieniającego się rynku pracy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322227"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322242"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322684"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322733"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322734"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322744"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322272"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322685"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322735"/>
+        <aif:creationDate>2018-01-17 17:21:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ciągle istnieje zjawisko nierównego dostępu do edukacji ze względów finansowych.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322278"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322684"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322686"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322734"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322736"/>
+        <aif:creationDate>2018-01-17 17:21:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322255 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322255">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Rozwiązanie tego problemu przez stworzenie odpowiednich strategii i ustalenie właściwej polityki, uwzględniającej niezbędne zmiany w systemie szkolnictwa, umożliwiające pełne wykorzystanie potencjału absolwentów, leżą po stronie państwa polskiego.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322272"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322278"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322685"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322686"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322735"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322736"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322687"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322737"/>
+        <aif:creationDate>2018-01-17 17:21:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322287 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322287">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Systemy ekonomiczne UE, w znacznej mierze oparte są o stały rozwój inwestycji w dziedzinę nauki i techniki.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322301"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322311"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322327"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322687"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322689"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322737"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322738"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322347"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322566"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322718"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322740"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322768"/>
+        <aif:creationDate>2018-01-17 17:22:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322338 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322338">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Edukację w aspekcie indywidualnym trzeba traktować nie tylko, jako osobistą inwestycję w przyszłość, lecz, jako sposób życia, przedłużający proces edukacji na całe, aktywne zawodowo, życie jednostki.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322690"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322740"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328985"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/328986"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329024"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/329025"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322477"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322698"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322741"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322748"/>
+        <aif:creationDate>2018-01-17 17:22:07</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322356 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322356">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Powstaje tak zwany kapitał edukacyjny (kapitał umiejętności).</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322368"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322528"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322691"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322709"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322759"/>
+        <aif:creationDate>2018-01-17 17:22:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322376 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322376">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kapitał edukacyjny przedstawia się skromnie: w 1998, 65% dorosłych Polaków miało wykształcenie niepełne, podstawowe, lub zasadnicze zawodowe, 27% średnie, 8% wyższe, 12% potrafiło porozumieć się w jednym z języków Unii. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322486"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322693"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322699"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322749"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322385"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322528"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322692"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322709"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322759"/>
+        <aif:creationDate>2018-01-17 17:22:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322392 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322392">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Dane przeterminowane</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322404"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322743"/>
+        <aif:creationDate>2018-01-17 17:22:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322416 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322416">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wciąż istnieje zjawisko wzrastającego odsetka bezrobotnych z wyższym wykształceniem.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322696"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322694"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322744"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322745"/>
+        <aif:creationDate>2018-01-17 17:22:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322447 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322447">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Polscy ekonomiści zakładają, że do 2020 roku nastąpi pełne zsynchronizowanie pomiędzy edukacją a rynkiem pracy. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322470"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322477"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322697"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322698"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322747"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322748"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322486"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322490"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322696"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322699"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322700"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322749"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322750"/>
+        <aif:creationDate>2018-01-17 17:22:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322489 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322489">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To oznacza poważne zmiany procedur a jednocześnie zanik pewnych “starych” zawodów i pojawienie się “nowych” (dotąd nieznanych) na ich miejsce.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322490"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322700"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322750"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322496"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322525"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322541"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322701"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322708"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322713"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322751"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322763"/>
+        <aif:creationDate>2018-01-17 17:22:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322493 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322493">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Konieczne jest:</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322496"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322701"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322751"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322500"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322505"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322510"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322514"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322519"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322523"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322702"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322703"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322704"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322705"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322706"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322707"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322752"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322753"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322754"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322755"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322757"/>
+        <aif:creationDate>2018-01-17 17:22:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322498 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322498">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>poszerzenie oferty edukacyjnej, publicznej i prywatnej, co wywoła wzrost liczby studentów, ale także konieczność przygotowania liczniejszej i właściwie przygotowanej kadry</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322500"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322702"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322752"/>
+        <aif:creationDate>2018-01-17 17:22:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322502 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322502">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>powstanie kształcenia wielopoziomowego, uwzględniającego możliwość indywidualnego dobierania elementów i poziomów.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322505"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322703"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322753"/>
+        <aif:creationDate>2018-01-17 17:22:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322507 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322507">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>zsynchronizowanie kształcenia z potrzebami rynku.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322510"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322704"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322754"/>
+        <aif:creationDate>2018-01-17 17:22:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322512 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322512">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>opracowanie oficjalnych, standaryzowanych systemów oceny i akredytacji.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322514"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322705"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322755"/>
+        <aif:creationDate>2018-01-17 17:22:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322517 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322517">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>przeznaczenie nakładu min. 6% do 8% PKB na edukację w perspektywie 2015- 2020.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322519"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322706"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322756"/>
+        <aif:creationDate>2018-01-17 17:22:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322521 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322521">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>zmodernizowanie makrostruktury gospodarki.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322523"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322707"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322757"/>
+        <aif:creationDate>2018-01-17 17:22:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322524 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322524">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2020 zatrudnienie w sferze usług około 61% ogółu pracujących.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322708"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322758"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322533"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322540"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322710"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322712"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322762"/>
+        <aif:creationDate>2018-01-17 17:22:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322530 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322530">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Rynek usług jest jednym z przeżywających najbardziej dynamiczny rozwój rynków Unii, stanowiąc często alternatywę dla osób, które nie znalazły zatrudnienia w “wyuczonych” profesjach.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322710"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322760"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322536"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322711"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322761"/>
+        <aif:creationDate>2018-01-17 17:22:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322534 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322534">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Do mających najwyższy udział w tej puli zaliczane są: branża IT, telekomunikacja, usługi globalne.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322711"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322761"/>
+        <aif:creationDate>2018-01-17 17:22:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322538 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322538">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Istnieje konieczność stworzenia odpowiednich warunków zdobycia wykształcenia głównego, a także jego rozwoju i dalszej aktualizacji, w branżach: IT, robotyki, obsługi cyfrowych maszyn i linii produkcyjnych, informatycznego wspomagania biznesu itp. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322540"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322541"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322712"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322713"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322762"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322763"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322546"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322714"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322764"/>
+        <aif:creationDate>2018-01-17 17:23:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322543 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322543">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Główną cechą nowo powstałych nisz pracy, jest pośredni i bezpośredni związek z globalną siecią informatyczną. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322546"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322714"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322764"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322553"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322715"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322765"/>
+        <aif:creationDate>2018-01-17 17:24:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322550 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322550">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Następuje wzrost wymagań kompetencyjnych i jakości, posiadanych umiejętności wobec aplikujących o pracę, przez pracodawców. Należy przypuszczać, że trend ten nie tylko się utrzyma, ale będzie zwiększał.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322553"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322715"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322765"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322558"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322716"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322766"/>
+        <aif:creationDate>2018-01-17 17:24:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322555 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322555">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Rozpoczęła się trzecia rewolucja przemysłowa, ograniczające zapotrzebowanie na siłę fizyczną (robotyzacja), spychając na margines życia zawodowego miliony osób, zwiększająca jednocześnie, zapotrzebowanie rynku na wysoko wykwalifikowane (zatem drogie w edukacji) kadry.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322558"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322716"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322766"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322563"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322717"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322767"/>
+        <aif:creationDate>2018-01-17 17:24:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322561 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322561">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Związek pomiędzy rynkiem pracy a edukacją będzie się nadal zacieśniał. Jednocześnie zmieni sam styl życia, przy stale obecnej w programach pomocowych UE zachęca do ciągłego kształcenia.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322563"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322566"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322717"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322718"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322767"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322768"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322567"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322719"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322769"/>
+        <aif:creationDate>2018-01-17 17:24:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322670 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322670">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321942"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321946"/>
+        <aif:creationDate>2018-01-17 17:54:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322671 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322671">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321968"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321946"/>
+        <aif:creationDate>2018-01-17 17:54:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321968"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321996"/>
+        <aif:creationDate>2018-01-17 17:54:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322673 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322673">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321996"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322011"/>
+        <aif:creationDate>2018-01-17 17:54:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322674 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322674">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321968"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322051"/>
+        <aif:creationDate>2018-01-17 17:54:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322675 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322675">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/321996"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322051"/>
+        <aif:creationDate>2018-01-17 17:54:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322676 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322676">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322011"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322051"/>
+        <aif:creationDate>2018-01-17 17:54:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322051"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322089"/>
+        <aif:creationDate>2018-01-17 17:54:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322678 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322678">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322089"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322119"/>
+        <aif:creationDate>2018-01-17 17:54:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322156"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322119"/>
+        <aif:creationDate>2018-01-17 17:54:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322680 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322680">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322119"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322172"/>
+        <aif:creationDate>2018-01-17 17:54:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321968"/>
+        <aif:creationDate>2018-01-17 17:54:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322682 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322682">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322089"/>
+        <aif:creationDate>2018-01-17 17:54:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322683 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322683">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322218"/>
+        <aif:creationDate>2018-01-17 17:54:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322684 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322684">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322234"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322218"/>
+        <aif:creationDate>2018-01-17 17:54:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322685 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322685">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322218"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322255"/>
+        <aif:creationDate>2018-01-17 17:54:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322686 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322686">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322234"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322255"/>
+        <aif:creationDate>2018-01-17 17:54:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322687 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322687">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322255"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322287"/>
+        <aif:creationDate>2018-01-17 17:54:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322688 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322688">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322287"/>
+        <aif:creationDate>2018-01-17 17:54:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322689 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322689">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322089"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322287"/>
+        <aif:creationDate>2018-01-17 17:54:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322690 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322690">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322287"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322338"/>
+        <aif:creationDate>2018-01-17 17:54:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322691 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322691">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322338"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322356"/>
+        <aif:creationDate>2018-01-17 17:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322692 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322692">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322376"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322196"/>
+        <aif:creationDate>2018-01-17 17:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322693 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322693">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322392"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322376"/>
+        <aif:creationDate>2018-01-17 17:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322694 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322694">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322218"/>
+        <aif:creationDate>2018-01-17 17:54:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322695 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322695">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321968"/>
+        <aif:creationDate>2018-01-17 17:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322696 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322696">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322447"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322416"/>
+        <aif:creationDate>2018-01-17 17:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322697 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322697">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322089"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322447"/>
+        <aif:creationDate>2018-01-17 17:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322698 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322698">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322338"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322447"/>
+        <aif:creationDate>2018-01-17 17:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322699 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322699">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322447"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322376"/>
+        <aif:creationDate>2018-01-17 17:54:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322700 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322700">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322447"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322489"/>
+        <aif:creationDate>2018-01-17 17:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322701 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322701">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322489"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322493"/>
+        <aif:creationDate>2018-01-17 17:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322702 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322702">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322498"/>
+        <aif:creationDate>2018-01-17 17:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322703 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322703">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322502"/>
+        <aif:creationDate>2018-01-17 17:54:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322704 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322704">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322507"/>
+        <aif:creationDate>2018-01-17 17:54:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322705 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322705">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322512"/>
+        <aif:creationDate>2018-01-17 17:54:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322706 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322706">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322517"/>
+        <aif:creationDate>2018-01-17 17:54:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322707 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322707">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322521"/>
+        <aif:creationDate>2018-01-17 17:54:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322708 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322708">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322489"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322524"/>
+        <aif:creationDate>2018-01-17 17:54:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322709 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322709">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322376"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322356"/>
+        <aif:creationDate>2018-01-17 17:54:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322710 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322710">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322530"/>
+        <aif:creationDate>2018-01-17 17:54:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322711 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322711">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322530"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322534"/>
+        <aif:creationDate>2018-01-17 17:54:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322712 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322712">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322538"/>
+        <aif:creationDate>2018-01-17 17:54:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322713 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322713">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322489"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322538"/>
+        <aif:creationDate>2018-01-17 17:54:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322714 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322714">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322538"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322543"/>
+        <aif:creationDate>2018-01-17 17:54:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322715 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322715">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322543"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322550"/>
+        <aif:creationDate>2018-01-17 17:54:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322716 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322716">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322550"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322555"/>
+        <aif:creationDate>2018-01-17 17:54:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322717 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322717">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322555"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322561"/>
+        <aif:creationDate>2018-01-17 17:54:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322718 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322718">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322287"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/322561"/>
+        <aif:creationDate>2018-01-17 17:54:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/322719 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/322719">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/322561"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/321968"/>
+        <aif:creationDate>2018-01-17 17:54:20</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

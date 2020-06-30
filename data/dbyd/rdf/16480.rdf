@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/459434 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459434">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Доктор Мортимер – медик средних лет</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459436"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459438"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459440"/>
+        <aif:creationDate>2019-12-14 16:38:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459435 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459435">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Друзья наделяют его такими знаками внимания.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459436"/>
+        <aif:creationDate>2019-12-14 16:38:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459436 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459436">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459435"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459434"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459437 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459437">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Опять же надпись: «От друзей по ЧКЛ». Я полагаю, что буквы «КЛ» означают клуб, вернее всего охотничий, членам которого он оказывал медицинскую помощь, за что ему и преподнесли этот небольшой подарок.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459442"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459438"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459438 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459438">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459437"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459434"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459439 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459439">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Доктор Мортимер не пожилой врач, а человек около тридцати лет.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459440"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459440 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459440">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459439"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459434"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459441 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459441">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Я бы сказал, что подобное подношение врач, скорее всего, может получить от какой-нибудь лечебницы, а не от охотничьего клуба, а когда перед лечебницей стоят буквы «ЧК», название «Черингкросская» напрашивается само собой.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459442"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459445"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459442 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459442">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459441"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459437"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459443 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459443">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Работу в лечебнице он сменил на сельскую практику.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459445"/>
+        <aif:creationDate>2019-12-14 16:38:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459444 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459444">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Подарок был сделан именно в связи с его уходом.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459449"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459445 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459445">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459441"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459444"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459446 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459446">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Он не мог состоять в штате консультантов лечебницы.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459449"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459451"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459447 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459447">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Врач с солидной практикой вряд ли уехал бы из города.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459449"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459448 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459448">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Состоять в штате консультантов лечебницы допустимо только врачу с солидной лондонской практикой.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459449"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459449 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459449">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459447"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459448"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459446"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459450 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459450">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если он работал там, не будучи штатным консультантом, значит, ему отводилась скромная роль куратора, живущего при лечебнице, то есть немногим большая, чем роль практиканта.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459451"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459452"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459451 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459451">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459446"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459450"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/459452 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/459452">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/459450"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/459439"/>
+        <aif:creationDate>2019-12-14 16:38:36</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

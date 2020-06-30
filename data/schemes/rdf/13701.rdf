@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/343658 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343658">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1. STANDPOINT: Facebook is working to solve the issues and make sure that they do not happen again.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343673"/>
+        <aif:creationDate>2018-06-07 16:14:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343659 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343659">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1 Facebook is an idealistic and optimistic company. [...], we focused on all the good that connecting people can bring. As Facebook has grown, people everywhere have gotten a powerful new tool to stay connected to the people they love, make their voices heard, and build communities and businesses.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343667"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343670"/>
+        <aif:creationDate>2018-06-07 16:14:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343660 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343660">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1.2 It’s not enough to just connect people, we have to make sure those connections are positive. It’s not enough to just give people a voice, we have to make sure people aren’t using it to hurt people or spread misinformation. It’s not enough to give people control of their information, we have to make sure developers they’ve given it to are protecting it too. Across the board, we have a responsibility to not just build tools, but to make sure those tools are used for good</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343662"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343673"/>
+        <aif:creationDate>2018-06-07 16:14:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343661 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343661">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1.1 So now we have to go through every part of our relationship with people and make sure we’re taking a broad enough view of our responsibility.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343667"/>
+        <aif:creationDate>2018-06-07 16:14:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343662 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343662">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343660"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343659"/>
+        <aif:creationDate>2018-06-07 16:14:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343663 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343663">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3 We have a responsibility to make sure what happened with Kogan and Cambridge Analytica doesn’t happen again</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343679"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343685"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343687"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343689"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343665"/>
+        <aif:creationDate>2018-06-07 16:14:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343664 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343664">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.2 we’ve been working to understand exactly what happened with Cambridge Analytica and taking steps to make sure this doesn’t happen again</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343666"/>
+        <aif:creationDate>2018-06-07 16:14:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343665 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343665">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343658"/>
+        <aif:creationDate>2018-06-07 16:14:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343666 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343666">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343658"/>
+        <aif:creationDate>2018-06-07 16:14:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343667 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343667">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343661"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343659"/>
+        <aif:creationDate>2018-06-07 16:14:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343668 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343668">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1.3 My top priority has always been our social mission of connecting people, building community and bringing the world closer together. Advertisers and developers will never take priority over that as long as I’m running Facebook.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343669"/>
+        <aif:creationDate>2018-06-07 16:14:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343669 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343669">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343668"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343659"/>
+        <aif:creationDate>2018-06-07 16:14:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343670 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343670">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343659"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343658"/>
+        <aif:creationDate>2018-06-07 16:14:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343671 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343671">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.4 We were too slow to spot and respond to Russian interference, and we’re working hard to get better</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343672"/>
+        <aif:creationDate>2018-06-07 16:14:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343671"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343658"/>
+        <aif:creationDate>2018-06-07 16:14:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343673 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343673">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343660"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343658"/>
+        <aif:creationDate>2018-06-07 16:14:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343674 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343674">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.1 Safeguarding our platform</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343675"/>
+        <aif:creationDate>2018-06-07 16:14:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343675 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343675">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343676 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343676">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.2 Change of the Facebook platform in order to restrict the amount of data that developers can access</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343677"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343678 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343678">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.3 Remove developer’s access to data if the user did not use the app created by the Cambridge University researcher</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343679"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343680 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343680">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.4  We’re reducing the data you give an app when you approve it to only your name, profile photo, and email address</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343681"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343680"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343682 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343682">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.5 We’re requiring developers to not only get approval but also to sign a contract that imposes strict requirements in order to ask anyone for access to their posts or other private data.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343683"/>
+        <aif:creationDate>2018-06-07 16:14:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343683 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343683">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343682"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343684 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343684">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.6 We’re restricting more APIs like groups and events. You should be able to sign into apps and share your public information easily, but anything that might also share other people’s information — like other posts in groups you’re in or other people going to events you’re going to — will be much more restricted</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343685"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343685 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343685">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343684"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343686 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343686">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.7 we found out that a feature that lets you look someone up by their phone number and email was abused. [...] When we found out about the abuse, we shut this feature down</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343687"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343687 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343687">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343686"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343688 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343688">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.8 Investigating other apps. We’re in the process of investigating every app that had access to a large amount of information before we locked down our platform in 2014.[...] And if we find that someone is improperly using data, we’ll ban them and tell everyone affected</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343689"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343689 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343689">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343690 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343690">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.3.9 Building better controls. Finally, we’re making it easier to understand which apps you’ve allowed to access your data.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343693"/>
+        <aif:creationDate>2018-06-07 16:14:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343691 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343691">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.4.1 There’s no question that we should have spotted Russian interference earlier, and we’re working hard to make sure it doesn’t happen again.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343692"/>
+        <aif:creationDate>2018-06-07 16:14:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343692 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343692">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343691"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343671"/>
+        <aif:creationDate>2018-06-07 16:14:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343693 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343693">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343690"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343663"/>
+        <aif:creationDate>2018-06-07 16:14:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343694 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343694">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.4.2 Building new technology to prevent abuse. Since 2016, we have improved our techniques to prevent nation states from interfering in foreign elections, and we’ve built more advanced AI tools to remove fake accounts more generally. There have been a number of important elections since then where these new tools have been successfully deployed</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343695"/>
+        <aif:creationDate>2018-06-07 16:14:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343695 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343695">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343671"/>
+        <aif:creationDate>2018-06-07 16:14:36</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

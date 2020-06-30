@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/170344 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170344">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We want to survive in the next 5 years</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170347"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170372"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170373"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In order to survive we have to cut costs</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170347"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170372"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170346 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170346">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We want to cut costs by 15 %</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170360"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170377"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170355"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170374"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170348 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170348">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In order to survive we have to differentiate form different airlines</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170373"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170349 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170349">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We want to be the best digital airline</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170350"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170356"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170369"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170378"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170380"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170351 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170351">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Using cloud based applications will reduce application costs</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170355"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170374"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170352 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170352">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We want more cloud based applications</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170371"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170381"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170353 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170353">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Letting a customer&#039;s digital journey perfectly fit his physical journey will increase his digital experience</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170356"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170375"/>
+        <aif:creationDate>2016-04-22 12:12:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170354 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170354">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Our customer should be able to digitally manage his journey until the moment of arrival</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170376"/>
+        <aif:creationDate>2016-04-22 12:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170357 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170357">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To let the customer manage his journey until the moment of arrival the software which supports this should be available anywhere and anytime</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170376"/>
+        <aif:creationDate>2016-04-22 12:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170358 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170358">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We want software which is available anywhere and anytime</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170359"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170376"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170360"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170377"/>
+        <aif:creationDate>2016-04-22 12:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170361 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170361">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To be the best digital airline we need an analytic system which provides extra service to our customer</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170378"/>
+        <aif:creationDate>2016-04-22 12:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170362 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170362">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We need an analytic system which provides extra service to our customer</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170378"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170379"/>
+        <aif:creationDate>2016-04-22 12:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170364 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170364">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>By analyzing the customer&#039;s behaviour we can customize our standard services into extra services</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170379"/>
+        <aif:creationDate>2016-04-22 12:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170365 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170365">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We need an analytic system which analyzes the customer&#039;s behaviour</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170366"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170379"/>
+        <aif:creationDate>2016-04-22 12:12:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170367 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170367">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Being agile results in being a better digital airline</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170369"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170380"/>
+        <aif:creationDate>2016-04-22 12:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170368 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170368">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We want to be more agile</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170369"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170380"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170381"/>
+        <aif:creationDate>2016-04-22 12:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170370 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170370">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Cloud based solutions increase agility</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170381"/>
+        <aif:creationDate>2016-04-22 12:12:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170372 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170372">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170344"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170345"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170346"/>
+        <aif:creationDate>2016-04-22 12:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170373 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170373">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170344"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170348"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170349"/>
+        <aif:creationDate>2016-04-22 12:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170374 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170374">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170346"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170352"/>
+        <aif:creationDate>2016-04-22 12:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170375 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170375">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170354"/>
+        <aif:creationDate>2016-04-22 12:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170376 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170376">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170354"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170357"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170358"/>
+        <aif:creationDate>2016-04-22 12:21:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170377 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170377">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170358"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170346"/>
+        <aif:creationDate>2016-04-22 12:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170378 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170378">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170361"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170362"/>
+        <aif:creationDate>2016-04-22 12:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170379 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170379">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170362"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170365"/>
+        <aif:creationDate>2016-04-22 12:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170380 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170380">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170349"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170368"/>
+        <aif:creationDate>2016-04-22 12:21:22</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/170381 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/170381">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/170370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/170352"/>
+        <aif:creationDate>2016-04-22 12:21:22</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

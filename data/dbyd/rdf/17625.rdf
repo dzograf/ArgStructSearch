@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/493080 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/493080">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Kolejki? Jedną zaćmy wybieracie, a  dzisiaj wzrosły kolejki -jeszcze raz przypomnę- w dwudziestu sześciu specjalnościach tylko w czterech się skróciły.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493079"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493122"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493159"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493408"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493447"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493483"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493521"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493559"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496622"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505875"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505915"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505954"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505993"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/506030"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493130"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493167"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493455"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493491"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493529"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493567"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/505883"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/505923"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/505962"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/506001"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/506038"/>
+        <aif:creationDate>2020-05-08 16:57:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/493083 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/493083">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Jeżeli nie będzie ponadpolitycznego porozumienia, to nie będzie zmiany w służbie zdrowia</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Jeżeli nie będzie ponadpolitycznego porozumienia, to nie będzie zmiany w służbie zdrowia</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493091"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493126"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493163"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493412"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493451"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493487"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493525"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493563"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496627"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/505879"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/505919"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/505958"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/505997"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/506034"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493084"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493092"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493124"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493127"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493161"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493164"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493410"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493413"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493449"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493452"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493485"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493488"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493523"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493526"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493561"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493564"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496625"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496634"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/505877"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/505880"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/505917"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/505920"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/505956"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/505959"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/505995"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/505998"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/506032"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/506035"/>
+        <aif:creationDate>2020-05-08 16:57:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/493085 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/493085">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jeżeli nie będzie ponadpolitycznego porozumienia, to nie będzie zmiany w służbie zdrowia</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493084"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493124"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493161"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493410"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493449"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493485"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493523"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493561"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496625"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505877"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505917"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505956"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/505995"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/506032"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493128"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493165"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493414"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493489"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493527"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493565"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496628"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/505881"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/505921"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/505960"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/505999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/506036"/>
+        <aif:creationDate>2020-05-08 16:57:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Władysław Kosiniak-Kamysz przypomnę tylko pytanie: nie pakt przed wyborami, ale plan ratunkowy,  wspólny plan ratunkowy po wyborach.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Władysław Kosiniak-Kamysz przypomnę tylko pytanie: nie pakt przed wyborami, ale plan ratunkowy,  wspólny plan ratunkowy po wyborach.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496588"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496596"/>
+        <aif:creationDate>2020-05-14 12:55:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496587"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496589"/>
+        <aif:creationDate>2020-05-14 12:55:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496589 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496589">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: Władysław Kosiniak-Kamysz przypomnę tylko pytanie: nie pakt przed wyborami, ale plan ratunkowy,  wspólny plan ratunkowy po wyborach.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496588"/>
+        <aif:creationDate>2020-05-14 12:55:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496590 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496590">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Władysław Kosiniak-Kamysz przypomnę tylko pytanie: nie pakt przed wyborami, ale plan ratunkowy,  wspólny plan ratunkowy po wyborach.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Władysław Kosiniak-Kamysz przypomnę tylko pytanie: nie pakt przed wyborami, ale plan ratunkowy,  wspólny plan ratunkowy po wyborach.</aif:source>
+        <aif:creationDate>2020-05-14 12:55:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496591 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496591">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysłąw Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Jesteśmy gotowi do pracy ze wszystkimi środowiskami,  tu nie będzie różnic</aif:claimText>
+        <aif:source>W: Władysłąw Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Jesteśmy gotowi do pracy ze wszystkimi środowiskami,  tu nie będzie różnic</aif:source>
+        <aif:creationDate>2020-05-14 12:55:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496592 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496592">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Jesteśmy gotowi do pracy ze wszystkimi środowiskami,  tu nie będzie różnic</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Jesteśmy gotowi do pracy ze wszystkimi środowiskami,  tu nie będzie różnic</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496596"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496593"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496601"/>
+        <aif:creationDate>2020-05-14 12:55:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496593 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496593">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496592"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496594"/>
+        <aif:creationDate>2020-05-14 12:55:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496594 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496594">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz: Jesteśmy gotowi do pracy ze wszystkimi środowiskami,  tu nie będzie różnic</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496593"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496628"/>
+        <aif:creationDate>2020-05-14 12:55:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496595 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496595">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Jesteśmy gotowi do pracy ze wszystkimi środowiskami,  tu nie będzie różnic</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : Władysław Kosiniak-Kamysz: Jesteśmy gotowi do pracy ze wszystkimi środowiskami,  tu nie będzie różnic</aif:source>
+        <aif:creationDate>2020-05-14 12:55:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496596 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496596">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496587"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496592"/>
+        <aif:creationDate>2020-05-14 12:55:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496597 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496597">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : i dzisiaj deklaruję ja, jako lekarz, nie jako polityk że zrobię wszystko żeby będąc w opozycji czy w koalicji uzdrowić polską służbę zdrowia.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : i dzisiaj deklaruję ja, jako lekarz, nie jako polityk że zrobię wszystko żeby będąc w opozycji czy w koalicji uzdrowić polską służbę zdrowia.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496601"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496598"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496606"/>
+        <aif:creationDate>2020-05-14 12:55:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496598 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496598">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496597"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496599"/>
+        <aif:creationDate>2020-05-14 12:55:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496599 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496599">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>i dzisiaj deklaruję ja, jako lekarz, nie jako polityk że zrobię wszystko żeby będąc w opozycji czy w koalicji uzdrowić polską służbę zdrowia.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496598"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496607"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496614"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496635"/>
+        <aif:creationDate>2020-05-14 12:55:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496600 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496600">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : i dzisiaj deklaruję ja, jako lekarz, nie jako polityk że zrobię wszystko żeby będąc w opozycji czy w koalicji uzdrowić polską służbę zdrowia.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : i dzisiaj deklaruję ja, jako lekarz, nie jako polityk że zrobię wszystko żeby będąc w opozycji czy w koalicji uzdrowić polską służbę zdrowia.</aif:source>
+        <aif:creationDate>2020-05-14 12:55:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496601 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496601">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496592"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496597"/>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496602 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496602">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Ona musi być inaczej zarządzana, inaczej dystrybuowane środki</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Ona musi być inaczej zarządzana, inaczej dystrybuowane środki</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496606"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496603"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496613"/>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496603 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496603">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496602"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496604"/>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496604 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496604">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ona musi być inaczej zarządzana, inaczej dystrybuowane środki</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496603"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496607"/>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496605 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496605">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : Ona musi być inaczej zarządzana, inaczej dystrybuowane środki</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : Ona musi być inaczej zarządzana, inaczej dystrybuowane środki</aif:source>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496606 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496606">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496597"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496602"/>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496607 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496607">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496604"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496608"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496599"/>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496608 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496608">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496606"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496607"/>
+        <aif:creationDate>2020-05-14 12:55:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496609 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496609">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz :  musi być większy udział samorządów lekarskich, pielęgniarskich, samorządu fizjoterapeutów i innych w zarządzaniu tymi pieniędzmi wpływ również samorządów terytorialnych.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz :  musi być większy udział samorządów lekarskich, pielęgniarskich, samorządu fizjoterapeutów i innych w zarządzaniu tymi pieniędzmi wpływ również samorządów terytorialnych.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496613"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496610"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496620"/>
+        <aif:creationDate>2020-05-14 12:55:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496610 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496610">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496609"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496611"/>
+        <aif:creationDate>2020-05-14 12:55:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496611 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496611">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>musi być większy udział samorządów lekarskich, pielęgniarskich, samorządu fizjoterapeutów i innych w zarządzaniu tymi pieniędzmi wpływ również samorządów terytorialnych.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496610"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496614"/>
+        <aif:creationDate>2020-05-14 12:55:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496612 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496612">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz :  musi być większy udział samorządów lekarskich, pielęgniarskich, samorządu fizjoterapeutów i innych w zarządzaniu tymi pieniędzmi wpływ również samorządów terytorialnych.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz :  musi być większy udział samorządów lekarskich, pielęgniarskich, samorządu fizjoterapeutów i innych w zarządzaniu tymi pieniędzmi wpływ również samorządów terytorialnych.</aif:source>
+        <aif:creationDate>2020-05-14 12:55:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496613 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496613">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496602"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496609"/>
+        <aif:creationDate>2020-05-14 12:55:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496614 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496614">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496611"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496615"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496599"/>
+        <aif:creationDate>2020-05-14 12:55:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496615 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496615">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496613"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496614"/>
+        <aif:creationDate>2020-05-14 12:55:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496616 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496616">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Ujmujący jest dobry humor pana posła Horały. Panie pośle, proszę pojechać do Grudziądza tam jest szpital zadłużony na pół miliarda złotych. Dlaczego nie pokazujecie na ile są dzisiaj zadłużone wszystkie szpitale? Utajniliście ten raport! 13 miliardów to są ostatnie dane.  Aby mówić o zrównoważonym budżecie - to się w głowie już po prostu nie mieści.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Ujmujący jest dobry humor pana posła Horały. Panie pośle, proszę pojechać do Grudziądza tam jest szpital zadłużony na pół miliarda złotych. Dlaczego nie pokazujecie na ile są dzisiaj zadłużone wszystkie szpitale? Utajniliście ten raport! 13 miliardów to są ostatnie dane.  Aby mówić o zrównoważonym budżecie - to się w głowie już po prostu nie mieści.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496620"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496617"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496624"/>
+        <aif:creationDate>2020-05-14 12:55:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496617 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496617">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496616"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496618"/>
+        <aif:creationDate>2020-05-14 12:55:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496618 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496618">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ujmujący jest dobry humor pana posła Horały. Panie pośle, proszę pojechać do Grudziądza tam jest szpital zadłużony na pół miliarda złotych. Dlaczego nie pokazujecie na ile są dzisiaj zadłużone wszystkie szpitale? Utajniliście ten raport! 13 miliardów to są ostatnie dane.  Aby mówić o zrównoważonym budżecie - to się w głowie już po prostu nie mieści.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496617"/>
+        <aif:creationDate>2020-05-14 12:55:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496619 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496619">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : Ujmujący jest dobry humor pana posła Horały. Panie pośle, proszę pojechać do Grudziądza tam jest szpital zadłużony na pół miliarda złotych. Dlaczego nie pokazujecie na ile są dzisiaj zadłużone wszystkie szpitale? Utajniliście ten raport! 13 miliardów to są ostatnie dane.  Aby mówić o zrównoważonym budżecie - to się w głowie już po prostu nie mieści.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : Ujmujący jest dobry humor pana posła Horały. Panie pośle, proszę pojechać do Grudziądza tam jest szpital zadłużony na pół miliarda złotych. Dlaczego nie pokazujecie na ile są dzisiaj zadłużone wszystkie szpitale? Utajniliście ten raport! 13 miliardów to są ostatnie dane.  Aby mówić o zrównoważonym budżecie - to się w głowie już po prostu nie mieści.</aif:source>
+        <aif:creationDate>2020-05-14 12:55:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496620 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496620">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496609"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496616"/>
+        <aif:creationDate>2020-05-14 12:55:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496621 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496621">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz :  Kolejki? Jedną zaćmy wybieracie, a  dzisiaj wzrosły kolejki -jeszcze raz przypomnę- w dwudziestu sześciu specjalnościach tylko w czterech się skróciły.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz :  Kolejki? Jedną zaćmy wybieracie, a  dzisiaj wzrosły kolejki -jeszcze raz przypomnę- w dwudziestu sześciu specjalnościach tylko w czterech się skróciły.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496624"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496622"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496627"/>
+        <aif:creationDate>2020-05-14 12:55:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496622 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496622">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496621"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493080"/>
+        <aif:creationDate>2020-05-14 12:55:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496623 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496623">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz :  Kolejki? Jedną zaćmy wybieracie, a  dzisiaj wzrosły kolejki -jeszcze raz przypomnę- w dwudziestu sześciu specjalnościach tylko w czterech się skróciły.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz :  Kolejki? Jedną zaćmy wybieracie, a  dzisiaj wzrosły kolejki -jeszcze raz przypomnę- w dwudziestu sześciu specjalnościach tylko w czterech się skróciły.</aif:source>
+        <aif:creationDate>2020-05-14 12:55:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496624 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496624">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496616"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496621"/>
+        <aif:creationDate>2020-05-14 12:55:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496625 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496625">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/493083"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/493085"/>
+        <aif:creationDate>2020-05-14 12:55:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496626 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496626">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : Jeżeli nie będzie ponadpolitycznego porozumienia, to nie będzie zmiany w służbie zdrowia</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : Jeżeli nie będzie ponadpolitycznego porozumienia, to nie będzie zmiany w służbie zdrowia</aif:source>
+        <aif:creationDate>2020-05-14 12:55:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496627 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496627">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496621"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493083"/>
+        <aif:creationDate>2020-05-14 12:55:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496628 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496628">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/493085"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496629"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496594"/>
+        <aif:creationDate>2020-05-14 12:55:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496629 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496629">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496627"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496628"/>
+        <aif:creationDate>2020-05-14 12:55:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496630 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496630">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : i muszą się spełnić słowa Jarosława Bilińskiego,  przywódcy rezydentów “Niech wygra partia zdrowia”.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : i muszą się spełnić słowa Jarosława Bilińskiego,  przywódcy rezydentów “Niech wygra partia zdrowia”.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496634"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496631"/>
+        <aif:creationDate>2020-05-14 12:55:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496631 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496631">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496630"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496632"/>
+        <aif:creationDate>2020-05-14 12:55:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>i muszą się spełnić słowa Jarosława Bilińskiego,  przywódcy rezydentów “Niech wygra partia zdrowia”.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496631"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496635"/>
+        <aif:creationDate>2020-05-14 12:55:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496633 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496633">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Władysław Kosiniak-Kamysz : i muszą się spełnić słowa Jarosława Bilińskiego,  przywódcy rezydentów “Niech wygra partia zdrowia”.</aif:claimText>
+        <aif:source>W: Władysław Kosiniak-Kamysz : i muszą się spełnić słowa Jarosława Bilińskiego,  przywódcy rezydentów “Niech wygra partia zdrowia”.</aif:source>
+        <aif:creationDate>2020-05-14 12:55:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496634 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496634">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/493083"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496630"/>
+        <aif:creationDate>2020-05-14 12:55:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496635 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496635">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496599"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496636"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496632"/>
+        <aif:creationDate>2020-05-14 12:55:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496636 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496636">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496634"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496635"/>
+        <aif:creationDate>2020-05-14 12:55:16</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

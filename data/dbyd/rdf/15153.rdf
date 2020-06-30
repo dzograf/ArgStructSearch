@@ -1,0 +1,791 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/417384 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417384">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Participant Rachel :</aif:claimText>
+        <aif:source>cxc: Participant Rachel :</aif:source>
+        <aif:creationDate>2019-06-13 20:20:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417385 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417385">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Participant Rachel : Enter your text here...</aif:claimText>
+        <aif:source>cxc: Participant Rachel : Enter your text here...</aif:source>
+        <aif:creationDate>2019-06-13 20:20:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417386 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417386">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Co do tych towarów podwójnej jakości gorszej jakości to myśmy również składali projekt uchwały w tej kwestii również</aif:claimText>
+        <aif:source>Paweł Kukiz : Co do tych towarów podwójnej jakości gorszej jakości to myśmy również składali projekt uchwały w tej kwestii również</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417388"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417394"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417447"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417449"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417539"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417541"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417576"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417578"/>
+        <aif:creationDate>2019-06-13 20:20:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417387 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417387">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Co do tych towarów podwójnej jakości gorszej jakości to myśmy również składali projekt uchwały w tej kwestii również</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417388"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417447"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417539"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417576"/>
+        <aif:creationDate>2019-06-13 20:20:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417389 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417389">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Co do tych towarów podwójnej jakości gorszej jakości to myśmy również składali projekt uchwały w tej kwestii również</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Co do tych towarów podwójnej jakości gorszej jakości to myśmy również składali projekt uchwały w tej kwestii również</aif:source>
+        <aif:creationDate>2019-06-13 20:20:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417390 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417390">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : PiS to wywalił do kosza tak na marginesie</aif:claimText>
+        <aif:source>Paweł Kukiz : PiS to wywalił do kosza tak na marginesie</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417394"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417449"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417541"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417578"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417391"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417399"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417448"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417451"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417540"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417543"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417577"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417580"/>
+        <aif:creationDate>2019-06-13 20:20:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417392 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417392">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>PiS to wywalił do kosza tak na marginesie</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417391"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417448"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417540"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417577"/>
+        <aif:creationDate>2019-06-13 20:20:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417393 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417393">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : PiS to wywalił do kosza tak na marginesie</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : PiS to wywalił do kosza tak na marginesie</aif:source>
+        <aif:creationDate>2019-06-13 20:20:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417395 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417395">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Natomiast jeżeli Unia Europejska chce przetrwać musi być koniecznie zreformowana</aif:claimText>
+        <aif:source>Paweł Kukiz : Natomiast jeżeli Unia Europejska chce przetrwać musi być koniecznie zreformowana</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417399"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417451"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417543"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417580"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417396"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417404"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417450"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417453"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417542"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417545"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417579"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417582"/>
+        <aif:creationDate>2019-06-13 20:20:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417397 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417397">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Natomiast jeżeli Unia Europejska chce przetrwać musi być koniecznie zreformowana</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417396"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417425"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417450"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417460"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417462"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417474"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417542"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417550"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417551"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417552"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417553"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417574"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417579"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417587"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417588"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417589"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417590"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417605"/>
+        <aif:creationDate>2019-06-13 20:20:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417398 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417398">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Natomiast jeżeli Unia Europejska chce przetrwać musi być koniecznie zreformowana</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Natomiast jeżeli Unia Europejska chce przetrwać musi być koniecznie zreformowana</aif:source>
+        <aif:creationDate>2019-06-13 20:20:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417400 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417400">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : no to ma być unia budowana przez ludzi i dla ludzi a nie przez partie polityczne</aif:claimText>
+        <aif:source>Paweł Kukiz : no to ma być unia budowana przez ludzi i dla ludzi a nie przez partie polityczne</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417404"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417453"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417545"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417582"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417401"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417409"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417452"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417455"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417544"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417547"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417581"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417584"/>
+        <aif:creationDate>2019-06-13 20:20:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417402 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417402">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>no to ma być unia budowana przez ludzi i dla ludzi a nie przez partie polityczne</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417401"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417452"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417544"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417581"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417422"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417550"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417587"/>
+        <aif:creationDate>2019-06-13 20:20:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417403 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417403">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : no to ma być unia budowana przez ludzi i dla ludzi a nie przez partie polityczne</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : no to ma być unia budowana przez ludzi i dla ludzi a nie przez partie polityczne</aif:source>
+        <aif:creationDate>2019-06-13 20:20:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417405 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417405">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Trzeba na pewno zmniejszyć uprawnienia Komisji Europejskiej która jest takim swoistym dworem arystokratycznych wokół tego małżeństwa cesarzowej Merkel i króla Maroka służąca Niemcom i Francji</aif:claimText>
+        <aif:source>Paweł Kukiz : Trzeba na pewno zmniejszyć uprawnienia Komisji Europejskiej która jest takim swoistym dworem arystokratycznych wokół tego małżeństwa cesarzowej Merkel i króla Maroka służąca Niemcom i Francji</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417409"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417455"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417547"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417584"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417406"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417440"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417454"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417468"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417546"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417559"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417583"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417596"/>
+        <aif:creationDate>2019-06-13 20:20:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417407 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417407">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Trzeba na pewno zmniejszyć uprawnienia Komisji Europejskiej która jest takim swoistym dworem arystokratycznych wokół tego małżeństwa cesarzowej Merkel i króla Maroka służąca Niemcom i Francji</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417406"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417454"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417546"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417583"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417460"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417551"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417588"/>
+        <aif:creationDate>2019-06-13 20:20:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Trzeba na pewno zmniejszyć uprawnienia Komisji Europejskiej która jest takim swoistym dworem arystokratycznych wokół tego małżeństwa cesarzowej Merkel i króla Maroka służąca Niemcom i Francji</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Trzeba na pewno zmniejszyć uprawnienia Komisji Europejskiej która jest takim swoistym dworem arystokratycznych wokół tego małżeństwa cesarzowej Merkel i króla Maroka służąca Niemcom i Francji</aif:source>
+        <aif:creationDate>2019-06-13 20:20:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417410 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417410">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Na pewno chcemy żeby parlament europejski posiadał inicjatywę ustawodawczą bo państwo wiedzą że Parlament Europejski nie ma inicjatywy ustawodawczej</aif:claimText>
+        <aif:source>Paweł Kukiz : Na pewno chcemy żeby parlament europejski posiadał inicjatywę ustawodawczą bo państwo wiedzą że Parlament Europejski nie ma inicjatywy ustawodawczej</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417440"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417468"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417559"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417596"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417411"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417441"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417456"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417469"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417548"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417560"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417585"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417597"/>
+        <aif:creationDate>2019-06-13 20:20:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Na pewno chcemy żeby parlament europejski posiadał inicjatywę ustawodawczą bo państwo wiedzą że Parlament Europejski nie ma inicjatywy ustawodawczej</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417411"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417456"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417548"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417585"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417461"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417552"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417589"/>
+        <aif:creationDate>2019-06-13 20:20:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417413 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417413">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Na pewno chcemy żeby parlament europejski posiadał inicjatywę ustawodawczą bo państwo wiedzą że Parlament Europejski nie ma inicjatywy ustawodawczej</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Na pewno chcemy żeby parlament europejski posiadał inicjatywę ustawodawczą bo państwo wiedzą że Parlament Europejski nie ma inicjatywy ustawodawczej</aif:source>
+        <aif:creationDate>2019-06-13 20:20:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417414 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417414">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Organ wybierany w drodze demokratycznych</aif:claimText>
+        <aif:source>Paweł Kukiz : Organ wybierany w drodze demokratycznych</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417441"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417469"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417560"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417597"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417415"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417442"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417457"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417470"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417549"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417571"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417586"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417602"/>
+        <aif:creationDate>2019-06-13 20:20:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417416 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417416">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Organ wybierany w drodze demokratycznych</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417415"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417457"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417549"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417586"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417462"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417553"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417590"/>
+        <aif:creationDate>2019-06-13 20:20:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417417 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417417">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Organ wybierany w drodze demokratycznych</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Organ wybierany w drodze demokratycznych</aif:source>
+        <aif:creationDate>2019-06-13 20:20:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417421 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417421">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Chcemy boxingu chcemy konsultacji z obywatelami chcemy pomagać Afryce ale nie damy z Europy zrobić Afryki</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Chcemy boxingu chcemy konsultacji z obywatelami chcemy pomagać Afryce ale nie damy z Europy zrobić Afryki</aif:source>
+        <aif:creationDate>2019-06-13 20:20:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417426 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417426">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Chcemy również jesteśmy tolerancyjni kochamy kolory</aif:claimText>
+        <aif:source>Paweł Kukiz : Chcemy również jesteśmy tolerancyjni kochamy kolory</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417443"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417471"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417427"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417444"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417463"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417472"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417554"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417561"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417591"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417598"/>
+        <aif:creationDate>2019-06-13 20:20:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417428 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417428">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Chcemy również jesteśmy tolerancyjni kochamy kolory</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417427"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417463"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417554"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417591"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417439"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417467"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417558"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417595"/>
+        <aif:creationDate>2019-06-13 20:20:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417429 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417429">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Chcemy również jesteśmy tolerancyjni kochamy kolory</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Chcemy również jesteśmy tolerancyjni kochamy kolory</aif:source>
+        <aif:creationDate>2019-06-13 20:20:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417430 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417430">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Neil Lyndon : nie godzimy się żeby z homoseksualizmu zrobić religię</aif:claimText>
+        <aif:source>Neil Lyndon : nie godzimy się żeby z homoseksualizmu zrobić religię</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417444"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417472"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417561"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417598"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417431"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417445"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417464"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417473"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417555"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417562"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417592"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417599"/>
+        <aif:creationDate>2019-06-13 20:20:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417432 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417432">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>nie godzimy się żeby z homoseksualizmu zrobić religię</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417439"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417464"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417467"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417555"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417558"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417592"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417595"/>
+        <aif:creationDate>2019-06-13 20:20:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417433 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417433">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Neil Lyndon : nie godzimy się żeby z homoseksualizmu zrobić religię</aif:claimText>
+        <aif:source>cxc: Neil Lyndon : nie godzimy się żeby z homoseksualizmu zrobić religię</aif:source>
+        <aif:creationDate>2019-06-13 20:20:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417434 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417434">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Unia rzymska oparte na tradycji</aif:claimText>
+        <aif:source>Paweł Kukiz : Unia rzymska oparte na tradycji</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417445"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417473"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417562"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417599"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417435"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417465"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417556"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417593"/>
+        <aif:creationDate>2019-06-13 20:20:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417436 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417436">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Unia rzymska oparte na tradycji</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417435"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417465"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417556"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417593"/>
+        <aif:creationDate>2019-06-13 20:20:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417437 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417437">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Unia rzymska oparte na tradycji</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Unia rzymska oparte na tradycji</aif:source>
+        <aif:creationDate>2019-06-13 20:20:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417563 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417563">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : Chcemy boxingu chcemy konsultacji z obywatelami</aif:claimText>
+        <aif:source>Paweł Kukiz : Chcemy boxingu chcemy konsultacji z obywatelami</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417571"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417602"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417564"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417572"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417600"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417603"/>
+        <aif:creationDate>2019-06-13 20:33:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417565 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417565">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Chcemy boxingu chcemy konsultacji z obywatelami</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417564"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417600"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417574"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417605"/>
+        <aif:creationDate>2019-06-13 20:33:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417566 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417566">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : Chcemy boxingu chcemy konsultacji z obywatelami</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : Chcemy boxingu chcemy konsultacji z obywatelami</aif:source>
+        <aif:creationDate>2019-06-13 20:33:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417567 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417567">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Paweł Kukiz : chcemy pomagać Afryce ale nie damy z Europy zrobić Afryki</aif:claimText>
+        <aif:source>Paweł Kukiz : chcemy pomagać Afryce ale nie damy z Europy zrobić Afryki</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417572"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417603"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417568"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417601"/>
+        <aif:creationDate>2019-06-13 20:33:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417569 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417569">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>chcemy pomagać Afryce ale nie damy z Europy zrobić Afryki</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417568"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417601"/>
+        <aif:creationDate>2019-06-13 20:33:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417570 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417570">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>cxc: Paweł Kukiz : chcemy pomagać Afryce ale nie damy z Europy zrobić Afryki</aif:claimText>
+        <aif:source>cxc: Paweł Kukiz : chcemy pomagać Afryce ale nie damy z Europy zrobić Afryki</aif:source>
+        <aif:creationDate>2019-06-13 20:33:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417575 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417575">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Enter your text here...</aif:claimText>
+        <aif:source>Enter your text here...</aif:source>
+        <aif:creationDate>2019-06-13 20:39:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417576 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417576">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417386"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417387"/>
+        <aif:creationDate>2019-06-13 20:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417577 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417577">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417390"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417392"/>
+        <aif:creationDate>2019-06-13 20:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417578 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417578">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417386"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417390"/>
+        <aif:creationDate>2019-06-13 20:39:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417579 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417579">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417395"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417397"/>
+        <aif:creationDate>2019-06-13 20:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417580 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417580">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417390"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417395"/>
+        <aif:creationDate>2019-06-13 20:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417581 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417581">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417400"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417402"/>
+        <aif:creationDate>2019-06-13 20:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417582 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417582">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417395"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417400"/>
+        <aif:creationDate>2019-06-13 20:39:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417583 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417583">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417405"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417407"/>
+        <aif:creationDate>2019-06-13 20:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417584 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417584">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417400"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417405"/>
+        <aif:creationDate>2019-06-13 20:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417585 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417585">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417410"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417412"/>
+        <aif:creationDate>2019-06-13 20:39:52</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417586 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417586">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417414"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417416"/>
+        <aif:creationDate>2019-06-13 20:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417587 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417587">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417397"/>
+        <aif:creationDate>2019-06-13 20:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417588 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417588">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417407"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417397"/>
+        <aif:creationDate>2019-06-13 20:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417589 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417589">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417397"/>
+        <aif:creationDate>2019-06-13 20:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417590 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417590">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417397"/>
+        <aif:creationDate>2019-06-13 20:39:53</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417591 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417591">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417426"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417428"/>
+        <aif:creationDate>2019-06-13 20:39:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417592 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417592">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417430"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417432"/>
+        <aif:creationDate>2019-06-13 20:39:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417593 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417593">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417434"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417436"/>
+        <aif:creationDate>2019-06-13 20:39:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417594 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417594">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2019-06-13 20:39:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417595 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417595">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417428"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417432"/>
+        <aif:creationDate>2019-06-13 20:39:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417596 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417596">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417405"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417410"/>
+        <aif:creationDate>2019-06-13 20:39:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417597 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417597">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417410"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417414"/>
+        <aif:creationDate>2019-06-13 20:39:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417598 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417598">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417426"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417430"/>
+        <aif:creationDate>2019-06-13 20:39:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417599 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417599">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417430"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417434"/>
+        <aif:creationDate>2019-06-13 20:39:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417600 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417600">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417563"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417565"/>
+        <aif:creationDate>2019-06-13 20:39:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417601 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417601">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/417567"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/417569"/>
+        <aif:creationDate>2019-06-13 20:39:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417602 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417602">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417414"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417563"/>
+        <aif:creationDate>2019-06-13 20:39:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417603 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417603">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/417563"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/417567"/>
+        <aif:creationDate>2019-06-13 20:39:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417604 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417604">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2019-06-13 20:39:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/417605 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/417605">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/417565"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/417397"/>
+        <aif:creationDate>2019-06-13 20:39:57</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

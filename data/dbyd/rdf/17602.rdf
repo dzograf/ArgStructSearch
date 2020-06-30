@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/491641 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491641">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Takie pakty były podpisywane w wielu krajach między innymi w krajach skandynawskich i one pozwalają na to żeby w stabilny, odpowiedzialny sposób planować przyszłość.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491640"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491718"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491744"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492917"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492943"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495357"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491644"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491720"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492945"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495363"/>
+        <aif:creationDate>2020-05-04 22:54:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491646 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491646">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : Więc my jako lewica jesteśmy jak najbardziej za tym, żeby usiąść do takich rozmów, w szczególności do Okrągłego Stołu ze środowiskiem medycznym.</aif:claimText>
+        <aif:source>Adrian Zandberg : Więc my jako lewica jesteśmy jak najbardziej za tym, żeby usiąść do takich rozmów, w szczególności do Okrągłego Stołu ze środowiskiem medycznym.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491662"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495362"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495367"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491647"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491665"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495360"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495373"/>
+        <aif:creationDate>2020-05-04 22:54:49</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491648 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491648">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Więc my jako lewica jesteśmy jak najbardziej za tym, żeby usiąść do takich rozmów, w szczególności do Okrągłego Stołu ze środowiskiem medycznym.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491647"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491663"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495360"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495366"/>
+        <aif:creationDate>2020-05-04 22:54:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491654 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491654">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : To jest problem z którym PiS sobie ewidentnie nie poradził w tej kadencji.</aif:claimText>
+        <aif:source>Adrian Zandberg : To jest problem z którym PiS sobie ewidentnie nie poradził w tej kadencji.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491666"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491732"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491752"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492925"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492951"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495383"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491655"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491667"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491722"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491724"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491748"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491750"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492921"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492923"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492947"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492949"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495381"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495388"/>
+        <aif:creationDate>2020-05-04 22:54:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491656 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491656">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To jest problem z którym PiS sobie ewidentnie nie poradził w tej kadencji.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491655"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491722"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491748"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492921"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492947"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495381"/>
+        <aif:creationDate>2020-05-04 22:54:51</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495336 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495336">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Szanowni Państwo, po 89 roku w służbie zdrowia rewolucja goniła rewolucję. Dziś postulat lekarzy środowisk medycznych i ekspertów brzmi tak -  to jest postulat także do polityków: usiądziemy razem i opracujemy pakiet zmian, który obowiązywał będzie bez względu na to kto jest aktualnie przy władzy. W związku z tym to nie jest pakiet który można podpisać przed wyborami który za chwilę się po wyborach zapomni.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Szanowni Państwo, po 89 roku w służbie zdrowia rewolucja goniła rewolucję. Dziś postulat lekarzy środowisk medycznych i ekspertów brzmi tak -  to jest postulat także do polityków: usiądziemy razem i opracujemy pakiet zmian, który obowiązywał będzie bez względu na to kto jest aktualnie przy władzy. W związku z tym to nie jest pakiet który można podpisać przed wyborami który za chwilę się po wyborach zapomni.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495337"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495344"/>
+        <aif:creationDate>2020-05-14 10:11:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495337 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495337">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495336"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495338"/>
+        <aif:creationDate>2020-05-14 10:11:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495338 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495338">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz: Szanowni Państwo, po 89 roku w służbie zdrowia rewolucja goniła rewolucję. Dziś postulat lekarzy środowisk medycznych i ekspertów brzmi tak -  to jest postulat także do polityków: usiądziemy razem i opracujemy pakiet zmian, który obowiązywał będzie bez względu na to kto jest aktualnie przy władzy. W związku z tym to nie jest pakiet który można podpisać przed wyborami który za chwilę się po wyborach zapomni.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495337"/>
+        <aif:creationDate>2020-05-14 10:11:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495339 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495339">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Szanowni Państwo, po 89 roku w służbie zdrowia rewolucja goniła rewolucję. Dziś postulat lekarzy środowisk medycznych i ekspertów brzmi tak -  to jest postulat także do polityków: usiądziemy razem i opracujemy pakiet zmian, który obowiązywał będzie bez względu na to kto jest aktualnie przy władzy. W związku z tym to nie jest pakiet który można podpisać przed wyborami który za chwilę się po wyborach zapomni.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: Szanowni Państwo, po 89 roku w służbie zdrowia rewolucja goniła rewolucję. Dziś postulat lekarzy środowisk medycznych i ekspertów brzmi tak -  to jest postulat także do polityków: usiądziemy razem i opracujemy pakiet zmian, który obowiązywał będzie bez względu na to kto jest aktualnie przy władzy. W związku z tym to nie jest pakiet który można podpisać przed wyborami który za chwilę się po wyborach zapomni.</aif:source>
+        <aif:creationDate>2020-05-14 10:11:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495340 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495340">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : Czy jest zgoda waszych partii żeby taki ponadpartyjny plan ratunkowy dla polskiej służby zdrowia po wyborach wspólnie opracować?  Pierwszy Adrian Zandberg.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : Czy jest zgoda waszych partii żeby taki ponadpartyjny plan ratunkowy dla polskiej służby zdrowia po wyborach wspólnie opracować?  Pierwszy Adrian Zandberg.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495344"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495341"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495348"/>
+        <aif:creationDate>2020-05-14 10:11:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495341 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495341">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495340"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495342"/>
+        <aif:creationDate>2020-05-14 10:11:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495342 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495342">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Czy jest zgoda waszych partii żeby taki ponadpartyjny plan ratunkowy dla polskiej służby zdrowia po wyborach wspólnie opracować?  Pierwszy Adrian Zandberg.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495341"/>
+        <aif:creationDate>2020-05-14 10:11:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495343 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495343">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Czy jest zgoda waszych partii żeby taki ponadpartyjny plan ratunkowy dla polskiej służby zdrowia po wyborach wspólnie opracować?  Pierwszy Adrian Zandberg.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Czy jest zgoda waszych partii żeby taki ponadpartyjny plan ratunkowy dla polskiej służby zdrowia po wyborach wspólnie opracować?  Pierwszy Adrian Zandberg.</aif:source>
+        <aif:creationDate>2020-05-14 10:11:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495344 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495344">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495336"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495340"/>
+        <aif:creationDate>2020-05-14 10:11:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : Adrian Zandberg: już wspominałem przed chwilą że mi się wydaje że to nie tylko potrzebne, możliwe, ale po prostu konieczne</aif:claimText>
+        <aif:source>Adrian Zandberg : Adrian Zandberg: już wspominałem przed chwilą że mi się wydaje że to nie tylko potrzebne, możliwe, ale po prostu konieczne</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495348"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495353"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495365"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495367"/>
+        <aif:creationDate>2020-05-14 10:11:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495346 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495346">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Adrian Zandberg: już wspominałem przed chwilą że mi się wydaje że to nie tylko potrzebne, możliwe, ale po prostu konieczne</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495354"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495366"/>
+        <aif:creationDate>2020-05-14 10:11:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495347 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495347">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : Adrian Zandberg: już wspominałem przed chwilą że mi się wydaje że to nie tylko potrzebne, możliwe, ale po prostu konieczne</aif:claimText>
+        <aif:source>W: Adrian Zandberg : Adrian Zandberg: już wspominałem przed chwilą że mi się wydaje że to nie tylko potrzebne, możliwe, ale po prostu konieczne</aif:source>
+        <aif:creationDate>2020-05-14 10:11:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495348 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495348">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495340"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495345"/>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495349 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495349">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg :  bo jeżeli chcemy żeby polska ochrona zdrowia zmieniła się na lepsze to musimy planować w perspektywie dłuższej niż doraźna, wyborcza, czteroletnia. </aif:claimText>
+        <aif:source>Adrian Zandberg :  bo jeżeli chcemy żeby polska ochrona zdrowia zmieniła się na lepsze to musimy planować w perspektywie dłuższej niż doraźna, wyborcza, czteroletnia. </aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495353"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495350"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495359"/>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495350 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495350">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495349"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495351"/>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495351 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495351">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>bo jeżeli chcemy żeby polska ochrona zdrowia zmieniła się na lepsze to musimy planować w perspektywie dłuższej niż doraźna, wyborcza, czteroletnia. </aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495354"/>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495352 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495352">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg :  bo jeżeli chcemy żeby polska ochrona zdrowia zmieniła się na lepsze to musimy planować w perspektywie dłuższej niż doraźna, wyborcza, czteroletnia. </aif:claimText>
+        <aif:source>W: Adrian Zandberg :  bo jeżeli chcemy żeby polska ochrona zdrowia zmieniła się na lepsze to musimy planować w perspektywie dłuższej niż doraźna, wyborcza, czteroletnia. </aif:source>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495353 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495353">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495345"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495349"/>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495354 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495354">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495351"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495346"/>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495355 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495355">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/495353"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495354"/>
+        <aif:creationDate>2020-05-14 10:11:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495356 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495356">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : Takie pakty były podpisywane w wielu krajach między innymi w krajach skandynawskich i one pozwalają na to żeby w stabilny, odpowiedzialny sposób planować przyszłość.</aif:claimText>
+        <aif:source>Adrian Zandberg : Takie pakty były podpisywane w wielu krajach między innymi w krajach skandynawskich i one pozwalają na to żeby w stabilny, odpowiedzialny sposób planować przyszłość.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495359"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495357"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495362"/>
+        <aif:creationDate>2020-05-14 10:11:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495357 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495357">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495356"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491641"/>
+        <aif:creationDate>2020-05-14 10:11:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495358 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495358">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : Takie pakty były podpisywane w wielu krajach między innymi w krajach skandynawskich i one pozwalają na to żeby w stabilny, odpowiedzialny sposób planować przyszłość.</aif:claimText>
+        <aif:source>W: Adrian Zandberg : Takie pakty były podpisywane w wielu krajach między innymi w krajach skandynawskich i one pozwalają na to żeby w stabilny, odpowiedzialny sposób planować przyszłość.</aif:source>
+        <aif:creationDate>2020-05-14 10:11:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495359 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495359">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495349"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495356"/>
+        <aif:creationDate>2020-05-14 10:11:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495360 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495360">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491646"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491648"/>
+        <aif:creationDate>2020-05-14 10:11:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495361 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495361">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : Więc my jako lewica jesteśmy jak najbardziej za tym, żeby usiąść do takich rozmów, w szczególności do Okrągłego Stołu ze środowiskiem medycznym.</aif:claimText>
+        <aif:source>W: Adrian Zandberg : Więc my jako lewica jesteśmy jak najbardziej za tym, żeby usiąść do takich rozmów, w szczególności do Okrągłego Stołu ze środowiskiem medycznym.</aif:source>
+        <aif:creationDate>2020-05-14 10:11:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495362 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495362">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495356"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491646"/>
+        <aif:creationDate>2020-05-14 10:11:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495363 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495363">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491641"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491648"/>
+        <aif:creationDate>2020-05-14 10:11:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495364 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495364">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/495362"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495363"/>
+        <aif:creationDate>2020-05-14 10:11:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495365 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495365">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495345"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495346"/>
+        <aif:creationDate>2020-05-14 10:11:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495366 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495366">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495346"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495368"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491648"/>
+        <aif:creationDate>2020-05-14 10:11:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495367 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495367">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495345"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491646"/>
+        <aif:creationDate>2020-05-14 10:11:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495368 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495368">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/495367"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495366"/>
+        <aif:creationDate>2020-05-14 10:11:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495369 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495369">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : I nie tylko lekarzami i pielęgniarkami ale wszystkimi zawodami medycznymi</aif:claimText>
+        <aif:source>Adrian Zandberg : I nie tylko lekarzami i pielęgniarkami ale wszystkimi zawodami medycznymi</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495373"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495370"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495378"/>
+        <aif:creationDate>2020-05-14 10:11:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495370 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495370">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495369"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495371"/>
+        <aif:creationDate>2020-05-14 10:11:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495371 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495371">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I nie tylko lekarzami i pielęgniarkami ale wszystkimi zawodami medycznymi</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495379"/>
+        <aif:creationDate>2020-05-14 10:11:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495372 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495372">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : I nie tylko lekarzami i pielęgniarkami ale wszystkimi zawodami medycznymi</aif:claimText>
+        <aif:source>W: Adrian Zandberg : I nie tylko lekarzami i pielęgniarkami ale wszystkimi zawodami medycznymi</aif:source>
+        <aif:creationDate>2020-05-14 10:11:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495373 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495373">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491646"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495369"/>
+        <aif:creationDate>2020-05-14 10:11:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495374 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495374">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg :  bo medycyna to jest sport zespołowy i tak naprawdę tylko wtedy działa sprawnie jeśli opiera się na współpracy i na dobrym traktowaniu wszystkich pracowników sektora medycznego.</aif:claimText>
+        <aif:source>Adrian Zandberg :  bo medycyna to jest sport zespołowy i tak naprawdę tylko wtedy działa sprawnie jeśli opiera się na współpracy i na dobrym traktowaniu wszystkich pracowników sektora medycznego.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495378"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495375"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495383"/>
+        <aif:creationDate>2020-05-14 10:11:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495375 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495375">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495374"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495376"/>
+        <aif:creationDate>2020-05-14 10:11:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495376 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495376">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>bo medycyna to jest sport zespołowy i tak naprawdę tylko wtedy działa sprawnie jeśli opiera się na współpracy i na dobrym traktowaniu wszystkich pracowników sektora medycznego.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495379"/>
+        <aif:creationDate>2020-05-14 10:11:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495377 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495377">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg :  bo medycyna to jest sport zespołowy i tak naprawdę tylko wtedy działa sprawnie jeśli opiera się na współpracy i na dobrym traktowaniu wszystkich pracowników sektora medycznego.</aif:claimText>
+        <aif:source>W: Adrian Zandberg :  bo medycyna to jest sport zespołowy i tak naprawdę tylko wtedy działa sprawnie jeśli opiera się na współpracy i na dobrym traktowaniu wszystkich pracowników sektora medycznego.</aif:source>
+        <aif:creationDate>2020-05-14 10:11:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495378 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495378">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495369"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495374"/>
+        <aif:creationDate>2020-05-14 10:11:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495379 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495379">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495376"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495380"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495371"/>
+        <aif:creationDate>2020-05-14 10:11:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495380 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495380">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/495378"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495379"/>
+        <aif:creationDate>2020-05-14 10:11:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495381 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495381">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491654"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491656"/>
+        <aif:creationDate>2020-05-14 10:11:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495382 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495382">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : To jest problem z którym PiS sobie ewidentnie nie poradził w tej kadencji.</aif:claimText>
+        <aif:source>W: Adrian Zandberg : To jest problem z którym PiS sobie ewidentnie nie poradził w tej kadencji.</aif:source>
+        <aif:creationDate>2020-05-14 10:11:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495383 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495383">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495374"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491654"/>
+        <aif:creationDate>2020-05-14 10:11:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495384 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495384">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : I chciałem powiedzieć że to musi się zmienić</aif:claimText>
+        <aif:source>Adrian Zandberg : I chciałem powiedzieć że to musi się zmienić</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495388"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495385"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495393"/>
+        <aif:creationDate>2020-05-14 10:11:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495385 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495385">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495384"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495386"/>
+        <aif:creationDate>2020-05-14 10:11:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495386 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495386">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>I chciałem powiedzieć że to musi się zmienić</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495385"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495394"/>
+        <aif:creationDate>2020-05-14 10:11:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495387 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495387">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : I chciałem powiedzieć że to musi się zmienić</aif:claimText>
+        <aif:source>W: Adrian Zandberg : I chciałem powiedzieć że to musi się zmienić</aif:source>
+        <aif:creationDate>2020-05-14 10:11:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495388 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495388">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491654"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495384"/>
+        <aif:creationDate>2020-05-14 10:11:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495389 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495389">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Adrian Zandberg : bo inaczej w ciągu roku, dwóch, trzech będziemy mieli jeszcze głębsze problemy. </aif:claimText>
+        <aif:source>Adrian Zandberg : bo inaczej w ciągu roku, dwóch, trzech będziemy mieli jeszcze głębsze problemy. </aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495393"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495390"/>
+        <aif:creationDate>2020-05-14 10:11:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495390 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495390">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/495389"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495391"/>
+        <aif:creationDate>2020-05-14 10:11:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495391 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495391">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>bo inaczej w ciągu roku, dwóch, trzech będziemy mieli jeszcze głębsze problemy. </aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495390"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495394"/>
+        <aif:creationDate>2020-05-14 10:11:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495392 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495392">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Adrian Zandberg : bo inaczej w ciągu roku, dwóch, trzech będziemy mieli jeszcze głębsze problemy. </aif:claimText>
+        <aif:source>W: Adrian Zandberg : bo inaczej w ciągu roku, dwóch, trzech będziemy mieli jeszcze głębsze problemy. </aif:source>
+        <aif:creationDate>2020-05-14 10:11:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495393 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495393">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/495384"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/495389"/>
+        <aif:creationDate>2020-05-14 10:11:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495394 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495394">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/495391"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495395"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/495386"/>
+        <aif:creationDate>2020-05-14 10:11:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/495395 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/495395">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/495393"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/495394"/>
+        <aif:creationDate>2020-05-14 10:11:33</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/101631 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101631">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Experts have stated that evidence shown from FDA approved electronic cigarettes could potentially be safer than the use of regular cigarettes</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101645"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101651"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101646"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101652"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101658"/>
+        <aif:creationDate>2015-10-05 15:04:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In a study conducted in 2010 with 3,587 participants, 92% of those participants stated it helped them to smoke less.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101652"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101658"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101647"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101653"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101659"/>
+        <aif:creationDate>2015-10-05 15:04:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101633 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101633">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>It’s stated that the initial start-up for electronic cigarettes is more expensive but depending on how often the consumer uses them, it could be considerably more cost effective.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101647"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101653"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101659"/>
+        <aif:creationDate>2015-10-05 15:04:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101634 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101634">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The appeal may attract those who never smoked in the first place, especially the youth of today’s society and it may be regarded as a gate way drug to introduce them in to more dangerous territory.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101648"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101654"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101660"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101649"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101661"/>
+        <aif:creationDate>2015-10-05 15:04:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101635 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101635">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Studies show that the amount of Formaldehyde consumed on average is five times greater than those of regular cigarettes, meaning there is five time greater risk of having cancer.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101649"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101655"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101650"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101662"/>
+        <aif:creationDate>2015-10-05 15:04:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101636 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101636">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>There is a tendency to inhale more with an electronic cigarette as compared to a regular cigarettes as the liquid lasts much longer.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101650"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101662"/>
+        <aif:creationDate>2015-10-05 15:04:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101637 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101637">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Chris: Chris : Experts have stated that evidence shown from FDA approved electronic cigarettes could potentially be safer than the use of regular cigarettes</aif:claimText>
+        <aif:source>Chris: Chris : Experts have stated that evidence shown from FDA approved electronic cigarettes could potentially be safer than the use of regular cigarettes</aif:source>
+        <aif:creationDate>2015-10-05 15:23:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101638 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101638">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Chris: Asd : When I see people using technology, what do I see them doing? What technology use is probable to attract most attention and have important applications in the nearest future?</aif:claimText>
+        <aif:source>Chris: Asd : When I see people using technology, what do I see them doing? What technology use is probable to attract most attention and have important applications in the nearest future?</aif:source>
+        <aif:creationDate>2015-10-05 15:23:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101639 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101639">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Chris: Asd : The appeal may attract those who never smoked in the first place, especially the youth of today’s society and it may be regarded as a gate way drug to introduce them in to more dangerous territory.</aif:claimText>
+        <aif:source>Chris: Asd : The appeal may attract those who never smoked in the first place, especially the youth of today’s society and it may be regarded as a gate way drug to introduce them in to more dangerous territory.</aif:source>
+        <aif:creationDate>2015-10-05 15:23:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101640 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101640">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Chris: Asd : Studies show that the amount of Formaldehyde consumed on average is five times greater than those of regular cigarettes, meaning there is five time greater risk of having cancer.</aif:claimText>
+        <aif:source>Chris: Asd : Studies show that the amount of Formaldehyde consumed on average is five times greater than those of regular cigarettes, meaning there is five time greater risk of having cancer.</aif:source>
+        <aif:creationDate>2015-10-05 15:23:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101641 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101641">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Asd : When I see people using technology, what do I see them doing? What technology use is probable to attract most attention and have important applications in the nearest future?</aif:claimText>
+        <aif:source>Asd : When I see people using technology, what do I see them doing? What technology use is probable to attract most attention and have important applications in the nearest future?</aif:source>
+        <aif:creationDate>2015-10-05 15:23:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101642 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101642">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Are electronic cigarettes a better alternative to regular cigarettes?</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101645"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101648"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101651"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101654"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101660"/>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101643 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101643">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Chris: Asd : Are electronic cigarettes a better alternative to regular cigarettes?</aif:claimText>
+        <aif:source>Chris: Asd : Are electronic cigarettes a better alternative to regular cigarettes?</aif:source>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101644 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101644">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Chris: Asd : Experts have stated that evidence shown from FDA approved electronic cigarettes could potentially be safer than the use of regular cigarettes</aif:claimText>
+        <aif:source>Chris: Asd : Experts have stated that evidence shown from FDA approved electronic cigarettes could potentially be safer than the use of regular cigarettes</aif:source>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101645 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101645">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101631"/>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101646 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101646">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101631"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101632"/>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101647 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101647">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101632"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101633"/>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101648 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101648">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101634"/>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101649 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101649">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101634"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101635"/>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/101650 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/101650">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/101635"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/101636"/>
+        <aif:creationDate>2015-10-05 15:23:11</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

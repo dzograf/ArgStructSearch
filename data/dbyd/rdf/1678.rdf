@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/32290 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32290">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>क्या बांध ही हैं उत्तराखंड के विनाश की जड़</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32299"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32300"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32308"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32365"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32366"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32393"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32394"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32403"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32412"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32413"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32433"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32441"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32291 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32291">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>पिछले साल उत्तराखंड में आई बाढ़ और आपदा के बाद से विकास बनाम सरंक्षण की बहस तेज़ हो गई है. पर्यावरणविद, विकासवादी और पहाड़ पर रहने वाले सभी इसमें ज़ोर शोर से भाग ले रहे हैं</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32301"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32357"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32395"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32405"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32415"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32434"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32356"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32394"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32404"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32414"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32433"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32292 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32292">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>प्रोफ़ेसर पंडित का कहना है, &quot;आज पर्यावरण बनाम विकास की बहस वे लोग कर रहे हैं जिनको वैज्ञानिक समझ तक नहीं है. बांधों पर हो रही बहस को ही लीजिए सबको बिजली की ज़रूरत है. तो अगर पनबिजली पैदा नहीं होगी तो कोई क्या करेगा</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32357"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32367"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32395"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32405"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32434"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>लेकिन पर्यावरण संरक्षक फिर भी पनबिजली के ख़िलाफ़ हैं और बांधों को ही पहाड़ों के विनाश का कारण मानते हैं. पिछले साल उत्तराखंड में आई बाढ़ के बाद तो बहुत सारे बांधों के बनने पर रोक लग गई है</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32303"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32359"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32369"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32397"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32407"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32417"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32302"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32358"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32396"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32435"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32294 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32294">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>हालांकि वैज्ञानिकों का कहना है कि बांधों को सारी परेशानी की जड़ मानना और उसका हौवा खड़ा करना ग़लत है</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32304"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32306"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32360"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32362"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32398"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32400"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32437"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32439"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32308"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32364"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32374"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32402"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32412"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32422"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32441"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>प्रो. पंडित पूछते हैं, &quot;केदारनाथ में कौन सा बाँध था? बाढ़ तो वहां आई थी न? मुद्दा यह है कि पर्यटकों का अनियंत्रित आना, घरों का बेतरतीब बनना और बाढ़ आने पर उतनी संख्या में लोगों का फंसना त्रासदी का कारण बना</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32302"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32358"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32368"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32396"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32416"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32435"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32299"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32307"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32355"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32363"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32393"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32401"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32403"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32411"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32413"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32440"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32296 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32296">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>वैज्ञानिक ऐसा नहीं मानते. उनका कहना है कि तकनीक के इस्तेमाल से भी यह भागीदारी नए सिरे से शुरू की जा सकती है. उत्तराखंड में आज 60 छोटे पन-बिजलीघर हैं. इसके अलावा 20 हज़ार परंपरागत पवनचक्कियां हैं, जिनसे बिजली पैदा हो सकती है.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32305"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32361"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32371"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32399"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32409"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32438"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32303"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32304"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32359"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32360"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32369"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32370"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32397"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32398"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32408"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32417"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32418"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32437"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32297 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32297">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>अगर इन्हें बिजलीघर में बदल दिया जाए तो सभी गाँव वाले इन पानी की धाराओं को बचाने की कोशिश करेंगे, क्योंकि उस पर उनकी बिजली निर्भर होगी.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32305"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32399"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32409"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32438"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32298 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32298">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ऐसे मुद्दों को छोड़ कर सारा ध्यान बांधों पर लगा दिया गया है, जो ठीक नहीं है. एक भी बांध न बनने देने की ज़िद भी उतनी ही ग़लत है जितनी बेहिसाब बांध बनाने की.&quot;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32307"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32373"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32306"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32362"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32372"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32400"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32410"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32420"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32439"/>
+        <aif:creationDate>2014-06-30 12:04:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32403 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32403">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32290"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32404 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32404">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32291"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32290"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32405 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32405">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32292"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32291"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32406 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32406">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32293"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32295"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32407 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32407">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32296"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32293"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32296"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32294"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32297"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32296"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32410 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32410">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32298"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32294"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32411 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32411">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32298"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/32412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/32412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/32294"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/32290"/>
+        <aif:creationDate>2014-06-30 13:20:13</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

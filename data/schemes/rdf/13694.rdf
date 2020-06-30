@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/341345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A successful start to the year: Volkswagen brand continues upward trend</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341350"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341352"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341354"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341357"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341373"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341375"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341403"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341449"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341452"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341455"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341458"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341542"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343513"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343519"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343534"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343542"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344492"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344494"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344504"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344510"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344529"/>
+        <aif:creationDate>2018-05-11 09:31:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341347 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341347">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Brand grows throughout the world; growth in Germany, too</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341366"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341368"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341380"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341381"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341409"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341450"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341451"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341453"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341454"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341456"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341457"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341534"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341535"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341883"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341884"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341903"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341904"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343490"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343491"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343521"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343522"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341355"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341402"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341449"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341455"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341533"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341885"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341899"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343488"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343523"/>
+        <aif:creationDate>2018-05-11 09:31:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341364 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341364">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In the first three months of the year, Volkswagen was able to deliver significantly more vehicles than in the previous year in all regions of the world.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341382"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341411"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341447"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341880"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341914"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343501"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343516"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341379"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341380"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341408"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341409"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341429"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341430"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341446"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341450"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341453"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341456"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341534"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341879"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341883"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341903"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341913"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343490"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343500"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343515"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343521"/>
+        <aif:creationDate>2018-05-14 07:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341367 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341367">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>In its domestic market, Volkswagen boosted deliveries by 7.3 percent and regained market shares in key segments.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341368"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341381"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341410"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341431"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341451"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341454"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341457"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341535"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341884"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341904"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343491"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343522"/>
+        <aif:creationDate>2018-05-14 07:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/341877 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341877">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>We had a successful start to the year</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341881"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341885"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341888"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341897"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341898"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341899"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341900"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341901"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343487"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343488"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343517"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343523"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343510"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343520"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343526"/>
+        <aif:creationDate>2018-05-22 07:05:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343521 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343521">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341347"/>
+        <aif:creationDate>2018-06-06 08:48:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343522 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343522">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341367"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341347"/>
+        <aif:creationDate>2018-06-06 08:48:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343523 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343523">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341877"/>
+        <aif:creationDate>2018-06-06 08:48:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343524 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343524">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>How were our results in 2018&#039;s first quarter? </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343526"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343525"/>
+        <aif:creationDate>2018-06-06 08:48:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343525 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343525">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/343524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341345"/>
+        <aif:creationDate>2018-06-06 08:48:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/343526 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/343526">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/341877"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343524"/>
+        <aif:creationDate>2018-06-06 08:48:11</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

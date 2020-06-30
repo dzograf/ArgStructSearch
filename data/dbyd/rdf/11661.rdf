@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/279494 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279494">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279496"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279517"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279525"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279528"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279544"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279547"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279554"/>
+        <aif:creationDate>2017-05-17 14:51:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279495 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279495">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:source>
+        <aif:creationDate>2017-05-17 14:51:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279497 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279497">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:source>Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279496"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279504"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279511"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279513"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279520"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279522"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279528"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279542"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279543"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279547"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279552"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279553"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279558"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279570"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279571"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279575"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279580"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279581"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279599"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279606"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279644"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279649"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281487"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281492"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281542"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281547"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281617"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281622"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281674"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281679"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281768"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/281773"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282552"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282557"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282664"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282669"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282804"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282809"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282948"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/282952"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283061"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283065"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283217"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283221"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283327"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/283331"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292667"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/292670"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292827"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/292830"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/294658"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/294661"/>
+        <aif:creationDate>2017-05-17 14:51:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279498 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279498">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:claimText>
+        <aif:source>Martin: Guillermo : La apertura parcial de la cueva de Altamira ha generado una intensa polémica entre los científicos que mantienen que las visitas pueden dañar las pinturas y los que defienden que su deterioro es natural, independientemente de que esté abierta o no.</aif:source>
+        <aif:creationDate>2017-05-17 14:51:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279499 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279499">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>el Consejo Superior de Investigaciones Científicas (CSIC) en 2012 concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279501"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279512"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279521"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279525"/>
+        <aif:creationDate>2017-05-17 14:51:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279500 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279500">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-05-17 14:51:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279502 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279502">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Guillermo : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279504"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279513"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279522"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279606"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279649"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281492"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281547"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281622"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281679"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/281773"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/282557"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/282669"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/282809"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/282952"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283065"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283221"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/283331"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/292670"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/292830"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/294661"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279501"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279510"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279512"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279516"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279521"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279524"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279601"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279646"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281489"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281544"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281619"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281676"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/281770"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282554"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282666"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282806"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/282950"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283063"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283219"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/283329"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292668"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/292828"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/294659"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/294735"/>
+        <aif:creationDate>2017-05-17 14:51:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279503 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279503">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:claimText>
+        <aif:source>Martin: Guillermo : el primero, concluido por el Consejo Superior de Investigaciones Científicas (CSIC) en 2012, concluye que abrir la cueva representa un peligro</aif:source>
+        <aif:creationDate>2017-05-17 14:51:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279506 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279506">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>http://cultura.elpais.com/cultura/2014/10/23/actualidad/1414079592_420058.html: el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:creationDate>2017-05-17 14:51:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279508 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279508">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279510"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279516"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279524"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279507"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279515"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279523"/>
+        <aif:creationDate>2017-05-17 14:51:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279509 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279509">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Martin: Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:source>Martin: Guillermo : el segundo, elaborado por un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:source>
+        <aif:creationDate>2017-05-17 14:51:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279514 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279514">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>un equipo dirigido por el experto en conservación Gael de Guichen, y acabado en septiembre, asegura que las visitas, que se retomaron en febrero tras 12 años de cierre, no afectan a las pinturas</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279515"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279523"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279525"/>
+        <aif:creationDate>2017-05-17 14:54:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279520 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279520">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279497"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279494"/>
+        <aif:creationDate>2017-05-17 14:55:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279521 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279521">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279502"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279499"/>
+        <aif:creationDate>2017-05-17 14:55:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279522 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279522">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279497"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279502"/>
+        <aif:creationDate>2017-05-17 14:55:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279523 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279523">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/279508"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279514"/>
+        <aif:creationDate>2017-05-17 14:55:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279524 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279524">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/279502"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/279508"/>
+        <aif:creationDate>2017-05-17 14:55:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279525 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279525">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279499"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/279514"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279526"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279527"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/279494"/>
+        <aif:creationDate>2017-05-17 14:55:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279526 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279526">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/279522"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279525"/>
+        <aif:creationDate>2017-05-17 14:55:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/279527 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/279527">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/279524"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/279525"/>
+        <aif:creationDate>2017-05-17 14:55:28</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

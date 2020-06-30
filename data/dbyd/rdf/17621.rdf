@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/491677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak :  Nie chodzi tu tylko wyłącznie o młodych lekarzy. Chodzi także o ratowników medycznych, chodzi także o pielęgniarki. Chodzi o cały personel który tworzy efekt w ochronie zdrowia.</aif:claimText>
+        <aif:source>Krzysztof Bosak :  Nie chodzi tu tylko wyłącznie o młodych lekarzy. Chodzi także o ratowników medycznych, chodzi także o pielęgniarki. Chodzi o cały personel który tworzy efekt w ochronie zdrowia.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496077"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496095"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491678"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496075"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496080"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496094"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496097"/>
+        <aif:creationDate>2020-05-05 00:02:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Nie chodzi tu tylko wyłącznie o młodych lekarzy. Chodzi także o ratowników medycznych, chodzi także o pielęgniarki. Chodzi o cały personel który tworzy efekt w ochronie zdrowia.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491678"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496075"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496094"/>
+        <aif:creationDate>2020-05-05 00:02:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Natomiast jeszcze raz podkreślę że to co różni Konfederację i wszystkie stojące tutaj siły polityczne, to my nie wierzymy, że jeden centralny planista jest w stanie zaplanować w dobry sposób organizację gabinetów dla trzydziestu kilku milionów ludzi.</aif:claimText>
+        <aif:source>Krzysztof Bosak : Natomiast jeszcze raz podkreślę że to co różni Konfederację i wszystkie stojące tutaj siły polityczne, to my nie wierzymy, że jeden centralny planista jest w stanie zaplanować w dobry sposób organizację gabinetów dla trzydziestu kilku milionów ludzi.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491815"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492978"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/493000"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496080"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496097"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491682"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491701"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491762"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491769"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491782"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491789"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491799"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491807"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491812"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492963"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492970"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492975"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492985"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492992"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/492997"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496078"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496083"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496096"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496099"/>
+        <aif:creationDate>2020-05-05 00:02:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491683 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491683">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Natomiast jeszcze raz podkreślę że to co różni Konfederację i wszystkie stojące tutaj siły polityczne, to my nie wierzymy, że jeden centralny planista jest w stanie zaplanować w dobry sposób organizację gabinetów dla trzydziestu kilku milionów ludzi.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491682"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491702"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491762"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491770"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491782"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491790"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491799"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491808"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491813"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492963"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/492971"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/492976"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492985"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/492993"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/492998"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496078"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496089"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496096"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496100"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496105"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/496110"/>
+        <aif:creationDate>2020-05-05 00:02:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491685 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491685">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Ta filozofia jest absurdalna.</aif:claimText>
+        <aif:source>Krzysztof Bosak : Ta filozofia jest absurdalna.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491701"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491769"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491789"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491807"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492970"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492992"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496083"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496099"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491686"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491763"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491783"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491800"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492964"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492986"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496081"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496088"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496098"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496104"/>
+        <aif:creationDate>2020-05-05 00:02:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491687 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491687">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ta filozofia jest absurdalna.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491686"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491763"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491783"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491800"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492964"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492986"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496081"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496098"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491702"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491770"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491790"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491808"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492971"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492993"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496089"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496100"/>
+        <aif:creationDate>2020-05-05 00:02:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491689 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491689">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Jesteśmy jedyną siłą która ten absurd odrzuca, mówię to odważnie,</aif:claimText>
+        <aif:source>Krzysztof Bosak : Jesteśmy jedyną siłą która ten absurd odrzuca, mówię to odważnie,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491789"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491807"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492970"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492992"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496104"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491690"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491704"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491764"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491772"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491784"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491792"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491801"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492965"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492987"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496102"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496109"/>
+        <aif:creationDate>2020-05-05 00:02:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491691 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491691">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Jesteśmy jedyną siłą która ten absurd odrzuca, mówię to odważnie,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491690"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491764"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491784"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491801"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492965"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/492987"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496102"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491790"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491808"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492971"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/492993"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496105"/>
+        <aif:creationDate>2020-05-05 00:02:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491693 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491693">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak :  i jesteśmy zwolennikami aby każdy swoją część składki zdrowotnej mógł wyprowadzić do dowolnego funduszu który będzie nią zarządzał w sposób najbardziej efektywny.</aif:claimText>
+        <aif:source>Krzysztof Bosak :  i jesteśmy zwolennikami aby każdy swoją część składki zdrowotnej mógł wyprowadzić do dowolnego funduszu który będzie nią zarządzał w sposób najbardziej efektywny.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491704"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491772"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491792"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491812"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492975"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/492997"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496109"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491694"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491765"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491785"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491802"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492966"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/492988"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496107"/>
+        <aif:creationDate>2020-05-05 00:02:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/491695 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/491695">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>i jesteśmy zwolennikami aby każdy swoją część składki zdrowotnej mógł wyprowadzić do dowolnego funduszu który będzie nią zarządzał w sposób najbardziej efektywny.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491694"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491765"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491785"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496107"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/496110"/>
+        <aif:creationDate>2020-05-05 00:02:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496064 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496064">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Grzegorz Kajdanowicz : O odpowiedź poproszę teraz pana Krzysztofa Bosaka.</aif:claimText>
+        <aif:source>Grzegorz Kajdanowicz : O odpowiedź poproszę teraz pana Krzysztofa Bosaka.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496065"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496074"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496091"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496093"/>
+        <aif:creationDate>2020-05-14 12:17:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496066 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496066">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>O odpowiedź poproszę teraz pana Krzysztofa Bosaka.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496065"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496091"/>
+        <aif:creationDate>2020-05-14 12:17:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496067 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496067">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: O odpowiedź poproszę teraz pana Krzysztofa Bosaka.</aif:claimText>
+        <aif:source>W: Grzegorz Kajdanowicz : Grzegorz Kajdanowicz: O odpowiedź poproszę teraz pana Krzysztofa Bosaka.</aif:source>
+        <aif:creationDate>2020-05-14 12:17:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496068 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496068">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Krzysztof Bosak: Jesteśmy w stanie z pewnością zgodzić się, żeby rozwiązać problemy ochrony zdrowia muszą wzrosnąć nakłady na ochronę zdrowia, muszą wzrosnąć w szczególności wynagrodzenia,</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Krzysztof Bosak: Jesteśmy w stanie z pewnością zgodzić się, żeby rozwiązać problemy ochrony zdrowia muszą wzrosnąć nakłady na ochronę zdrowia, muszą wzrosnąć w szczególności wynagrodzenia,</aif:source>
+        <aif:creationDate>2020-05-14 12:17:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496069 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496069">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : tak żebyśmy zatrzymali tych których wykształciliśmy w odpowiednich kierunkach</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : tak żebyśmy zatrzymali tych których wykształciliśmy w odpowiednich kierunkach</aif:source>
+        <aif:creationDate>2020-05-14 12:17:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496070 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496070">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Krzysztof Bosak : Krzysztof Bosak: Jesteśmy w stanie z pewnością zgodzić się, żeby rozwiązać problemy ochrony zdrowia muszą wzrosnąć nakłady na ochronę zdrowia, muszą wzrosnąć w szczególności wynagrodzenia, tak żebyśmy zatrzymali tych których wykształciliśmy w odpowiednich kierunkach.</aif:claimText>
+        <aif:source>Krzysztof Bosak : Krzysztof Bosak: Jesteśmy w stanie z pewnością zgodzić się, żeby rozwiązać problemy ochrony zdrowia muszą wzrosnąć nakłady na ochronę zdrowia, muszą wzrosnąć w szczególności wynagrodzenia, tak żebyśmy zatrzymali tych których wykształciliśmy w odpowiednich kierunkach.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496074"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496093"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496071"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496077"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496092"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496095"/>
+        <aif:creationDate>2020-05-14 12:17:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496072 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496072">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Krzysztof Bosak: Jesteśmy w stanie z pewnością zgodzić się, żeby rozwiązać problemy ochrony zdrowia muszą wzrosnąć nakłady na ochronę zdrowia, muszą wzrosnąć w szczególności wynagrodzenia, tak żebyśmy zatrzymali tych których wykształciliśmy w odpowiednich kierunkach.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496071"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496092"/>
+        <aif:creationDate>2020-05-14 12:17:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496073 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496073">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Krzysztof Bosak: Jesteśmy w stanie z pewnością zgodzić się, żeby rozwiązać problemy ochrony zdrowia muszą wzrosnąć nakłady na ochronę zdrowia, muszą wzrosnąć w szczególności wynagrodzenia, tak żebyśmy zatrzymali tych których wykształciliśmy w odpowiednich kierunkach.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Krzysztof Bosak: Jesteśmy w stanie z pewnością zgodzić się, żeby rozwiązać problemy ochrony zdrowia muszą wzrosnąć nakłady na ochronę zdrowia, muszą wzrosnąć w szczególności wynagrodzenia, tak żebyśmy zatrzymali tych których wykształciliśmy w odpowiednich kierunkach.</aif:source>
+        <aif:creationDate>2020-05-14 12:17:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496076 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496076">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak :  Nie chodzi tu tylko wyłącznie o młodych lekarzy. Chodzi także o ratowników medycznych, chodzi także o pielęgniarki. Chodzi o cały personel który tworzy efekt w ochronie zdrowia.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak :  Nie chodzi tu tylko wyłącznie o młodych lekarzy. Chodzi także o ratowników medycznych, chodzi także o pielęgniarki. Chodzi o cały personel który tworzy efekt w ochronie zdrowia.</aif:source>
+        <aif:creationDate>2020-05-14 12:17:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496079 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496079">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Natomiast jeszcze raz podkreślę że to co różni Konfederację i wszystkie stojące tutaj siły polityczne, to my nie wierzymy, że jeden centralny planista jest w stanie zaplanować w dobry sposób organizację gabinetów dla trzydziestu kilku milionów ludzi.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Natomiast jeszcze raz podkreślę że to co różni Konfederację i wszystkie stojące tutaj siły polityczne, to my nie wierzymy, że jeden centralny planista jest w stanie zaplanować w dobry sposób organizację gabinetów dla trzydziestu kilku milionów ludzi.</aif:source>
+        <aif:creationDate>2020-05-14 12:17:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496082 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496082">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Ta filozofia jest absurdalna.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Ta filozofia jest absurdalna.</aif:source>
+        <aif:creationDate>2020-05-14 12:17:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496087 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496087">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Jesteśmy jedyną siłą która ten absurd odrzuca, mówię to odważnie, i jesteśmy zwolennikami aby każdy swoją część składki zdrowotnej mógł wyprowadzić do dowolnego funduszu który będzie nią zarządzał w sposób najbardziej efektywny.  </aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Jesteśmy jedyną siłą która ten absurd odrzuca, mówię to odważnie, i jesteśmy zwolennikami aby każdy swoją część składki zdrowotnej mógł wyprowadzić do dowolnego funduszu który będzie nią zarządzał w sposób najbardziej efektywny.  </aif:source>
+        <aif:creationDate>2020-05-14 12:17:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496091 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496091">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496064"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496066"/>
+        <aif:creationDate>2020-05-14 12:24:30</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496092 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496092">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/496070"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496072"/>
+        <aif:creationDate>2020-05-14 12:24:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496093 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496093">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496064"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/496070"/>
+        <aif:creationDate>2020-05-14 12:24:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496094 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496094">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491677"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491679"/>
+        <aif:creationDate>2020-05-14 12:24:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496095 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496095">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/496070"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491677"/>
+        <aif:creationDate>2020-05-14 12:24:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496096 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496096">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491681"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491683"/>
+        <aif:creationDate>2020-05-14 12:24:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496097 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496097">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491677"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491681"/>
+        <aif:creationDate>2020-05-14 12:24:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496098 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496098">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491685"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491687"/>
+        <aif:creationDate>2020-05-14 12:24:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496099 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496099">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491681"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491685"/>
+        <aif:creationDate>2020-05-14 12:24:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496100 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496100">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491687"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496101"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491683"/>
+        <aif:creationDate>2020-05-14 12:24:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496101 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496101">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496099"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496100"/>
+        <aif:creationDate>2020-05-14 12:24:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496102 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496102">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491689"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491691"/>
+        <aif:creationDate>2020-05-14 12:24:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496103 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496103">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak : Jesteśmy jedyną siłą która ten absurd odrzuca, mówię to odważnie,</aif:claimText>
+        <aif:source>W: Krzysztof Bosak : Jesteśmy jedyną siłą która ten absurd odrzuca, mówię to odważnie,</aif:source>
+        <aif:creationDate>2020-05-14 12:24:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496104 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496104">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491685"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491689"/>
+        <aif:creationDate>2020-05-14 12:24:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496105 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496105">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491691"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496106"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491683"/>
+        <aif:creationDate>2020-05-14 12:24:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496106 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496106">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496104"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496105"/>
+        <aif:creationDate>2020-05-14 12:24:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496107 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496107">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/491693"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/491695"/>
+        <aif:creationDate>2020-05-14 12:24:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496108 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496108">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>W: Krzysztof Bosak :  i jesteśmy zwolennikami aby każdy swoją część składki zdrowotnej mógł wyprowadzić do dowolnego funduszu który będzie nią zarządzał w sposób najbardziej efektywny.</aif:claimText>
+        <aif:source>W: Krzysztof Bosak :  i jesteśmy zwolennikami aby każdy swoją część składki zdrowotnej mógł wyprowadzić do dowolnego funduszu który będzie nią zarządzał w sposób najbardziej efektywny.</aif:source>
+        <aif:creationDate>2020-05-14 12:24:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496109 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496109">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/491689"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/491693"/>
+        <aif:creationDate>2020-05-14 12:24:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496110 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496110">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/491695"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496111"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/491683"/>
+        <aif:creationDate>2020-05-14 12:24:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/496111 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/496111">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/496109"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/496110"/>
+        <aif:creationDate>2020-05-14 12:24:35</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

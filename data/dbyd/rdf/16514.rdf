@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/460386 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460386">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>судом нарушены нормы закона при вынесении приговора</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460389"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460392"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460395"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460398"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460407"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460410"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460428"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460429"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460430"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460431"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460432"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460433"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460434"/>
+        <aif:creationDate>2019-12-15 18:51:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460387 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460387">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В ходе прений сторон защита порочила позицию государственного обвинителя, перебивая его выступление, чем лишила возможности довести до присяжных заседателей свою позицию, а председательствующий судья не всегда реагировал замечаниями на действия защиты</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460389"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460418"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460427"/>
+        <aif:creationDate>2019-12-15 18:51:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460388 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460388">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: В ходе прений сторон защита порочила позицию государственного обвинителя, перебивая его выступление, чем лишила возможности довести до присяжных заседателей свою позицию, а председательствующий судья не всегда реагировал замечаниями на действия защиты</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: В ходе прений сторон защита порочила позицию государственного обвинителя, перебивая его выступление, чем лишила возможности довести до присяжных заседателей свою позицию, а председательствующий судья не всегда реагировал замечаниями на действия защиты</aif:source>
+        <aif:creationDate>2019-12-15 18:51:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460390 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460390">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Участники со стороны защиты пытались поставить под сомнение компетентность эксперта П.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460392"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460428"/>
+        <aif:creationDate>2019-12-15 18:51:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460391 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460391">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: Участники со стороны защиты пытались поставить под сомнение компетентность эксперта П.</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: Участники со стороны защиты пытались поставить под сомнение компетентность эксперта П.</aif:source>
+        <aif:creationDate>2019-12-15 18:51:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460393 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460393">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В присутствии коллегии присяжных заседателей Д. доводил до сведения присяжных заседателей информацию о перенесенных заболеваниях</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460395"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460420"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460429"/>
+        <aif:creationDate>2019-12-15 18:51:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460394 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460394">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: В присутствии коллегии присяжных заседателей Д. доводил до сведения присяжных заседателей информацию о перенесенных заболеваниях</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: В присутствии коллегии присяжных заседателей Д. доводил до сведения присяжных заседателей информацию о перенесенных заболеваниях</aif:source>
+        <aif:creationDate>2019-12-15 18:51:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460396 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460396">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Стороной защиты намеренно искажались сведения, касающиеся объема исследованных доказательств, указывались на пробелы в экспертных исследованиях, обсуждались медицинские критерии рождения, что, по мнению автора представления, не входило в компетенцию присяжных заседателей</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460398"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460430"/>
+        <aif:creationDate>2019-12-15 18:51:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460397 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460397">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: Стороной защиты намеренно искажались сведения, касающиеся объема исследованных доказательств, указывались на пробелы в экспертных исследованиях, обсуждались медицинские критерии рождения, что, по мнению автора представления, не входило в компетенцию присяжных заседателей</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: Стороной защиты намеренно искажались сведения, касающиеся объема исследованных доказательств, указывались на пробелы в экспертных исследованиях, обсуждались медицинские критерии рождения, что, по мнению автора представления, не входило в компетенцию присяжных заседателей</aif:source>
+        <aif:creationDate>2019-12-15 18:51:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460399 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460399">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>на протяжении всего судебного процесса участники разбирательства со стороны защиты допускали высказывания, которыми формировали у коллегии присяжных заседателей негативное отношение к деятельности органов предварительного следствия и государственного обвинителя, формируя у присяжных мнение о недостоверности и недостаточности представленных обвинением доказательств</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460401"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460422"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460431"/>
+        <aif:creationDate>2019-12-15 18:51:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460400 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460400">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: на протяжении всего судебного процесса участники разбирательства со стороны защиты допускали высказывания, которыми формировали у коллегии присяжных заседателей негативное отношение к деятельности органов предварительного следствия и государственного обвинителя, формируя у присяжных мнение о недостоверности и недостаточности представленных обвинением доказательств</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: на протяжении всего судебного процесса участники разбирательства со стороны защиты допускали высказывания, которыми формировали у коллегии присяжных заседателей негативное отношение к деятельности органов предварительного следствия и государственного обвинителя, формируя у присяжных мнение о недостоверности и недостаточности представленных обвинением доказательств</aif:source>
+        <aif:creationDate>2019-12-15 18:51:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460402 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460402">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>при допросе свидетелей формировали у присяжных заседателей мнение о неправомерности действий органов следствия</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460404"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460423"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460432"/>
+        <aif:creationDate>2019-12-15 18:51:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460403 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460403">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: при допросе свидетелей формировали у присяжных заседателей мнение о неправомерности действий органов следствия</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: при допросе свидетелей формировали у присяжных заседателей мнение о неправомерности действий органов следствия</aif:source>
+        <aif:creationDate>2019-12-15 18:51:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460405 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460405">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>участники судебного разбирательства со стороны защиты допускали систематические нарушения закона, не подчинялись распоряжениям председательствующего</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460424"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460433"/>
+        <aif:creationDate>2019-12-15 18:51:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460406 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460406">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: участники судебного разбирательства со стороны защиты допускали систематические нарушения закона, не подчинялись распоряжениям председательствующего</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: участники судебного разбирательства со стороны защиты допускали систематические нарушения закона, не подчинялись распоряжениям председательствующего</aif:source>
+        <aif:creationDate>2019-12-15 18:51:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>адвокат Ширяев в прениях заявлял о недостоверности изложенных государственным обвинителем фактов, намеренном их искажении</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460410"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460434"/>
+        <aif:creationDate>2019-12-15 18:51:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: адвокат Ширяев в прениях заявлял о недостоверности изложенных государственным обвинителем фактов, намеренном их искажении</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: адвокат Ширяев в прениях заявлял о недостоверности изложенных государственным обвинителем фактов, намеренном их искажении</aif:source>
+        <aif:creationDate>2019-12-15 18:51:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460411 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460411">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>судом не нарушены нормы закона при вынесении приговора</aif:claimText>
+        <aif:creationDate>2019-12-15 18:51:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>стороны не были ограничены в праве предоставления доказательств</aif:claimText>
+        <aif:creationDate>2019-12-15 18:51:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460413 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460413">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: стороны не были ограничены в праве предоставления доказательств</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: стороны не были ограничены в праве предоставления доказательств</aif:source>
+        <aif:creationDate>2019-12-15 18:51:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460414 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460414">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: В возражениях на апелляционное представление оправданный Каташев А.Н., адвокаты Ширяев Д.С. и Ковалев В.С. заявляют о несогласии с доводами, изложенными в апелляционном представлении, указывая, что в ходе судебного разбирательства нарушений уголовно-процессуального закона допущено не было, стороны не были ограничены в праве предоставления доказательств, недопустимые доказательства перед коллегией присяжных заседателей не исследовались, незаконного воздействия на коллегию присяжных заседателей не оказывалось. Просят приговор оставить без изменения.</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: В возражениях на апелляционное представление оправданный Каташев А.Н., адвокаты Ширяев Д.С. и Ковалев В.С. заявляют о несогласии с доводами, изложенными в апелляционном представлении, указывая, что в ходе судебного разбирательства нарушений уголовно-процессуального закона допущено не было, стороны не были ограничены в праве предоставления доказательств, недопустимые доказательства перед коллегией присяжных заседателей не исследовались, незаконного воздействия на коллегию присяжных заседателей не оказывалось. Просят приговор оставить без изменения.</aif:source>
+        <aif:creationDate>2019-12-15 18:51:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460415 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460415">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>недопустимые доказательства перед коллегией присяжных заседателей не исследовались</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/460416"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/460426"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/460435"/>
+        <aif:creationDate>2019-12-15 18:51:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460417 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460417">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: недопустимые доказательства перед коллегией присяжных заседателей не исследовались</aif:claimText>
+        <aif:source>https://legalacts.ru/sud/apelliatsionnoe-opredelenie-verkhovnogo-suda-rf-ot-01062017-n-52-apu17-2sp//: недопустимые доказательства перед коллегией присяжных заседателей не исследовались</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/460416"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/460426"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/460435"/>
+        <aif:creationDate>2019-12-15 18:51:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460418 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460418">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460387"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460419 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460419">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460390"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460420 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460420">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460393"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460421 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460421">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460396"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460422 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460422">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460399"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460423 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460423">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460424 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460424">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460405"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460425 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460425">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460386"/>
+        <aif:creationDate>2019-12-15 18:52:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460426 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460426">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/460417"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/460415"/>
+        <aif:creationDate>2019-12-15 18:52:57</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

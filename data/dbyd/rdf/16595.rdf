@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/462182 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462182">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>судьи, как и иные лица, пользуются защитой статьи 10 Конвенции, вмешательство в ее свободу выражения мнения не было &quot;предусмотрено законом&quot;, не преследовало законную цель и, наконец, не было необходимо в демократическом обществе</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462186"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462192"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462196"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462202"/>
+        <aif:creationDate>2019-12-21 21:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462183 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462183">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>дисциплинарное взыскание было наложено незаконно</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462187"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462193"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462194"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462212"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462186"/>
+        <aif:creationDate>2019-12-21 21:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462184 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462184">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>положения  Закона   &quot;О статусе судей&quot;, примененные в ее деле, сформулированы слишком неопределенно</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462216"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462187"/>
+        <aif:creationDate>2019-12-21 21:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462185 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462185">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Кодекс чести судьи ... не имел силы закона, поскольку не был законно утвержден на Всероссийском съезде судей, как того требует Закон &quot;О статусе судей&quot;, а лишь одобрен этим органом</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462217"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462193"/>
+        <aif:creationDate>2019-12-21 21:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462186 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462186">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462183"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462182"/>
+        <aif:creationDate>2019-12-21 21:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462187 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462187">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462184"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462183"/>
+        <aif:creationDate>2019-12-21 21:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462188 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462188">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Она ссылалась на положения  Гражданского процессуального кодекса , в соответствии с которым Верховный Суд рассматривает в качестве суда первой инстанции дела об оспаривании решений о прекращении полномочий судей. Она также считала недопустимым рассмотрение Московским городским судом дела, касающегося критики в отношении указанного суда и его председателя</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462218"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462194"/>
+        <aif:creationDate>2019-12-21 21:44:54</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462189 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462189">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>цель была незаконной</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462191"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462220"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462192"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462190 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462190">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>власти были намерены продемонстрировать всем членам судейского сообщества, что информация о нарушениях в работе судебной системы не должна становиться достоянием общественности, чтобы оградить судейское сообщество от общественного контроля</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462191"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462191 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462191">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462190"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462189"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462192 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462192">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462189"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462182"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462193 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462193">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462185"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462183"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462194 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462194">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462188"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462183"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462195 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462195">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>спорная мера представляла собой несоразмерное вмешательство в ее свободу выражения мнения</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462199"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462200"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462235"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462196"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462196 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462196">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462195"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462182"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462197 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462197">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>высказывания, на основании которых ей было предъявлено обвинение в дисциплинарном правонарушении, были выражением ее мнения, то есть оценочными суждениями, а не утверждениями о факте</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462234"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462200"/>
+        <aif:creationDate>2019-12-21 21:44:55</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462198 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462198">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В качестве доказательств давления со стороны председателя Московского городского суда она ссылалась на заявления народных заседателей, а также на произвольную и незаконную передачу уголовного дела другому судье</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462199"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462199 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462199">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462198"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462195"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462200 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462200">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462197"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462195"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462201 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462201">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>прекращение судейских полномочий заявительницы нарушило ее право на свободу выражения мнения</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462206"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462202"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462202 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462202">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462201"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462182"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462203 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462203">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>решение о прекращении судейских полномочий представляло собой вмешательство в свободу выражения мнения, НО оно было оправдано с точки зрения части 2 статьи 10 Конвенции</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462205"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462206"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>вмешательство было оправданным с точки зрения пункта 2 статьи 10 Конвенции, поскольку оно было предусмотрено законом, преследовало законные цели и было &quot;необходимо в демократическом обществе&quot;.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462205"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462213"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462221"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462227"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462203"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462204"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462206 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462206">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462203"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462201"/>
+        <aif:creationDate>2019-12-21 21:44:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462207 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462207">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Предусмотрено законом</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462210"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462211"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462215"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462212"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462213"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Они оспаривали довод заявительницы о том, что  Закон   &quot;О статусе судей&quot; был слишком неопределенным, чтобы являться основанием для дисциплинарного взыскания</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462210"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462216"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Кодекс   чести судьи обладал юридической силой с момента его утверждения 21 октября 1993 г. Советом судей Российской Федерации, последовавшим за его одобрением на II Всероссийском съезде судей</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462211"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462217"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462207"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462209"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462207"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462212 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462212">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462207"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462183"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462207"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462204"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462214 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462214">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в период, относящийся к обстоятельствам дела, подсудность определялась  Федеральным законом   &quot;Об органах судейского сообщества&quot;, в соответствии с которым такие споры были подсудны судам субъектов Российской Федерации. Власти Российской Федерации указали на то, что заявительница сама обратилась с иском в Московский городской суд, тем самым признав, что дело было подсудно ему</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462215"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462218"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462215 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462215">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462214"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462207"/>
+        <aif:creationDate>2019-12-21 21:44:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462216 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462216">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462208"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462184"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462217 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462217">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462209"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462185"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462218 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462218">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462214"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462188"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462219 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462219">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Законная цель</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462223"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462225"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462220"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462221"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462220 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462220">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462219"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462189"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462221 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462221">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462219"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462204"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462222 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462222">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>спорная мера была необходима для &quot;обеспечения авторитета и беспристрастности правосудия&quot; и &quot;защиты репутации или прав других&quot;. Высказывания заявительницы причинили вред судебной системе в целом и способствовали распространению &quot;правового нигилизма&quot; среди общественности</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462223"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462223 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462223">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462222"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462219"/>
+        <aif:creationDate>2019-12-21 21:44:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462224 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462224">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>она распространила порочащие сведения о должностных лицах Московского городского суда и не смогла доказать предполагаемые факты</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462225"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462237"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462225 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462225">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462224"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462219"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462226 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462226">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Необходимо в демократическом обществе</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462233"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462227"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462235"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462227 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462227">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462226"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462204"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462228 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462228">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>прекращение судейских полномочий заявительницы было соразмерным преследуемой законной цели и отвечало &quot;настоятельной общественной потребности&quot;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462230"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462231"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462229 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462229">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Они ссылались на прецедентную практику Европейского Суда, который постановил, что &quot;в ситуациях, затрагивающих право на свободу выражения мнения государственных служащих, &quot;обязанности и ответственность&quot;, приобретают особое значение, оправдывающее предоставление национальным властям определенной свободы усмотрения при оценке соразмерности спорного вмешательства вышеупомянутой цели&quot;. ... государство должно наделяться еще более широкой свободой усмотрения при установлении и реализации ограничений на свободу слова судей.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462230"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462230 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462230">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462229"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462228"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462231 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462231">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462228"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462226"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462232 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462232">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в своей жалобе на указанных лиц в Высшую квалификационную коллегию судей она не представила достаточных доказательств этих фактов. Таким образом, эти обвинения нельзя рассматривать как добросовестный комментарий или обоснованную критику</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462233"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462234"/>
+        <aif:creationDate>2019-12-21 21:44:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462233 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462233">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462232"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462226"/>
+        <aif:creationDate>2019-12-21 21:45:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462232"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462197"/>
+        <aif:creationDate>2019-12-21 21:45:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462235 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462235">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462226"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462195"/>
+        <aif:creationDate>2019-12-21 21:45:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462236 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462236">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>даже если эти высказывания можно признать оценочными суждениями, они все же нуждались в каком-либо фактическом основании и, в любом случае, должны были оставаться в рамках, совместимых с высокими моральными стандартами, применимыми к судьям ... правила судебной этики налагают определенные ограничения на лиц, занимающих должность судьи ... мнения, выраженные судьей, представляют большую угрозу введения общественности в заблуждение, потому что имеют больший вес, чем высказывания обычных граждан</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462237"/>
+        <aif:creationDate>2019-12-21 21:45:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/462237 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/462237">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/462224"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/462236"/>
+        <aif:creationDate>2019-12-21 21:45:00</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

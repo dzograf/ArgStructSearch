@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/375241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>экономический рост, особенно в развитых странах, приводит к снижению языкового разнообразия</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375245"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375246"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375249"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375242 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375242">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Международная команда ученых из США, Дании и Великобритании также определила «горячие точки»,  в которых редкие языки умирают стремительнее всего</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375246"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375243 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375243">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Например, это северная Австралия, северо-западные уголки Канады и США, а потенциально – Гималаи.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375246"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375244 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375244">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Касательно экономических методов, ученые использовали классический индикатор - ВВП на душу населения,  и обнаружили зависимость между ростом этого показателя и снижением языкового разнообразия.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375245"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375245 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375245">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375244"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375241"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375246 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375246">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375242"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375243"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375241"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375247 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375247">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>В ходе развития экономики, один язык часто начинает доминировать в национальной политической и образовательной сферах.  Люди вынуждены говорить на преобладающем языке, иначе рискуют оказаться на обочине политической и экономической жизни страны. - Татсуя Амато (Tatsuya Amato),</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375249"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375248 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375248">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>«исчезновение языков в современном мире достигло такой скорости,  что она уже превысила [аналогичную в биологии] черту катастрофической потери биологического разнообразия»</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375251"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375247"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375241"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375250 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375250">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Авторы исследования, однако, отмечают, что в биологии нет аналога методу, который может спасти умирающие языки – а  именно билингвизм, то есть изучение сразу нескольких языков с самого раннего возраста.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375251"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375251 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375251">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/375250"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/375248"/>
+        <aif:creationDate>2019-02-18 11:38:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/375252 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/375252">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>По мнению ученых, это поможет как сохранить язык и лингвистическое многообразие,  так и получить определенные преимущества в дальнейшей жизни.</aif:claimText>
+        <aif:creationDate>2019-02-18 11:38:42</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/341345 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/341345">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>A successful start to the year: Volkswagen brand continues upward trend</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341350"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341351"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341352"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341353"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341354"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341357"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341373"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341374"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341375"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341403"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341423"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341424"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341425"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341449"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341452"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341455"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341458"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341542"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343513"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343519"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343534"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/343542"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344492"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344494"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344504"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344510"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344529"/>
+        <aif:creationDate>2018-05-11 09:31:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344450 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344450">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>STANDPOINT 1. We had a successful start to the year</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344455"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344456"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344500"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344508"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344491"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344503"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344509"/>
+        <aif:creationDate>2018-06-16 09:10:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344451 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344451">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1. Deliveries, sales revenue and result once again improved in first quarter of 2018</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344479"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344501"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344455"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344500"/>
+        <aif:creationDate>2018-06-16 09:10:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344452 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344452">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.2. Brand grows throughout the world; growth in Germany, too</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344461"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344463"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344506"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344507"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344456"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344508"/>
+        <aif:creationDate>2018-06-16 09:10:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344453 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344453">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.1. Pace of model and innovation offensive stepped up</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344471"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344513"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344487"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344514"/>
+        <aif:creationDate>2018-06-16 09:10:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344454 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344454">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.2. Forecast for 2018 as a whole confirmed</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344468"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344473"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344477"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344521"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344522"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344523"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344488"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344527"/>
+        <aif:creationDate>2018-06-16 09:10:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344455 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344455">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344451"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344450"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344456 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344456">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344452"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344450"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344457 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344457">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1.1. &quot;In this first quarter, we were able to continue the dynamic developments of the previous year without any interruption,&quot; said Dr. Herbert Diess, CEO of the Volkswagen brand, who now also CEO of the Volkswagen Group</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344480"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344496"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344479"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344501"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344458 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344458">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.1.1. &quot;Our long-term goal is clear: we want to make Volkswagen fit for the future of mobility.&quot;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344484"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344515"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344511"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344459 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344459">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344458"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344453"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344460 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344460">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1.1.1.1./1.2.2. In the first three months of the year, Volkswagen was able to deliver significantly more vehicles than in the previous year in all regions of the world.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344461"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344481"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344461 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344461">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344460"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344452"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344462 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344462">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.2.1. In its domestic market, Volkswagen boosted deliveries by 7.3 percent and regained market shares in key segments.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344463"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344507"/>
+        <aif:creationDate>2018-06-16 09:10:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344463 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344463">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344462"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344452"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344464 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344464">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1.1.1. The growing volume of deliveries also had a positive effect on the sales revenue and operating result of the brand.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344481"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344497"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344480"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344496"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344465 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344465">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.1.1.1.1. The brand forged ahead with the implementation of the upcoming electric offensive in the first three months of the year.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344485"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344516"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344466 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344466">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.1.1.1. &quot;We will continue to invest strongly in the future of the brand, especially in the major model and innovation offensive.&quot;</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344485"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344516"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344484"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344515"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344467 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344467">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.2.3. Over the next few months, the brand expects positive business developments to continue.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344470"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344475"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344526"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344468"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344521"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344468 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344468">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344467"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344454"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344469 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344469">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.1.3./2.2.3.2. In the 2018 financial year, deliveries, sales revenue and operating result will continue to rise, among other things as a result of the further implementation of the pact for the future and the turnaround programs in the regions.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344470"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344471"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344470 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344470">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344469"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344467"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344471 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344471">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344469"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344453"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344472 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344472">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.2.1. Volkswagen confirmed its return forecast unchanged.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344473"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344522"/>
+        <aif:creationDate>2018-06-16 09:10:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344473 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344473">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344472"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344454"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344474 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344474">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.2.3.1. An operating return in the target corridor between 4.0 and 5.0 percent is aimed for in the current year.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344475"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344526"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344475 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344475">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344474"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344467"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344476 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344476">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.2.2. Volkswagen has already presented two new models which are to be launched in the near future.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344477"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344523"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344477 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344477">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344476"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344454"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344478 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344478">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>2.1.2. In the course of its TRANSFORM 2025+ strategy, the brand will renew its entire model range by 2020 as well as expanding it in key segments. From 2020, the newly developed I.D. family will start the brand&#039;s major electric offensive.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344517"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344479 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344479">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344457"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344451"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344480 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344480">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344464"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344457"/>
+        <aif:creationDate>2018-06-16 09:10:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344481 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344481">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344460"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344464"/>
+        <aif:creationDate>2018-06-16 09:10:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344482 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344482">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>1.1.1.1.1.1. (VW had) The best first quarter in its history</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344483"/>
+        <aif:creationDate>2018-06-16 09:10:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344483 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344483">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344482"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344460"/>
+        <aif:creationDate>2018-06-16 09:10:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344484 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344484">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344466"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344458"/>
+        <aif:creationDate>2018-06-16 09:10:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344485 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344485">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344465"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344466"/>
+        <aif:creationDate>2018-06-16 09:10:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344486 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344486">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>STANDPOINT 2. Our future is going to be bright</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344487"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344488"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344514"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344527"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344493"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344519"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344528"/>
+        <aif:creationDate>2018-06-16 09:10:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344487 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344487">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344453"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344486"/>
+        <aif:creationDate>2018-06-16 09:10:44</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344488 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344488">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344454"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344486"/>
+        <aif:creationDate>2018-06-16 09:10:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344489 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344489">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ISSUE 1 How were our results in 2018&#039;s first quarter?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344491"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344492"/>
+        <aif:creationDate>2018-06-16 09:10:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344490 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344490">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ISSUE 2 How is our future going to be?</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344493"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344494"/>
+        <aif:creationDate>2018-06-16 09:10:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344491 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344491">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344450"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344489"/>
+        <aif:creationDate>2018-06-16 09:10:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344492 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344492">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344489"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341345"/>
+        <aif:creationDate>2018-06-16 09:10:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344493 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344493">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344486"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/344490"/>
+        <aif:creationDate>2018-06-16 09:10:45</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/344494 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/344494">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/344490"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/341345"/>
+        <aif:creationDate>2018-06-16 09:10:45</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

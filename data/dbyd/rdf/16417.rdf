@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/457638 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457638">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>По моему мнению, медицинский пункт в Малозёмове вовсе не нужен.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457643"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457644"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457648"/>
+        <aif:creationDate>2019-12-05 15:23:29</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457639 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457639">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>На прошлой неделе умерла от родов Анна, а если бы поблизости был медицинский пункт, то она осталась бы жива.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457644"/>
+        <aif:creationDate>2019-12-05 15:23:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457640 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457640">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>По-моему, медицинские пункты, школы, библиотечки, аптечки, при существующих условиях, служат только порабощению. Народ опутан цепью великой, и вы не рубите этой цепи, а лишь прибавляете новые звенья — вот вам мое убеждение.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457642"/>
+        <aif:creationDate>2019-12-05 15:23:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457641 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457641">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Вы приходите к ним на помощь с больницами и школами, но этим не освобождаете их от пут, а, напротив, еще больше порабощаете, так как, внося в их жизнь новые предрассудки, вы увеличиваете число их потребностей, не говоря уже о том, что за мушки и за книжки они должны платить земству и, значит, сильнее гнуть спину.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457643"/>
+        <aif:creationDate>2019-12-05 15:23:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457642 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457642">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457640"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457638"/>
+        <aif:creationDate>2019-12-05 15:23:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457643 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457643">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457641"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457638"/>
+        <aif:creationDate>2019-12-05 15:23:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457644 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457644">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457639"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457638"/>
+        <aif:creationDate>2019-12-05 15:23:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457645 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457645">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Скажу вам только одно: нельзя сидеть сложа руки. Правда, мы не спасаем человечества и, быть может, во многом ошибаемся, но мы делаем то, что можем, и мы — правы. Самая высокая и святая задача культурного человека — это служить ближним, и мы пытаемся служить, как умеем.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457646"/>
+        <aif:creationDate>2019-12-05 15:25:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457646 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457646">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457645"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457638"/>
+        <aif:creationDate>2019-12-05 15:25:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457647 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457647">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Представьте, что мы не лечимся, не держим аптек, табачных фабрик, винокуренных заводов, — сколько свободного времени у нас остается в конце концов! Все мы сообща отдаем этот досуг наукам и искусствам. Как иногда мужики миром починяют дорогу, так и все мы сообща, миром, искали бы правды и смысла жизни, и — я уверен в этом — правда была бы открыта очень скоро, человек избавился бы от этого постоянного мучительного, угнетающего страха смерти, и даже от самой смерти.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457648"/>
+        <aif:creationDate>2019-12-05 15:25:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/457648 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/457648">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/457647"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/457638"/>
+        <aif:creationDate>2019-12-05 15:25:10</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

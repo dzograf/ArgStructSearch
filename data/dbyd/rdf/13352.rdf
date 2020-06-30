@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/319196 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319196">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Germany doesn&#039;t JA invest in coal anymore</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319219"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331400"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/319203"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/331403"/>
+        <aif:creationDate>2017-12-19 10:10:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319197 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319197">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Wir investieren ja auch nicht mehr in Kohle.</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Wir investieren ja auch nicht mehr in Kohle.</aif:source>
+        <aif:creationDate>2017-12-19 10:10:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319198 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319198">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Unknown Speaker : That makes us different from other countries in the EU</aif:claimText>
+        <aif:source>Unknown Speaker : That makes us different from other countries in the EU</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/319202"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/331402"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/319199"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/319216"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331401"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/331407"/>
+        <aif:creationDate>2017-12-19 10:10:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319200 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319200">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>That makes Germany different from other countries in the EU</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319199"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/319203"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/331403"/>
+        <aif:creationDate>2017-12-19 10:10:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319201 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319201">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Kohlekraftwerke werden doch auch abgebaut wie Atomkraftwerke.</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Kohlekraftwerke werden doch auch abgebaut wie Atomkraftwerke.</aif:source>
+        <aif:creationDate>2017-12-19 10:10:18</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Kohlekraftwerke werden doch auch abgebaut wie Atomkraftwerke</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Kohlekraftwerke werden doch auch abgebaut wie Atomkraftwerke</aif:source>
+        <aif:creationDate>2017-12-19 10:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319206 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319206">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Das unterscheidet Deutschland  von anderen Laendern in der EU, Kohlekraftwerke werden abgebaut wie Atomkraftwerke</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Das unterscheidet Deutschland  von anderen Laendern in der EU, Kohlekraftwerke werden abgebaut wie Atomkraftwerke</aif:source>
+        <aif:creationDate>2017-12-19 10:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Kohlekraftwerke werden abgebaut wie Atomkraftwerke</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Kohlekraftwerke werden abgebaut wie Atomkraftwerke</aif:source>
+        <aif:creationDate>2017-12-19 10:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Coal mines are being decommissioned, same as nuclear power plants</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319213"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319215"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/319211"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/331413"/>
+        <aif:creationDate>2017-12-19 10:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Unknown Speaker : Das unterscheidet uns von anderen Laendern in der EU, Kohlekraftwerke werden doch auch abgebaut wie Atomkraftwerke.</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Unknown Speaker : Das unterscheidet uns von anderen Laendern in der EU, Kohlekraftwerke werden doch auch abgebaut wie Atomkraftwerke.</aif:source>
+        <aif:creationDate>2017-12-19 10:10:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319214 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319214">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Kohlekraftwerke werden hier doch auch abgebaut wie Atomkraftwerke.</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Kohlekraftwerke werden hier doch auch abgebaut wie Atomkraftwerke.</aif:source>
+        <aif:creationDate>2017-12-19 10:10:20</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/319217 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/319217">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Everyone should know that we don&#039;t invest in coal anymore</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319220"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/331409"/>
+        <aif:creationDate>2017-12-19 10:10:21</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331399 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331399">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Unknown Speaker : We also don&#039;t [DE: ja] invest in coal anymore</aif:claimText>
+        <aif:source>Unknown Speaker : We also don&#039;t [DE: ja] invest in coal anymore</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331400"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/331402"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331408"/>
+        <aif:creationDate>2018-01-30 12:24:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331400 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331400">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331399"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319196"/>
+        <aif:creationDate>2018-01-30 12:24:08</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331401 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331401">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/319198"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319200"/>
+        <aif:creationDate>2018-01-30 12:24:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331402 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331402">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/331399"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/319198"/>
+        <aif:creationDate>2018-01-30 12:24:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331403 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331403">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/319196"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/319200"/>
+        <aif:creationDate>2018-01-30 12:24:09</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331404 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331404">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/331402"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331403"/>
+        <aif:creationDate>2018-01-30 12:24:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331405 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331405">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Unknown Speaker : Coal mines are [DE: doch] being decommissioned, same as nuclear power plants</aif:claimText>
+        <aif:source>Unknown Speaker : Coal mines are [DE: doch] being decommissioned, same as nuclear power plants</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/331407"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331406"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331412"/>
+        <aif:creationDate>2018-01-30 12:24:10</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331406 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331406">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331405"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319209"/>
+        <aif:creationDate>2018-01-30 12:24:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331407 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331407">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/319198"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/331405"/>
+        <aif:creationDate>2018-01-30 12:24:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331408 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331408">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331399"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/319217"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331409"/>
+        <aif:creationDate>2018-01-30 12:24:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331409 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331409">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331408"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/319217"/>
+        <aif:creationDate>2018-01-30 12:24:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331410 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331410">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>fossile energy and coal mines are not being decommissioned</aif:claimText>
+        <aif:source>fossile energy and coal mines are not being decommissioned</aif:source>
+        <aif:creationDate>2018-01-30 12:24:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331411 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331411">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Annette: Unknown Speaker : Coal mines are being decommissioned, same as nuclear power plants</aif:claimText>
+        <aif:source>Annette: Unknown Speaker : Coal mines are being decommissioned, same as nuclear power plants</aif:source>
+        <aif:creationDate>2018-01-30 12:24:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331412 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331412">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/331405"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/331410"/>
+        <aif:creationDate>2018-01-30 12:24:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/331413 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/331413">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/319209"/>
+        <aif:creationDate>2018-01-30 12:24:12</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

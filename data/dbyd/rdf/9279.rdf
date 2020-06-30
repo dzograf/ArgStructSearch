@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/175975 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175975">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Corea del Sur ha atacado</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175984"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175988"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175978"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175987"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175976 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175976">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Si ésta ataca entonces Corea del Norte también</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175978"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175981"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175977 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175977">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Corea del Norte ha atacado</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175978"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175983"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175989"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175986"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175990"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175978 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175978">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175975"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175976"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175977"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175979 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175979">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Corea del Norte no ha atacado</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175990"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175981"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175984"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175989"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175980 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175980">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Corea del Sur no ha atacado</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175986"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175987"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175983"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175988"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175981 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175981">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175976"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175979"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175980"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175982 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175982">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Una de las dos Coreas ha atacado</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175983"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175984"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175983 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175983">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175980"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175982"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175977"/>
+        <aif:creationDate>2016-05-16 10:26:14</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175984 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175984">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175979"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175982"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175975"/>
+        <aif:creationDate>2016-05-16 10:26:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175985 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175985">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Las dos no atacan simultáneamente</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175986"/>
+        <aif:creationDate>2016-05-16 10:26:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175986 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175986">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175977"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175985"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175980"/>
+        <aif:creationDate>2016-05-16 10:26:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175987 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175987">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175975"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175980"/>
+        <aif:creationDate>2016-05-16 10:26:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175988 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175988">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175980"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175975"/>
+        <aif:creationDate>2016-05-16 10:26:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175989 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175989">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175979"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175977"/>
+        <aif:creationDate>2016-05-16 10:26:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/175990 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/175990">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/175977"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/175979"/>
+        <aif:creationDate>2016-05-16 10:26:15</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

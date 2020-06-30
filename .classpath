@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/collection-0.7.jar"/>
+	<classpathentry kind="lib" path="libs/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/commons-csv-1.5.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="libs/jena-base-3.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/jena-core-3.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/jena-iri-3.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/jena-shaded-guava-3.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/json-20140107.jar"/>
+	<classpathentry kind="lib" path="libs/json-simple.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-config-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-console-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-http-client-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-http-protocol-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-http-server-spring-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-model-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-query-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryalgebra-evaluation-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryalgebra-model-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryparser-api-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryparser-serql-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryparser-sparql-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryresultio-api-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryresultio-binary-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryresultio-sparqljson-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryresultio-sparqlxml-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-queryresultio-text-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-api-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-contextaware-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-dataset-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-event-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-http-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-manager-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-sail-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-repository-sparql-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-api-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-binary-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-n3-2.2.4.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-n3-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-ntriples-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-rdfxml-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-trig-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-trix-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-rio-turtle-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-runtime-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-sail-api-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-sail-inferencer-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-sail-memory-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-sail-nativerdf-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-sail-rdbms-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-util-2.6.9.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/virt_jena.jar"/>
+	<classpathentry kind="lib" path="libs/virt_sesame2.jar"/>
+	<classpathentry kind="lib" path="libs/virtjdbc3.jar"/>
+	<classpathentry kind="lib" path="libs/virtjdbc4.jar"/>
+	<classpathentry kind="lib" path="libs/VirtuosoOps.jar"/>
+	<classpathentry kind="lib" path="libs/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="libs/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

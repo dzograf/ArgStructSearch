@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/456086 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456086">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>ервых же слов произвел</aif:claimText>
+        <aif:source>ервых же слов произвел</aif:source>
+        <aif:creationDate>2019-12-01 17:25:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456087 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456087">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Participant Rachel : х же слов произвел</aif:claimText>
+        <aif:source>Participant Rachel : х же слов произвел</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456088"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456094"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456096"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456098"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456100"/>
+        <aif:creationDate>2019-12-01 17:25:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456089 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456089">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>х же слов произвел</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456088"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456094"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456096"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456098"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456100"/>
+        <aif:creationDate>2019-12-01 17:25:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456091 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456091">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Tatiana: Participant Rachel : х же слов произвел</aif:claimText>
+        <aif:source>Tatiana: Participant Rachel : х же слов произвел</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456090"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456095"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456097"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456099"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456101"/>
+        <aif:creationDate>2019-12-01 17:25:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456092 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456092">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>сил иностранец, и приятели как-то невольно раздвинулись; иност</aif:claimText>
+        <aif:creationDate>2019-12-01 17:25:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456093 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456093">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ересовал, что ли.– Разрешите мне присесть? – вежливо попросил иностранец, и приятели как-то невольно раздвинулись; иностранец ловко уселся между ними и тотчас вступил в</aif:claimText>
+        <aif:creationDate>2019-12-01 17:25:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456096 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456096">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456087"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456089"/>
+        <aif:creationDate>2019-12-01 17:31:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/456097 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/456097">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/456091"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/456087"/>
+        <aif:creationDate>2019-12-01 17:31:32</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

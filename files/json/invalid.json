@@ -1,0 +1,24 @@
+
+{"nodes":
+    [
+        {"nodeID":1,"text":"dfdgdfg","type":"I"},
+        {"nodeID":2,"text":"fgfdgfdg","type":"I"},
+        {"nodeID":5,"text":"f","type":"I"},
+        {"nodeID":8,"text":"","type":"I"},
+        
+        {"nodeID":4,"text":"Default Inference","type":"RA"},
+        
+        {"nodeID":7,"text":"Default Conflict","type":"CA"}
+    ],
+"edges":
+    [
+        {"edgeID":"e0","fromID":2,"toID":4},
+        {"edgeID":"e1","fromID":4,"toID":1},
+        {"edgeID":"e2","fromID":1,"toID":7},
+        {"edgeID":"e3","fromID":7,"toID":5},
+        {"edgeID":"e4","fromID":8,"toID":7}
+    ],
+    
+"locutions":[]
+
+}

@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/72777 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72777">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:07 minute. On the way to Window 9, I look around the waiting areas. I see large metal signs explaining various procedures in detail, for license renewal and car registration, among others. I walk over to a computer information kiosk with a handsomely done touch-screen presentation. In the background, I hear the cashier barking out names through a PA system. I have some time and so I fiddle with the touch-screen for a while and am pleasantly surprised that it works very well and explains the procedures exactly the same way as the metal signs.   </aif:claimText>
+        <aif:source>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:07 minute. On the way to Window 9, I look around the waiting areas. I see large metal signs explaining various procedures in detail, for license renewal and car registration, among others. I walk over to a computer information kiosk with a handsomely done touch-screen presentation. In the background, I hear the cashier barking out names through a PA system. I have some time and so I fiddle with the touch-screen for a while and am pleasantly surprised that it works very well and explains the procedures exactly the same way as the metal signs.   </aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72778 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72778">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:20 minute. I look up from reading and look around me in the waiting area. I see a series of posters all around generically titled &quot;Good character&quot; and &quot;Magandang pag-uugali.&quot;Each poster explains a particular aspect of character such as &quot;Faith,&quot; &quot;Contentment,&quot; etc. &quot;Wow,&quot; I say to myself naughtily, &quot;values education while-you-wait.&quot; The poster on &quot;Contentment&quot; gets my attention: &quot;Pagkakaroon ng kasiyahan. Pagkilala na ang tunay na kahulugan ng buhay ay di nababatay sa materyal na bagay.&quot; Sen was trying to explain the same thing. I guess everything is simpler in Tagalog.</aif:claimText>
+        <aif:source>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:20 minute. I look up from reading and look around me in the waiting area. I see a series of posters all around generically titled &quot;Good character&quot; and &quot;Magandang pag-uugali.&quot;Each poster explains a particular aspect of character such as &quot;Faith,&quot; &quot;Contentment,&quot; etc. &quot;Wow,&quot; I say to myself naughtily, &quot;values education while-you-wait.&quot; The poster on &quot;Contentment&quot; gets my attention: &quot;Pagkakaroon ng kasiyahan. Pagkilala na ang tunay na kahulugan ng buhay ay di nababatay sa materyal na bagay.&quot; Sen was trying to explain the same thing. I guess everything is simpler in Tagalog.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72779 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72779">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:10 minute. I walk over and sit down in the waiting area fronting Window 9. I begin to read Amartya Sen&#039;s Freedom as Development. I figure I can finish a chapter, at least. Sen is not easy reading and with the background chatter and cashier barking, I reread paragraphs three times to understand them.</aif:claimText>
+        <aif:source>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:10 minute. I walk over and sit down in the waiting area fronting Window 9. I begin to read Amartya Sen&#039;s Freedom as Development. I figure I can finish a chapter, at least. Sen is not easy reading and with the background chatter and cashier barking, I reread paragraphs three times to understand them.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72780 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72780">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:07 minute. On the way to Window 9, I look around the waiting areas. I see large metal signs explaining various procedures in detail, for license renewal and car registration, among others. I walk over to a computer information kiosk with a handsomely done touch-screen presentation. In the background, I hear the cashier barking out names through a PA system. I have some time and so I fiddle with the touch-screen for a while and am pleasantly surprised that it works very well and explains the procedures exactly the same way as the metal signs.</aif:claimText>
+        <aif:source>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:07 minute. On the way to Window 9, I look around the waiting areas. I see large metal signs explaining various procedures in detail, for license renewal and car registration, among others. I walk over to a computer information kiosk with a handsomely done touch-screen presentation. In the background, I hear the cashier barking out names through a PA system. I have some time and so I fiddle with the touch-screen for a while and am pleasantly surprised that it works very well and explains the procedures exactly the same way as the metal signs.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72781 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72781">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: I drive home with only one complaint. I didn&#039;t get to finish that chapter of Amartya Sen.</aif:claimText>
+        <aif:source>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: I drive home with only one complaint. I didn&#039;t get to finish that chapter of Amartya Sen.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72782 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72782">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:45 minute. The cashier calls out my name and I pay the fee. I show the application documents to Dolly at the releasing window and she gives me my registration stickers with a smile. I smile back and say thank you.</aif:claimText>
+        <aif:source>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: 00:45 minute. The cashier calls out my name and I pay the fee. I show the application documents to Dolly at the releasing window and she gives me my registration stickers with a smile. I smile back and say thank you.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72783 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72783">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: A block away from the LTO, several men on the street sides note my license plate and know my intention to register. With their long pencils (used for stenciling engine block and car body numbers for registration), they point at me and vigorously motion me to park beside the sidewalk. They wear no LTO identification so I mutter &quot;No, thanks&quot; to myself and continue to drive directly to the LTO compound. Pililla Street fronting the LTO is filled with cars on both sides and I see more men with long pencils discussing documents with some of the car drivers. I worry about whether I still have space inside the compound.</aif:claimText>
+        <aif:source>https://sites.google.com/site/benteehankeesite/home/newspaper-columns/diary-of-a-citizen: A block away from the LTO, several men on the street sides note my license plate and know my intention to register. With their long pencils (used for stenciling engine block and car body numbers for registration), they point at me and vigorously motion me to park beside the sidewalk. They wear no LTO identification so I mutter &quot;No, thanks&quot; to myself and continue to drive directly to the LTO compound. Pililla Street fronting the LTO is filled with cars on both sides and I see more men with long pencils discussing documents with some of the car drivers. I worry about whether I still have space inside the compound.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72784 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72784">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anon: Ben : 00:45 minute. The cashier calls out my name and I pay the fee. I show the application documents to Dolly at the releasing window and she gives me my registration stickers with a smile. I smile back and say thank you.</aif:claimText>
+        <aif:source>Anon: Ben : 00:45 minute. The cashier calls out my name and I pay the fee. I show the application documents to Dolly at the releasing window and she gives me my registration stickers with a smile. I smile back and say thank you.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72785 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72785">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Marissa: Marissa : 00:20 minute. I look up from reading and look around me in the waiting area. I see a series of posters all around generically titled &quot;Good character&quot; and &quot;Magandang pag-uugali.&quot;Each poster explains a particular aspect of character such as &quot;Faith,&quot; &quot;Contentment,&quot; etc. &quot;Wow,&quot; I say to myself naughtily, &quot;values education while-you-wait.&quot; The poster on &quot;Contentment&quot; gets my attention: &quot;Pagkakaroon ng kasiyahan. Pagkilala na ang tunay na kahulugan ng buhay ay di nababatay sa materyal na bagay.&quot; Sen was trying to explain the same thing. I guess everything is simpler in Tagalog.</aif:claimText>
+        <aif:source>Marissa: Marissa : 00:20 minute. I look up from reading and look around me in the waiting area. I see a series of posters all around generically titled &quot;Good character&quot; and &quot;Magandang pag-uugali.&quot;Each poster explains a particular aspect of character such as &quot;Faith,&quot; &quot;Contentment,&quot; etc. &quot;Wow,&quot; I say to myself naughtily, &quot;values education while-you-wait.&quot; The poster on &quot;Contentment&quot; gets my attention: &quot;Pagkakaroon ng kasiyahan. Pagkilala na ang tunay na kahulugan ng buhay ay di nababatay sa materyal na bagay.&quot; Sen was trying to explain the same thing. I guess everything is simpler in Tagalog.</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72786 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72786">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The super-mentors say that they are too busy with other tasks.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72793"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72805"/>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72787 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72787">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Anon: Ben : Students cannot set meetings with super-mentors</aif:claimText>
+        <aif:source>Anon: Ben : Students cannot set meetings with super-mentors</aif:source>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72788 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72788">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The students are intimidated when their supermentors say that they are busy.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72791"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72795"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72796"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72804"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72806"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72807"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72793"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72805"/>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72789 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72789">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Some students did not take BCOMACM, which has a session on assertive communication.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72800"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72809"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72795"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72806"/>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72790 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72790">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The students want to please their supermentors.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72798"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72808"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72791"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72804"/>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72791 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72791">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72790"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72788"/>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72792 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72792">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>UDE: Interns are not able to set up meetings between their supermentors and their adviser.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72793"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72805"/>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72793 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72793">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72786"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72788"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72792"/>
+        <aif:creationDate>2015-07-15 10:57:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72794 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72794">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Students who took up BUSCOM, which has a session on assertive communication, did not receive reinforcement training.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72796"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72807"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72795 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72795">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72789"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72788"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72796 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72796">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72794"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72788"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72797 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72797">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>The supermentors give the interns 50% of their final grades.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72798"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72808"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72798 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72798">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72797"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72790"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72799 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72799">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Earlier batches of students are not required to take BCOMACM.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72800"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72809"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72800 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72800">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72799"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72801"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/72789"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72801 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72801">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Most students do not take a subject if it is not required.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72800"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/72809"/>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72802 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72802">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Injection: Require earlier batches of students to take BCOMACM as an elective.</aif:claimText>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/72803 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/72803">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Injection: Conduct reinforcement training before the students are deployed to the workplace.</aif:claimText>
+        <aif:creationDate>2015-07-15 10:57:01</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

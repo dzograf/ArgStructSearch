@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/458427 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458427">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Пожар был случайным</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458433"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458434"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458435"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458436"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460666"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460679"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460685"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460696"/>
+        <aif:creationDate>2019-12-07 11:37:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458439 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458439">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Приставленной лестницы никто не видел</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460690"/>
+        <aif:creationDate>2019-12-07 11:37:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458544 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458544">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Замок, ключ от которого хранился у контролера, оказался запертым и неповрежденным</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458557"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458583"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458599"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460684"/>
+        <aif:creationDate>2019-12-09 18:04:19</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460654 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460654">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Приложенная печать задерживала дверь своим липким составом и, следовательно, не была снята</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460665"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460684"/>
+        <aif:creationDate>2019-12-16 08:58:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460655 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460655">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Для того, чтобы лазить по водосточной трубе до четвертого этажа, нужно иметь сноровку, а братья Келеш — 40-летние люди и гибкостью тела не отличаются</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460667"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460686"/>
+        <aif:creationDate>2019-12-16 08:58:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460656 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460656">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Форточка была заперта изнутри</aif:claimText>
+        <aif:creationDate>2019-12-16 08:58:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460657 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460657">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если бы форточка была оставлена при зимней стуже открытой, то все окна успели бы оледенеть, а они не заледенели.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460677"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460693"/>
+        <aif:creationDate>2019-12-16 08:58:23</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460658 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460658">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Клеши получили всего 8 тысяч.</aif:claimText>
+        <aif:creationDate>2019-12-16 08:58:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460659 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460659">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Пожар произошел со всеми вещами, а если бы хотели поджечь, то подожгли бы пустое помещение, спрятав вещи.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460679"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460694"/>
+        <aif:creationDate>2019-12-16 08:58:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460660 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460660">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Пожар был выгоден подсудимым ради страховой премии, потому что могли получить 25 тысяч</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460680"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460683"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460695"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460698"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460687"/>
+        <aif:creationDate>2019-12-16 08:58:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460661 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460661">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Табачная кладовая братьев Келеш была заперта и запечатана</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460665"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460684"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460685"/>
+        <aif:creationDate>2019-12-16 08:58:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460662 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460662">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Домовладелец считает, что туда можно было проникнуть через форточку, а до форточки на четвертый этаж добраться по лестнице или по водосточной трубе</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460667"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460671"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460686"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460689"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460690"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460673"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460688"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460691"/>
+        <aif:creationDate>2019-12-16 08:58:24</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460663 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460663">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Форточка была заперта (и запирается она изнутри)</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460671"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460689"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460664 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460664">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Пожар был следствием поджога</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460668"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460669"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460682"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460687"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460688"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460697"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460696"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460665 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460665">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458544"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460654"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460661"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460666 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460666">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458427"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460667 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460667">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460655"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460662"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460668 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460668">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460660"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460664"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460669 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460669">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460664"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460670 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460670">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Других ходов в кладовую не существовало и проложено не было</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460673"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460691"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460666"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460685"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460671 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460671">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460663"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460662"/>
+        <aif:creationDate>2019-12-16 08:58:25</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460672 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460672">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458439"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460662"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460673 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460673">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460662"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460670"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460674 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460674">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Выгоднее поджигать не кладовую, так как там нет ценных вещей, а саму фабрику, где было все подороже, да и где можно было без неудачи устроить поджог, потому что она не заперта, как кладовая, и находилась всегда в полном распоряжении братьев Келеш.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460676"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460692"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460675 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460675">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если бы даже было доказано, что пожар был выгоден подсудимым, из этого не следует, что его устроили именно они.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460683"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460698"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460676 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460676">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460660"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460677 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460677">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460657"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460663"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460678 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460678">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Клеши получили всего 8 тысяч, а это совсем не так выгодно как 25.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460680"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460695"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460679 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460679">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460659"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458427"/>
+        <aif:creationDate>2019-12-16 08:58:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460680 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460680">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460660"/>
+        <aif:creationDate>2019-12-16 08:58:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460681 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460681">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460664"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458427"/>
+        <aif:creationDate>2019-12-16 08:58:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460682 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460682">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460664"/>
+        <aif:creationDate>2019-12-16 08:58:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/460683 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/460683">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/460675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/460660"/>
+        <aif:creationDate>2019-12-16 08:58:27</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

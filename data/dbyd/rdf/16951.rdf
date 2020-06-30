@@ -1,0 +1,1034 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/464285 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464285">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Michał Adamczyk : Sojusz Lewicy Demokratycznej.</aif:claimText>
+        <aif:source>Michał Adamczyk : Sojusz Lewicy Demokratycznej.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464286"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464328"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464340"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464355"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467535"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467549"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476950"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476964"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486875"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486883"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486903"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486911"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486929"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486937"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486956"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486964"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486982"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486989"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488289"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488303"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490341"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490355"/>
+        <aif:creationDate>2019-12-30 22:47:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464287 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464287">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Sojusz Lewicy Demokratycznej.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464286"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464340"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/467535"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476950"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486875"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486903"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486929"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486956"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486982"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/488289"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/490341"/>
+        <aif:creationDate>2019-12-30 22:47:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464288 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464288">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Michał Adamczyk : Sojusz Lewicy Demokratycznej.</aif:claimText>
+        <aif:source>Patryk : Michał Adamczyk : Sojusz Lewicy Demokratycznej.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:31</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464289 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464289">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii. Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości. Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii. Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości. Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464290 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464290">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Moje dzieci wiedzą do czego to doprowadziło, do wielkich nieszczęść.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Moje dzieci wiedzą do czego to doprowadziło, do wielkich nieszczęść.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464329"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464356"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467550"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476965"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486884"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486912"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486938"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486965"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486990"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487059"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487096"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487133"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487173"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487213"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487253"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487296"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487339"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488304"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490356"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464291"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464330"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464341"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464357"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467536"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467551"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476951"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476966"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486885"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486901"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486913"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486927"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486939"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486953"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486966"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486978"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486991"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487002"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487037"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487060"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487085"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487097"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487134"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487152"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487174"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487192"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487214"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487232"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487254"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487272"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487297"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487315"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487340"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487358"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488290"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488305"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490342"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490357"/>
+        <aif:creationDate>2019-12-30 22:47:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464293 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464293">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Moje dzieci wiedzą do czego to doprowadziło, do wielkich nieszczęść.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Moje dzieci wiedzą do czego to doprowadziło, do wielkich nieszczęść.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464294 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464294">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Dlatego, myśląc o przyszłości, moje dzieci wybierają Lewicę.</aif:claimText>
+        <aif:source>Dlatego, myśląc o przyszłości, moje dzieci wybierają Lewicę.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464295 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464295">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Dlatego, myśląc o przyszłości, moje dzieci wybierają Lewicę.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Dlatego, myśląc o przyszłości, moje dzieci wybierają Lewicę.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464330"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464357"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467551"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476966"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486885"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486913"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486939"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486966"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486991"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487060"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487097"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487134"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487174"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487214"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487254"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487297"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487340"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488305"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490357"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464296"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464331"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464343"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464358"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464367"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467537"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467552"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467561"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476952"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476967"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476976"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486890"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486898"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486902"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486917"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486924"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486928"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486943"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486950"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486954"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486970"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486979"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486995"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487003"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487039"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487061"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487086"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487098"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487123"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487135"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487163"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487175"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487203"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487215"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487243"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487255"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487286"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487298"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487329"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487341"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488291"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488306"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488315"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490343"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490358"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490367"/>
+        <aif:creationDate>2019-12-30 22:47:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464298 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464298">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Dlatego, myśląc o przyszłości, moje dzieci wybierają Lewicę.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Dlatego, myśląc o przyszłości, moje dzieci wybierają Lewicę.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464299 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464299">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Moje dzieci chcą żeby Polska była bezpieczna.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Moje dzieci chcą żeby Polska była bezpieczna.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464367"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467561"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476976"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486890"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486917"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486943"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486970"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486995"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487061"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487098"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487135"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487175"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487215"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487255"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487298"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487341"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488315"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490367"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464300"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464332"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464345"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464359"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467539"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467553"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476954"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476968"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486877"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486886"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486905"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486931"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486955"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486958"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486980"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486984"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487004"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487042"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487062"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487087"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487099"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487124"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487136"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487164"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487176"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487204"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487216"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487244"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487256"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487287"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487299"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487330"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487342"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488293"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488307"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490345"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490359"/>
+        <aif:creationDate>2019-12-30 22:47:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464301 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464301">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Moje dzieci chcą żeby Polska była bezpieczna.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464300"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464345"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/467539"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476954"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486877"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486905"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486931"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486958"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486984"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/487006"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487042"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487087"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487124"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487164"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487204"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487244"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487287"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487330"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/488293"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/490345"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464326"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464365"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/467559"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/476974"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486888"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486915"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486941"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486968"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486993"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487073"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487110"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487145"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487185"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487225"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487265"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487308"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487351"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/488313"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/490365"/>
+        <aif:creationDate>2019-12-30 22:47:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464302 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464302">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Moje dzieci chcą żeby Polska była bezpieczna.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Moje dzieci chcą żeby Polska była bezpieczna.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464303 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464303">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Chcą żeby Polska była państwem równości, gdzie każdy inny, a wszyscy równi.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Chcą żeby Polska była państwem równości, gdzie każdy inny, a wszyscy równi.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486955"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486980"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487004"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487062"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487099"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487136"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487176"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487216"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487256"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487299"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/487342"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464304"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464333"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464346"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464360"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467540"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467554"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476955"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476969"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486878"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486887"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486906"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486914"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486932"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486940"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486959"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486967"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486985"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486992"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487063"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487069"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487100"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487106"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487137"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487141"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487177"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487181"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487217"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487221"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487257"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487261"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487300"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487304"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/487343"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487347"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488294"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488308"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490346"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490360"/>
+        <aif:creationDate>2019-12-30 22:47:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464305 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464305">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Chcą żeby Polska była państwem równości, gdzie każdy inny, a wszyscy równi.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464304"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464346"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/467540"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476955"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486878"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486906"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486932"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486959"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486985"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/487067"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487069"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/487104"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487106"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487141"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487181"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487221"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487261"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487304"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487347"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/488294"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/490346"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464327"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/467560"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/476975"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486889"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486916"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486942"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486969"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486994"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487075"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487112"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487147"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487187"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487227"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487267"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487310"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487353"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/488314"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/490366"/>
+        <aif:creationDate>2019-12-30 22:47:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464306 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464306">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Chcą żeby Polska była państwem równości, gdzie każdy inny, a wszyscy równi.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Chcą żeby Polska była państwem równości, gdzie każdy inny, a wszyscy równi.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464307 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464307">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Dlatego apeluję do Państwa: 13 października zagłosujcie na Lewicę, zróbcie to dla siebie i dla naszych dzieci.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Dlatego apeluję do Państwa: 13 października zagłosujcie na Lewicę, zróbcie to dla siebie i dla naszych dzieci.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464331"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464332"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464333"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464358"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464359"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464360"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467552"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467553"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467554"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476967"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476968"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476969"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486886"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486887"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486898"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486914"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486924"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486940"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486950"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486967"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486992"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488306"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488307"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488308"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490358"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490359"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490360"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464308"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464347"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467541"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476956"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486879"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486907"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486933"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486960"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486986"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488295"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490347"/>
+        <aif:creationDate>2019-12-30 22:47:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464309 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464309">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Dlatego apeluję do Państwa: 13 października zagłosujcie na Lewicę, zróbcie to dla siebie i dla naszych dzieci.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464308"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464325"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464326"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464327"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464354"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/467541"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/467548"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476956"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476963"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486879"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486907"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486933"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486960"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486986"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/488295"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/488302"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/490347"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/490354"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486897"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486923"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486949"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486976"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/487006"/>
+        <aif:creationDate>2019-12-30 22:47:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464310 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464310">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Dlatego apeluję do Państwa: 13 października zagłosujcie na Lewicę, zróbcie to dla siebie i dla naszych dzieci.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Dlatego apeluję do Państwa: 13 października zagłosujcie na Lewicę, zróbcie to dla siebie i dla naszych dzieci.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464311 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464311">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii. Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii. Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464312 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464312">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464313 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464313">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464328"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464355"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467549"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476964"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486883"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486911"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486937"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486964"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486989"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488303"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490355"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464314"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464322"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464348"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464351"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467542"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467545"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476957"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476960"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486880"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486882"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486908"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486910"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486934"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486936"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486961"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486963"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486987"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486988"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488296"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488299"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490348"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490351"/>
+        <aif:creationDate>2019-12-30 22:47:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464315 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464315">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464314"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464348"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/467542"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476957"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486880"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486893"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486908"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486919"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486934"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486945"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/488296"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/490348"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464321"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/467544"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/476959"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/488298"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/490350"/>
+        <aif:creationDate>2019-12-30 22:47:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464316 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464316">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Szanowni Państwo. Mam dwójkę dzieci. Borys ma 14 lat, Marta ma 17 lat. Jutro dokładnie ma urodziny. Jest tu ze mną, wspiera mnie w tej kampanii.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464317 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464317">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Andrzej Rozenek : Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości. Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:claimText>
+        <aif:source>Andrzej Rozenek : Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości. Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464322"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464351"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/467545"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/476960"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486882"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486910"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486936"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486963"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/486988"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/488299"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/490351"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464318"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464329"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464349"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464356"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/467543"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/467550"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/476958"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/476965"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486881"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486884"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486909"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486912"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486935"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486938"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486965"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/486981"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/486990"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/487005"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/488297"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/488304"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/490349"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/490356"/>
+        <aif:creationDate>2019-12-30 22:47:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464319 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464319">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości. Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464318"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464321"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464349"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464350"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/467543"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/467544"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476958"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476959"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486881"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486895"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486909"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486921"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486935"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486947"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486974"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486981"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486999"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487005"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/488297"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/488298"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/490349"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/490350"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464323"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/467546"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/476961"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486893"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486919"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486945"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486972"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486997"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/488300"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/490352"/>
+        <aif:creationDate>2019-12-30 22:47:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464320 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464320">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Patryk : Andrzej Rozenek : Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości. Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:claimText>
+        <aif:source>Patryk : Andrzej Rozenek : Rozmawiam z nimi bardzo często o przyszłości Polski. Rozmawiam o ich przyszłości. Zadajemy sobie pytanie co będzie, czy będziemy żyć w pokoju, czy Polska dalej będzie w Unii Europejskiej, czy będą miały przyzwoitą szkołę, czy będą miały potem zajęcie, będą miały pracę. Rozmawiamy też o historii. Zastanawiamy się nad tym do czego doprowadziły nacjonalizmy i szowinizmy w Europie.</aif:source>
+        <aif:creationDate>2019-12-30 22:47:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/464342 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/464342">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Moje dzieci wiedzą do czego doprowadziły nacjonalizmy i szowinizmy, do wielkich nieszczęść.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464341"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464352"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/467536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/467546"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476951"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476961"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486896"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486901"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486922"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486927"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486948"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486953"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/486975"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/486978"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/487000"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/487002"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/488290"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/488300"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/490342"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/490352"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464353"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/467547"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/476962"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486895"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486921"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486947"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486974"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/486999"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/488301"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/490353"/>
+        <aif:creationDate>2019-12-30 23:13:13</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476950 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476950">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464285"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464287"/>
+        <aif:creationDate>2020-02-05 09:57:57</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476951 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476951">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464290"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464342"/>
+        <aif:creationDate>2020-02-05 09:57:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476952 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476952">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464295"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476953"/>
+        <aif:creationDate>2020-02-05 09:57:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476953 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476953">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Dlatego, myśląc o przyszłości, moje dzieci wybierają Lewicę.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476952"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476962"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476974"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476975"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/476963"/>
+        <aif:creationDate>2020-02-05 09:57:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476954 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476954">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464299"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464301"/>
+        <aif:creationDate>2020-02-05 09:57:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476955 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476955">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464303"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464305"/>
+        <aif:creationDate>2020-02-05 09:58:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476956 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476956">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464307"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464309"/>
+        <aif:creationDate>2020-02-05 09:58:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476957 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476957">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464313"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464315"/>
+        <aif:creationDate>2020-02-05 09:58:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476958 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476958">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/464317"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/464319"/>
+        <aif:creationDate>2020-02-05 09:58:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476959 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476959">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464315"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476973"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464319"/>
+        <aif:creationDate>2020-02-05 09:58:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476960 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476960">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464313"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464317"/>
+        <aif:creationDate>2020-02-05 09:58:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476961 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476961">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464319"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476972"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464342"/>
+        <aif:creationDate>2020-02-05 09:58:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476962 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476962">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464342"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476971"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476953"/>
+        <aif:creationDate>2020-02-05 09:58:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476963 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476963">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/476953"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476970"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/464309"/>
+        <aif:creationDate>2020-02-05 09:58:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476964 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476964">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464285"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464313"/>
+        <aif:creationDate>2020-02-05 09:58:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476965 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476965">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464317"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464290"/>
+        <aif:creationDate>2020-02-05 09:58:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476966 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476966">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464290"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464295"/>
+        <aif:creationDate>2020-02-05 09:58:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476967 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476967">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464295"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464307"/>
+        <aif:creationDate>2020-02-05 09:58:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476968 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476968">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464299"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464307"/>
+        <aif:creationDate>2020-02-05 09:58:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476969 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476969">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464303"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464307"/>
+        <aif:creationDate>2020-02-05 09:58:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476970 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476970">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/476967"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476963"/>
+        <aif:creationDate>2020-02-05 09:58:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476971 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476971">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/476966"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476962"/>
+        <aif:creationDate>2020-02-05 09:58:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476972 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476972">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/476965"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476961"/>
+        <aif:creationDate>2020-02-05 09:58:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476973 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476973">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/476960"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476959"/>
+        <aif:creationDate>2020-02-05 09:58:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476974 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476974">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464301"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476977"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476953"/>
+        <aif:creationDate>2020-02-05 09:58:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476975 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476975">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/464305"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476978"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/476953"/>
+        <aif:creationDate>2020-02-05 09:58:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476976 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476976">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/464295"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/464299"/>
+        <aif:creationDate>2020-02-05 09:58:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476977 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476977">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/476976"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476974"/>
+        <aif:creationDate>2020-02-05 09:58:04</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/476978 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/476978">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/476968"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/476975"/>
+        <aif:creationDate>2020-02-05 09:58:04</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/461731 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461731">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ООО «ГЕС» привлечено постановлением Департамента природных ресурсов и экологии  к административной ответственности, предусмотренной ст.8.2.КоАП РФ. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463328"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463331"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461734"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461735"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461740"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461803"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461804"/>
+        <aif:creationDate>2019-12-19 19:30:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461732 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461732">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ООО &quot;ГЕС&quot;: В материалах дела об административном правонарушении не имеется доказательств того, что ООО «ГЕС» осуществляет хозяйственную деятельность в области обращения с отходами, или что в результате его деятельности образуются отходы. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461734"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461739"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461803"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461813"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461747"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461805"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461807"/>
+        <aif:creationDate>2019-12-19 19:30:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461733 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461733">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ООО &quot;ГЕС&quot;: Такие виды деятельности как сбор, накопление, транспортирование, обработка, утилизация, обезвреживание, размещение отходов не относятся к уставной деятельности ООО «ГЕС». </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461735"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461740"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461804"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461742"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461805"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463315"/>
+        <aif:creationDate>2019-12-19 19:30:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461741 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461741">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ООО &quot;ГЕС&quot;: невозможно оказание в процессе осуществления уставной деятельности какого-либо вредного воздействия на окружающую среду.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461742"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461805"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463315"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463325"/>
+        <aif:creationDate>2019-12-19 20:06:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461744 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461744">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ООО «ГЕС»:  заключило ряд договоров аренды нежилых помещений, принадлежащих Обществу.</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461748"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461808"/>
+        <aif:creationDate>2019-12-19 20:06:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461745 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461745">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ООО &quot;ГЕС&quot;: в размер арендной платы включены расходы за вывоз мусора. Право собственности на твердые бытовые отходы при этом ООО «ГЕС» не передаются, прием не осуществляется, а обязанность ограничивается оплатой услуг по договору МКП «Дороги Новокузнецка».</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461748"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461808"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463318"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463326"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461749"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461809"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463319"/>
+        <aif:creationDate>2019-12-19 20:06:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461746 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461746">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>ООО &quot;ГЕС&quot;: ООО не является собственником мусора и контейнеров, куда размещаются отходы арендаторами.  </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461749"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461809"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463319"/>
+        <aif:creationDate>2019-12-19 20:06:11</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461750 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461750">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Инспектор: Из договора по вывозу и передаче на утилизацию твердых бытовых отходов  следует, что заказчик ООО «ГЕС» обязуется обеспечить необходимое количество контейнеров для ТБО, на оборудованных площадках, по мере их износа производить ремонт и замену, так же обязуется самостоятельно вывозить утилизировать отходы не относящиеся к ТБО.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461753"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461811"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463321"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461752"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461810"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461813"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463320"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463323"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463332"/>
+        <aif:creationDate>2019-12-19 20:06:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461751 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461751">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Инспектор: ООО &quot;ГЕС&quot; занимается деятельностью в связи с обращением с отходами.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461752"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461810"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463320"/>
+        <aif:creationDate>2019-12-19 20:06:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461754 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461754">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Инспектор: Наличие такого договора не освобождает от внесения платы за негативное воздействие на окружающую среду</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461814"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463324"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461756"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461812"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463322"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463325"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/463326"/>
+        <aif:creationDate>2019-12-19 20:06:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461755 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461755">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>в договоре предусмотрен переход права собственности на отходы к такой специализированной организации. </aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461756"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461812"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/463322"/>
+        <aif:creationDate>2019-12-19 20:06:12</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461803 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461803">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461732"/>
+        <aif:creationDate>2019-12-19 20:14:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461804 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461804">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461733"/>
+        <aif:creationDate>2019-12-19 20:14:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461805 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461805">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461732"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461806"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461741"/>
+        <aif:creationDate>2019-12-19 20:14:15</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461806 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461806">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Согласно договорам, заключенными ООО «ГЕС» с МКП «Дороги Новокузнецка», специализированные организации приняли на себя обязательства оказывать услуги по вывозу и утилизации (захоронению) отходов.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461807"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461805"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461808"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461811"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461814"/>
+        <aif:creationDate>2019-12-19 20:14:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461807 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461807">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461732"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461806"/>
+        <aif:creationDate>2019-12-19 20:14:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461808 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461808">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461744"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461806"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461745"/>
+        <aif:creationDate>2019-12-19 20:14:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461809 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461809">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461745"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461746"/>
+        <aif:creationDate>2019-12-19 20:14:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461810 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461810">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461750"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461751"/>
+        <aif:creationDate>2019-12-19 20:14:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461811 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461811">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461806"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461750"/>
+        <aif:creationDate>2019-12-19 20:14:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461812 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461812">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461754"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461755"/>
+        <aif:creationDate>2019-12-19 20:14:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461813 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461813">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461750"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461732"/>
+        <aif:creationDate>2019-12-19 20:14:17</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/461814 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/461814">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/461806"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/461754"/>
+        <aif:creationDate>2019-12-19 20:14:17</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

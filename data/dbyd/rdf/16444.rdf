@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/458615 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458615">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Если вы спите недостаточно, ваш мозг начинает работать хуже</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458617"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458618"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458624"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458635"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458636"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458653"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458654"/>
+        <aif:creationDate>2019-12-09 19:02:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458616 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458616">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Большинству людей требуется по крайней мере семь-восемь часов сна, чтобы тело и мозг функционировали нормально.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458617"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458618"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458633"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458652"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458620"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458622"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458629"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458630"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458649"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458650"/>
+        <aif:creationDate>2019-12-09 19:02:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458619 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458619">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Таким образом, если вы не спите всю ночь, ваш мозг утомлен.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458620"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458629"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458649"/>
+        <aif:creationDate>2019-12-09 19:59:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458621 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458621">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Это приводит к резкому снижению производительности для конкретных задач обучения и запоминания.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458622"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458630"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458650"/>
+        <aif:creationDate>2019-12-09 19:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458623 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458623">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>«Недосып оказывает на работу мозга ошеломляющий эффект: мозг теряет работоспособность с каждым часом»</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458624"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458636"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458654"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458626"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458637"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458655"/>
+        <aif:creationDate>2019-12-09 19:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458625 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458625">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Поздний вечер в библиотеке, обилие энергетических напитков или кофе и учебные заметки за последний месяц. Конечно, вы сможете сдать экзамен, если просто проведёте следующие 24 часа, сосредоточившись на материале.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458626"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458638"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458628"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458631"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458648"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458651"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458661"/>
+        <aif:creationDate>2019-12-09 19:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458627 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458627">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>К сожалению, промедление и недосыпание приносят гораздо больше вреда, чем пользы.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458628"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458631"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458651"/>
+        <aif:creationDate>2019-12-09 19:59:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458632 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458632">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Все мы в какой-то момент жизни, вольно или невольно, сталкиваемся с недосыпом. Тем не менее</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458635"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458653"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458633"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458652"/>
+        <aif:creationDate>2019-12-09 21:04:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458634 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458634">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>если вы считаете, что бодрствование всю ночь пойдет на пользу вашим учебным привычкам</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458637"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458638"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458640"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458658"/>
+        <aif:creationDate>2019-12-09 21:04:26</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458639 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458639">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Заучивание по ночам активирует кратковременную, а не долговременную память</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458640"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458646"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458660"/>
+        <aif:creationDate>2019-12-09 21:04:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458641 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458641">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>когда мы отстали и пытаемся быстро догнать курс или довести до ума проект, мы можем работать всю ночь напролёт.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458658"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458644"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458659"/>
+        <aif:creationDate>2019-12-09 21:04:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458643 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458643">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Но быстрая попытка втиснуть всю информацию в наш мозг активирует только кратковременную память. А то, что нам нужно, чтобы вспомнить и сохранить большинство фактов – это как раз память долговременная.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458644"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458659"/>
+        <aif:creationDate>2019-12-09 21:04:27</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458645 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458645">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>«Знания, находящиеся в такой памяти, быстро забываются. Если вы не используете информацию повторно, она исчезает в течение нескольких минут или пары часов. Зубрежка не позволяет информации перейти из кратковременной в долговременную память, что важно для успешного выполнения проекта или экзамена»</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458646"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458660"/>
+        <aif:creationDate>2019-12-09 21:04:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458647 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458647">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Помните проблемы с кратковременной памятью Дори из «В поисках Немо»? Вот это ваш мозг во время зубрёжки по ночам.</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458648"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458661"/>
+        <aif:creationDate>2019-12-09 21:04:28</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458649 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458649">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458616"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458619"/>
+        <aif:creationDate>2019-12-09 21:16:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458650 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458650">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458616"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458621"/>
+        <aif:creationDate>2019-12-09 21:16:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458651 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458651">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458627"/>
+        <aif:creationDate>2019-12-09 21:17:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458652 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458652">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458632"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458616"/>
+        <aif:creationDate>2019-12-09 21:17:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458653 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458653">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458615"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458632"/>
+        <aif:creationDate>2019-12-09 21:17:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458654 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458654">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458615"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458623"/>
+        <aif:creationDate>2019-12-09 21:17:00</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458655 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458655">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458623"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458634"/>
+        <aif:creationDate>2019-12-09 21:17:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458656 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458656">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458634"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458625"/>
+        <aif:creationDate>2019-12-09 21:17:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458657 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458657">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458634"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458639"/>
+        <aif:creationDate>2019-12-09 21:17:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458658 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458658">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458634"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458641"/>
+        <aif:creationDate>2019-12-09 21:17:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458659 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458659">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458641"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458643"/>
+        <aif:creationDate>2019-12-09 21:17:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458660 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458660">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458639"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458645"/>
+        <aif:creationDate>2019-12-09 21:17:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458661 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458661">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458647"/>
+        <aif:creationDate>2019-12-09 21:17:02</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

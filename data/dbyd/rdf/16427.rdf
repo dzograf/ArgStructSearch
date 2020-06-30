@@ -1,0 +1,1181 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/458169 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458169">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Michał Adamczyk :  Czy jesteś za jawnością informacji o majątku najważniejszych urzędników państwowych: posłów, senatorów, ministrów, europosłów, prezesów sądów oraz członków ich najbliższej rodziny? Bardzo proszę o odpowiedź.</aif:claimText>
+        <aif:source>Michał Adamczyk :  Czy jesteś za jawnością informacji o majątku najważniejszych urzędników państwowych: posłów, senatorów, ministrów, europosłów, prezesów sądów oraz członków ich najbliższej rodziny? Bardzo proszę o odpowiedź.</aif:source>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458170"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458239"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458259"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458287"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458307"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458335"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458354"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458380"/>
+        <aif:creationDate>2019-12-06 15:08:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458170 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458170">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458169"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458171"/>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458171 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458171">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Czy jesteś za jawnością informacji o majątku najważniejszych urzędników państwowych: posłów, senatorów, ministrów, europosłów, prezesów sądów oraz członków ich najbliższej rodziny? Bardzo proszę o odpowiedź.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458170"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458259"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458307"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458354"/>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458172 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458172">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Michał Adamczyk :  Czy jesteś za jawnością informacji o majątku najważniejszych urzędników państwowych: posłów, senatorów, ministrów, europosłów, prezesów sądów oraz członków ich najbliższej rodziny? Bardzo proszę o odpowiedź.</aif:claimText>
+        <aif:source>A: Michał Adamczyk :  Czy jesteś za jawnością informacji o majątku najważniejszych urzędników państwowych: posłów, senatorów, ministrów, europosłów, prezesów sądów oraz członków ich najbliższej rodziny? Bardzo proszę o odpowiedź.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458173 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458173">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Poparliśmy ustawę. Szkoda że ona nie weszła w życie przed wyborami,</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Poparliśmy ustawę. Szkoda że ona nie weszła w życie przed wyborami,</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458239"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458287"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458335"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458380"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458174"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458240"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458244"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458260"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458288"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458292"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458308"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458336"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458340"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458355"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458381"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458385"/>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458174 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458174">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458173"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458175"/>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458175 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458175">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Poparliśmy ustawę. Szkoda że ona nie weszła w życie przed wyborami,</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458174"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458181"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458260"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458262"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458308"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458310"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458355"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458357"/>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458176 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458176">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Poparliśmy ustawę. Szkoda że ona nie weszła w życie przed wyborami,</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Poparliśmy ustawę. Szkoda że ona nie weszła w życie przed wyborami,</aif:source>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458177 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458177">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : bo trzeba ujawnić majątki.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : bo trzeba ujawnić majątki.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458240"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458288"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458336"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458381"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458178"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458242"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458261"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458290"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458309"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458338"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458356"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458383"/>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458178 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458178">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458177"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458179"/>
+        <aif:creationDate>2019-12-06 15:08:33</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458179 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458179">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>bo trzeba ujawnić majątki.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458178"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458191"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458261"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458266"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458309"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458314"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458356"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458181"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458262"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458310"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458357"/>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458180 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458180">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : bo trzeba ujawnić majątki.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : bo trzeba ujawnić majątki.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458181 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458181">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458179"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458241"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458175"/>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458182 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458182">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Pan premier się zobowiązywał do tego, dojdzie do tego dopiero po wyborach.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Pan premier się zobowiązywał do tego, dojdzie do tego dopiero po wyborach.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458242"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458290"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458338"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458383"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479400"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458183"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458263"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458311"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458358"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479392"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479406"/>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458183 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458183">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458182"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458184"/>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458184 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458184">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Pan premier się zobowiązywał do tego, dojdzie do tego dopiero po wyborach.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458183"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458263"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458311"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458358"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479392"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479405"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458191"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458266"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458314"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458361"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479403"/>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458185 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458185">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Pan premier się zobowiązywał do tego, dojdzie do tego dopiero po wyborach.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Pan premier się zobowiązywał do tego, dojdzie do tego dopiero po wyborach.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458186 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458186">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Niestety, Polacy nie zapoznają się przed wyborami z prawdą o majątkach najważniejszych urzędników państwowych.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Niestety, Polacy nie zapoznają się przed wyborami z prawdą o majątkach najważniejszych urzędników państwowych.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458244"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458292"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458340"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458385"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/465247"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/465415"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479406"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479667"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479857"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458187"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458246"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458264"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458294"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458312"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458342"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458359"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458387"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/465245"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/465252"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/465414"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/465417"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479394"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479408"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479666"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479669"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479856"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479859"/>
+        <aif:creationDate>2019-12-06 15:08:34</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458187 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458187">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458186"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458188"/>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458188 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458188">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Niestety, Polacy nie zapoznają się przed wyborami z prawdą o majątkach najważniejszych urzędników państwowych.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458187"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458264"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458312"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458359"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465245"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465414"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479394"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479666"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479856"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479405"/>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458189 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458189">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Niestety, Polacy nie zapoznają się przed wyborami z prawdą o majątkach najważniejszych urzędników państwowych.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Niestety, Polacy nie zapoznają się przed wyborami z prawdą o majątkach najważniejszych urzędników państwowych.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458190 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458190">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#MA-node"/>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458191 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458191">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458184"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458243"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458179"/>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458192 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458192">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Ale wprowadzimy coś lepszego, coś co niesie ze sobą Paweł Kukiz - tą swoją ideę państwa, które będzie kontrolowane przez społeczeństwo.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Ale wprowadzimy coś lepszego, coś co niesie ze sobą Paweł Kukiz - tą swoją ideę państwa, które będzie kontrolowane przez społeczeństwo.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458246"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458294"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458342"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458387"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479408"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458193"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458215"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458236"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458247"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458267"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458275"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458284"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458295"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458315"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458323"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458332"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458343"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458362"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458377"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458388"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479396"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479417"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479440"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479446"/>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458193 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458193">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458192"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458194"/>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458194 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458194">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Ale wprowadzimy coś lepszego, coś co niesie ze sobą Paweł Kukiz - tą swoją ideę państwa, które będzie kontrolowane przez społeczeństwo.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458193"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458200"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458214"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458237"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458267"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458269"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458274"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458285"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458315"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458317"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458322"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458333"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458362"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458364"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458369"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458378"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479396"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479439"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479445"/>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458195 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458195">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Ale wprowadzimy coś lepszego, coś co niesie ze sobą Paweł Kukiz - tą swoją ideę państwa, które będzie kontrolowane przez społeczeństwo.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Ale wprowadzimy coś lepszego, coś co niesie ze sobą Paweł Kukiz - tą swoją ideę państwa, które będzie kontrolowane przez społeczeństwo.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:35</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458196 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458196">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz :  Dlatego nawiązaliśmy koalicję polską żeby wprowadzić ustawę antykorupcyjną.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz :  Dlatego nawiązaliśmy koalicję polską żeby wprowadzić ustawę antykorupcyjną.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458247"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458295"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458343"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458388"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458197"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458249"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458268"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458297"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458316"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458345"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458363"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458390"/>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458197 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458197">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458196"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458198"/>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458198 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458198">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Dlatego nawiązaliśmy koalicję polską żeby wprowadzić ustawę antykorupcyjną.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458197"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458205"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458268"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458271"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458316"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458319"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458363"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458366"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465254"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465418"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479670"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479860"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/489783"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458200"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458269"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458317"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458364"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/465257"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/465419"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479861"/>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458199 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458199">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz :  Dlatego nawiązaliśmy koalicję polską żeby wprowadzić ustawę antykorupcyjną.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz :  Dlatego nawiązaliśmy koalicję polską żeby wprowadzić ustawę antykorupcyjną.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458200 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458200">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458198"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458248"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458194"/>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458201 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458201">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz :  PiS się tej ustawy boi.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz :  PiS się tej ustawy boi.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458249"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458297"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458345"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458390"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458202"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458250"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458270"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458298"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458318"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458346"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458365"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458391"/>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458202 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458202">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458201"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458203"/>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458203 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458203">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>PiS się tej ustawy boi.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458202"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458270"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458318"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458365"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465260"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/465266"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465422"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/465425"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479413"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479421"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479678"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479864"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479867"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458205"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458271"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458319"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479420"/>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz :  PiS się tej ustawy boi.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz :  PiS się tej ustawy boi.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:36</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458205 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458205">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458203"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458208"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458252"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458198"/>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458206 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458206">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Co prawda zrobił pierwsze czytanie ale później wsadził do zamrażarki.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Co prawda zrobił pierwsze czytanie ale później wsadził do zamrażarki.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458250"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458298"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458346"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458391"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/465265"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/465427"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479423"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479677"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479869"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458207"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458251"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458272"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458299"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458320"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458367"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458399"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/465263"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/465424"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479415"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479676"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479866"/>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458207 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458207">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458206"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458208"/>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458208 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458208">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Co prawda zrobił pierwsze czytanie ale później wsadził do zamrażarki.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458207"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458272"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458320"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458367"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465263"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465424"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479415"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479676"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479866"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458205"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458271"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458319"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458366"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/465266"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/465425"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479678"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479867"/>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458209 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458209">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Co prawda zrobił pierwsze czytanie ale później wsadził do zamrażarki.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Co prawda zrobił pierwsze czytanie ale później wsadził do zamrażarki.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Wzmocnimy ustawę antymobbingową, ale przede wszystkim damy szansę na odwołanie posła w trakcie kadencji</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Wzmocnimy ustawę antymobbingową, ale przede wszystkim damy szansę na odwołanie posła w trakcie kadencji</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458215"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458251"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458275"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458299"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458323"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458399"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458211"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458253"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458273"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458301"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458321"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458348"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458368"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458393"/>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458211 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458211">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458210"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458212"/>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458212 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458212">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Wzmocnimy ustawę antymobbingową, ale przede wszystkim damy szansę na odwołanie posła w trakcie kadencji</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458211"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458221"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458273"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458278"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458321"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458326"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458368"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458371"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479427"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458214"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458274"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458322"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458369"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479439"/>
+        <aif:creationDate>2019-12-06 15:08:37</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Wzmocnimy ustawę antymobbingową, ale przede wszystkim damy szansę na odwołanie posła w trakcie kadencji</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Wzmocnimy ustawę antymobbingową, ale przede wszystkim damy szansę na odwołanie posła w trakcie kadencji</aif:source>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458214 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458214">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458212"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458216"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458194"/>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458215 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458215">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458192"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458210"/>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458216 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458216">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458215"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458214"/>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458217 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458217">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : bo symbolem przyzwoitości i prawości obecnego rządu jest trzech muszkieterów: Pan Misiewicz, pan Kuchciński i pan Banaś.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : bo symbolem przyzwoitości i prawości obecnego rządu jest trzech muszkieterów: Pan Misiewicz, pan Kuchciński i pan Banaś.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458253"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458301"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458348"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458393"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479431"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458218"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458255"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458277"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458303"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458325"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458350"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458370"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458395"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479429"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479437"/>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458218 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458218">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458217"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458219"/>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458219 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458219">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>bo symbolem przyzwoitości i prawości obecnego rządu jest trzech muszkieterów: Pan Misiewicz, pan Kuchciński i pan Banaś.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458218"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458226"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458277"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458280"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458325"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458328"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458370"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458373"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465287"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465439"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479429"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479436"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479691"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479881"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458221"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458278"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458326"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458371"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/465284"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/465438"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479432"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479880"/>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458220 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458220">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : bo symbolem przyzwoitości i prawości obecnego rządu jest trzech muszkieterów: Pan Misiewicz, pan Kuchciński i pan Banaś.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : bo symbolem przyzwoitości i prawości obecnego rządu jest trzech muszkieterów: Pan Misiewicz, pan Kuchciński i pan Banaś.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458221 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458221">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458219"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458254"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458212"/>
+        <aif:creationDate>2019-12-06 15:08:38</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458222 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458222">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Z tym trzeba zrobić porządek.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Z tym trzeba zrobić porządek.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458255"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458303"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458350"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458395"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/465293"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/465441"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479437"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479693"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479883"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458223"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458257"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458279"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458305"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458327"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458352"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458372"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458397"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/465291"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/465440"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479434"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479692"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479882"/>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458223 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458223">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458222"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458224"/>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458224 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458224">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Z tym trzeba zrobić porządek.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458223"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458231"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458279"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458282"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458327"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458330"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458372"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458375"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465291"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465440"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479434"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479692"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479882"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/480030"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/480036"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458226"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458280"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458328"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458373"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479436"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/480072"/>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458225 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458225">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Z tym trzeba zrobić porządek.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Z tym trzeba zrobić porządek.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458226 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458226">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458224"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458256"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458219"/>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458227 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458227">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz : Możemy to zrobić oddając prawdziwie władzę w ręce obywateli.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz : Możemy to zrobić oddając prawdziwie władzę w ręce obywateli.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458257"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458305"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458352"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458397"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479446"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458228"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458281"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458329"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458374"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479443"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/479452"/>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458228 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458228">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458227"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458229"/>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458229 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458229">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Możemy to zrobić oddając prawdziwie władzę w ręce obywateli.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458228"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458281"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458329"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458374"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/479451"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/480034"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/480042"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458231"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458282"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458330"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458375"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/480036"/>
+        <aif:creationDate>2019-12-06 15:08:39</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458230 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458230">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz : Możemy to zrobić oddając prawdziwie władzę w ręce obywateli.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz : Możemy to zrobić oddając prawdziwie władzę w ręce obywateli.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458231 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458231">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458229"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458258"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458224"/>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458232 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458232">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>Władysław Kosiniak-Kamysz :  To obiecujemy i to zrealizujemy.</aif:claimText>
+        <aif:source>Władysław Kosiniak-Kamysz :  To obiecujemy i to zrealizujemy.</aif:source>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458236"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458284"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458332"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458377"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/479452"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458233"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458283"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458331"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458376"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/479449"/>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458233 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458233">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Locution rdf:resource="&http;www.aifdb.org/nodes/458232"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458234"/>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458234 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458234">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>To obiecujemy i to zrealizujemy.</aif:claimText>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458233"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458283"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458331"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458376"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465300"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/465446"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479449"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479698"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/479888"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458237"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458285"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458333"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458378"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/479451"/>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458235 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458235">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#L-node"/>
+        <aif:claimText>A: Władysław Kosiniak-Kamysz :  To obiecujemy i to zrealizujemy.</aif:claimText>
+        <aif:source>A: Władysław Kosiniak-Kamysz :  To obiecujemy i to zrealizujemy.</aif:source>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458236 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458236">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458192"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458232"/>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458237 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458237">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/458234"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458238"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/458194"/>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458238 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458238">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458236"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458237"/>
+        <aif:creationDate>2019-12-06 15:08:40</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458239 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458239">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458169"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458173"/>
+        <aif:creationDate>2019-12-06 15:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458240 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458240">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458173"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458177"/>
+        <aif:creationDate>2019-12-06 15:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458241 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458241">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458240"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458181"/>
+        <aif:creationDate>2019-12-06 15:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458242 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458242">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458177"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458182"/>
+        <aif:creationDate>2019-12-06 15:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458243 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458243">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458242"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458191"/>
+        <aif:creationDate>2019-12-06 15:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458244 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458244">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458173"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458186"/>
+        <aif:creationDate>2019-12-06 15:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458245 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458245">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458244"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458190"/>
+        <aif:creationDate>2019-12-06 15:08:41</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458246 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458246">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458186"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458192"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458247 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458247">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458192"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458196"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458248 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458248">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458247"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458200"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458249 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458249">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458196"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458201"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458250 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458250">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458201"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458206"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458251 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458251">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458206"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458210"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458252 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458252">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458249"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458205"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458253 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458253">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458210"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458217"/>
+        <aif:creationDate>2019-12-06 15:08:42</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458254 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458254">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458253"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458221"/>
+        <aif:creationDate>2019-12-06 15:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458255 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458255">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458217"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458222"/>
+        <aif:creationDate>2019-12-06 15:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458256 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458256">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458255"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458226"/>
+        <aif:creationDate>2019-12-06 15:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458257 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458257">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#TA-node"/>
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#Transition"/>
+        <aif:StartLocution rdf:resource="&http;www.aifdb.org/nodes/458222"/>
+        <aif:EndLocution rdf:resource="&http;www.aifdb.org/nodes/458227"/>
+        <aif:creationDate>2019-12-06 15:08:43</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/458258 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/458258">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#YA-node"/>
+        <aif:Anchor rdf:resource="&http;www.aifdb.org/nodes/458257"/>
+        <aif:IllocutionaryContent rdf:resource="&http;www.aifdb.org/nodes/458231"/>
+        <aif:creationDate>2019-12-06 15:08:43</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,620 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#">
+    <Ontology rdf:about="&http;www.arg.tech/aif">
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">A number of argumentation schemes are taken from Bita Banihashemi and Iyad Rahwan&apos;s previous version of the AIF ontology.</rdfs:comment>
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Floris Bex</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The AIF Ontology. </rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+
+    <!-- http://www.aifdb.org/nodes/35766 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/35766">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:creationDate>2014-09-01 16:28:50</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/281977 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/281977">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>48</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293231"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293403"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293473"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293476"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293483"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293489"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293497"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293505"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293515"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293521"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293529"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293538"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293548"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293560"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293573"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293587"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293602"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293618"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293635"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293654"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293674"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293695"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293715"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293736"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281978"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282018"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282058"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293232"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293402"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293440"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293458"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293472"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293475"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293482"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293488"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293496"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293504"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293514"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293520"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293528"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293537"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293547"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293559"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293572"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293586"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293601"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293617"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293634"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293653"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293673"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293694"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293714"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293735"/>
+        <aif:creationDate>2017-05-31 14:55:16</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/282310 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/282310">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>19</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293224"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293414"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293450"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293464"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293734"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293755"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282311"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282777"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282802"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282914"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282941"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/283057"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293206"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293207"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293415"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293418"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293451"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293454"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293465"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293468"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293481"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293494"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293495"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293502"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293503"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293510"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293511"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293672"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293692"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293693"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293713"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293733"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293754"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/295957"/>
+        <aif:creationDate>2017-06-01 14:53:32</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293204 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293204">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>Autor</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293205"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293207"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293209"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293212"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293228"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293232"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293234"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293235"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293400"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293401"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293402"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293405"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293417"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293418"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293420"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293421"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293440"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293441"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293453"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293454"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293456"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293457"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293458"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293459"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293467"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293468"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293470"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293471"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293472"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293475"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293478"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293480"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293482"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293485"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293487"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293488"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293491"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293493"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293495"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293496"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293499"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293501"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293503"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293504"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293507"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293509"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293511"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293512"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293513"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293514"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293517"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293519"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293520"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293523"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293525"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293526"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293528"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293531"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293533"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293534"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293536"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293537"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293540"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293542"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293543"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293545"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293547"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293550"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293552"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293553"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293555"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293559"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293562"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293564"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293565"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293567"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293572"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293575"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293577"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293578"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293580"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293586"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293589"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293591"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293592"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293594"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293601"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293604"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293606"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293607"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293609"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293617"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293620"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293622"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293623"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293625"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293634"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293637"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293639"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293640"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293642"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293651"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293652"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293653"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293656"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293658"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293659"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293661"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293670"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293671"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293672"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293673"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293676"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293678"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293679"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293681"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293690"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293691"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293692"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293694"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293697"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293699"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293700"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293702"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293711"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293712"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293713"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293714"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293717"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293719"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293720"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293722"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293731"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293732"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293733"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293735"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293738"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293740"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293741"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293743"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293752"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293753"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293754"/>
+        <aif:creationDate>2017-06-19 14:33:56</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293210 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293210">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>24</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293214"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293225"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293230"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293404"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293407"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293419"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293443"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293455"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293469"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293474"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293477"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293484"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293490"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293498"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293506"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293516"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293522"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293527"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293530"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293535"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293539"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293544"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293549"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293554"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293561"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293566"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293574"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293579"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293588"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293593"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293603"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293608"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293619"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293624"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293633"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293636"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293641"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293650"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293655"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293660"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293669"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293675"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293680"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293689"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293696"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293701"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293710"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293716"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293721"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293730"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293737"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293742"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293751"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293211"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293212"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293416"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293421"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293452"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293457"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293466"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293471"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293536"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293545"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293546"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293555"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293556"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293567"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293568"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293580"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293581"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293594"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293595"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293609"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293610"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293625"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293626"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293642"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293643"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293661"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293662"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293681"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293682"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293702"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293703"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293722"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293723"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293743"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293744"/>
+        <aif:creationDate>2017-06-19 14:33:58</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293213 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293213">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>74</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293214"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293215"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293216"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293227"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293406"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293407"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293408"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293409"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293442"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293443"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293444"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293445"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293479"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293486"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293492"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293500"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293508"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293518"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293524"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293532"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293541"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293551"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293558"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293563"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293570"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293576"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293583"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293590"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293597"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293605"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293612"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293616"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293621"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293628"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293632"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293633"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293638"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293645"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293649"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293650"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293657"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293664"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293668"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293669"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293677"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293684"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293688"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293689"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293698"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293705"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293709"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293710"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293718"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293725"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293729"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293730"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293746"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293750"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293751"/>
+        <aif:creationDate>2017-06-19 14:33:59</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293226 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293226">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>40</aif:claimText>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293227"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293406"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293442"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293479"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293486"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293492"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293500"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293508"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293518"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293524"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293532"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293541"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293551"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293563"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293576"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293590"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293605"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293621"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293638"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293657"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293677"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293698"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293718"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293739"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293228"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293405"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293441"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293459"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293478"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293485"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293491"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293499"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293507"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293517"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293523"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293531"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293540"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293550"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293562"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293575"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293589"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293604"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293620"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293637"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293656"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293676"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293697"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293717"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293738"/>
+        <aif:creationDate>2017-06-19 14:34:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293229 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293229">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#I-node"/>
+        <aif:claimText>58</aif:claimText>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293230"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293231"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293403"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293404"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293473"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293474"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293476"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293477"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293483"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293484"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293489"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293490"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293497"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293498"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293505"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293506"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293515"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293516"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293521"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293522"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293529"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293530"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293538"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293539"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293548"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293549"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293560"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293561"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293573"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293574"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293587"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293588"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293602"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293603"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293618"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293619"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293635"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293636"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293654"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293655"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293674"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293675"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293695"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293696"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293715"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293716"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293736"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293737"/>
+        <aif:creationDate>2017-06-19 14:34:03</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293488 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293488">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/281977"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293204"/>
+        <aif:creationDate>2017-06-25 15:26:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293489 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293489">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293229"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/281977"/>
+        <aif:creationDate>2017-06-25 15:26:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293490 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293490">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293229"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293210"/>
+        <aif:creationDate>2017-06-25 15:26:01</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293491 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293491">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293226"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293204"/>
+        <aif:creationDate>2017-06-25 15:26:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293492 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293492">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/293213"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293226"/>
+        <aif:creationDate>2017-06-25 15:26:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293493 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293493">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#RA-node"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293204"/>
+        <aif:creationDate>2017-06-25 15:26:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293494 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293494">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282310"/>
+        <aif:creationDate>2017-06-25 15:26:02</aif:creationDate>
+    </NamedIndividual>
+
+    <!-- http://www.aifdb.org/nodes/293495 -->
+    <NamedIndividual rdf:about="&http;www.aifdb.org/nodes/293495">
+        <rdf:type rdf:resource="&http;www.arg.tech/aif#CA-node"/>
+        <aif:Premise rdf:resource="&http;www.aifdb.org/nodes/282310"/>
+        <aif:Conclusion rdf:resource="&http;www.aifdb.org/nodes/293204"/>
+        <aif:creationDate>2017-06-25 15:26:02</aif:creationDate>
+    </NamedIndividual>
+</rdf:RDF>
