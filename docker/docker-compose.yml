@@ -1,0 +1,15 @@
+version: '3'
+services:
+ tomcat:
+  build: .
+  ports:
+  - 8080:8080
+
+ virtuoso:
+  container_name: virtuoso
+  build: ./virtuoso
+  volumes:
+  - ./var/lib/virtuoso/db:/opt/virtuoso-opensource/var/lib/virtuoso/db
+  ports:
+  - 1111:1111
+  - 8890:8890

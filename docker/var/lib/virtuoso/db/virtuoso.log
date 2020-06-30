@@ -1,0 +1,44 @@
+
+		Tue Jun 30 2020
+16:49:16 { Loading plugin 1: Type `plain', file `wikiv' in `/opt/virtuoso-opensource/lib/virtuoso/hosting'
+16:49:16   WikiV version 0.6 from OpenLink Software
+16:49:16   Support functions for WikiV collaboration tool
+16:49:16   SUCCESS plugin 1: loaded from /opt/virtuoso-opensource/lib/virtuoso/hosting/wikiv.so }
+16:49:16 { Loading plugin 2: Type `plain', file `mediawiki' in `/opt/virtuoso-opensource/lib/virtuoso/hosting'
+16:49:16   MediaWiki version 0.1 from OpenLink Software
+16:49:16   Support functions for MediaWiki collaboration tool
+16:49:16   SUCCESS plugin 2: loaded from /opt/virtuoso-opensource/lib/virtuoso/hosting/mediawiki.so }
+16:49:16 { Loading plugin 3: Type `plain', file `creolewiki' in `/opt/virtuoso-opensource/lib/virtuoso/hosting'
+16:49:16   CreoleWiki version 0.1 from OpenLink Software
+16:49:16   Support functions for CreoleWiki collaboration tool
+16:49:16   SUCCESS plugin 3: loaded from /opt/virtuoso-opensource/lib/virtuoso/hosting/creolewiki.so }
+16:49:16 OpenLink Virtuoso Universal Server
+16:49:16 Version 07.20.3230-pthreads for Linux as of Jun 30 2020
+16:49:16 uses OpenSSL 1.0.1f 6 Jan 2014
+16:49:16 uses parts of PCRE, Html Tidy
+16:49:17 SQL Optimizer enabled (max 1000 layouts)
+16:49:17 Compiler unit is timed at 0.000340 msec
+16:49:20 Checkpoint started
+16:49:20 Roll forward started
+16:49:20 Roll forward complete
+16:49:20 Checkpoint started
+16:49:20 Checkpoint finished, log reused
+16:49:20 Checkpoint started
+16:49:20 Checkpoint finished, log reused
+16:49:22 Checkpoint started
+16:49:22 Checkpoint finished, log reused
+16:49:22 Checkpoint started
+16:49:22 Checkpoint finished, log reused
+16:49:22 Checkpoint started
+16:49:22 Checkpoint finished, log reused
+16:49:22 PL LOG: Installing Virtuoso Conductor version 1.00.8819 (DAV)
+16:49:22 PL LOG: Installing with dependencies Virtuoso Conductor version 1.00.8819/2020-06-30 16:46 (DAV)
+16:49:22 Checkpoint started
+16:49:22 Checkpoint finished, log reused
+16:49:26 Checkpoint started
+16:49:26 Checkpoint finished, log reused
+16:49:26 PL LOG: Installation with dependencies complete
+16:49:26 Checkpoint started
+16:49:26 Checkpoint finished, log reused
+16:49:28 HTTP/WebDAV server online at 8890
+16:49:28 Server online at 1111 (pid 6)

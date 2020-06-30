@@ -26,7 +26,7 @@ public class DatabaseManager {
 	public static JDBCVirtuosoRep jdbc;
 	
 	private static String virtuosoProperties = "virtuoso.properties";
-	private static String virtuosoConfigString = "Repository_IP=localhost\n" + 
+	private static String virtuosoConfigString = "Repository_IP=virtuoso\n" + 
       		"Repository_Username=dba\n" + 
       		"Repository_Password=dba\n" + 
       		"Repository_Port=1111";
