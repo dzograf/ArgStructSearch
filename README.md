@@ -1,4 +1,4 @@
-# ArgStructSearch
+# Knowledge Repository Search
 
 To dockerize the service:
 
