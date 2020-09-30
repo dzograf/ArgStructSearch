@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY www "http://www.ArgOWL.org#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY aif "http://www.arg.tech/aif#" >
+    <!ENTITY hevy "http://www.arg.tech/hevy#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.arg.tech/hevy"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:http="http://"
+     xmlns:www="&http;www.ArgOWL.org#"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aif="&http;www.arg.tech/aif#"
+     xmlns:hevy="&http;www.arg.tech/hevy#">
+    
+    <Ontology rdf:about="&http;www.arg.tech/hevy#">
+        <www:createdBy rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">Dimitra Zografistou</www:createdBy>
+        <rdfs:comment rdf:datatype="&http;www.w3.org/2001/XMLSchema#string">The Hevy Ontology - Schema specification</rdfs:comment>
+        <versionInfo>version 1.0</versionInfo>
+    </Ontology>
+    
+    
+    <!-- Class definitions -->
+    
+    <owl:Class rdf:about="#EventDescription">
+        <rdfs:comment>An information node, the content of which is a description of a real world event. </rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&http;www.arg.tech/aif#I-node"/>
+    </owl:Class>
+    
+    <rdfs:Class rdf:about="&http;www.arg.tech/aif#L-node">
+        <rdfs:comment>Redefinition of L-node so that it becomes subclass of the EventDescription class.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&http;www.arg.tech/hevy#EventDescription"/>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="&http;www.arg.tech/hevy#Event">
+        <rdfs:comment>The real world event. </rdfs:comment>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="&http;www.arg.tech/hevy#LocutionEvent">
+        <rdf:comment>The event of a locution's creation</rdf:comment>
+        <rdfs:subClassOf rdf:resource="&http;www.arg.tech/hevy#Event"/>
+    </rdfs:Class>
+    
+    
+    
+    
+    <!-- Object properties -->
+    
+    <!-- describes-->
+    <rdf:Property rdf:about="&http;www.arg.tech/hevy#describes">
+        <rdfs:comment>  This property captures the transition from a description to a real world event. </rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#EventDescription"/>
+        <rdfs:range rdf:resource="&http;www.arg.tech/hevy#Event"/>
+    </rdf:Property>
+
+    <!-- Datatype properties -->
+    
+    
+    <!-- atPlace -->
+    <rdf:Property rdf:about="&http;www.arg.tech/hevy#atPlace">
+        <rdfs:comment>Answers the question: ”Where did the event happen?” . 
+            This property refers to the particular or relative place that an event occurred. It might
+            have a name (e.g., “USA”) or might be defined as a relative name to other entity or entities 
+            (e.g., “new unincorporated regions between Mexico and USA”). An event can be correlated to more than one places. 
+        </rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#Event"/>
+        <rdfs:range rdf:resource="&http;www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Property>
+
+    
+    <!-- atTime -->
+    <rdf:Property rdf:about="&http;www.arg.tech/hevy#atTime">
+        <rdfs:comment>Answers the question: “When did the event happen?” by giving an abstract instant or 
+            a time interval. This property refers to imposed temporal boundaries (i.e., a time span) at which an event happened.
+            Thus, an event can be related to only one time span.
+        </rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#Event"/>
+        <rdfs:range rdf:resource= "xsd:dateTime" />
+    </rdf:Property>
+    
+    
+    <!-- circa -->
+    <rdf:Property rdf:about="&http;www.arg.tech/hevy#circa">
+        <rdfs:comment>Describes a temporal relation expressing approximation in time. A time interval that cannot be
+            precisely located in calendar dates and clock times (i.e., chronological series to another time span that can be
+            precisely located in chronological series)
+         </rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#Event"/>
+        <rdfs:range rdf:resource= "xsd:string" />
+    </rdf:Property>
+    
+    
+    <!-- illustrate -->
+    <rdf:Property rdf:about="&http;www.arg.tech/hevy#illustrate">
+        <rdfs:comment>Depicts that an event can be illustrated by something (media object).
+         </rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#Event"/>
+        <rdfs:range rdf:resource= "xsd:string" />
+    </rdf:Property>
+    
+    
+     <!-- inSpace -->
+     <rdf:Property rdf:about="&http;www.arg.tech/hevy#inSpace">
+        <rdfs:comment>Refers to an abstract region of space and answers to the question: “Where an event happened?” in
+            spatial terms. It refers an event to a region of space (i.e., it only asserts the event occurred somewhere within certain
+            region but does not assert that the event has occurred everywhere within the region. 
+         </rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#Event"/>
+        <rdfs:range rdf:resource= "xsd:string" />
+    </rdf:Property>
+    
+       
+     <!-- involved -->
+     <rdf:Property rdf:about="&http;www.arg.tech/hevy#involved">
+        <rdfs:comment>A (physical, social or mental) object involved in an event.</rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#Event"/>
+        <rdfs:range rdf:resource= "xsd:string" />
+    </rdf:Property>
+    
+    
+     <!-- involvedAgent -->
+     <rdf:Property rdf:about="&http;www.arg.tech/hevy#involvedAgent">
+        <rdfs:comment>an agent involved in an Event.</rdfs:comment>
+        <rdfs:domain rdf:resource="&http;www.arg.tech/hevy#Event"/>
+        <rdfs:range rdf:resource= "xsd:string" />
+    </rdf:Property>
+    
+    
+</rdf:RDF>

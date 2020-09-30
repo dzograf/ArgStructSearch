@@ -26,15 +26,24 @@ public class DatabaseManager {
 	public static JDBCVirtuosoRep jdbc;
 	
 	private static String virtuosoProperties = "virtuoso.properties";
-	private static String virtuosoConfigString = "Repository_IP=virtuoso\n" + 
+	
+	/*private static String virtuosoConfigString = "Repository_IP=virtuoso\n" + 
       		"Repository_Username=dba\n" + 
       		"Repository_Password=dba\n" + 
-      		"Repository_Port=1111";
-	
- /*  private static String virtuosoConfigString = "Repository_IP= 134.36.36.88\n" + 
+      		"Repository_Port=1111";*/
+	/*private static String virtuosoConfigString = "Repository_IP= localhost\n" + 
+			"Repository_Username=dba\n" + 
+			"Repository_Password=eDu9xeSe\n" + 
+			"Repository_Port=1111";*/
+   /*private static String virtuosoConfigString = "Repository_IP= 134.36.36.88\n" + 
 		"Repository_Username=dba\n" + 
 		"Repository_Password=eDu9xeSe\n" + 
 		"Repository_Port=1111";*/
+	
+	 private static String virtuosoConfigString = "Repository_IP= localhost\n" + 
+	"Repository_Username=dba\n" + 
+	"Repository_Password=dba\n" + 
+	"Repository_Port=1111";
 
 	public static SesameVirtRep getSesame() {
 		return sesame;
@@ -97,10 +106,14 @@ public class DatabaseManager {
 	}
 
 	public static void importFile(String filename, String graph) throws Exception {
-		initializeSesame();
+		try {
+			initializeSesame();
 
-		sesame.importFile(filename, RDFFormat.RDFXML, graph);
-		sesame.terminate();
+			sesame.importFile(filename, RDFFormat.RDFXML, graph);
+			sesame.terminate();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 	}
 
 	public static void importRepository(String repository) throws Exception {

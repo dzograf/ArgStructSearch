@@ -42,3 +42,249 @@
 16:49:26 Checkpoint finished, log reused
 16:49:28 HTTP/WebDAV server online at 8890
 16:49:28 Server online at 1111 (pid 6)
+17:09:31 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+17:19:32 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+17:29:33 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+17:39:34 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+17:49:31 Checkpoint started
+17:49:31 Checkpoint finished, log reused
+17:49:35 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+17:59:37 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+18:09:38 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+18:19:39 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+18:29:41 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+18:39:42 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+18:49:33 Checkpoint started
+18:49:33 Checkpoint finished, log reused
+18:49:44 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+18:59:46 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+19:09:47 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+19:19:49 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+19:29:52 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+19:39:54 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+19:49:33 Checkpoint started
+19:49:33 Checkpoint finished, log reused
+19:49:55 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+19:59:57 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+20:09:59 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+20:20:00 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+20:30:02 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+20:40:03 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+20:49:34 Checkpoint started
+20:49:34 Checkpoint finished, log reused
+20:50:04 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+21:00:05 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+21:10:06 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+21:20:08 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+21:30:09 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+21:40:11 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+21:49:34 Checkpoint started
+21:49:34 Checkpoint finished, log reused
+21:50:12 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+22:00:16 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+22:10:18 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+22:20:19 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+22:30:21 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+22:40:22 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+22:49:36 Checkpoint started
+22:49:36 Checkpoint finished, log reused
+22:50:24 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+23:00:25 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+23:10:26 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+23:20:28 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+23:30:29 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+23:40:31 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+23:49:37 Checkpoint started
+23:49:37 Checkpoint finished, log reused
+23:50:33 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+
+		Wed Jul 01 2020
+00:00:34 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+00:10:36 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+00:20:39 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+00:30:41 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+00:40:42 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+00:49:38 Checkpoint started
+00:49:38 Checkpoint finished, log reused
+00:50:44 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+01:00:45 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+01:10:47 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+01:20:48 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+01:30:50 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+01:40:52 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+01:49:39 Checkpoint started
+01:49:39 Checkpoint finished, log reused
+01:50:53 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+02:00:54 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+02:10:56 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+02:20:57 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+02:30:59 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+02:41:02 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+02:49:39 Checkpoint started
+02:49:39 Checkpoint finished, log reused
+02:51:04 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+03:01:05 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+03:11:07 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+03:21:08 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+03:31:10 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+03:41:12 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+03:49:41 Checkpoint started
+03:49:41 Checkpoint finished, log reused
+03:51:13 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+04:01:15 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+04:11:16 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+04:21:18 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+04:31:18 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+04:41:20 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+04:49:43 Checkpoint started
+04:49:43 Checkpoint finished, log reused
+04:51:21 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+05:01:23 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+05:11:26 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+05:21:28 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+05:31:29 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+05:41:31 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+05:49:44 Checkpoint started
+05:49:44 Checkpoint finished, log reused
+05:51:33 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+06:01:34 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+06:11:36 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+06:21:37 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+06:31:38 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+06:41:39 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+06:49:46 Checkpoint started
+06:49:47 Checkpoint finished, log reused
+06:51:40 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+07:01:42 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+07:11:44 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+07:21:45 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+07:31:47 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+07:41:50 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+07:49:49 Checkpoint started
+07:49:49 Checkpoint finished, log reused
+07:51:51 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+08:01:52 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+08:11:53 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+08:21:54 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+08:31:54 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+08:41:56 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+08:49:51 Checkpoint started
+08:49:51 Checkpoint finished, log reused
+08:51:57 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+09:01:59 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+09:12:00 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+09:22:01 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+09:32:02 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+09:42:04 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+09:49:53 Checkpoint started
+09:49:53 Checkpoint finished, log reused
+09:52:05 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+10:02:06 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+10:12:06 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+10:22:07 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 
+10:32:08 PL LOG: DB.DBA.DAV_QUEUE_RUN exit handler:
+ FA055: Could not open virtuoso.ini 

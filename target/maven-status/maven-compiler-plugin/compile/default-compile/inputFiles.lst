@@ -1,3 +1,4 @@
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/models/EventDescription.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/utils/Enums.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/canonical/Equivalence.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/parser/ArgQLGrammarListener.java
@@ -6,6 +7,7 @@
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/parser/ArgQLGrammarParser.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/EndorsePattern.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/RelationPattern.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/models/Locution.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/ResultValue.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/Path.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/ws/ArgQLserviceImpl.java
@@ -20,6 +22,8 @@
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/translator/json/Node.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/ws/VirtuosoDBServiceImpl.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/EquivalencePattern.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/ws/HevyService.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/querypatterns/VariableGenerator.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/parser/ThrowingErrorListener.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/translator/json/Relation.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/Argument.java
@@ -37,9 +41,13 @@
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/VariableValue.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/canonical/EquivPair.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/PropositionSet.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/models/HevyNode.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/models/LocutionEvent.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/translator/json/Edge.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/ResultRow.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/querypatterns/EventPattern.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/Pattern.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/ws/HevyServiceImpl.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/BackPattern.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/SequentialPattern.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/parser/ArgQLGrammarBaseListener.java
@@ -50,7 +58,9 @@
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/utils/Utilities.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/filters/InclusionFilter.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/SupportPattern.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/HevyQueryManager.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/PathPatternCollection.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/models/Event.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/ws/VirtuosoDBService.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/PathPattern.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/translator/sparql/SPARQLTranslator.java
@@ -58,4 +68,6 @@
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/UndercutPattern.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/Variable.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/results/Proposition.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/Test.java
 /Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/argql/patterns/RebutPattern.java
+/Users/admin/eclipse-workspace/ArgStructSearch/src/arg/tech/hevy/HevyJSONtoRDF.java

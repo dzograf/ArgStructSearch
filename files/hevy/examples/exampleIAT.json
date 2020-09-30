@@ -1,0 +1,14 @@
+{"nodes":
+ [{"id":"I1","text":"Schools in area X will be closed for the next two weeks","type":"I","participantID":"0"},
+  {"id":"I2","text":"Significant increment of covid cases has been recorded during the last days in area X","type":"I","scheme":"0","participantID":"0"},{"id":12,"text":"Default Inference","type":"RA","scheme":"72","participantID":"0"},
+  {"id":17,"text":"Default Illocuting","type":"YA","scheme":"168","participantID":"0"},
+  {"id":"L2","text":"Neil Lyndon : Significant increment of covid cases has been recorded during the last days in area X","type":"L","scheme":"0","participantID":"14"},
+  {"id":21,"text":"Default Illocuting","type":"YA","scheme":"168","participantID":"0"},
+  {"id":"L1","text":"Neil Lyndon : Schools in area X will be closed for the next two weeks","type":"L","scheme":"0","participantID":"14"},
+  {"id":26,"text":"Default Transition","type":"TA","participantID":"0"},
+  {"id":28,"text":"Arguing","type":"YA","scheme":"80","participantID":"0"}
+ ],
+ 
+ "edges":
+ []
+}

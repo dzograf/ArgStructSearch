@@ -22,6 +22,7 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="libs/antlr-4.5.2-complete.jar"/>
 	<classpathentry kind="lib" path="libs/collection-0.7.jar"/>
 	<classpathentry kind="lib" path="libs/commons-cli-1.4.jar"/>
 	<classpathentry kind="lib" path="libs/commons-csv-1.5.jar"/>
@@ -86,5 +87,6 @@
 	<classpathentry kind="lib" path="libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="libs/xercesImpl.jar"/>
 	<classpathentry kind="lib" path="libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="libs/sesame-model-4.1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
