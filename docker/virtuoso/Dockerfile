@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:kinetic
 
 ENV VIRT_HOME /opt/virtuoso-opensource
 
@@ -14,7 +14,7 @@ RUN apt-get -y update && \
   rm -rf /tmp/*
 
 WORKDIR /opt
-RUN git clone git://github.com/openlink/virtuoso-opensource.git virtuoso-opensource.src
+RUN git clone http://github.com/openlink/virtuoso-opensource.git virtuoso-opensource.src
 WORKDIR /opt/virtuoso-opensource.src
 RUN git checkout develop/7
 RUN ./autogen.sh && ./configure --prefix=$VIRT_HOME $VIRT_BUILD_OPTS && make && make install
